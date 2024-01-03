@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  pdf_txt:
+    image: pdf_text:1.1.2
+    restart: always
+    volumes:
+      - /home/p0l3/RAD/PDF_TXT/PDF_TXT:/PDF_TXT
+    command: tail -f /dev/null
+
+
