@@ -4,6 +4,7 @@ WORKDIR /textprocessing
 
 # RUN pip3 install PyPDF2
 RUN pip3 install pdfminer
+RUN pip3 install beautifulsoup4
 # RUN pip3 install pikepdf
 # RUN pip3 install pymupdf
 
