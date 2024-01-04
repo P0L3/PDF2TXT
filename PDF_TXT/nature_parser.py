@@ -6,7 +6,10 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import logging
+import re
+import logging
 
+# Works on 80% -> not open access papers
 # Works on 80% -> not open access papers
 def get_title(soup):
     """
@@ -27,6 +30,15 @@ def get_title(soup):
     return text_content
 
 def get_doi(soup):
+    """
+    Extracts the DOI(s) from a BeautifulSoup object.
+
+    Parameters:
+    soup (BeautifulSoup): The BeautifulSoup object containing parsed HTML.
+
+    Returns:
+    list: A list containing DOI(s) extracted from the provided HTML.
+    """
     """
     Extracts the DOI(s) from a BeautifulSoup object.
 
