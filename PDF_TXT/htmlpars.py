@@ -2,60 +2,96 @@
 Nature html parsing
 """
 from bs4 import BeautifulSoup
-from nature_parser import get_title, get_doi, get_from_springerapi
+from nature_parser import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content
+from functions import pdf2html
+import re
+from os import listdir
+import pandas as pd
+from tqdm import tqdm
+import logging
 
-target = "./TEST/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ectotherms_Scales_Predictably_With_Body_Size_.html"
+DIR = "./SAMPLE/NCLIMATE/"
 
-with open(target, 'r') as inf:
-    html = inf.read()
+doctype1 = [ 
+    "font-size:24px", # get_title
+    "font-family: Whitney-Semibold2; font-size:8px", # get_doi
+    "font-family: Whitney-Semibold; font-size:12px", "font-family: Whitney-Semibold; font-size:6px", "font-family: Whitney-Book; font-size:8px" # get_authors_and_affiliations (author, affiliation, affiliation text)
+    "font-family: MinionPro-Regular; font-size:7px", # get_references
+    "font-family: MinionPro-Regular; font-size:9px", # get_content
+]
 
-soup = BeautifulSoup(html, 'html.parser')
+# Initialize an empty DataFrame
+# columns = [
+#     "Title", "Authors_and_Affiliations", "Affiliations", "DOI",
+#     "Authors", "Journal", "Date", "Subjects", "Abstract", "References", "Content"
+# ]
+# df = pd.DataFrame(columns=columns)
+# Initialize an empty list to store dictionaries
+data_list = []
+Faults = 0
+samples = listdir(DIR)
+for sample in tqdm(samples):
+    print(sample)
+    # Parse to html
+    html = pdf2html(target=DIR+sample)
 
-title = get_title(soup)
-print(title)
+    if not html:
+        Faults += 1
+        continue
 
+    # Create soup object
+    soup = BeautifulSoup(html, 'html.parser')
 
-# # Find elements with font size 24 -> Tends to be title
-# s12_ws_elem = soup.find_all(style=lambda value: value and 'font-family: Whitney-Semibold; font-size:12px' in value)
-# print(s12_ws_elem)
-# # Extract text content from the found elements
-# text_content = [elem.get_text(separator=' ', strip=True) for elem in s12_ws_elem]
-# text_content = [a.replace("and", "").strip() for a in text_content if len(a) > 2]
-# print(text_content)
+    # Extract data
+    title = get_title(soup)
+    print(title)
+    if len(title) == 0:
+        warning_message = f"Title isn't extracted correctly. -> Implies different paper structure!"
+        logging.warning(warning_message)
+        Faults += 1
+        continue
 
-# elements = soup.find_all('span', style=lambda value: value and ('font-family: Whitney-Semibold; font-size:12px' in value or 'font-family: Whitney-Semibold; font-size:6px' in value))
+    doi = get_doi(soup)
+    print(doi)
+    if len(doi) == 0:
+        warning_message = f"DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper!"
+        logging.warning(warning_message)
+        Faults += 1
+        continue
+    authors_and_affiliations, affiliations = get_authors_and_affiliations(soup)
+    # print(affiliations)
 
-# authors_and_affiliations = []
+    authors, journal, date, subjects, abstract = get_from_springerapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
+    # print(authors)
+    # print(journal)
+    # print(date)
+    # print(subjects)
+    # print(abstract[:100])
+    references = get_references(soup)
+    # print(references[:5])
+    content = get_content(soup)
+    # print(content[:100])
 
-# current_author = ""
-# current_affiliation = ""
+    # Create a dictionary with the paper's data
+    paper_data = {
+        "Title": title,
+        "Authors_and_Affiliations": authors_and_affiliations,
+        "Affiliations": affiliations,
+        "DOI": doi,
+        "Authors": authors,
+        "Journal": journal,
+        "Date": date,
+        "Subjects": subjects,
+        "Abstract": abstract,
+        "References": references,
+        "Content": content
+    }
 
-# for elem in elements:
-#     # Check if font-size is 12px (author names)
-#     if 'font-size:12px' in elem.get('style', ''):
-#         if current_author and current_affiliation:
-#             authors_and_affiliations.append((current_author.strip(), current_affiliation.split(" ")[0].strip()))
-#             current_author = ""
-#             current_affiliation = ""
-#         current_author += elem.get_text(separator=' ', strip=True) + " "
-#     # Check if font-size is 6px (affiliations)
-#     elif 'font-size:6px' in elem.get('style', ''):
-#         current_affiliation += elem.get_text(separator=' ', strip=True) + " "
+    # Append the dictionary to the list
+    data_list.append(paper_data)
 
-# # Append the last author and affiliation pair
-# if current_author and current_affiliation:
-#     authors_and_affiliations.append((current_author.strip(), current_affiliation.strip()))
+# Create the DataFrame from the list of dictionaries
+df = pd.DataFrame(data_list)
 
-# print(authors_and_affiliations)
-
-doi = get_doi(soup)
-print(doi)
-
-
-authors, journal, date, subjects = get_from_springerapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
-print(authors)
-print(journal)
-print(date)
-print(subjects)
-
-## DALJE NASTAVITI S AFILIJACIOJOM
+df.to_pickle("test.pickle")
+print(Faults)
