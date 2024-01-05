@@ -2,11 +2,8 @@ FROM python:3.8.0
 
 WORKDIR /textprocessing
 
-# RUN pip3 install PyPDF2
-RUN pip3 install pdfminer
-RUN pip3 install beautifulsoup4
-# RUN pip3 install pikepdf
-# RUN pip3 install pymupdf
+COPY ./requirements.txt ./
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 RUN mkdir PDF_TXT
 

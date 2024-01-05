@@ -52,8 +52,8 @@ authors, journal, date, subjects, abstract = get_from_springerapi(doi[0]) # Sa m
 # print(abstract[:100])
 references = get_references(soup)
 print(len(references))
-for ref in references:
-    print(ref)
+# for ref in references:
+#     print(ref)
 content = get_content(soup)
 # print(content[:100])
 
@@ -71,6 +71,6 @@ paper_data = {
     "References": references,
     "Content": content
 }
-# print(paper_data)
+print(paper_data)
 # Append the dictionary to the list
 # data_list.append(paper_data)

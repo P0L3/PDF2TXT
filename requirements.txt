@@ -1,0 +1,4 @@
+pdfminer.six==20191125
+beautifulsoup4==4.12.2
+tqdm==4.66.1
+pandas==2.0.3
