@@ -1,8 +1,9 @@
 """
-Nature html parsing
+Science (ehs) html parsing
 """
+
 from bs4 import BeautifulSoup
-from parser import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content
+from parser import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content, get_doi_regex
 from functions import pdf2html
 import re
 from os import listdir
@@ -10,11 +11,11 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-DIR = "./SAMPLE/NCLIMATE/"
+DIR = "./SAMPLE/EHS/"
 
 doctype1 = [ 
-    "font-size:24px", # get_title
-    "font-family: Whitney-Semibold2; font-size:8px", # get_doi
+    "font-size:18px", # get_title
+    "font-family: BentonSansCond-Regular; font-size:8px", # get_doi_regex
     "font-family: Whitney-Semibold; font-size:12px", "font-family: Whitney-Semibold; font-size:6px", "font-family: Whitney-Book; font-size:8px", # get_authors_and_affiliations (author, affiliation, affiliation text)
     "font-family: MinionPro-Regular; font-size:7px", "font-family: MinionPro-RegularItalic; font-size:7px", # get_references
     "font-family: MinionPro-Regular\d*; font-size:9px" # get_content
@@ -36,7 +37,8 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = listdir(DIR)
+# samples = listdir(DIR)
+samples = ["ehs.0072.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -92,7 +94,7 @@ for sample in tqdm(samples):
             s = -1
             break
 
-        doi = get_doi(soup, style[1])
+        doi = get_doi_regex(soup, style[1])
         print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
@@ -104,7 +106,6 @@ for sample in tqdm(samples):
         style = styles[s]
         authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style[2:5])
         # print(affiliations)
-
         authors, journal, date, subjects, abstract = get_from_springerapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
         # print(journal)

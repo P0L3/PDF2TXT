@@ -25,7 +25,7 @@ def get_title(soup ,style):
     # Extract text content from the found elements
     text_content = [elem.get_text(separator=' ', strip=True) for elem in s24elem]
 
-    return text_content
+    return ["".join(text_content)] # Replacement if Titles happen to be in multiple styles
 
 def get_doi(soup, style):
     """
@@ -65,11 +65,16 @@ def get_from_springerapi(doi):
 
     # print(json["records"][0].keys())
     # title = json["records"][0]["title"]
-    authors = json["records"][0]["creators"]
-    journal = json["records"][0]["publicationName"]
-    date = json["records"][0]["publicationDate"]
-    subjects = json["records"][0]["subjects"]
-    abstract = json["records"][0]["abstract"]
+    if not json["records"]:
+        warning_message = f"Unable to fetch any information from given doi: '{doi}' -> Implies problems with API or DOI ..."
+        logging.warning(warning_message)
+        authors, journal, date, subjects, abstract = ["no_info"]
+    else:
+        authors = json["records"][0]["creators"]
+        journal = json["records"][0]["publicationName"]
+        date = json["records"][0]["publicationDate"]
+        subjects = json["records"][0]["subjects"]
+        abstract = json["records"][0]["abstract"]
     
     return authors, journal, date, subjects, abstract
 
@@ -206,3 +211,19 @@ def get_content(soup, style):
     content = re.sub(r"- ", "", content)
     
     return content
+
+# Added for ehs
+
+def get_doi_regex(soup, style, regex="doi.org(\/[\d.\/\w-]+)"):
+    
+    # Find elements with font size 8px -> Tends to be title
+    s8_wb2_elem = soup.find_all(style=lambda value: value and style in value)
+
+    # Extract text content from the found elements
+    text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
+    
+    # Find doi with regex
+    print("".join(text_content))
+    doi = re.search(regex, " ".join(text_content))
+    return [doi.group(1) if doi else "no_doi"]
+    

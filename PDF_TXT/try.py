@@ -8,7 +8,7 @@ df = pd.read_pickle("test.pickle")
 
 print(df)
 lengths = df["Content"].apply(lambda x: len(str(x)))
-print(lengths)
+print(df["DOI"])
 
 # for title in df.Title:
 #     print(title)
