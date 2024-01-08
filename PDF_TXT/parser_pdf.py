@@ -304,6 +304,7 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
     Returns:
     tuple: A tuple containing author-affiliation pairs and affiliation information.
     """
+    # Authors
     elements = soup.find_all(style=lambda value: value and any(style in value for style in styles_au))
     
     authors = []
@@ -313,10 +314,88 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
             authors.append(temp)
     
     text = soup.get_text(separator= ' ', strip=True)
-    print(authors)
-    affiliations = []
+
+    # Affiliations search between authors
+    affiliations_num = []
     for i in range(len(authors)-1):
 
         regex = "{}\s+(.*?)\s+{}".format(authors[i].replace(".", "\."), authors[i+1].replace(".", "\."))
+
         temp = re.findall(regex, text)
-        print(temp)
+        # print(len(temp))
+        if len(temp) == 0:
+            affiliations_num.append(["no_affiliation"])
+        elif len(temp[0]) < 16:
+            affiliations_num.append(temp)
+        else:
+            affiliations_num.append(["no_affiliation"])
+    affiliations_num.append(["no_affiliation"])
+    # print(authors)
+    # print(affiliations_num)
+    
+    # Affiliation names
+    affil_elements = soup.find_all(style=lambda value: value and any(style in value for style in styles_af))
+    
+    affiliations_text = [elem.get_text(separator=' ', strip=True) for elem in affil_elements]
+    # print(affiliations_text)
+    
+    # Unique affiliation marks (a, b, 1, 2 ...)
+    affiliations_list = []
+    for affiliation in affiliations_num:
+        for a in affiliation[0].split(","):
+            if a != "no_affiliation":
+                affiliations_list.append(a.strip())
+                
+    affiliations_list = sorted(af for af in set(affiliations_list) if af.isalpha())
+    
+    # Connect Affiliation mark with text
+    affiliation = []
+    for i, affil in enumerate(affiliations_list):
+        affiliation.append((affil, affiliations_text[i]))
+    
+    # COnnect author with it's affiliations
+    authors_and_affiliations = []
+    for i, auth in enumerate(authors):
+        authors_and_affiliations.append((auth, affiliations_num[i]))
+        
+    return authors_and_affiliations, affiliation
+
+
+def get_references_nonumber(soup, styles):
+    
+    styles = ["font-family: AdvOT5d1c0a47.B; font-size:7px"]
+    
+    # ref_title = soup.find("span", style="font-family: AdvOT5d1c0a47.B; font-size:7px", text="References")
+    
+    # desired_text = ref_title.find_next_sibling("span")
+    # for text in desired_text:
+    #     print(text)
+    
+    # Find the span containing 'References' with the specific style attribute
+    reference_span = soup.find(style=lambda value: value and any(style in value for style in styles))
+    # while reference_span.get_text()
+    while reference_span.text != "References\n":
+        reference_span = reference_span.find_next()
+    print(reference_span)
+    if reference_span:
+        # Get the parent div and find all subsequent text
+        reference_div = reference_span.parent.parent
+        following_text = reference_div.find_next_siblings(text=True)
+
+        # Join the text elements
+        full_text = ''.join(following_text)
+        print(full_text)
+    else:
+        print("References span not found")
+    
+    ###### https://www.skytowner.com/explore/beautiful_soup_find_next_method
+    
+    # print(str(soup.split("References")))
+    # # Find elements with font size 7px -> Tends to be reference
+    # s7_mpr_elem =  soup.find_all(style=lambda value: value and any(style in value for style in styles))
+
+    # # Extract text content from the found elements
+    # text_content = [elem.get_text(separator=' ', strip=True) for elem in s7_mpr_elem]
+    
+    # for i, a in enumerate(text_content):
+    #     print(i, a)

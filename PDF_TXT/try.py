@@ -4,10 +4,13 @@ SpringerNatrue tryout
 import re
 import pandas as pd 
 
-df = pd.read_pickle("test_nature.pickle")
+df = pd.read_pickle("test_enerpol.pickle")
+for i, r in enumerate(df["References"][0]):
+    print(i, "   ", r)
 
-
-print(df["Authors_and_Affiliations"])
+# for column in df.keys():
+#     print(df["{}".format(column)][0])
+    # print(df["".format(column)][0])
 # lengths = df["Content"].apply(lambda x: len(str(x)))
 # print(lengths)
 

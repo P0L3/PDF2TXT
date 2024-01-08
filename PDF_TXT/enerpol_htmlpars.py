@@ -3,7 +3,7 @@ Science (ehs) html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author
+from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author, get_references_nonumber
 from functions import pdf2html
 import re
 from os import listdir
@@ -20,10 +20,9 @@ doctype1_1 = {
     "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number
     "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
     "get_references": [
-        "font-family: MinionPro-Regular; font-size:9px",
-        "font-family: MinionPro-It; font-size:9px"
+        "font-family: AdvOT987ad488; font-size:6px",
     ],
-    "get_content": ["font-size:10px"]
+    "get_content": ["font-family: AdvOT987ad488; font-size:7px"]
 }
 
 doctype2_1 = {
@@ -132,7 +131,7 @@ for sample in tqdm(samples):
     # Get data
     if s >= 0 and s < len(styles):
         style = styles[s]
-        authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_nu"])
+        authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
@@ -140,7 +139,7 @@ for sample in tqdm(samples):
         # print(date)
         # print(subjects)
         # print(abstract[:100])
-        references = get_references(soup, style["get_references"])
+        references = get_references_nonumber(soup, style["get_references"])
         # print(references[:5])
         content = get_content(soup, style["get_content"])
         # print(content[:100])
