@@ -1,8 +1,9 @@
 """
-Nature html parsing
+Science (ehs) html parsing
 """
+
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content
+from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author
 from functions import pdf2html
 import re
 from os import listdir
@@ -10,43 +11,52 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-DIR = "./SAMPLE/NCLIMATE/"
+DIR = "./SAMPLE/ENERPOL/"
 
 doctype1_1 = {
-    "get_title": ["font-size:24px"],
-    "get_doi": ["font-family: Whitney-Semibold2; font-size:8px"],
-    "get_authors_and_affiliations_au": ["font-family: Whitney-Semibold; font-size:12px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: Whitney-Semibold; font-size:6px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: Whitney-Book; font-size:8px"],       # Affiliation text
+    "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
     "get_references": [
-        "font-family: MinionPro-Regular; font-size:7px",
-        "font-family: MinionPro-RegularItalic; font-size:7px"
+        "font-family: MinionPro-Regular; font-size:9px",
+        "font-family: MinionPro-It; font-size:9px"
     ],
-    "get_content": ["font-family: MinionPro-Regular\d*; font-size:9px"]
+    "get_content": ["font-size:10px"]
 }
 
 doctype2_1 = {
-    "get_title": ["font-family: Harding-Bold; font-size:26px"],
-    "get_doi": ["font-family: GraphikNaturel-Medium2; font-size:8px"],
-    "get_authors_and_affiliations_au": ["font-family: GraphikNaturel-Semibold; font-size:9px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: GraphikNaturel-Semibold; font-size:5px"],  # Number
-    "get_authors_and_affiliations_af": ["font-family: GraphikNaturel-Regular; font-size:7px"],  # Affiliation text
+    "get_title": ["font-size:21px"],
+    "get_doi_regex": ["font-family: PalatinoLinotype-Roman; font-size:8px", "font-family: PalatinoLinotype-Roman; font-size:10px"],
+    "get_doi_regex_r": ["doi(\/[\d.\/\w-]+)\/suppinfo"],
+    "get_authors_and_affiliations_au": ["font-family: PalatinoLinotype-Bold; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: PalatinoLinotype-Bold; font-size:5px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: PalatinoLinotype-Roman; font-size:7px"],  # Affiliation text
     "get_references": [
-        "font-family: GraphikNaturel-Regular; font-size:8px",
+        "font-family: PalatinoLinotype-Roman; font-size:8px",
         "font-family: GraphikNaturel-RegularItalic; font-size:8px"
     ],
-    "get_content": ["font-family: HardingText-Regular; font-size:8px"]
+    "get_content": ["font-size:10px"]
 }
+
+doctype3_1 = {
+    "get_title" : ["font-family: Myriad-Bold; font-size:21px"],
+    "get_doi_regex": ["font-family: Minion-Regular; font-size:9px"],
+    "get_authors_and_affiliations_au": ["font-family: PalatinoLinotype-Bold; font-size:10px"]
+}
+
 # List of style samples to try for processing
-styles = [doctype1_1, doctype2_1]
+styles = [doctype1_1, doctype2_1, doctype3_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = listdir(DIR)
-for sample in tqdm(samples[:6]):
+# samples = listdir(DIR)
+samples = ["Analysing-the-usage-and-evidencing-the-importance-of-fast-charg_2017_Energy-.pdf"]
+for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)
@@ -65,8 +75,8 @@ for sample in tqdm(samples[:6]):
     soup = BeautifulSoup(html, 'html.parser')
 
     # Extract title data
-    title = []
-    while len(title) == 0:
+    title = [""]
+    while len(title[0]) == 0:
         try:
             style = styles[s]
         except:
@@ -75,20 +85,19 @@ for sample in tqdm(samples[:6]):
             title = ["no_title"]
             s = 0
             break
-        # 0 - title
-        # 1 - doi
-        # 2, 3, 4 - auth and affil
-        # 5, 6 - ref
-        # 7 - content
 
         title = get_title(soup, style["get_title"])
+        title[0] = title[0].replace("Energy Policy", "") # Quick fix
+
         print(title)
-        if len(title) == 0:
+        if len(title[0]) == 0:
             warning_message = "Title isn't extracted correctly. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
             logging.warning(warning_message)
             Faults += 1
             s += 1
-            
+
+
+    
     # Extract doi data
     doi = []
     while len(doi) == 0:
@@ -101,20 +110,31 @@ for sample in tqdm(samples[:6]):
             s = -1
             break
 
-        doi = get_doi(soup, style["get_doi"])
+        doi = get_doi_regex(soup, style["get_doi_regex"])
         print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
             Faults += 1
             s += 1
-    
+
+    # Try available regex patterns for the style
+    if doi[0] == "no_doi":
+        warning_message = "DOI isn't extracted correctly. -> Implies wrong regex pattern, trying other options if available ..."
+        logging.warning(warning_message)
+        if "get_doi_regex_r" in style.keys():
+            for regex in style["get_doi_regex_r"]:
+                doi = get_doi_regex(soup, style["get_doi_regex"], regex)
+                if doi[0] != "no_doi":
+                    print(doi)
+                    break
+
+    # Get data
     if s >= 0 and s < len(styles):
         style = styles[s]
-        authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
+        authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_nu"])
         # print(affiliations)
-
-        authors, journal, date, subjects, abstract = get_from_springerapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
+        authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
         # print(journal)
         # print(date)
@@ -122,7 +142,7 @@ for sample in tqdm(samples[:6]):
         # print(abstract[:100])
         references = get_references(soup, style["get_references"])
         # print(references[:5])
-        content = get_content(soup, style["get_content"][0])
+        content = get_content(soup, style["get_content"])
         # print(content[:100])
 
         # Create a dictionary with the paper's data
@@ -162,6 +182,7 @@ for sample in tqdm(samples[:6]):
 # Create the DataFrame from the list of dictionaries
 print(Styleless_samples)
 print(Faulty_samples)
+# print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_nature.pickle")
+df.to_pickle("test_enerpol.pickle")
 print(Faults)
