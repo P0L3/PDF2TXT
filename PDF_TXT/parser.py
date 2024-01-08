@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import logging
+import subprocess
 
 # Works on 80% -> not open access papers
 def get_title(soup ,style):
@@ -215,15 +216,74 @@ def get_content(soup, style):
 # Added for ehs
 
 def get_doi_regex(soup, style, regex="doi.org(\/[\d.\/\w-]+)"):
+    """
+    Extracts DOI from text using a specified regex pattern.
+
+    Args:
+        soup (BeautifulSoup): Parsed HTML content.
+        style (str): Style attribute value used to identify specific elements.
+        regex (str, optional): Regular expression pattern to match DOIs.
+            Defaults to "doi.org(\/[\d.\/\w-]+)".
+
+    Returns:
+        re.Match or None: A regex match object containing the found DOI,
+            or None if no DOI is found in the text content.
+    """
     
     # Find elements with font size 8px -> Tends to be title
     s8_wb2_elem = soup.find_all(style=lambda value: value and style in value)
 
     # Extract text content from the found elements
     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
-    
+    print(text_content)
     # Find doi with regex
-    print("".join(text_content))
     doi = re.search(regex, " ".join(text_content))
+    
     return [doi.group(1) if doi else "no_doi"]
     
+def get_from_doi2bibapi(doi):
+    """
+    Retrieves information from a DOI using doi2bib API.
+
+    Args:
+        doi (str): DOI (Digital Object Identifier) for the publication.
+
+    Returns:
+        tuple: A tuple containing information extracted from the DOI.
+            The tuple contains:
+            - authors (str): Authors of the publication.
+            - journal (str): Journal where the publication was published.
+            - date (str): Year of publication.
+            - subjects (str): Subjects or categories related to the publication.
+            - abstract (str): Abstract of the publication.
+    """
+    
+    # Remove first slash if present
+    if doi[0] == "/":
+        doi = doi[1:]
+        
+    # Use CLI via subprocess
+    res = subprocess.run(['doi2bib', doi], capture_output=True)
+    byte = res.stdout.strip(b"\n")
+
+    # Clen text from newlines and trailing whitespaces
+    text = re.sub("[ \n]+", " ", byte.decode("utf-8"))
+    text = re.sub(" ,", ",", text)
+
+    # Define a regular expression pattern to extract key-value pairs
+    pattern = r'(\w+)\s*=\s*{([^{}]+)}'
+
+    # Find all matches of key-value pairs
+    matches = re.findall(pattern, text)
+
+    # Create a dictionary from matches
+    result = {key: value for key, value in matches}
+    
+    authors = result["author"]
+    journal = result["journal"]
+    date = result["year"]
+    subjects = "no_subjects"
+    abstract = "no_abstract"
+    
+    return authors, journal, date, subjects, abstract
+
