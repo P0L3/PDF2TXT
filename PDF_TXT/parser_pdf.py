@@ -327,8 +327,9 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
         if temp:
             authors.append(temp)
     
+    print(authors)
     text = soup.get_text(separator= ' ', strip=True)
-
+    # print(text)
     # Affiliations search between authors
     affiliations_num = []
     for i in range(len(authors)-1):
@@ -453,4 +454,8 @@ def get_keywords(soup, keyword_title_styles):
 
     return keywords
 
+# Added for gcb
 
+def get_from_wiley(doi):
+    pass
+    token = "1dc65049-57fa-41d5-bb12-39cbdf95bbb5"

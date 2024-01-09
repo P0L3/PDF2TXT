@@ -1,5 +1,5 @@
 """
-Science (ehs) html parsing
+GCB html parsing
 """
 
 from bs4 import BeautifulSoup
@@ -11,18 +11,19 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-DIR = "./SAMPLE/ENERPOL/"
+DIR = "./SAMPLE/GCB/"
 
 doctype0_1 = {
-    "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
-    "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number, Letter
-    "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT987ad488; font-size:7px"], # Content
-    "get_keywords": ["font-family: AdvOTdaa65807.I; font-size:6px"], # Keywords
+    "get_title": ["font-family: AdvPalB; font-size:17px"],
+    "get_doi_regex": ["font-family: AdvPalR; font-size:8px"],
+    "get_doi_regex_r": ["doi:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvPalR; font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["None"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: AdvPalI; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvPalB; font-size:9px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvPalR; font-size:7px", "font-family: AdvPalI; font-size:7px", "font-family: AdvPalB; font-size:7px"], # References
+    "get_content": ["font-family: AdvPalR; font-size:9px"], # Content
+    "get_keywords": ["font-family: AdvPalI; font-size:8px"], # Keywords
 }
 
 doctype1_1 = {
@@ -108,11 +109,11 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-skip_samples = ["Editorial", "Erratum", "JEPO", "Corrigendum", "Calendar"]
+skip_samples = []
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
-samples = listdir(DIR) 
-# samples = ["An-analysis-of-a-forward-capacity-market-with-long-term-con_2017_Energy-Poli.pdf"]
+# samples = listdir(DIR) 
+samples = ["Global Change Biology - 2003 - Ares - Detection of process‐related changes in plant patterns at extended spatial scales.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -122,6 +123,7 @@ for sample in tqdm(samples):
     if should_skip:
         print(f"Skipping {sample.split()[0]} pdf: {sample}")
         continue
+    
     # Parse to html
     html = pdf2html(target=DIR+sample)
 
@@ -148,8 +150,6 @@ for sample in tqdm(samples):
             break
 
         title = get_title(soup, style["get_title"])
-        title[0] = title[0].replace("Energy Policy", "") # Quick fix
-        title[0] = title[0].replace("Palaeogeography, Palaeoclimatology, Palaeoecology", "") # Quick fix 2
 
         print(title)
         if len(title[0]) == 0:
@@ -200,7 +200,8 @@ for sample in tqdm(samples):
     if s >= 0 and s < len(styles):
         style = styles[s]
         keywords = get_keywords(soup, style["get_keywords"])
-        authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
+        # authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
+        authors_and_affiliations, affiliations = [], []
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
