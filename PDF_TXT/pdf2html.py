@@ -6,7 +6,7 @@ from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 
 output_string = StringIO()
-target = "./SAMPLE/ENERPOL/Long-term-ecological-successions-of-vegetation-around_2023_Palaeogeography--.pdf"
+target = "./SAMPLE/ENERPOL/Relationships-between-oil-price-shocks-and-stock-market--An-em_2008_Energy-P.pdf"
 
 
 with open(target, 'rb') as fin:

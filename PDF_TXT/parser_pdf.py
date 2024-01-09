@@ -232,7 +232,7 @@ def get_doi_regex(soup, styles, regex="doi.org(\/[\d.\/\w-]+)"):
 
     # Extract text content from the found elements
     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
-    # print(text_content)
+    # print(" ".join(text_content))
     # Find doi with regex
     doi = re.search(regex, " ".join(text_content))
     
@@ -337,7 +337,7 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
     affil_elements = soup.find_all(style=lambda value: value and any(style in value for style in styles_af))
     
     affiliations_text = [elem.get_text(separator=' ', strip=True) for elem in affil_elements]
-    # print(affiliations_text)
+    # print(10*"-", affiliations_text)
     
     # Unique affiliation marks (a, b, 1, 2 ...)
     affiliations_list = []
@@ -386,3 +386,22 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles):
         ref[i] = ref[i].replace("\n", " ")
     
     return ref
+
+
+def get_keywords(soup, keyword_title_styles):
+    # Find the span containing 'Keywords:' with the specific style attribute
+    keywords_span = soup.find(style=lambda value: value and any(style in value for style in keyword_title_styles))
+
+    keywords = ""
+    while not re.search("^[Kk]eywords:[\s]*\n*", keywords_span.text):
+        # print(keywords_span.text)
+        keywords_span = keywords_span.find_next()
+    # print(keywords_span.text)
+        if type(None) == type(keywords_span):
+            keywords = "no_keywords"
+            break
+    if not keywords == "no_keywords":
+        keywords = keywords_span.text.split("\n")[1:]
+    # print(keywords)
+
+    return keywords

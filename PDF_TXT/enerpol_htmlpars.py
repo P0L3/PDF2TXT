@@ -3,7 +3,7 @@ Science (ehs) html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author, get_references_nonumber
+from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author, get_references_nonumber, get_keywords
 from functions import pdf2html
 import re
 from os import listdir
@@ -13,7 +13,7 @@ import logging
 
 DIR = "./SAMPLE/ENERPOL/"
 
-doctype1_1 = {
+doctype0_1 = {
     "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
     "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
     "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
@@ -21,10 +21,11 @@ doctype1_1 = {
     "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
     "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT987ad488; font-size:7px"] # Content
+    "get_content": ["font-family: AdvOT987ad488; font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvOTdaa65807.I; font-size:6px"], # Keywords
 }
 
-doctype2_1 = {
+doctype1_1 = {
     "get_title": ["font-family: CharisSIL; font-size:13px"],
     "get_doi_regex": ["font-family: CharisSIL; font-size:7px"],
     "get_doi_regex_r": [""],
@@ -33,35 +34,94 @@ doctype2_1 = {
     "get_authors_and_affiliations_af": ["font-family: CharisSIL-Italic; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: CharisSIL-Bold; font-size:7px"], # Reference title
     "get_references_nonumber_ref": ["font-family: CharisSIL; font-size:6px",  ], # References
-    "get_content": ["ffont-family: CharisSIL; font-size:7px"] # Content
+    "get_content": ["font-family: CharisSIL; font-size:7px"], # Content
+    "get_keywords": ["font-family: CharisSIL-Italic; font-size:6px"]
+}
+
+doctype2_1 = {
+    "get_title": ["font-family: AdvOT596495f2; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvOT596495f2; font-size:6px", "font-family: AdvOT596495f2; font-size:7px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvOT596495f2; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT596495f2; font-size:7px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOT7fb33346.I; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOT1efcda3b.B; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvOT596495f2; font-size:6px",  ], # References
+    "get_content": ["font-family: AdvOT596495f2; font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvOT7fb33346.I; font-size:6px"]
 }
 
 doctype3_1 = {
-    "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
-    "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT987ad488; font-size:7px"] # Content
+    "get_title": ["font-family: AdvOT863180fb; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvOT863180fb; font-size:6px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvOT863180fb; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT863180fb; font-size:7px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOTb92eb7df.I; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOTb83ee1dd.B; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvOT863180fb; font-size:6px",  ], # References
+    "get_content": ["font-family: AdvOT863180fb; font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvOTb92eb7df.I; font-size:6px"], # Keywords
+}
+
+doctype4_1 = {
+    "get_title": ["font-family: AdvGulliver; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvGulliver; font-size:6px"],
+    "get_doi_regex_r": ["doi:([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvGulliver; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvGulliver; font-size:7px", "font-family: AdvMacms; font-size:9px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOTb92eb7df.I; font-size:6px", "font-family: AdvGulliver-I; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvGulliver-B; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvGulliver; font-size:6px"], # References
+    "get_content": ["font-family: AdvGulliver; font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvGulliver-I; font-size:6px"], # Keywords
+}
+
+doctype5_1 = {
+    "get_title": ["font-family: AdvTimes; font-size:16px"],
+    "get_doi_regex": ["font-family: AdvTimes; font-size:7px"],
+    "get_doi_regex_r": ["doi:([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTimes; font-size:12px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvMacms; font-size:12px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvTimes; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTimes-b; font-size:9px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvTimes; font-size:7px"], # References
+    "get_content": ["font-family: AdvTimes; font-size:9px"], # Content
+    "get_keywords": ["font-family: AdvMc_Times-i; font-size:7px"], # Keywords
+}
+
+doctypedef_1 = {
+    "get_title": ["font-size:13px"],
+    "get_doi_regex": ["font-size:6px"],
+    "get_authors_and_affiliations_au": ["font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-size:7px"],   # Number
+    "get_authors_and_affiliations_af": ["font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-size:6px",  ], # References
+    "get_content": ["font-size:7px"], # Content
+    "get_keywords": ["font-size:6px", "font-size:7px"], # Keywords
 }
 
 # List of style samples to try for processing
-styles = [doctype1_1, doctype2_1, doctype3_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctypedef_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = listdir(DIR)
-# samples = ["Analysing-the-usage-and-evidencing-the-importance-of-fast-charg_2017_Energy-.pdf"]
+skip_samples = ["Editorial", "Erratum", "JEPO", "Corrigendum", "Calendar"]
+
+# samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
+samples = listdir(DIR) 
+# samples = ["An-analysis-of-a-forward-capacity-market-with-long-term-con_2017_Energy-Poli.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)
-
+    
+    should_skip = any(sample.startswith(skip) for skip in skip_samples)
+    if should_skip:
+        print(f"Skipping {sample.split()[0]} pdf: {sample}")
+        continue
     # Parse to html
     html = pdf2html(target=DIR+sample)
 
@@ -98,8 +158,13 @@ for sample in tqdm(samples):
             Faults += 1
             s += 1
 
+        if len(title[0]) > 185:
+            warning_message = "Title too long. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
+            logging.warning(warning_message)
+            title[0] = ""
+            Faults += 1
+            s += 1
 
-    
     # Extract doi data
     doi = []
     while len(doi) == 0:
@@ -134,6 +199,7 @@ for sample in tqdm(samples):
     # Get data
     if s >= 0 and s < len(styles):
         style = styles[s]
+        keywords = get_keywords(soup, style["get_keywords"])
         authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
@@ -159,7 +225,8 @@ for sample in tqdm(samples):
             "Subjects": subjects,
             "Abstract": abstract,
             "References": references,
-            "Content": content
+            "Content": content,
+            "Keywords": keywords,
         }
 
         # Append the dictionary to the list
@@ -177,7 +244,8 @@ for sample in tqdm(samples):
             "Subjects": "None",
             "Abstract": "None",
             "References": "None",
-            "Content": "None"
+            "Content": "None",
+            "Keywords": "None",
         }
         Styleless_samples.append(sample)
 

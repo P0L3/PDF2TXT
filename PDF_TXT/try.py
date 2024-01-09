@@ -9,14 +9,17 @@ df = pd.read_pickle("test_enerpol.pickle")
 #     print(i, "   ", r)
     
 
-for column in df.keys():
-    print(df["{}".format(column)][0])
+# for column in df.keys():
+#     print(df["{}".format(column)][0])
     # print(df["".format(column)][0])
 # lengths = df["Content"].apply(lambda x: len(str(x)))
 # print(lengths)
 
-# for title in df.Title:
-#     print(title)
+for title in df.Title:
+    print(title)
+print(30*"-")
+for keywords in df.Keywords:
+    print(keywords)
 
 # a = []
 # for i in range(len(lengths)):
