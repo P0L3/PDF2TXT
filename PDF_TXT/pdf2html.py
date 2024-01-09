@@ -1,12 +1,12 @@
 """
 Nature pdf to html
 """
-from io import StringIO
+from io import StringIO, BytesIO
 from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 
 output_string = StringIO()
-target = "./SAMPLE/ENERPOL/Relationships-between-oil-price-shocks-and-stock-market--An-em_2008_Energy-P.pdf"
+target = "./SAMPLE/GCB/Global Change Biology - 2002 - Schulze - The long way from Kyoto to Marrakesh Implications of the Kyoto Protocol.pdf"
 
 
 with open(target, 'rb') as fin:

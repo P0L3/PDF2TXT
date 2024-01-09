@@ -20,7 +20,8 @@ for title in df.Title:
 print(30*"-")
 for keywords in df.Keywords:
     print(keywords)
-
+for content in df.Content:
+    print(len(content))
 # a = []
 # for i in range(len(lengths)):
 #     # print(lengths[i])

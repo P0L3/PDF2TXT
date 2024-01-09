@@ -299,10 +299,24 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
 
     Parameters:
     soup (BeautifulSoup): The BeautifulSoup object containing parsed HTML.
-    style (String List): List of strings containing specific style that corresponds to authors, affiliations.
+    styles_au (List of Strings): List of strings specifying the style corresponding to authors.
+    styles_nu (List of Strings): List of strings specifying the style corresponding to author numberings.
+    styles_af (List of Strings): List of strings specifying the style corresponding to affiliations.
 
     Returns:
     tuple: A tuple containing author-affiliation pairs and affiliation information.
+
+    This function aims to extract authors and their respective affiliations based on the provided
+    styles for authors, author numberings, and affiliations within the parsed HTML represented by
+    the BeautifulSoup object 'soup'.
+
+    It searches for elements representing authors and their respective styles, retrieves their
+    textual content, and gathers information about their affiliations based on the proximity
+    of authors to affiliation markers.
+
+    It returns a tuple containing two lists: 'authors_and_affiliations' contains tuples of authors
+    and their corresponding affiliation information, while 'affiliation' contains tuples of unique
+    affiliation markers and their respective affiliation text.
     """
     # Authors
     elements = soup.find_all(style=lambda value: value and any(style in value for style in styles_au))
@@ -360,8 +374,25 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
         
     return authors_and_affiliations, affiliation
 
-
 def get_references_nonumber(soup, ref_title_styles, ref_styles):
+    """
+    Extracts references without numbering from a BeautifulSoup object.
+
+    Parameters:
+    soup (BeautifulSoup): The BeautifulSoup object containing parsed HTML.
+    ref_title_styles (List of Strings): List of strings specifying the style attribute of the 'References' title.
+    ref_styles (List of Strings): List of strings specifying the style attribute for reference items.
+
+    Returns:
+    List: A list containing extracted references without numbering.
+
+    This function aims to extract references without numbering from the provided BeautifulSoup object 'soup'.
+    It searches for the 'References' title span using the specified style attributes, then iterates through
+    subsequent spans with reference styles to extract the text of references.
+
+    The extracted references are cleaned by splitting on double newline characters and replacing single newlines
+    within each reference with spaces before being returned as a list.
+    """
         
     # Find the span containing 'References' with the specific style attribute
     reference_span = soup.find(style=lambda value: value and any(style in value for style in ref_title_styles))
@@ -387,8 +418,24 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles):
     
     return ref
 
-
 def get_keywords(soup, keyword_title_styles):
+    """
+    Extracts keywords from a BeautifulSoup object.
+
+    Parameters:
+    soup (BeautifulSoup): The BeautifulSoup object containing parsed HTML.
+    keyword_title_styles (List of Strings): List of strings specifying the style attribute of the 'Keywords' title.
+
+    Returns:
+    List or str: A list of extracted keywords or "no_keywords" if not found.
+
+    This function aims to extract keywords from the provided BeautifulSoup object 'soup'. It searches for the 'Keywords'
+    title span using the specified style attributes and retrieves the text following the title, assuming it begins
+    with 'Keywords:' or 'keywords:'.
+
+    If the 'Keywords' title is not found, it returns "no_keywords". Otherwise, it splits the extracted text by newline
+    characters and returns a list of extracted keywords.
+    """
     # Find the span containing 'Keywords:' with the specific style attribute
     keywords_span = soup.find(style=lambda value: value and any(style in value for style in keyword_title_styles))
 
@@ -405,3 +452,5 @@ def get_keywords(soup, keyword_title_styles):
     # print(keywords)
 
     return keywords
+
+
