@@ -361,41 +361,28 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
     return authors_and_affiliations, affiliation
 
 
-def get_references_nonumber(soup, styles):
-    
-    styles = ["font-family: AdvOT5d1c0a47.B; font-size:7px"]
-    
-    # ref_title = soup.find("span", style="font-family: AdvOT5d1c0a47.B; font-size:7px", text="References")
-    
-    # desired_text = ref_title.find_next_sibling("span")
-    # for text in desired_text:
-    #     print(text)
-    
+def get_references_nonumber(soup, ref_title_styles, ref_styles):
+        
     # Find the span containing 'References' with the specific style attribute
-    reference_span = soup.find(style=lambda value: value and any(style in value for style in styles))
+    reference_span = soup.find(style=lambda value: value and any(style in value for style in ref_title_styles))
     # while reference_span.get_text()
-    while reference_span.text != "References\n":
+    while not re.search("^References[\s]*\n", reference_span.text):
+        # print(reference_span.text)
         reference_span = reference_span.find_next()
-    print(reference_span)
-    if reference_span:
-        # Get the parent div and find all subsequent text
-        reference_div = reference_span.parent.parent
-        following_text = reference_div.find_next_siblings(text=True)
-
-        # Join the text elements
-        full_text = ''.join(following_text)
-        print(full_text)
-    else:
-        print("References span not found")
+    # print(reference_span)
+    ref = ""
+    while not isinstance(reference_span.find_next(style=lambda value: value and any(style in value for style in ref_styles)), type(None)):
+        reference_span = reference_span.find_next(style=lambda value: value and any(style in value for style in ref_styles))
+        if re.search(r"^[A-Z]", reference_span.text):
+            ref += "\n" + reference_span.text
+        else:
+            ref += reference_span.text
     
-    ###### https://www.skytowner.com/explore/beautiful_soup_find_next_method
+    # print(ref)
     
-    # print(str(soup.split("References")))
-    # # Find elements with font size 7px -> Tends to be reference
-    # s7_mpr_elem =  soup.find_all(style=lambda value: value and any(style in value for style in styles))
-
-    # # Extract text content from the found elements
-    # text_content = [elem.get_text(separator=' ', strip=True) for elem in s7_mpr_elem]
+    ref = ref.split("\n\n")
     
-    # for i, a in enumerate(text_content):
-    #     print(i, a)
+    for i in range(len(ref)):
+        ref[i] = ref[i].replace("\n", " ")
+    
+    return ref

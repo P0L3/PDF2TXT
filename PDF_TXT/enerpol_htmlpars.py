@@ -17,32 +17,34 @@ doctype1_1 = {
     "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
     "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
     "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number, Letter
     "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
-    "get_references": [
-        "font-family: AdvOT987ad488; font-size:6px",
-    ],
-    "get_content": ["font-family: AdvOT987ad488; font-size:7px"]
+    "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
+    "get_content": ["font-family: AdvOT987ad488; font-size:7px"] # Content
 }
 
 doctype2_1 = {
-    "get_title": ["font-size:21px"],
-    "get_doi_regex": ["font-family: PalatinoLinotype-Roman; font-size:8px", "font-family: PalatinoLinotype-Roman; font-size:10px"],
-    "get_doi_regex_r": ["doi(\/[\d.\/\w-]+)\/suppinfo"],
-    "get_authors_and_affiliations_au": ["font-family: PalatinoLinotype-Bold; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: PalatinoLinotype-Bold; font-size:5px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: PalatinoLinotype-Roman; font-size:7px"],  # Affiliation text
-    "get_references": [
-        "font-family: PalatinoLinotype-Roman; font-size:8px",
-        "font-family: GraphikNaturel-RegularItalic; font-size:8px"
-    ],
-    "get_content": ["font-size:10px"]
+    "get_title": ["font-family: CharisSIL; font-size:13px"],
+    "get_doi_regex": ["font-family: CharisSIL; font-size:7px"],
+    "get_doi_regex_r": [""],
+    "get_authors_and_affiliations_au": ["font-family: CharisSIL; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: CharisSIL; font-size:7px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: CharisSIL-Italic; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: CharisSIL-Bold; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: CharisSIL; font-size:6px",  ], # References
+    "get_content": ["ffont-family: CharisSIL; font-size:7px"] # Content
 }
 
 doctype3_1 = {
-    "get_title" : ["font-family: Myriad-Bold; font-size:21px"],
-    "get_doi_regex": ["font-family: Minion-Regular; font-size:9px"],
-    "get_authors_and_affiliations_au": ["font-family: PalatinoLinotype-Bold; font-size:10px"]
+    "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
+    "get_content": ["font-family: AdvOT987ad488; font-size:7px"] # Content
 }
 
 # List of style samples to try for processing
@@ -53,8 +55,8 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-# samples = listdir(DIR)
-samples = ["Analysing-the-usage-and-evidencing-the-importance-of-fast-charg_2017_Energy-.pdf"]
+samples = listdir(DIR)
+# samples = ["Analysing-the-usage-and-evidencing-the-importance-of-fast-charg_2017_Energy-.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -87,6 +89,7 @@ for sample in tqdm(samples):
 
         title = get_title(soup, style["get_title"])
         title[0] = title[0].replace("Energy Policy", "") # Quick fix
+        title[0] = title[0].replace("Palaeogeography, Palaeoclimatology, Palaeoecology", "") # Quick fix 2
 
         print(title)
         if len(title[0]) == 0:
@@ -139,7 +142,7 @@ for sample in tqdm(samples):
         # print(date)
         # print(subjects)
         # print(abstract[:100])
-        references = get_references_nonumber(soup, style["get_references"])
+        references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"])
         # print(references[:5])
         content = get_content(soup, style["get_content"])
         # print(content[:100])

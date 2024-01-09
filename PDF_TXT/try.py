@@ -5,11 +5,12 @@ import re
 import pandas as pd 
 
 df = pd.read_pickle("test_enerpol.pickle")
-for i, r in enumerate(df["References"][0]):
-    print(i, "   ", r)
+# for i, r in enumerate(df["References"][0]):
+#     print(i, "   ", r)
+    
 
-# for column in df.keys():
-#     print(df["{}".format(column)][0])
+for column in df.keys():
+    print(df["{}".format(column)][0])
     # print(df["".format(column)][0])
 # lengths = df["Content"].apply(lambda x: len(str(x)))
 # print(lengths)
