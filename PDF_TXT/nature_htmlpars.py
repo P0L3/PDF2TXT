@@ -46,7 +46,7 @@ Faulty_samples = []
 Styleless_samples = []
 
 samples = listdir(DIR)
-for sample in tqdm(samples[:6]):
+for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)
