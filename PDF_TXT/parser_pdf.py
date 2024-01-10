@@ -455,7 +455,3 @@ def get_keywords(soup, keyword_title_styles):
     return keywords
 
 # Added for gcb
-
-def get_from_wiley(doi):
-    pass
-    token = "1dc65049-57fa-41d5-bb12-39cbdf95bbb5"

@@ -3,7 +3,7 @@ GCB html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations_by_author, get_references_nonumber, get_keywords
+from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations, get_references_nonumber, get_keywords
 from functions import pdf2html
 import re
 from os import listdir
@@ -200,7 +200,7 @@ for sample in tqdm(samples):
     if s >= 0 and s < len(styles):
         style = styles[s]
         keywords = get_keywords(soup, style["get_keywords"])
-        # authors_and_affiliations, affiliations = get_authors_and_affiliations_by_author(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
+        authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         authors_and_affiliations, affiliations = [], []
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
@@ -255,5 +255,5 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_enerpol.pickle")
+df.to_pickle("test_gcb.pickle")
 print(Faults)
