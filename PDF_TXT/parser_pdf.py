@@ -8,6 +8,7 @@ import re
 import logging
 import subprocess
 
+
 # Works on 80% -> not open access papers
 def get_title(soup, styles):
     """

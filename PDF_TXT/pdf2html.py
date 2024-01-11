@@ -10,7 +10,7 @@ target = "./SAMPLE/GCB/Global Change Biology - 2017 - Assis - Projected climate 
 
 
 with open(target, 'rb') as fin:
-    extract_text_to_fp(fin, output_string, laparams=LAParams(), output_type='html', codec=None)
+    extract_text_to_fp(fin, output_string, laparams=LAParams(boxes_flow=None), output_type='html', codec=None)
 
 with open(target.replace("/SAMPLE/", "/TEST/").replace(".pdf", ".html"), 'w') as fout:
     fout.writelines(output_string.getvalue())
