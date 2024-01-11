@@ -22,7 +22,7 @@ doctype0_1 = {
     "get_authors_and_affiliations_af": ["font-family: AdvPalI; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvPalB; font-size:9px"], # Reference title
     "get_references_nonumber_ref": ["font-family: AdvPalR; font-size:7px", "font-family: AdvPalI; font-size:7px", "font-family: AdvPalB; font-size:7px"], # References
-    "get_content": ["font-family: AdvPalR; font-size:9px"], # Content
+    "get_content": ["font-family: AdvPalR; font-size:9px", "font-family: AdvPalB; font-size:9px"], # Content
     "get_keywords": ["font-family: AdvPalI; font-size:8px"], # Keywords
 }
 
@@ -212,8 +212,8 @@ for sample in tqdm(samples):
         references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"])
         # print(references[:5])
         content = get_content(soup, style["get_content"])
-        # print(content[:100])
-
+        print("Content length: ", len(content))
+        
         # Create a dictionary with the paper's data
         paper_data = {
             "Title": title,

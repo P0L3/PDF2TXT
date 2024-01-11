@@ -455,3 +455,7 @@ def get_keywords(soup, keyword_title_styles):
     return keywords
 
 # Added for gcb
+
+def char_number2words_pages(charnum):
+    if charnum:
+        print("Words: {} - {}\tPages: {} - {}".format(charnum/6.5, charnum/5, (charnum/6.5)/256), (charnum/5)/250)
