@@ -375,7 +375,7 @@ def get_authors_and_affiliations_by_author(soup, styles_au, styles_nu, styles_af
         
     return authors_and_affiliations, affiliation
 
-def get_references_nonumber(soup, ref_title_styles, ref_styles):
+def get_references_nonumber(soup, ref_title_styles, ref_styles, ref_title_regex="^References[\s]*\n"):
     """
     Extracts references without numbering from a BeautifulSoup object.
 
@@ -394,13 +394,14 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles):
     The extracted references are cleaned by splitting on double newline characters and replacing single newlines
     within each reference with spaces before being returned as a list.
     """
-        
+    
     # Find the span containing 'References' with the specific style attribute
     reference_span = soup.find(style=lambda value: value and any(style in value for style in ref_title_styles))
     # while reference_span.get_text()
-    while not re.search("^References[\s]*\n", reference_span.text):
+    while not re.search(ref_title_regex, reference_span.text):
         # print(reference_span.text)
         reference_span = reference_span.find_next()
+    # print(reference_span)
     # print(reference_span)
     ref = ""
     while not isinstance(reference_span.find_next(style=lambda value: value and any(style in value for style in ref_styles)), type(None)):
@@ -419,7 +420,7 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles):
     
     return ref
 
-def get_keywords(soup, keyword_title_styles):
+def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[\s]*\n*", keyword_styles=[]): # Misses half keywords if they are in multiple lines, strugles with style changes
     """
     Extracts keywords from a BeautifulSoup object.
 
@@ -441,16 +442,33 @@ def get_keywords(soup, keyword_title_styles):
     keywords_span = soup.find(style=lambda value: value and any(style in value for style in keyword_title_styles))
 
     keywords = ""
-    while not re.search("^[Kk]eywords:[\s]*\n*", keywords_span.text):
+    while not re.search(keyword_title_regex, keywords_span.text):
         # print(keywords_span.text)
         keywords_span = keywords_span.find_next()
-    # print(keywords_span.text)
+        # print(keywords_span.text)
         if type(None) == type(keywords_span):
             keywords = "no_keywords"
             break
+    # print(keywords_span)
     if not keywords == "no_keywords":
-        keywords = keywords_span.text.split("\n")[1:]
+        keywords = keywords_span.text.split("\n")
+        # print(keywords)
+        # Fix if containing "Keywords"
+        if re.search(keyword_title_regex, keywords[0]):
+            keywords.extend(re.sub(keyword_title_regex, "",keywords[0]).split(","))
+            keywords.pop(0)
+
     # print(keywords)
+    # Fix for specific keyword styles if no keywords found
+    if "".join(keywords) == "" and len(keyword_styles) > 0:
+        keywords = ""
+        keywords_span = keywords_span.find_next("div")
+        # print(keywords_span)
+        while keywords_span.span["style"] in keyword_styles:
+            
+            keywords += keywords_span.text
+            keywords_span = keywords_span.find_next("div")
+        
 
     return keywords
 
@@ -458,4 +476,34 @@ def get_keywords(soup, keyword_title_styles):
 
 def char_number2words_pages(charnum):
     if charnum:
-        print("Words: {} - {}\tPages: {} - {}".format(charnum/6.5, charnum/5, (charnum/6.5)/256), (charnum/5)/250)
+        print("Words: {} - {}\tPages: {} - {}".format(charnum/6.5, charnum/5, (charnum/6.5)/256, (charnum/5)/250))
+
+def get_abstract(soup, abstract_title_styles): # Doesn't work when style interuptions are present, e.g. CO2 -> when subscripts are present 
+    """
+    Extracts the abstract text from a given HTML soup.
+
+    Args:
+        soup (BeautifulSoup): The HTML soup to search for the abstract text.
+        abstract_title_styles (list): A list of style attributes to search for in the 'Abstract' span element.
+
+    Returns:
+        str: The abstract text found in the 'Abstract' span element, or "no_abstract" if no abstract text is found.
+    """
+    # Find the span containing 'Abstract' with the specific style attribute
+    abstract_span = soup.find(style=lambda value: value and any(style in value for style in abstract_title_styles))
+
+    abstract = ""
+    while not re.search("^[Aa]bstract[\s]*\n*", abstract_span.text):
+        # print(abstract_span.text)
+        abstract_span = abstract_span.find_next()
+    # print(abstract_span.text)
+        if type(None) == type(abstract_span):
+            abstract = "no_abstract"
+            break
+    # print(abstract_span)
+    if not abstract == "no_abstract":
+        abstract = abstract_span.find_next("span").text
+    # print(abstract)
+
+    return abstract
+

@@ -6,7 +6,7 @@ from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 
 output_string = StringIO()
-target = "./SAMPLE/GCB/Global Change Biology - 2002 - Schulze - The long way from Kyoto to Marrakesh Implications of the Kyoto Protocol.pdf"
+target = "./SAMPLE/GCB/Global Change Biology - 2017 - Assis - Projected climate changes threaten ancient refugia of kelp forests in the North(1).pdf"
 
 
 with open(target, 'rb') as fin:

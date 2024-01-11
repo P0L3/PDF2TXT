@@ -3,7 +3,7 @@ GCB html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations, get_references_nonumber, get_keywords
+from parser_pdf import get_abstract, get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations, get_references_nonumber, get_keywords, char_number2words_pages
 from functions import pdf2html
 import re
 from os import listdir
@@ -14,95 +14,82 @@ import logging
 DIR = "./SAMPLE/GCB/"
 
 doctype0_1 = {
-    "get_title": ["font-family: AdvPalB; font-size:17px"],
+    "get_title": ["font-family: AdvPalB; font-size:17px", "font-family: AdvPalBI; font-size:17px", "font-family: AdvGreek_BI; font-size:17px"],
     "get_doi_regex": ["font-family: AdvPalR; font-size:8px"],
     "get_doi_regex_r": ["doi:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvPalR; font-size:8px"],  # Author
     "get_authors_and_affiliations_nu": ["None"],   # Number, Letter
     "get_authors_and_affiliations_af": ["font-family: AdvPalI; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvPalB; font-size:9px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvPalR; font-size:7px", "font-family: AdvPalI; font-size:7px", "font-family: AdvPalB; font-size:7px"], # References
-    "get_content": ["font-family: AdvPalR; font-size:9px", "font-family: AdvPalB; font-size:9px"], # Content
+    "get_references_nonumber_ref": [
+        "font-family: AdvPalR; font-size:7px", "font-family: AdvPalI; font-size:7px", "font-family: AdvPalB; font-size:7px",
+        "font-family: AdvPalR; font-size:6px", "font-family: AdvPalI; font-size:6px", "font-family: AdvPalB; font-size:6px",
+        "font-family: AdvPalR; font-size:5px", "font-family: AdvPalI; font-size:5px", "font-family: AdvPalB; font-size:5px"], # References
+    "get_content": ["font-family: AdvPal[RI]; font-size:9px"], # Content - Regex
     "get_keywords": ["font-family: AdvPalI; font-size:8px"], # Keywords
+    "get_abstract": ["font-family: AdvPalB; font-size:9px"], # Abstract
 }
 
 doctype1_1 = {
-    "get_title": ["font-family: CharisSIL; font-size:13px"],
+    "get_title": ["font-family: AdvPalatino-b; font-size:17px"],
     "get_doi_regex": ["font-family: CharisSIL; font-size:7px"],
-    "get_doi_regex_r": [""],
-    "get_authors_and_affiliations_au": ["font-family: CharisSIL; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: CharisSIL; font-size:7px"],   # Number, Letter
-    "get_authors_and_affiliations_af": ["font-family: CharisSIL-Italic; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: CharisSIL-Bold; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: CharisSIL; font-size:6px",  ], # References
-    "get_content": ["font-family: CharisSIL; font-size:7px"], # Content
-    "get_keywords": ["font-family: CharisSIL-Italic; font-size:6px"]
+    # "get_doi_regex_r": [""],
+    "get_authors_and_affiliations_au": ["font-family: AdvPalatino-r; font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvP6F01; font-size:8px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: AdvPalatino-i; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvPalatino-b; font-size:9px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvPalatino-r; font-size:7px", "font-family: AdvPalatino-b; font-size:7px", "font-family: AdvPalatino-i; font-size:7px"], # References
+    "get_content": ["font-family: AdvPalatino-[ri]; font-size:8px"], # Content
+    "get_keywords": ["font-family: AdvPalatino-i; font-size:8px"], # Keywords
+    "get_abstract": ["font-family: AdvPalatino-b; font-size:9px"], # Abstract
 }
 
 doctype2_1 = {
-    "get_title": ["font-family: AdvOT596495f2; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT596495f2; font-size:6px", "font-family: AdvOT596495f2; font-size:7px"],
-    "get_authors_and_affiliations_au": ["font-family: AdvOT596495f2; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT596495f2; font-size:7px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvOT7fb33346.I; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOT1efcda3b.B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvOT596495f2; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT596495f2; font-size:7px"], # Content
-    "get_keywords": ["font-family: AdvOT7fb33346.I; font-size:6px"]
+    "get_title": ["font-family: AdvPSPAL-B; font-size:17px", "font-family: AdvPSPAL-BI; font-size:17px"],
+    "get_doi_regex": ["font-family: AdvPSPAL-R; font-size:8px"],
+    "get_doi_regex_r": ["doi:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvPSPAL-R; font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: 20; font-size:8px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: Advpala-ita; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvPSPAL-B; font-size:10px"], # Reference title
+    "get_references_nonumber_ref": ["font-family: AdvPSPAL-R; font-size:5px", "font-family: AdvPSPAL-ita; font-size:5px", "font-family: AdvPSPAL-B; font-size:5px"], # References
+    "get_content": ["font-family: AdvPSPAL-(R|ita); font-size:9px"], # Content
+    "get_keywords": ["font-family: Advpala-ita; font-size:8px"], # Keywords
+    "get_abstract": ["font-family: AdvPSPAL-B; font-size:9px"], # Abstract
 }
 
 doctype3_1 = {
-    "get_title": ["font-family: AdvOT863180fb; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT863180fb; font-size:6px"],
-    "get_authors_and_affiliations_au": ["font-family: AdvOT863180fb; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT863180fb; font-size:7px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvOTb92eb7df.I; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOTb83ee1dd.B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvOT863180fb; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT863180fb; font-size:7px"], # Content
-    "get_keywords": ["font-family: AdvOTb92eb7df.I; font-size:6px"], # Keywords
-}
-
-doctype4_1 = {
-    "get_title": ["font-family: AdvGulliver; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvGulliver; font-size:6px"],
-    "get_doi_regex_r": ["doi:([\d.\/\w-]+)"],
-    "get_authors_and_affiliations_au": ["font-family: AdvGulliver; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvGulliver; font-size:7px", "font-family: AdvMacms; font-size:9px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvOTb92eb7df.I; font-size:6px", "font-family: AdvGulliver-I; font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvGulliver-B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvGulliver; font-size:6px"], # References
-    "get_content": ["font-family: AdvGulliver; font-size:7px"], # Content
-    "get_keywords": ["font-family: AdvGulliver-I; font-size:6px"], # Keywords
-}
-
-doctype5_1 = {
-    "get_title": ["font-family: AdvTimes; font-size:16px"],
-    "get_doi_regex": ["font-family: AdvTimes; font-size:7px"],
-    "get_doi_regex_r": ["doi:([\d.\/\w-]+)"],
-    "get_authors_and_affiliations_au": ["font-family: AdvTimes; font-size:12px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvMacms; font-size:12px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvTimes; font-size:7px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvTimes-b; font-size:9px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvTimes; font-size:7px"], # References
-    "get_content": ["font-family: AdvTimes; font-size:9px"], # Content
-    "get_keywords": ["font-family: AdvMc_Times-i; font-size:7px"], # Keywords
+    "get_title": ["font-family: AdvTT6071803a.B; font-size:17px", "font-family: AdvPSPAL-BI; font-size:17px"],
+    "get_doi_regex": ["font-family: AdvTTa9c1b374; font-size:6px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT6071803a.B; font-size:11px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT6071803a.B; font-size:7px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: AdvTTa9c1b374; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTT6071803a.B; font-size:7px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvTTa9c1b374; font-size:7px", "font-family: AdvTTeb5f0e55.I; font-size:7px"], # References
+    "get_content": ["font-family: AdvTTa9c1b374; font-size:7px", "font-family: AdvTTeb5f0e55.I; font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvTT6071803a.B; font-size:6px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvTTa9c1b374; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: AdvTT6071803a.B; font-size:9px"], # Abstract
 }
 
 doctypedef_1 = {
-    "get_title": ["font-size:13px"],
-    "get_doi_regex": ["font-size:6px"],
-    "get_authors_and_affiliations_au": ["font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-size:7px"],   # Number
-    "get_authors_and_affiliations_af": ["font-size:6px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-size:6px",  ], # References
-    "get_content": ["font-size:7px"], # Content
-    "get_keywords": ["font-size:6px", "font-size:7px"], # Keywords
+    "get_title": ["font-size:17px"],
+    "get_doi_regex": ["font-size:8px"],
+    "get_authors_and_affiliations_au": ["font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-size:8px"],   # Number
+    "get_authors_and_affiliations_af": ["font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-size:10px"], # Reference title
+    "get_references_nonumber_ref": ["font-size:6px", "font-size:5px" ], # References
+    "get_content": ["font-size:9px"], # Content
+    "get_keywords": ["font-size:8px"], # Keywords
+    "get_abstract": ["font-size:9px"]
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctypedef_1]
 
 data_list = []
 Faults = 0
@@ -113,7 +100,7 @@ skip_samples = []
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 # samples = listdir(DIR) 
-samples = ["Global Change Biology - 2003 - Ares - Detection of process‐related changes in plant patterns at extended spatial scales.pdf"]
+samples = ["Global Change Biology - 2017 - Assis - Projected climate changes threaten ancient refugia of kelp forests in the North(1).pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -199,7 +186,13 @@ for sample in tqdm(samples):
     # Get data
     if s >= 0 and s < len(styles):
         style = styles[s]
-        keywords = get_keywords(soup, style["get_keywords"])
+        if "get_keywords_r" in style.keys():
+            if "get_keywords_styles" in style.keys():
+                keywords = get_keywords(soup, style["get_keywords"], style["get_keywords_r"][0], style["get_keywords_styles"])
+            else:
+                keywords = get_keywords(soup, style["get_keywords"], style["get_keywords_r"][0])
+        else:
+            keywords = get_keywords(soup, style["get_keywords"])
         authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         authors_and_affiliations, affiliations = [], []
         # print(affiliations)
@@ -209,10 +202,19 @@ for sample in tqdm(samples):
         # print(date)
         # print(subjects)
         # print(abstract[:100])
-        references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"])
+        if "get_references_nonumber_title_r" in style.keys():
+            references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"], style["get_references_nonumber_title_r"][0])
+        else:
+            references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"])
         # print(references[:5])
+        if "get_abstract" in style.keys() and abstract == "no_abstract":
+            abstract = get_abstract(soup, style["get_abstract"])
         content = get_content(soup, style["get_content"])
+        content = content.split(references[0])[0]
         print("Content length: ", len(content))
+        char_number2words_pages(len(content))
+        # print(abstract)
+
         
         # Create a dictionary with the paper's data
         paper_data = {

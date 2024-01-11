@@ -3,6 +3,7 @@ SpringerNatrue tryout
 """
 import re
 import pandas as pd 
+from parser_pdf import char_number2words_pages
 
 df = pd.read_pickle("test_gcb.pickle")
 # for i, r in enumerate(df["References"][0]):
@@ -15,22 +16,55 @@ df = pd.read_pickle("test_gcb.pickle")
 # lengths = df["Content"].apply(lambda x: len(str(x)))
 # print(lengths)
 print(df.keys())
+
+print("Title:")
+print(30*"-")
 for title in df.Title:
     print(title)
 print(30*"-")
-for author in df.Authors_and_Affiliations:
+print(30*"-")
+print("DOI:")
+print(30*"-")
+for doi in df.DOI:
+    print(doi)
+print(30*"-")
+print(30*"-")
+print("Authors:")
+print(30*"-")
+for author in df.Authors:
     print(author)
+print(30*"-")
+print(30*"-")
+print("Affiliations:")
 print(30*"-")
 for aff in df.Affiliations:
     print(aff)
 print(30*"-")
+print(30*"-")
+print("Keywords:")
+print(30*"-")
 for keywords in df.Keywords:
     print(keywords)
 print(30*"-")
+print(30*"-")
+print("Abstract:")
+print(30*"-")
+for abstract in df.Abstract:
+    print(abstract)
+print(30*"-")
+print(30*"-")
+print("Content:")
+print(30*"-")
 for content in df.Content:
     print(content)
+    char_number2words_pages(len(content))
+print(30*"-")
+print(30*"-")
+print("References:")
+print(30*"-")
 for ref in df.References:
-    print(len(ref))
+    print(ref[0])
+
 # a = []
 # for i in range(len(lengths)):
 #     # print(lengths[i])
