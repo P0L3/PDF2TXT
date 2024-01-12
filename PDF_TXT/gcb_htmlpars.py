@@ -98,6 +98,9 @@ Styleless_samples = []
 
 skip_samples = []
 
+# Special layout settings for PDFs after 2016
+year = [str(i) for i in range(2016, 2024)]
+
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 # samples = listdir(DIR) 
 samples = ["Global Change Biology - 2017 - Assis - Projected climate changes threaten ancient refugia of kelp forests in the North(1).pdf"]
@@ -112,8 +115,11 @@ for sample in tqdm(samples):
         continue
     
     # Parse to html
-    html = pdf2html(target=DIR+sample)
-
+    if any(True for i in year if i in sample):
+        print("Year over 2016.")
+        html = pdf2html(target=DIR+sample, line_margin=0.7) # Hot fix for newer PDFs
+    else:
+        html = pdf2html(target=DIR+sample)
     if not html:
         Faults += 1
         warning_message = f"HTML isn't parsed correctly -> Implies invalid pdf structure!"

@@ -202,9 +202,16 @@ def get_content(soup, styles):
     s9_mpr_elem = soup.find_all(style=lambda value: value and pattern.search(value))
 
     # Extract text content from the found elements
-    text_content = [elem.get_text(separator=' ', strip=True) for elem in s9_mpr_elem]
+    #text_content = [elem.get_text(separator=' ', strip=True) for elem in s9_mpr_elem]
 
-
+    text_content = []
+    for elem in s9_mpr_elem:
+        text = elem.get_text(separator=' ', strip=True)
+        text_content.append(text)
+        
+        if re.search("^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n*", elem.find_next().text) or re.search("^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n*", elem.find_next().find_next().text):
+            print(elem.find_next().text)
+            print(elem.find_next().find_next().text)
     content = " ".join(text_content)
     content = re.sub(r"[ ]+", " ", content)
     content = re.sub(r"- ", "", content)
