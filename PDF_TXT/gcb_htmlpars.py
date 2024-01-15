@@ -4,7 +4,7 @@ GCB html parsing
 
 from bs4 import BeautifulSoup
 from parser_pdf import get_abstract, get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations, get_references_nonumber, get_keywords, char_number2words_pages
-from functions import pdf2html
+from functions import pdf2html, find_custom_element_by_regex, add_custom_tag_after_element, check_if_ium
 import re
 from os import listdir
 import pandas as pd
@@ -75,6 +75,57 @@ doctype3_1 = {
     "get_abstract": ["font-family: AdvTT6071803a.B; font-size:9px"], # Abstract
 }
 
+doctype4_1 = {
+    "get_title": ["font-family: Lato-Bold; font-size:17px"],
+    "get_doi_regex": ["font-family: Lato-Regular; font-size:6px", "font-family: Lato-Regular; font-size:7px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: Lato-Bold; font-size:11px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: Lato-Bold; font-size:7px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: Lato-Regular; font-size:6px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: Lato-Bold; font-size:7px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: Lato-Regular; font-size:7px", "font-family: Lato-Italic; font-size:7px"], # References
+    "get_content": ["font-family: Lato-(Regular|Italic); font-size:7px"], # Content
+    "get_keywords": ["font-family: Lato-Bold; font-size:6px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: Lato-Regular; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: Lato-Bold; font-size:9px"], # Abstract
+}
+
+doctype5_1 = {
+    "get_title": ["font-family: Lato-Bold; font-size:18px"],
+    "get_doi_regex": ["font-family: Lato-Regular; font-size:7px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: Lato-Bold; font-size:12px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: Lato-Bold; font-size:8px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: Lato-Regular; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: Lato-Bold; font-size:8px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: Lato-Regular; font-size:7px", "font-family: Lato-Italic; font-size:7px"], # References
+    "get_content": ["font-family: Lato-(Regular|Italic); font-size:8px"], # Content
+    "get_keywords": ["font-family: Lato-Bold; font-size:7px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: Lato-Regular; font-size:8px"], # Keywords styles
+    "get_abstract": ["font-family: Lato-Bold; font-size:10px", "font-family: Lato-Bold; font-size:9px"], # Abstract
+}
+
+doctype6_1 = {
+    "get_title": ["font-family: Palatino-Bold; font-size:17px"],
+    "get_doi_regex": ["font-family: Palatino-Roman; font-size:7px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: Palatino-Roman; font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: Palatino-Roman; font-size:8px"],   # Number, Letter
+    "get_authors_and_affiliations_af": ["font-family: Palatino-Italic; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: Palatino-Bold; font-size:9px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: Palatino-Roman; font-size:7px", "font-family: Palatino-Italic; font-size:7px"], # References
+    "get_content": ["font-family: Palatino-(Roman|Italic); font-size:8px"], # Content
+    "get_keywords": ["font-family: Palatino-Italic; font-size:8px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: Palatino-Roman; font-size:8px", "font-family: Palatino-Italic; font-size:8px"], # Keywords styles
+    "get_abstract": ["font-family: Palatino-Bold; font-size:9px", "font-family: Palatino-Bold; font-size:9px"], # Abstract
+}
+
 doctypedef_1 = {
     "get_title": ["font-size:17px"],
     "get_doi_regex": ["font-size:8px"],
@@ -89,27 +140,27 @@ doctypedef_1 = {
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctype6_1, doctypedef_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-skip_samples = []
+skip_samples = ["Corrigendum", "Author index"]
 
 # Special layout settings for PDFs after 2016
 year = [str(i) for i in range(2016, 2024)]
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
-# samples = listdir(DIR) 
-samples = ["Global Change Biology - 2017 - Assis - Projected climate changes threaten ancient refugia of kelp forests in the North(1).pdf"]
+samples = listdir(DIR) 
+# samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)
     
-    should_skip = any(sample.startswith(skip) for skip in skip_samples)
+    should_skip = any(True for skip in skip_samples if skip in sample)
     if should_skip:
         print(f"Skipping {sample.split()[0]} pdf: {sample}")
         continue
@@ -129,6 +180,12 @@ for sample in tqdm(samples):
 
     # Create soup object
     soup = BeautifulSoup(html, 'html.parser')
+
+    if check_if_ium(soup):
+        warning_message = f"HTML isn't parsed correctly due to incomplite unicode mappings."
+        logging.warning(warning_message)
+        Faulty_samples.append(sample)
+        continue
 
     # Extract title data
     title = [""]
@@ -151,7 +208,7 @@ for sample in tqdm(samples):
             Faults += 1
             s += 1
 
-        if len(title[0]) > 185:
+        if len(title[0]) > 190:
             warning_message = "Title too long. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
             logging.warning(warning_message)
             title[0] = ""
@@ -203,6 +260,19 @@ for sample in tqdm(samples):
         authors_and_affiliations, affiliations = [], []
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
+
+        # Try available regex styles if unintentional doi was found prior
+        if authors == "no_authors":
+            warning_message = "DOI isn't extracted correctly. -> Implies wrong regex pattern, trying other options if available ..."
+            logging.warning(warning_message)
+            if "get_doi_regex_r" in style.keys():
+                for regex in style["get_doi_regex_r"]:
+                    doi = get_doi_regex(soup, style["get_doi_regex"], regex)
+                    if doi[0] != "no_doi":
+                        print(doi)
+                        break
+            
+            authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
         # print(journal)
         # print(date)
@@ -215,8 +285,13 @@ for sample in tqdm(samples):
         # print(references[:5])
         if "get_abstract" in style.keys() and abstract == "no_abstract":
             abstract = get_abstract(soup, style["get_abstract"])
+
+        # Add references tag to remove during content extraction
+        elem = find_custom_element_by_regex(soup) 
+        add_custom_tag_after_element(soup, elem, "reftag", "STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD", {'style': 'font-family: TimesNewReference; font-size:69px'})
+        
         content = get_content(soup, style["get_content"])
-        content = content.split(references[0])[0]
+
         print("Content length: ", len(content))
         char_number2words_pages(len(content))
         # print(abstract)

@@ -16,14 +16,7 @@ DIR = "./SAMPLE/GCB/"
 html = pdf2html(target=DIR+sample)
 soup = BeautifulSoup(html, 'html.parser')
 
-elem = soup.find_all('div')[-1]
-# print(last_elem)
-
-while type(elem) != type(None):
-        if re.search("^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n+", elem.text):   
-            # print(elem.text)
-            break
-        elem = elem.find_previous()
+elem = find_custom_element_by_regex(soup)
 
 add_custom_tag_after_element(soup, elem, "reftag", "STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD", {'style': 'font-family: TimesNewReference; font-size:69px'})
 print(soup)

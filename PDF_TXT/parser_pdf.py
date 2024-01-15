@@ -7,6 +7,7 @@ import requests
 import re
 import logging
 import subprocess
+from functions import *
 
 
 # Works on 80% -> not open access papers
@@ -199,7 +200,7 @@ def get_content(soup, styles):
     # Find elements with font size 9px -> Tends to be content
     pattern = re.compile(r'{}'.format(styles[0]))
 
-    s9_mpr_elem = soup.find_all(style=lambda value: value and pattern.search(value))
+    s9_mpr_elem = soup.find_all(style=lambda value: value and (pattern.search(value) or value=="font-family: TimesNewReference; font-size:69px"))
 
     # Extract text content from the found elements
     #text_content = [elem.get_text(separator=' ', strip=True) for elem in s9_mpr_elem]
@@ -207,11 +208,12 @@ def get_content(soup, styles):
     text_content = []
     for elem in s9_mpr_elem:
         text = elem.get_text(separator=' ', strip=True)
+        # print(text)
         text_content.append(text)
         
-        if re.search("^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n*", elem.find_next().text) or re.search("^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n*", elem.find_next().find_next().text):
-            print(elem.find_next().text)
-            print(elem.find_next().find_next().text)
+        if elem.text == "STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD":
+            print("Found references, stoping content extraction ...")
+            break
     content = " ".join(text_content)
     content = re.sub(r"[ ]+", " ", content)
     content = re.sub(r"- ", "", content)
@@ -406,9 +408,12 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles, ref_title_regex=
     # Find the span containing 'References' with the specific style attribute
     reference_span = soup.find(style=lambda value: value and any(style in value for style in ref_title_styles))
     # while reference_span.get_text()
-    while not re.search(ref_title_regex, reference_span.text):
-        # print(reference_span.text)
-        reference_span = reference_span.find_next()
+    if type(reference_span) != type(None):
+        while not re.search(ref_title_regex, reference_span.text):
+            # print(reference_span.text)
+            reference_span = reference_span.find_next()
+    else:
+        return "no_references"
     # print(reference_span)
     # print(reference_span)
     ref = ""
@@ -450,13 +455,16 @@ def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[
     keywords_span = soup.find(style=lambda value: value and any(style in value for style in keyword_title_styles))
 
     keywords = ""
-    while not re.search(keyword_title_regex, keywords_span.text):
-        # print(keywords_span.text)
-        keywords_span = keywords_span.find_next()
-        # print(keywords_span.text)
-        if type(None) == type(keywords_span):
-            keywords = "no_keywords"
-            break
+    if type(keywords_span) != type(None):
+        while not re.search(keyword_title_regex, keywords_span.text):
+            # print(keywords_span.text)
+            keywords_span = keywords_span.find_next()
+            # print(keywords_span.text)
+            if type(None) == type(keywords_span):
+                keywords = "no_keywords"
+                break
+    else:
+        keywords = "no_keywords"
     # print(keywords_span)
     if not keywords == "no_keywords":
         keywords = keywords_span.text.split("\n")
@@ -484,7 +492,9 @@ def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[
 
 def char_number2words_pages(charnum):
     if charnum:
-        print("Words: {} - {}\tPages: {} - {}".format(charnum/6.5, charnum/5, (charnum/6.5)/256, (charnum/5)/250))
+        print("Words: {:.3f} - {:.3f}\tPages: {:.3f} - {:.3f}".format(charnum/6.5, charnum/5, (charnum/6.5)/256, (charnum/5)/250))
+
+    return (charnum/5)/250 >= 10
 
 def get_abstract(soup, abstract_title_styles): # Doesn't work when style interuptions are present, e.g. CO2 -> when subscripts are present 
     """
@@ -503,9 +513,9 @@ def get_abstract(soup, abstract_title_styles): # Doesn't work when style interup
     abstract = ""
     while not re.search("^[Aa]bstract[\s]*\n*", abstract_span.text):
         # print(abstract_span.text)
-        abstract_span = abstract_span.find_next()
     # print(abstract_span.text)
-        if type(None) == type(abstract_span):
+        abstract_span = abstract_span.find_next()
+        if type(abstract_span) == type(None):
             abstract = "no_abstract"
             break
     # print(abstract_span)

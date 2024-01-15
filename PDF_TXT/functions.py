@@ -63,3 +63,32 @@ def add_custom_tag_after_element(soup, target_element, tag_name, tag_content, st
     target_element.insert_after(new_tag)
     return soup
 
+def find_custom_element_by_regex(soup, regex="^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n+", reverese=True):
+    """
+    Finds a custom HTML element within a BeautifulSoup object based on a given regular expression.
+
+    Args:
+    - soup: BeautifulSoup object representing HTML content.
+    - regex (str): Regular expression pattern to search for within the text content of HTML elements.
+    - reverse (bool): If True, searches for the element in reverse order (from the last element to the first).
+
+    Returns:
+    - elem: The BeautifulSoup element that matches the specified regex pattern, or None if not found.
+    """
+    if reverese:
+        elem = soup.find_all('div')[-1]
+        while type(elem) != type(None):
+            if re.search(regex, elem.text):   
+                # print(elem.text)
+                break
+            elem = elem.find_previous()
+    else:
+        elem = soup.find('div')
+        while type(elem) != type(None):
+            if re.search(regex, elem.text):   
+                # print(elem.text)
+                break
+            elem = elem.find_next()
+
+    return elem
+

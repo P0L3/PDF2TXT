@@ -6,7 +6,7 @@ from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 
 output_string = StringIO()
-target = "./SAMPLE/GCB/Global Change Biology - 2023 - Sun - Machine learning for accelerating process‐based computation of land biogeochemical(1).pdf"
+target = "./SAMPLE/GCB/Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"
 
 with open(target, 'rb') as fin:
     extract_text_to_fp(fin, output_string, laparams=LAParams(line_margin=0.7), output_type='html', codec=None)

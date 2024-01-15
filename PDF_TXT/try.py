@@ -50,20 +50,21 @@ print(30*"-")
 print("Abstract:")
 print(30*"-")
 for abstract in df.Abstract:
-    print(abstract)
+    print(len(abstract))
 print(30*"-")
 print(30*"-")
 print("Content:")
 print(30*"-")
-for content in df.Content:
-    print(content)
-    char_number2words_pages(len(content))
+for content, title in zip(df.Content, df.Title):
+    # print(content)
+    if not char_number2words_pages(len(content)):
+        print(title)
 print(30*"-")
 print(30*"-")
 print("References:")
 print(30*"-")
 for ref in df.References:
-    print(ref[0])
+    print(len(ref))
 
 # a = []
 # for i in range(len(lengths)):
