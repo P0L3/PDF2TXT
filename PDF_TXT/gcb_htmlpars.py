@@ -257,7 +257,7 @@ for sample in tqdm(samples):
         else:
             keywords = get_keywords(soup, style["get_keywords"])
         authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
-        authors_and_affiliations, affiliations = [], []
+        # authors_and_affiliations, affiliations = [], []
         # print(affiliations)
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
 

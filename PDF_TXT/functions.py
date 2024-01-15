@@ -6,13 +6,13 @@ import re
 
 
 
-def pdf2html(target="./SAMPLE/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ectotherms_Scales_Predictably_With_Body_Size_.pdf", line_margin=0.5):
+def pdf2html(target="./SAMPLE/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ectotherms_Scales_Predictably_With_Body_Size_.pdf", line_margin=0.5, all_texts=True):
 
     try:
         output_string = StringIO()
 
         with open(target, 'rb') as fin:
-            extract_text_to_fp(fin, output_string, laparams=LAParams(line_margin=line_margin), output_type='html', codec=None)
+            extract_text_to_fp(fin, output_string, laparams=LAParams(line_margin=line_margin, all_texts=all_texts), output_type='html', codec=None)
 
         return output_string.getvalue()
     except:

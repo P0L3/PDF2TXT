@@ -525,3 +525,15 @@ def get_abstract(soup, abstract_title_styles): # Doesn't work when style interup
 
     return abstract
 
+# Added for jclimate
+
+# def get_affiliations(soup, styles):
+
+
+#     s8_wb2_elem = soup.find_all(style=lambda value: value and any(style in value for style in styles))
+
+
+#     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
+#     print(text_content)
+
+#     return text_content
