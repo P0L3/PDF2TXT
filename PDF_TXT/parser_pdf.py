@@ -412,6 +412,8 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles, ref_title_regex=
         while not re.search(ref_title_regex, reference_span.text):
             # print(reference_span.text)
             reference_span = reference_span.find_next()
+            if type(reference_span) == type(None):
+                return "no_references"
     else:
         return "no_references"
     # print(reference_span)
@@ -527,13 +529,13 @@ def get_abstract(soup, abstract_title_styles): # Doesn't work when style interup
 
 # Added for jclimate
 
-# def get_affiliations(soup, styles):
+def get_affiliations(soup, styles):
 
 
-#     s8_wb2_elem = soup.find_all(style=lambda value: value and any(style in value for style in styles))
+    s8_wb2_elem = soup.find_all(style=lambda value: value and any(style in value for style in styles))
 
 
-#     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
-#     print(text_content)
+    text_content = [elem.text for elem in s8_wb2_elem]
+    print("Number of affiliations: ", len(text_content))
 
-#     return text_content
+    return text_content

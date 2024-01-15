@@ -3,7 +3,7 @@ GCB html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_abstract, get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_authors_and_affiliations, get_references_nonumber, get_keywords, char_number2words_pages
+from parser_pdf import get_abstract, get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_affiliations, get_references_nonumber, get_keywords, char_number2words_pages
 from functions import pdf2html, find_custom_element_by_regex, add_custom_tag_after_element, check_if_ium
 import re
 from os import listdir
@@ -17,9 +17,7 @@ doctype0_1 = {
     "get_title": ["font-family: Times-Bold; font-size:12px"],
     "get_doi_regex": ["font-family: Times-Roman; font-size:8px"],
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_authors_and_affiliations_au": ["font-family: Times-Roman; font-size:10px", "font-family: Times-Roman; font-size:7px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: Times-Italic; font-size:8px"],   # Number, Letter
-    "get_authors_and_affiliations_af": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
+    "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Bold; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
@@ -34,9 +32,7 @@ doctype1_1 = {
     "get_title": ["font-family: AdvPSTIM10-B; font-size:11px"],
     "get_doi_regex": ["font-family: AdvPSTIM10-R; font-size:7px"], # Styles of doi text
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_authors_and_affiliations_au": ["font-family: AdvPSTIM10-R; font-size:9px", "font-family: AdvPSTIM10-R; font-size:7px", ],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: Lato-Bold; font-size:7px"],   # Number, Letter
-    "get_authors_and_affiliations_af": ["font-family: AdvPSTIM10-I; font-size:7px"],  # Affiliation text
+    "get_affiliations": ["font-family: AdvPSTIM10-I; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvPSTIM10-R; font-size:7px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
@@ -47,12 +43,27 @@ doctype1_1 = {
     "get_abstract": ["font-family: AdvPSTIM10-R; font-size:7px"], # Abstract
 }
 
+doctype2_1 = {
+    "get_title": ["font-family: AdvPSTIM10-B; font-size:10px"],
+    "get_doi_regex": ["font-family: AdvOTbb216540; font-size:7px"], # Styles of doi text
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_affiliations": ["font-family: AdvOT2b0f33d7.I; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOTbb216540; font-size:7px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvOTbb216540; font-size:7px", "font-family: AdvOT2b0f33d7.I; font-size:7px"], # References
+    "get_content": ["font-family: AdvOTbb216540; font-size:8px"], # Content regex
+    "get_keywords": ["font-family: AdvOTbb216540; font-size:7px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvOTbb216540; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: AdvOTbb216540; font-size:7px"], # Abstract
+}
+
 doctypedef_1 = {
     "get_title": ["font-size:17px"],
     "get_doi_regex": ["font-size:8px"],
     "get_authors_and_affiliations_au": ["font-size:8px"],  # Author
     "get_authors_and_affiliations_nu": ["font-size:8px"],   # Number
-    "get_authors_and_affiliations_af": ["font-size:8px"],  # Affiliation text
+    "get_affiliations": ["font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-size:10px"], # Reference title
     "get_references_nonumber_ref": ["font-size:6px", "font-size:5px" ], # References
     "get_content": ["font-size:9px"], # Content
@@ -61,7 +72,7 @@ doctypedef_1 = {
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctypedef_1]
 
 data_list = []
 Faults = 0
@@ -72,8 +83,10 @@ skip_samples = []
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 samples = listdir(DIR) 
+# print(samples[2])
+# exit()
 # samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
-for sample in tqdm(samples):
+for sample in tqdm(samples[7:]):
     s = 0
     print(20*"-")
     print(sample)
@@ -170,9 +183,11 @@ for sample in tqdm(samples):
                 keywords = get_keywords(soup, style["get_keywords"], style["get_keywords_r"][0])
         else:
             keywords = get_keywords(soup, style["get_keywords"])
-        authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
+        # authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # authors_and_affiliations, affiliations = [], []
         # print(affiliations)
+        authors_and_affiliations = ["no_authafil"]
+        affiliations = get_affiliations(soup, style["get_affiliations"])
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
 
         # Try available regex styles if unintentional doi was found prior

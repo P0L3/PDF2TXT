@@ -57,6 +57,10 @@ def add_custom_tag_after_element(soup, target_element, tag_name, tag_content, st
     Returns:
     - BeautifulSoup: The modified BeautifulSoup object.
     """
+    if type(target_element) == type(None):
+        warning_message = "Tag is not added correctly -> Implies that the target element wasn't found correctly prior"
+        logging.warning(warning_message)
+        return soup
     new_tag = soup.new_tag(tag_name)
     new_tag.string = tag_content
     new_tag.attrs.update(style_attributes)
