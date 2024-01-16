@@ -2,7 +2,7 @@
 Nature html parsing
 """
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content
+from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content, check_if_ium
 from functions import pdf2html
 import re
 from os import listdir
@@ -53,7 +53,6 @@ for sample in tqdm(samples):
 
     # Parse to html
     html = pdf2html(target=DIR+sample)
-
     if not html:
         Faults += 1
         warning_message = f"HTML isn't parsed correctly -> Implies invalid pdf structure!"
@@ -64,9 +63,15 @@ for sample in tqdm(samples):
     # Create soup object
     soup = BeautifulSoup(html, 'html.parser')
 
+    if check_if_ium(soup):
+        warning_message = f"HTML isn't parsed correctly due to incomplite unicode mappings."
+        logging.warning(warning_message)
+        Faulty_samples.append(sample)
+        continue
+
     # Extract title data
-    title = []
-    while len(title) == 0:
+    title = [""]
+    while len(title[0]) == 0:
         try:
             style = styles[s]
         except:
@@ -75,21 +80,22 @@ for sample in tqdm(samples):
             title = ["no_title"]
             s = 0
             break
-        # 0 - title
-        # 1 - doi
-        # 2, 3, 4 - auth and affil
-        # 5, 6 - ref
-        # 7 - content
 
         title = get_title(soup, style["get_title"])
+
         print(title)
-        if len(title) == 0:
+        if len(title[0]) == 0:
             warning_message = "Title isn't extracted correctly. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
             logging.warning(warning_message)
             Faults += 1
             s += 1
-            
-    # Extract doi data
+
+        if len(title[0]) > 190:
+            warning_message = "Title too long. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
+            logging.warning(warning_message)
+            title[0] = ""
+            Faults += 1
+            s += 1
     doi = []
     while len(doi) == 0:
         try:
@@ -122,7 +128,7 @@ for sample in tqdm(samples):
         # print(abstract[:100])
         references = get_references(soup, style["get_references"])
         # print(references[:5])
-        content = get_content(soup, style["get_content"][0])
+        content = get_content(soup, style["get_content"])
         # print(content[:100])
 
         # Create a dictionary with the paper's data

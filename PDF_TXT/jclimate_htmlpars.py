@@ -86,7 +86,7 @@ samples = listdir(DIR)
 # print(samples[2])
 # exit()
 # samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
-for sample in tqdm(samples[7:]):
+for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)
