@@ -27,6 +27,20 @@ doctype1_1 = {
 }
 
 doctype2_1 = {
+    "get_title": ["font-family: AdvPSMy-B; font-size:21px"],
+    "get_doi_regex": ["font-family: AdvTT6489ba6c; font-size:7px"],
+    "get_doi_regex_r": ["doi(\/[\d.\/\w-]+)\/suppinfo"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT3abd98ce.B; font-size:9px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT3abd98ce.B; font-size:6px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvTT6489ba6c; font-size:7px"],  # Affiliation text
+    "get_references": [
+        "font-family: AdvTT6489ba6c; font-size:8px",
+        "font-family: AdvTT8b1d421d.I; font-size:8px",
+    ],
+    "get_content": ["font-family: AdvTT6489ba6c; font-size:9px", "font-family: AdvTT8b1d421d.I; font-size:9px"]
+}
+
+doctype3_1 = {
     "get_title": ["font-size:21px"],
     "get_doi_regex": ["font-family: PalatinoLinotype-Roman; font-size:8px", "font-family: PalatinoLinotype-Roman; font-size:10px"],
     "get_doi_regex_r": ["doi(\/[\d.\/\w-]+)\/suppinfo"],
@@ -40,14 +54,14 @@ doctype2_1 = {
     "get_content": ["font-size:10px"]
 }
 
-doctype3_1 = {
+doctypedef_1 = {
     "get_title" : ["font-family: Myriad-Bold; font-size:21px"],
     "get_doi_regex": ["font-family: Minion-Regular; font-size:9px"],
     "get_authors_and_affiliations_au": ["font-family: PalatinoLinotype-Bold; font-size:10px"]
 }
 
 # List of style samples to try for processing
-styles = [doctype1_1, doctype2_1, doctype3_1]
+styles = [doctype1_1, doctype2_1, doctype3_1, doctypedef_1]
 
 data_list = []
 Faults = 0

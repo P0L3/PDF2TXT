@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("test_gcb.pickle")
+df = pd.read_pickle("test_ehs.pickle")
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
     
@@ -41,10 +41,10 @@ for aff in df.Affiliations:
     print(aff)
 print(30*"-")
 print(30*"-")
-print("Keywords:")
-print(30*"-")
-for keywords in df.Keywords:
-    print(keywords)
+# print("Keywords:")
+# print(30*"-")
+# for keywords in df.Keywords:
+#     print(keywords)
 print(30*"-")
 print(30*"-")
 print("Abstract:")
@@ -55,10 +55,11 @@ print(30*"-")
 print(30*"-")
 print("Content:")
 print(30*"-")
-for content, title in zip(df.Content, df.Title):
+for content, title, doi in zip(df.Content, df.Title, df.DOI):
     # print(content)
     if not char_number2words_pages(len(content)):
         print(title)
+        print(doi)
 print(30*"-")
 print(30*"-")
 print("References:")
