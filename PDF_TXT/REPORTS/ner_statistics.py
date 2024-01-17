@@ -9,7 +9,7 @@ from parser_pdf import char_number2words_pages
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file = "test_nature.pickle"
+file = "test_ehs.pickle"
 df = pd.read_pickle(file)
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
@@ -48,6 +48,10 @@ sns.set(style="whitegrid")
 plt.figure(figsize=(10, 6))
 sns.kdeplot(content_lengths, fill=True, color='skyblue')
 
+# Limits
+plt.xlim(-20000, 120000)  # Replace 0 and 1000 with your desired range for the x-axis
+plt.ylim(0, 0.00007)   # Replace 0
+
 # Set labels and title
 plt.xlabel('Content Length')
 plt.ylabel('Density')
@@ -55,7 +59,7 @@ plt.title('Kernel Density Estimation of Content Length')
 
 # Show the plot
 plt.show()
-
+exit()
 ## 
 
 from flair.data import Sentence

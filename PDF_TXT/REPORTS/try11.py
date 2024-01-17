@@ -1,13 +1,15 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-df_ner = pd.read_pickle("ehs_ner.pickle")
+
+file = "ehs_ner.pickle"
+df_ner = pd.read_pickle(file)
 
 print(df_ner.keys())
 
 entity_tag_counts = df_ner.groupby(['Entity', 'Tag']).size().reset_index(name='Count')
 print(entity_tag_counts)
-
+entity_tag_counts.to_pickle("{}_entity_tag_counts.pickle".format(file.split("_")[0]))
 
 top_n = 50
 
@@ -26,6 +28,7 @@ plt.tight_layout()
 plt.show()
 
 entity_counts = df_ner['Entity'].value_counts()
+entity_counts.to_pickle("{}_entity_counts.pickle".format(file.split("_")[0]))
 print(entity_counts)
 
 # Number of top entities to display

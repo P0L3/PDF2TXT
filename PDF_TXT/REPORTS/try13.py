@@ -1,7 +1,8 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-df_pos = pd.read_pickle("ehs_pos.pickle")
+file = "ehs_pos.pickle"
+df_pos = pd.read_pickle(file)
 
 # Explode the 'Nouns' column to have one row per noun
 exploded_df = df_pos.explode('Nouns')
@@ -19,6 +20,7 @@ overall_noun_counts_df = pd.DataFrame({
 overall_noun_counts_df = overall_noun_counts_df.sort_values(by='Count', ascending=False)
 
 # Display the DataFrame
+overall_noun_counts_df.to_pickle("{}_overall_noun_counts.pickle".format(file.split("_")[0]))
 print(overall_noun_counts_df)
 
 #### PLOT HERE
@@ -42,6 +44,7 @@ grouped_noun_counts = overall_noun_counts_df.groupby('NumWords')['Count'].sum().
 grouped_noun_counts = grouped_noun_counts.sort_values(by='NumWords')
 
 # Display the grouped DataFrame
+grouped_noun_counts.to_pickle("{}_grouped_noun_counts.pickle".format(file.split("_")[0]))
 print(grouped_noun_counts)
 
 #### PLOT HERE
@@ -60,29 +63,11 @@ overall_noun_counts_df['NumWords'] = overall_noun_counts_df['Noun'].apply(lambda
 overall_noun_counts_df = overall_noun_counts_df.sort_values(by=['NumWords', 'Count'], ascending=[True, False])
 
 # Display the DataFrame
+overall_noun_counts_df.to_pickle("{}_grouped_overall_noun_counts.pickle".format(file.split("_")[0]))
 print(overall_noun_counts_df)
 
 #### PLOT HERE
-# # Plot the top 20 nouns per word count
-# top_n_per_wordcount = 20
-# unique_word_counts = overall_noun_counts_df['NumWords'].unique()
 
-# plt.figure(figsize=(14, 8))
-# print(unique_word_counts)
-# for word_count in unique_word_counts:
-#     if word_count > 9:
-#         continue
-#     top_n_words = overall_noun_counts_df[overall_noun_counts_df['NumWords'] == word_count][:top_n_per_wordcount]
-#     plt.bar(top_n_words['Noun'], top_n_words['Count'], label=f'{word_count} words')
-
-# plt.xticks(rotation=45, ha='right')
-# plt.xlabel('Noun')
-# plt.ylabel('Count')
-# plt.title(f'Top {top_n_per_wordcount} Nouns per Word Count')
-# plt.legend()
-# plt.show()
-
-# Plot the top 20 nouns per word count in separate plots
 top_n_per_wordcount = 20
 unique_word_counts = overall_noun_counts_df['NumWords'].unique()
 
