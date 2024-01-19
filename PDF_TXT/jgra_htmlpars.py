@@ -33,7 +33,7 @@ doctype0_1 = {
 doctype1_1 = {
     "get_title": ["font-family: AdvTT99c4c969; font-size:15px"],
     "get_doi_regex": ["font-family: AdvTTe45e47d2; font-size:6px"],
-    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w\s-]+)"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvTTaf7f9f4f.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvTTaf7f9f4f.B; font-size:5px"],  # Affiliation number
     "get_authors_and_affiliations_af": ["font-family: AdvTTe45e47d2; font-size:7px"],  # Affiliation text
@@ -47,6 +47,39 @@ doctype1_1 = {
     "get_abstract": ["font-family: AdvTTaf7f9f4f.B; font-size:11px"], # Abstract
 }
 
+doctype2_1 = {
+    "get_title": ["font-family: AdvTT2cba4af3.B; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvTT5843c571; font-size:8px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT5843c571; font-size:10px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT5843c571; font-size:7px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: AdvTT5843c571; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTT2cba4af3.B; font-size:10px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvTT5843c571; font-size:7px", "font-family: AdvTTf90d833a.I; font-size:7px"], # References text
+    "get_content": ["font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px"], # Content regex 
+    "get_keywords": ["font-family: AdvTTaf7f9f4f.B; font-size:6px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_abstract": ["font-family: AdvTT5843c571; font-size:10px"], # Abstract
+}
+
+doctype3_1 = {
+    "get_title": ["font-family: AdvTTb65e66bd; font-size:15px"],
+    "get_doi_regex": ["font-family: AdvTT46dcae81; font-size:6px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT3b30f6db.B; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT3b30f6db.B; font-size:5px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: AdvTT46dcae81; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvTT65f8a23b.I; font-size:6px", "font-family: fb; font-size:6px", "font-family: AdvTT46dcae81; font-size:6px"], # References text
+    "get_content": ["font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: AdvTT3b30f6db.B; font-size:6px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvTT46dcae81; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_abstract": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Abstract
+}
 
 doctypedef_1 = {
     "get_title": ["font-size:17px"],
@@ -62,7 +95,7 @@ doctypedef_1 = {
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctypedef_1]
 
 data_list = []
 Faults = 0
@@ -70,6 +103,11 @@ Faulty_samples = []
 Styleless_samples = []
 
 skip_samples = []
+year_skip = [n for n in range(1990, 2002)] # Skip years that are probably scanned (high effort - low reward)
+for y in year_skip:
+    skip_samples.append(f"- {y} -")
+
+
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 samples = listdir(DIR) 
