@@ -5,7 +5,7 @@ DOI to bib
 import subprocess
 import re
 
-DOI = "10.34133/ehs.0072"
+DOI = "10.1002/jgrd.50863"
 res = subprocess.run(['doi2bib', DOI], capture_output=True)
 byte = res.stdout.strip(b"\n")
 

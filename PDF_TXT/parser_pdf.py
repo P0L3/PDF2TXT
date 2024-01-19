@@ -242,6 +242,7 @@ def get_doi_regex(soup, styles, regex="doi.org(\/[\d.\/\w-]+)"):
 
     # Extract text content from the found elements
     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
+    # print(text_content)
     # print(" ".join(text_content))
     # Find doi with regex
     doi = re.search(regex, " ".join(text_content))
@@ -578,3 +579,5 @@ def get_affiliations(soup, styles):
     # print("Number of affiliations: ", len(text_content))
 
     return text_content
+
+# Added for jgra

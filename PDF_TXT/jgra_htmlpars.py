@@ -3,7 +3,7 @@ GCB html parsing
 """
 
 from bs4 import BeautifulSoup
-from parser_pdf import get_abstract, get_title, get_content, get_doi_regex, get_from_doi2bibapi, get_affiliations, get_references_nonumber, get_keywords, char_number2words_pages
+from parser_pdf import *
 from functions import pdf2html, find_custom_element_by_regex, add_custom_tag_after_element, check_if_ium
 import re
 from os import listdir
@@ -11,90 +11,42 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-DIR = "./SAMPLE/JCLIMATE/"
+DIR = "./SAMPLE/JGRA/"
 
 doctype0_1 = {
-    "get_title": ["font-family: Times-Bold; font-size:12px"],
-    "get_doi_regex": ["font-family: Times-Roman; font-size:8px"],
+    "get_title": ["font-family: MyriadPro-Semibold; font-size:15px"],
+    "get_doi_regex": ["font-family: MyriadPro-Regular; font-size:7px"],
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
+    "get_authors_and_affiliations_au": ["font-family: MyriadPro-Bold; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: MyriadPro-Bold; font-size:6px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: MyriadPro-Regular; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: MyriadPro-Bold; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Bold; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
-    "get_content": ["font-family: Times-(Roman|Italic); font-size:10px"], # Content
+    "get_references_nonumber_ref": ["font-family: MyriadPro-Regular; font-size:7px", "font-family: MyriadPro-It; font-size:7px"], # References text
+    "get_content": ["font-family: MyriadPro-(Regular|It); font-size:9px"], # Content regex
     "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: Times-Roman; font-size:8px"], # Abstract
+    "get_abstract": ["font-family: MyriadPro-Bold; font-size:12px"], # Abstract
 }
 
 doctype1_1 = {
-    "get_title": ["font-family: AdvPSTIM10-B; font-size:11px"],
-    "get_doi_regex": ["font-family: AdvPSTIM10-R; font-size:7px"], # Styles of doi text
-    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: AdvPSTIM10-I; font-size:7px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvPSTIM10-R; font-size:7px"], # Reference title
+    "get_title": ["font-family: AdvTT99c4c969; font-size:15px"],
+    "get_doi_regex": ["font-family: AdvTTe45e47d2; font-size:6px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w\s-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTTaf7f9f4f.B; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: AdvTTaf7f9f4f.B; font-size:5px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: AdvTTe45e47d2; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTTaf7f9f4f.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
-    "get_content": ["font-family: AdvPSTIM10-(R|I); font-size:9px"], # Content regex
-    "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
-    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: AdvPSTIM10-R; font-size:7px"], # Abstract
+    "get_references_nonumber_ref": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: AdvTT7329fd89.I; font-size:6px"], # References text
+    "get_content": ["font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: AdvTTaf7f9f4f.B; font-size:6px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_abstract": ["font-family: AdvTTaf7f9f4f.B; font-size:11px"], # Abstract
 }
 
-doctype2_1 = {
-    "get_title": ["font-family: AdvPSTIM10-B; font-size:10px"],
-    "get_doi_regex": ["font-family: AdvOTbb216540; font-size:7px", 
-                      "font-family: AdvPSTIM10-R; font-size:7px"], # Styles of doi text
-    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: AdvOT2b0f33d7.I; font-size:7px", 
-                         "font-family: AdvPSTIM10-I; font-size:7px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOTbb216540; font-size:7px", 
-                                      "font-family: AdvPSTIM10-R; font-size:7px"], # Reference title
-    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvOTbb216540; font-size:7px", "font-family: AdvOT2b0f33d7.I; font-size:7px", 
-                                    "font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
-    "get_content": ["font-family: (AdvOTbb216540|AdvPSTIM10-R); font-size:8px", ], # Content regex
-    "get_keywords": ["font-family: AdvOTbb216540; font-size:7px",
-                     "font-family: AdvPSTIM10-R; font-size:7px"], # Keywords
-    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvOTbb216540; font-size:7px",
-                            "font-family: AdvPSTIM10-R; font-size:7px"], # Keywords styles
-    "get_abstract": ["font-family: AdvOTbb216540; font-size:7px",
-                     "font-family: AdvPSTIM10-R; font-size:7px"], # Abstract
-}
-
-doctype3_1 = {
-    "get_title": ["font-family: TimesTen-Bold; font-size:11px"],
-    "get_doi_regex": ["font-family: AdvPSTIM10-R; font-size:7px",
-                      "font-family: TimesTen-Roman; font-size:7px"], # Styles of doi text
-    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: TimesTen-Italic; font-size:7px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: TimesTen-Roman; font-size:7px"], # Reference title
-    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: TimesTen-Roman; font-size:7px", "font-family: TimesTen-Italic; font-size:7px"], # References
-    "get_content": ["font-family: TimesTen-Roman; font-size:9px"], # Content regex
-    "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
-    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: TimesTen-Roman; font-size:7px"], # Abstract
-}
-
-doctype4_1 = {
-    "get_title": ["font-family: Times-Bold; font-size:12px"],
-    "get_doi_regex": ["font-family: Times-Roman; font-size:7px"], # Styles of doi text
-    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
-    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
-    "get_content": ["font-family: Times-Roman; font-size:10px"], # Content regex
-    "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
-    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: Times-Roman; font-size:8px"], # Abstract
-}
 
 doctypedef_1 = {
     "get_title": ["font-size:17px"],
@@ -110,20 +62,20 @@ doctypedef_1 = {
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctypedef_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-skip_samples = ["masthead"]
+skip_samples = []
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 samples = listdir(DIR) 
 # print(samples[2])
 # exit()
-# samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
+# samples = ["JGR Atmospheres - 2013 - Masiello - Diurnal variation in Sahara desert sand emissivity during the dry season from IASI.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -230,8 +182,8 @@ for sample in tqdm(samples):
         # authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # authors_and_affiliations, affiliations = [], []
         # print(affiliations)
-        authors_and_affiliations = ["no_authafil"]
-        affiliations = get_affiliations(soup, style["get_affiliations"])
+
+        authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
 
         # Try available regex styles if unintentional doi was found prior
@@ -313,5 +265,5 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_jclimate.pickle")
+df.to_pickle("test_jgra.pickle")
 print(Faults)
