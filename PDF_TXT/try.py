@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("test_nature.pickle")
+df = pd.read_pickle("test_jclimate.pickle")
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
     
@@ -38,7 +38,7 @@ print(30*"-")
 print("Affiliations:")
 print(30*"-")
 for aff in df.Affiliations:
-    print(aff)
+    print(len(aff))
 print(30*"-")
 print(30*"-")
 # print("Keywords:")

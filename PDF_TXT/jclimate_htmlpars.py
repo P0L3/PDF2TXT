@@ -45,17 +45,55 @@ doctype1_1 = {
 
 doctype2_1 = {
     "get_title": ["font-family: AdvPSTIM10-B; font-size:10px"],
-    "get_doi_regex": ["font-family: AdvOTbb216540; font-size:7px"], # Styles of doi text
+    "get_doi_regex": ["font-family: AdvOTbb216540; font-size:7px", 
+                      "font-family: AdvPSTIM10-R; font-size:7px"], # Styles of doi text
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
-    "get_affiliations": ["font-family: AdvOT2b0f33d7.I; font-size:7px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: AdvOTbb216540; font-size:7px"], # Reference title
+    "get_affiliations": ["font-family: AdvOT2b0f33d7.I; font-size:7px", 
+                         "font-family: AdvPSTIM10-I; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOTbb216540; font-size:7px", 
+                                      "font-family: AdvPSTIM10-R; font-size:7px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvOTbb216540; font-size:7px", "font-family: AdvOT2b0f33d7.I; font-size:7px"], # References
-    "get_content": ["font-family: AdvOTbb216540; font-size:8px"], # Content regex
-    "get_keywords": ["font-family: AdvOTbb216540; font-size:7px"], # Keywords
+    "get_references_nonumber_ref": ["font-family: AdvOTbb216540; font-size:7px", "font-family: AdvOT2b0f33d7.I; font-size:7px", 
+                                    "font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
+    "get_content": ["font-family: (AdvOTbb216540|AdvPSTIM10-R); font-size:8px", ], # Content regex
+    "get_keywords": ["font-family: AdvOTbb216540; font-size:7px",
+                     "font-family: AdvPSTIM10-R; font-size:7px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvOTbb216540; font-size:7px"], # Keywords styles
-    "get_abstract": ["font-family: AdvOTbb216540; font-size:7px"], # Abstract
+    "get_keywords_styles": ["font-family: AdvOTbb216540; font-size:7px",
+                            "font-family: AdvPSTIM10-R; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: AdvOTbb216540; font-size:7px",
+                     "font-family: AdvPSTIM10-R; font-size:7px"], # Abstract
+}
+
+doctype3_1 = {
+    "get_title": ["font-family: TimesTen-Bold; font-size:11px"],
+    "get_doi_regex": ["font-family: AdvPSTIM10-R; font-size:7px",
+                      "font-family: TimesTen-Roman; font-size:7px"], # Styles of doi text
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_affiliations": ["font-family: TimesTen-Italic; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: TimesTen-Roman; font-size:7px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: TimesTen-Roman; font-size:7px", "font-family: TimesTen-Italic; font-size:7px"], # References
+    "get_content": ["font-family: TimesTen-Roman; font-size:9px"], # Content regex
+    "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
+    "get_abstract": ["font-family: TimesTen-Roman; font-size:7px"], # Abstract
+}
+
+doctype4_1 = {
+    "get_title": ["font-family: Times-Bold; font-size:12px"],
+    "get_doi_regex": ["font-family: Times-Roman; font-size:7px"], # Styles of doi text
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
+    "get_content": ["font-family: Times-Roman; font-size:10px"], # Content regex
+    "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
+    "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
+    "get_abstract": ["font-family: Times-Roman; font-size:8px"], # Abstract
 }
 
 doctypedef_1 = {
@@ -72,14 +110,14 @@ doctypedef_1 = {
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctypedef_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-skip_samples = []
+skip_samples = ["masthead"]
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 samples = listdir(DIR) 
@@ -103,6 +141,12 @@ for sample in tqdm(samples):
         warning_message = f"HTML isn't parsed correctly -> Implies invalid pdf structure!"
         logging.warning(warning_message)
         Faulty_samples.append(sample)
+        continue
+    
+    # Wy to deal with pdf scans heuristicaly
+    if len(html) < 15000:
+        warning_message = f"HTML is less then 15000 characters long -> Implies a scanned PDF document!"
+        logging.warning(warning_message)
         continue
 
     # Create soup object
@@ -200,7 +244,8 @@ for sample in tqdm(samples):
                     if doi[0] != "no_doi":
                         print(doi)
                         break
-            
+            if doi[0].endswith("."): # Hot fix if doi ends with . 
+                doi[0] = doi[0][:-1]
             authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
         # print(journal)
@@ -222,7 +267,7 @@ for sample in tqdm(samples):
         content = get_content(soup, style["get_content"])
 
         print("Content length: ", len(content))
-        char_number2words_pages(len(content))
+        char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
         # print(abstract)
 
         
@@ -261,6 +306,7 @@ for sample in tqdm(samples):
             "Keywords": "None",
         }
         Styleless_samples.append(sample)
+
 
 # Create the DataFrame from the list of dictionaries
 print(Styleless_samples)

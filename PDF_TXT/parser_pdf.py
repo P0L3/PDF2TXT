@@ -492,7 +492,27 @@ def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[
 
 # Added for gcb
 
-def char_number2words_pages(charnum):
+def char_number2words_pages(charnum, fontsize = 12):
+    """
+    Converts a given character count to an estimated number of words and pages.
+
+    Parameters:
+    - charnum (int): The number of characters in the document.
+
+    Returns:
+    - bool: True if the estimated number of pages is greater than or equal to 10, False otherwise.
+
+    The conversion is based on an assumed average of 6.5 characters per word and 5 characters per word, 
+    as well as an assumed average of 256 words per page and 250 words per page.
+
+    Example:
+    >>> char_number2words_pages(1000)
+    Words: 153.846 - 200.000	Pages: 0.599 - 0.800
+    False
+    """
+    fontsize = int(fontsize)
+    charnum = charnum/(12/(fontsize-1)) # Original estimation is made for font size 12 - Heuristic etimation
+
     if charnum:
         print("Words: {:.3f} - {:.3f}\tPages: {:.3f} - {:.3f}".format(charnum/6.5, charnum/5, (charnum/6.5)/256, (charnum/5)/250))
 
@@ -530,12 +550,31 @@ def get_abstract(soup, abstract_title_styles): # Doesn't work when style interup
 # Added for jclimate
 
 def get_affiliations(soup, styles):
+    """
+    Extracts affiliations from a BeautifulSoup object based on specified styles.
 
+    Parameters:
+    - soup (BeautifulSoup): The BeautifulSoup object representing the HTML content.
+    - styles (list of str): A list of CSS styles used to identify relevant elements.
 
+    Returns:
+    - list of str: A list containing the text content of elements matching the specified styles.
+
+    The function finds all HTML elements with styles matching any of the specified styles in the 'styles' list
+    within the BeautifulSoup object ('soup'). It then extracts the text content of these elements and returns
+    a list containing the affiliations.
+
+    Example:
+    >>> soup = BeautifulSoup(html_content, 'html.parser')
+    >>> styles_to_search = ['style1', 'style2']
+    >>> affiliations = get_affiliations(soup, styles_to_search)
+    Number of affiliations: 3
+    ['Affiliation 1', 'Affiliation 2', 'Affiliation 3']
+    """
     s8_wb2_elem = soup.find_all(style=lambda value: value and any(style in value for style in styles))
 
 
     text_content = [elem.text for elem in s8_wb2_elem]
-    print("Number of affiliations: ", len(text_content))
+    # print("Number of affiliations: ", len(text_content))
 
     return text_content

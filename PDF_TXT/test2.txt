@@ -1,0 +1,28 @@
+--------------------
+clim-jcliD200146.pdf
+['']
+['']
+['A Global Quasigeostrophic Diagnosis of Extratropical Extreme Precipitation']
+['/10.1175/JCLI-D-20-']
+['10.1175/JCLI-D-20-0146.1']
+Found references, stoping content extraction ...
+Content length:  36456
+--------------------
+clim-jcliD200146.pdf
+['']
+['']
+['A Global Quasigeostrophic Diagnosis of Extratropical Extreme Precipitation']
+['/10.1175/JCLI-D-20-']
+['10.1175/JCLI-D-20-0146.1']
+Found references, stoping content extraction ...
+Content length:  36456
+--------------------
+clim-jcliD200146.pdf
+['']
+['']
+['A Global Quasigeostrophic Diagnosis of Extratropical Extreme Precipitation']
+['/10.1175/JCLI-D-20-']
+['10.1175/JCLI-D-20-0146.1']
+Found references, stoping content extraction ...
+Content length:  36456
+<re.Match object; span=(43, 54), match='font-size:8'>
