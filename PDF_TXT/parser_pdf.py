@@ -245,7 +245,7 @@ def get_doi_regex(soup, styles, regex="doi.org(\/[\d.\/\w-]+)"):
     # print(text_content)
     # print(" ".join(text_content))
     # Find doi with regex
-    doi = re.search(regex, " ".join(text_content))
+    doi = re.search(regex, " ".join(text_content).replace("/ ", "/")) # hot fix for fractured DOI
     
     return [doi.group(1) if doi else "no_doi"]
     

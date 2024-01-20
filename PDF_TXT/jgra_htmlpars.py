@@ -81,31 +81,119 @@ doctype3_1 = {
     "get_abstract": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Abstract
 }
 
+doctype4_1 = {
+    "get_title": ["font-family: STIXTwoText-Bold; font-size:15px"],
+    "get_doi_regex": ["font-family: STIXTwoText; font-size:7px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: STIXTwoText-Bold; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: STIXTwoText-Bold; font-size:5px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: STIXTwoText; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: STIXTwoText-Bold; font-size:11px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: STIXTwoText; font-size:7px", "font-family: STIXTwoText-Italic; font-size:7px"], # References text
+    "get_content": ["font-family: STIXTwoText; font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: STIXTwoText-Bold; font-size:7px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: STIXTwoText; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: STIXTwoText-Bold; font-size:12px"], # Abstract
+}
+
+doctype5_1 = {
+    "get_title": ["font-family: AdvTTf331adb4.B; font-size:13px"],
+    "get_doi_regex": ["font-family: AdvTT182ff89e; font-size:8px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT182ff89e; font-size:10px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT182ff89e; font-size:7px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: AdvTT182ff89e; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvTTf331adb4.B; font-size:10px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvTT182ff89e; font-size:7px", "font-family: AdvTT73b978ed.I; font-size:7px"], # References text
+    "get_content": ["font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: STIXTwoText-Bold; font-size:7px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: STIXTwoText; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: AdvTT182ff89e; font-size:10px"], # Abstract
+}
+
+doctype6_1 = {
+    "get_title": ["font-family: STIX-Bold; font-size:15px"],
+    "get_doi_regex": ["font-family: STIX-Regular; font-size:7px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: STIX-Bold; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: STIX-Bold; font-size:5px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: STIX-Regular; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: STIX-Bold; font-size:11px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: STIX-Regular; font-size:7px", "font-family: STIX-Italic; font-size:7px"], # References text
+    "get_content": ["font-family: STIX-Regular; font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: STIX-Bold; font-size:7px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: STIX-Regular; font-size:7px"], # Keywords styles
+    "get_abstract": ["font-family: STIX-Bold; font-size:12px"], # Abstract
+}
+
+doctype7_1 = {
+    "get_title": ["font-family: AdvOTc022ae45.B; font-size:15px"],
+    "get_doi_regex": ["font-family: AdvOT569473da; font-size:6px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: AdvOTc022ae45.B; font-size:9px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: AdvOTc022ae45.B; font-size:5px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: AdvOT569473da; font-size:7px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: AdvOTf2679e53.I; font-size:6px"], # References text
+    "get_content": ["font-family: AdvOT569473da; font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: AdvOTc022ae45.B; font-size:6px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_abstract": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Abstract
+}
+
+doctype8_1 = {
+    "get_title": ["font-family: Dutch801BT-Bold; font-size:14px"],
+    "get_doi_regex": ["font-family: Dutch801BT-Roman; font-size:9px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: Dutch801BT-Roman; font-size:11px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: Dutch801BT-Roman; font-size:6px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: Dutch801BT-Roman; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: Dutch801BT-Bold; font-size:11px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: Dutch801BT-Roman; font-size:8px", "font-family: Dutch801BT-Italic; font-size:8px", "font-family: Dutch801BT-Roman; font-size:5px"], # References text
+    "get_content": ["font-family: Dutch801BT-(Roman|Italic); font-size:9px"], # Content regex 
+    "get_keywords": ["font-family: AdvOTc022ae45.B; font-size:6px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_abstract": ["font-family: Dutch801BT-Roman; font-size:10px"], # Abstract
+}
+
 doctypedef_1 = {
-    "get_title": ["font-size:17px"],
-    "get_doi_regex": ["font-size:8px"],
-    "get_authors_and_affiliations_au": ["font-size:8px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-size:8px"],   # Number
-    "get_affiliations": ["font-size:8px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-size:10px"], # Reference title
-    "get_references_nonumber_ref": ["font-size:6px", "font-size:5px" ], # References
-    "get_content": ["font-size:9px"], # Content
-    "get_keywords": ["font-size:8px"], # Keywords
-    "get_abstract": ["font-size:9px"]
+    "get_title": ["font-size:13px", "font-size:15px", "font-size:14px"],
+    "get_doi_regex": ["font-size:6px", "font-size:7px" "font-size:8px", "font-size:9px"],
+    "get_authors_and_affiliations_au": ["font-family: Dutch801BT-Roman; font-size:11px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: Dutch801BT-Roman; font-size:6px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: Dutch801BT-Roman; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-size:10px", "font-size:11px", ], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-size:6px", "font-size:7px", "font-size:8px"], # References text
+    "get_content": ["font-size:[789]px"], # Content
+    "get_keywords": ["font-size:6px", "font-size:7px"], # Keywords (Key points)
+    "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
+    "get_keywords_styles": ["font-size:6px", "font-size:7px"], # Keywords styles
+    "get_abstract": ["font-size:10px", "font-size:11px"], # Abstract
 }
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctype6_1, doctype7_1, doctype8_1, doctypedef_1]
 
 data_list = []
 Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-skip_samples = []
+skip_samples = ["Issue Information"]
 year_skip = [n for n in range(1990, 2002)] # Skip years that are probably scanned (high effort - low reward)
 for y in year_skip:
-    skip_samples.append(f"- {y} -")
+    skip_samples.append(f" {y} -")
 
 
 
