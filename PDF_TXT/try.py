@@ -8,8 +8,8 @@ from parser_pdf import char_number2words_pages
 df = pd.read_pickle("test_jgra.pickle")
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
-    
-
+# df = df[df["Title"] == "The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon Uptake Over the Central US"]
+# print(df)
 # for column in df.keys():
 #     print(df["{}".format(column)][0])
     # print(df["".format(column)][0])
@@ -57,9 +57,11 @@ print("Content:")
 print(30*"-")
 for content, title, doi in zip(df.Content, df.Title, df.DOI):
     print(len(content))
-    if not char_number2words_pages(len(content)):
+    if not char_number2words_pages(len(content), 8) or len(content) > 60000:
         print(title)
         print(doi)
+        # print(content)
+        # exit()
     # print(content)
     # exit()
 print(30*"-")

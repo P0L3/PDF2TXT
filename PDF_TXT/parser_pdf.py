@@ -199,6 +199,7 @@ def get_content(soup, styles):
 
     # Find elements with font size 9px -> Tends to be content
     pattern = re.compile(r'{}'.format(styles[0]))
+    print(pattern)
 
     s9_mpr_elem = soup.find_all(style=lambda value: value and (pattern.search(value) or value=="font-family: TimesNewReference; font-size:69px"))
 
