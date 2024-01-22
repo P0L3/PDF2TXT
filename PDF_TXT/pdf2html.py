@@ -6,7 +6,7 @@ from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 
 output_string = StringIO()
-target = "./SAMPLE/JGRA/JGR Atmospheres - 2020 - Guo - Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in.pdf"
+target = "./SAMPLE/NGEO/s41561-022-01037-7_Long-Range_Predictability_Of_Extratropical_Climate_And_The_Length_Of_Day_.pdf"
 # target = "pdf_with_svg_image-1.pdf"
 
 with open(target, 'rb') as fin:

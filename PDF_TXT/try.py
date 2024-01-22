@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("test_jgra.pickle")
+df = pd.read_pickle("test_ngeo.pickle")
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
 # df = df[df["Title"] == "The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon Uptake Over the Central US"]
