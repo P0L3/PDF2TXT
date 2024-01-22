@@ -1,0 +1,1031 @@
+--------------------
+JGR Atmospheres - 2015 - Choi - An updated subgrid orographic parameterization for global atmospheric forecast models.pdf
+['']
+['An updated subgrid orographic parameterization for global atmospheric forecast models']
+['no_doi']
+['10.1002/2015JD024230.']
+['10.1002/2015JD024230.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  30892
+Words: 3168.410 - 4118.933	Pages: 12.377 - 16.476
+--------------------
+Journal of Geophysical Research Atmospheres - 2009 - Das - Fine structure of the low‐latitude mesospheric turbulence.pdf
+['']
+['']
+['Fine structure of the low-latitude mesospheric turbulence']
+['no_doi']
+['10.1029/2008JD011307']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  37774
+Words: 4358.538 - 5666.100	Pages: 17.026 - 22.664
+--------------------
+JGR Atmospheres - 2015 - Brown - Regions of significant influence on unforced global mean surface air temperature.pdf
+['']
+['']
+['']
+['Regions of signicant inuence on unforced global mean surface air temperature variability in climate models']
+['no_doi']
+['10.1002/2014JD022576.']
+['10.1002/2014JD022576.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  42736
+Words: 4383.179 - 5698.133	Pages: 17.122 - 22.793
+--------------------
+JGR Atmospheres - 2016 - Maury - Characteristics of stratospheric warming events during Northern winter.pdf
+['Characteristics of stratospheric warming events during Northern winter']
+['no_doi']
+['10.1002/2015JD024226.']
+['10.1002/2015JD024226.']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  33520
+Words: 3437.949 - 4469.333	Pages: 13.429 - 17.877
+--------------------
+JGR Atmospheres - 2015 - Lucas - A global electric circuit model within a community climate model.pdf
+['A global electric circuit model within a community climate model']
+['no_doi']
+['10.1002/2015JD023562.']
+['10.1002/2015JD023562.']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  40218
+Words: 4124.923 - 5362.400	Pages: 16.113 - 21.450
+--------------------
+Journal of Geophysical Research Atmospheres - 2009 - Haynes - Rainfall retrieval over the ocean with spaceborne W‐band.pdf
+['']
+['']
+['Rainfall retrieval over the ocean with spaceborne W-band radar']
+['no_doi']
+['10.1029/2008JD009973']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  59253
+Words: 6836.885 - 8887.950	Pages: 26.707 - 35.552
+--------------------
+JGR Atmospheres - 2014 - Yokoi - Variability in surface meteorology and air‐sea fluxes due to cumulus convective systems.pdf
+['']
+['']
+['']
+['Variability in surface meteorology and air-seauxes due to cumulus convective systems observed during CINDY/DYNAMO']
+['no_doi']
+['10.1002/2013JD020621.']
+['10.1002/2013JD020621.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  48896
+Words: 5014.974 - 6519.467	Pages: 19.590 - 26.078
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Deeter - Sensitivity of MOPITT observations to carbon monoxide in the.pdf
+['']
+['']
+['Sensitivity of MOPITT observations to carbon monoxide in the lower troposphere']
+['no_doi']
+['10.1029/2007JD008929']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  35933
+Words: 4146.115 - 5389.950	Pages: 16.196 - 21.560
+--------------------
+JGR Atmospheres - 2018 - You - The Instantaneous Retrieval of Precipitation Over Land by Temporal Variation at 19 GHz.pdf
+['The Instantaneous Retrieval of Precipitation Over Land by Temporal Variation at 19 GHz']
+['/10.1029/2017JD027596']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  44508
+Words: 4564.923 - 5934.400	Pages: 17.832 - 23.738
+--------------------
+JGR Atmospheres - 2021 - Liu - Regional Characteristics of Variability in the Northern Hemisphere Wintertime Polar Front.pdf
+['']
+['']
+['']
+['']
+['Regional Characteristics of Variability in the Northern Hemisphere Wintertime Polar Front Jet and Subtropical Jet in Observations and CMIP6 Models']
+['/10.1029/2021JD034876']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  46542
+Words: 4773.538 - 6205.600	Pages: 18.647 - 24.822
+--------------------
+Journal of Geophysical Research Atmospheres - 1997 - Polyak - Reply to Comment on Evaluation of the GFDL GCM climate.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1997 - Polyak - Reply to Comment on Evaluation of the GFDL GCM climate.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2010 - Deeter - The MOPITT version 4 CO product Algorithm enhancements .pdf
+['']
+['']
+['']
+['']
+['']
+['The MOPITT version 4 CO product: Algorithm enhancements, validation, and longterm stability']
+['no_doi']
+['10.1029/2009JD013005']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  46416
+Words: 4760.615 - 6188.800	Pages: 18.596 - 24.755
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Vesala - Eddy covariance measurements of carbon exchange and latent.pdf
+['']
+['']
+['Eddy covariance measurements of carbon exchange and latent and sensible heat fluxes over a boreal lake for a full open-water period']
+['no_doi']
+['10.1029/2005JD006365']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  36825
+Words: 4249.038 - 5523.750	Pages: 16.598 - 22.095
+--------------------
+JGR Atmospheres - 2023 - Zhang - Soil Moisture and Atmospheric Aridity Impact Spatio‐Temporal Changes in Evapotranspiration.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['Soil Moisture and Atmospheric Aridity Impact Spatio-Temporal Changes in Evapotranspiration at a Global Scale']
+['/10.1029/2022JD038046']
+re.compile('font-family: STIX-Regular; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  32595
+Words: 3343.077 - 4346.000	Pages: 13.059 - 17.384
+--------------------
+JGR Atmospheres - 2020 - Wen - Interdecadal Variation of Early Spring Rainfall Over the Southeastern Edge of the Tibetan.pdf
+['']
+['']
+['']
+['']
+['Interdecadal Variation of Early Spring Rainfall Over the Southeastern Edge of the Tibetan Plateau']
+['/10.1175/1525-7541']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  29575
+Words: 3033.333 - 3943.333	Pages: 11.849 - 15.773
+--------------------
+Journal of Geophysical Research Atmospheres - 1997 - O Dowd - Biogenic sulphur emissions and inferred.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1997 - O Dowd - Biogenic sulphur emissions and inferred.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2002 - Chou - Net fluxes of CO2 in Amazonia derived from aircraft.pdf
+['']
+['']
+['Net fluxes of COin Amazonia derived from aircraft observations']
+['no_doi']
+['10.1029/2001JD001295']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  50616
+Words: 5840.308 - 7592.400	Pages: 22.814 - 30.370
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Xia - Variation of column‐integrated aerosol properties in a Chinese.pdf
+['']
+['']
+['Variation of column-integrated aerosol properties in a Chinese urban region']
+['no_doi']
+['10.1029/2005JD006203']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  29964
+Words: 3457.385 - 4494.600	Pages: 13.505 - 17.978
+--------------------
+JGR Atmospheres - 2022 - Zhang - The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon Uptake Over the Central US']
+['/10.1029/2021JD035969']
+re.compile('font-family: STIX-Regular; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  47403
+Words: 4861.846 - 6320.400	Pages: 18.992 - 25.282
+--------------------
+Journal of Geophysical Research Atmospheres - 2000 - Smirnova - Parameterization of cold‐season processes in the MAPS.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 2000 - Smirnova - Parameterization of cold‐season processes in the MAPS.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 1996 - Kumer - Comparison of CLAES preliminary N2O5 data with correlative.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1996 - Kumer - Comparison of CLAES preliminary N2O5 data with correlative.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2008 - Rao - Climatology of tropopause folds over a European Arctic station .pdf
+['']
+['']
+['Climatology of tropopause folds over a European Arctic station (Esrange)']
+['no_doi']
+['10.1029/2007JD009638']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  39751
+Words: 4586.654 - 5962.650	Pages: 17.917 - 23.851
+--------------------
+Journal of Geophysical Research Atmospheres - 1997 - Impey - Measurements of photolyzable chlorine and bromine during the.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1997 - Impey - Measurements of photolyzable chlorine and bromine during the.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Szidat - Contributions of fossil fuel biomass‐burning and biogenic.pdf
+['']
+['']
+['Contributions of fossil fuel, biomass-burning, and biogenic emissions to carbonaceous aerosols in Zurich as traced byC']
+['no_doi']
+['10.1029/2005JD006590']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  32526
+Words: 3753.000 - 4878.900	Pages: 14.660 - 19.516
+--------------------
+JGR Atmospheres - 2019 - Yu - The Interannual Variability of Surface Winds in Antarctica and the Surrounding Oceans A.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+['The Interannual Variability of Surface Winds in Antarctica and the Surrounding Oceans: A Climatological Analysis Using the ERAInterim Reanalysis Data']
+['/10.1029/2019JD030328']
+re.compile('font-family: AdvOT569473da; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  27233
+Words: 2793.128 - 3631.067	Pages: 10.911 - 14.524
+--------------------
+Journal of Geophysical Research Atmospheres - 2011 - Dai - Characteristics and trends in various forms of the Palmer.pdf
+['']
+['']
+['']
+['']
+['']
+['Characteristics and trends in various forms of the Palmer Drought Severity Index during 19002008']
+['no_doi']
+['10.1029/2010JD015541']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  60004
+Words: 6154.256 - 8000.533	Pages: 24.040 - 32.002
+--------------------
+Journal of Geophysical Research Atmospheres - 20 July 1995 - Raes - Comment on The relationship between DMS flux and CCN.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 20 July 1995 - Raes - Comment on The relationship between DMS flux and CCN.pdf
+--------------------
+JGR Atmospheres - 2015 - Zhu - Impact of Shanghai urban land surface forcing on downstream city ozone chemistry.pdf
+['']
+['']
+['']
+['Impact of Shanghai urban land surface forcing on downstream city ozone chemistry']
+['no_doi']
+['10.1002/2014JD022859.']
+['10.1002/2014JD022859.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  31002
+Words: 3179.692 - 4133.600	Pages: 12.421 - 16.534
+--------------------
+JGR Atmospheres - 2014 - Ripoll - On the dynamics of hot air plasmas related to lightning discharges 2 Electrodynamics.pdf
+['']
+['']
+['']
+['On the dynamics of hot air plasmas related to lightning discharges: 2. Electrodynamics']
+['no_doi']
+['10.1002/2013JD020067.']
+['10.1002/2013JD020067.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  54570
+Words: 5596.923 - 7276.000	Pages: 21.863 - 29.104
+--------------------
+JGR Atmospheres - 2019 - Papritz - On the Thermodynamic Preconditioning of Arctic Air Masses and the Role of Tropopause.pdf
+['']
+['']
+['']
+['']
+['On the Thermodynamic Preconditioning of Arctic Air Masses and the Role of Tropopause Polar Vortices for Cold Air Outbreaks From Fram Strait']
+['/10.1029/2019JD030570']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  49337
+Words: 5060.205 - 6578.267	Pages: 19.766 - 26.313
+--------------------
+Journal of Geophysical Research Atmospheres - 2002 - di Sarra - Effects of desert dust and ozone on the ultraviolet.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+['Effects of desert dust and ozone on the ultraviolet irradiance at the Mediterranean island of Lampedusa during PAUR II']
+['no_doi']
+['10.1029/2000JD000139']
+re.compile('font-family: Dutch801BT-(Roman|Italic); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  46958
+Words: 4816.205 - 6261.067	Pages: 18.813 - 25.044
+--------------------
+JGR Atmospheres - 2015 - Forbes - Quasi‐10‐day wave in the atmosphere.pdf
+['Quasi-10-day wave in the atmosphere']
+['no_doi']
+['10.1002/2015JD023327.']
+['10.1002/2015JD023327.']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  30142
+Words: 3091.487 - 4018.933	Pages: 12.076 - 16.076
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Thompson - Intercontinental Chemical Transport Experiment Ozonesonde.pdf
+['']
+['']
+['Intercontinental Chemical Transport Experiment Ozonesonde Network Study (IONS) 2004: 1. Summertime upper troposphere/lower stratosphere ozone over northeastern North America']
+['no_doi']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  37787
+Words: 4360.038 - 5668.050	Pages: 17.031 - 22.672
+--------------------
+JGR Atmospheres - 2016 - Richardson - An assessment of precipitation adjustment and feedback computation methods.pdf
+['']
+['An assessment of precipitation adjustment and feedback computation methods']
+['no_doi']
+['10.1002/2016JD025625.']
+['10.1002/2016JD025625.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  29832
+Words: 3059.692 - 3977.600	Pages: 11.952 - 15.910
+--------------------
+Journal of Geophysical Research Atmospheres - 1999 - Stevens - Calculated OH A 2 X2 0 0 band rotational emission rate.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1999 - Stevens - Calculated OH A 2 X2 0 0 band rotational emission rate.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Ruzmaikin - Is solar variability reflected in the Nile River.pdf
+['']
+['']
+['Is solar variability reflected in the Nile River?']
+['no_doi']
+['10.1029/2006JD007462']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  21393
+Words: 2468.423 - 3208.950	Pages: 9.642 - 12.836
+--------------------
+JGR Atmospheres - 2014 - Thackeray - The influence of canopy snow parameterizations on snow albedo feedback in boreal.pdf
+['']
+['']
+['']
+['The inuence of canopy snow parameterizations on snow albedo feedback in boreal forest regions']
+['no_doi']
+['10.1002/2014JD021858.']
+['10.1002/2014JD021858.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  35960
+Words: 3688.205 - 4794.667	Pages: 14.407 - 19.179
+--------------------
+Journal of Geophysical Research Atmospheres - 2011 - Aghedo - The vertical distribution of ozone instantaneous radiative.pdf
+['']
+['']
+['']
+['']
+['']
+['The vertical distribution of ozone instantaneous radiative forcing from satellite and chemistry climate models']
+['no_doi']
+['10.1029/2010JD014243']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  50737
+Words: 5203.795 - 6764.933	Pages: 20.327 - 27.060
+--------------------
+JGR Atmospheres - 2014 - Balashov - Surface ozone variability and trends over the South African Highveld from 1990 to 2007.pdf
+['']
+['']
+['']
+['Surface ozone variability and trends over the South African Highveld from 1990 to 2007']
+['no_doi']
+['10.1002/2013JD020555.']
+['10.1002/2013JD020555.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  43491
+Words: 4460.615 - 5798.800	Pages: 17.424 - 23.195
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Diehl - Numerical sensitivity studies on the impact of aerosol.pdf
+['']
+['']
+['Numerical sensitivity studies on the impact of aerosol properties and drop freezing modes on the glaciation, microphysics, and dynamics of clouds']
+['no_doi']
+['10.1029/2005JD005884']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  43344
+Words: 5001.231 - 6501.600	Pages: 19.536 - 26.006
+--------------------
+JGR Atmospheres - 2021 - - Issue Information(21).pdf
+Skipping JGR pdf: JGR Atmospheres - 2021 - - Issue Information(21).pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Shirai - Seasonal variations of atmospheric C2 C7 nonmethane.pdf
+['']
+['']
+['Seasonal variations of atmospheric C–Cnonmethane hydrocarbons in Tokyo']
+['no_doi']
+['10.1029/2006JD008163']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  54838
+Words: 6327.462 - 8225.700	Pages: 24.717 - 32.903
+--------------------
+JGR Atmospheres - 2014 - Hong - Enhanced relationship between the tropical Atlantic SST and the summertime western North.pdf
+['']
+['']
+['']
+['Enhanced relationship between the tropical Atlantic SST and the summertime western North Pacic subtropical high after the early 1980s']
+['no_doi']
+['10.1002/2013JD021394.']
+['10.1002/2013JD021394.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  16427
+Words: 1684.821 - 2190.267	Pages: 6.581 - 8.761
+--------------------
+Journal of Geophysical Research Atmospheres - 2004 - Liao - Global radiative forcing of coupled tropospheric ozone and.pdf
+['']
+['']
+['Global radiative forcing of coupled tropospheric ozone and aerosols in a unified general circulation model']
+['no_doi']
+['10.1029/2003JD004456']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  83637
+Words: 9650.423 - 12545.550	Pages: 37.697 - 50.182
+--------------------
+JGR Atmospheres - 2016 - Dzambo - Characterizing relative humidity with respect to ice in midlatitude cirrus clouds as a.pdf
+['']
+['Characterizing relative humidity with respect to ice in midlatitude cirrus clouds as a function of atmospheric state']
+['no_doi']
+['10.1002/2015JD024643.']
+['10.1002/2015JD024643.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  52624
+Words: 5397.333 - 7016.533	Pages: 21.083 - 28.066
+--------------------
+Journal of Geophysical Research Atmospheres - 1998 - Ding - A cumulus parameterization with multiple cloud base levels.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1998 - Ding - A cumulus parameterization with multiple cloud base levels.pdf
+--------------------
+JGR Atmospheres - 2014 - Selman - Simulating diurnal variations over the southeastern United States.pdf
+['']
+['']
+['']
+['Simulating diurnal variations over the southeastern United States']
+['no_doi']
+['10.1002/2014JD021812.']
+['10.1002/2014JD021812.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  43576
+Words: 4469.333 - 5810.133	Pages: 17.458 - 23.241
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Vinnikov - Temperature trends at the surface and in the troposphere.pdf
+['']
+['']
+['Temperature trends at the surface and in the troposphere']
+['no_doi']
+['10.1029/2005JD006392']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  46134
+Words: 5323.154 - 6920.100	Pages: 20.794 - 27.680
+--------------------
+Journal of Geophysical Research Atmospheres - 1998 - Murphy - In situ single‐particle characterization at Cape Grim.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1998 - Murphy - In situ single‐particle characterization at Cape Grim.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Harfoot - A two‐dimensional atmospheric chemistry modeling.pdf
+['']
+['']
+['A two-dimensional atmospheric chemistry modeling investigation of Earth’s Phanerozoic Oand near-surface ultraviolet radiation history']
+['no_doi']
+['10.1029/2006JD007372']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  54191
+Words: 6252.808 - 8128.650	Pages: 24.425 - 32.515
+--------------------
+JGR Atmospheres - 2021 - Baker - Historical Variability and Lifecycles of North Atlantic Midlatitude Cyclones Originating.pdf
+['']
+['']
+['']
+['']
+['Historical Variability and Lifecycles of North Atlantic Midlatitude Cyclones Originating in the Tropics']
+['/10.1007/s00382-014-2329-8']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  58820
+Words: 6032.821 - 7842.667	Pages: 23.566 - 31.371
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Wu - Comparison of horizontal velocity spectra derived from chaff.pdf
+['']
+['']
+['Comparison of horizontal velocity spectra derived from chaff rockets with saturation models']
+['no_doi']
+['10.1029/2005JD006065']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  37679
+Words: 4347.577 - 5651.850	Pages: 16.983 - 22.607
+--------------------
+Journal of Geophysical Research Atmospheres - 2010 - DeLonge - Attributes of mesoscale convective systems at the.pdf
+['']
+['']
+['']
+['']
+['']
+['Attributes of mesoscale convective systems at the landocean transition in Senegal during NASA African Monsoon Multidisciplinary Analyses 2006']
+['no_doi']
+['10.1029/2009JD012518']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  57034
+Words: 5849.641 - 7604.533	Pages: 22.850 - 30.418
+--------------------
+JGR Atmospheres - 2023 - - Issue Information(14).pdf
+Skipping JGR pdf: JGR Atmospheres - 2023 - - Issue Information(14).pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 1999 - Worthington - Alignment of mountain wave patterns above Wales A VHF.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1999 - Worthington - Alignment of mountain wave patterns above Wales A VHF.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2002 - G miz‐Fortis - Spectral characteristics and predictability of the NAO.pdf
+['']
+['']
+['Spectral characteristics and predictability of the NAO assessed through Singular Spectral Analysis']
+['no_doi']
+['10.1029/2001JD001436']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  60893
+Words: 7026.115 - 9133.950	Pages: 27.446 - 36.536
+--------------------
+Journal of Geophysical Research Atmospheres - 2008 - Jiang - Statistical comparison of properties of simulated and.pdf
+['']
+['']
+['Statistical comparison of properties of simulated and observed cumulus clouds in the vicinity of Houston during the Gulf of Mexico Atmospheric Composition and Climate Study (GoMACCS)']
+['no_doi']
+['10.1029/2007JD009304']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  64787
+Words: 7475.423 - 9718.050	Pages: 29.201 - 38.872
+--------------------
+Journal of Geophysical Research Atmospheres - 2001 - Velders - Sensitivity of washout on HNO3 NO x ratio in atmospheric.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 2001 - Velders - Sensitivity of washout on HNO3 NO x ratio in atmospheric.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2005 - Kleidman - Comparison of Moderate Resolution Imaging.pdf
+['']
+['']
+['Comparison of Moderate Resolution Imaging Spectroradiometer (MODIS) and Aerosol Robotic Network (AERONET) remote-sensing retrievals of aerosol fine mode fraction over ocean']
+['no_doi']
+['10.1029/2005JD005760']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  24784
+Words: 2859.692 - 3717.600	Pages: 11.171 - 14.870
+--------------------
+Journal of Geophysical Research Atmospheres - 2003 - Rinsland - Post‐Mount Pinatubo eruption ground‐based infrared.pdf
+['']
+['']
+['Post-Mount Pinatubo eruption ground-based infrared stratospheric column measurements of HNO, NO, and NOand their comparison with model calculations']
+['no_doi']
+['10.1029/2002JD002965']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  38858
+Words: 4483.615 - 5828.700	Pages: 17.514 - 23.315
+--------------------
+JGR Atmospheres - 2020 - Weise - Analyzing Wildland Fire Smoke Emissions Data Using Compositional Data Techniques.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+['Analyzing Wildland Fire Smoke Emissions Data Using Compositional Data Techniques']
+['/10.1029/2019JD032128']
+re.compile('font-family: AdvOT569473da; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  43252
+Words: 4436.103 - 5766.933	Pages: 17.329 - 23.068
+--------------------
+JGR Atmospheres - 2017 - Auger - Examination of precipitation variability in southern Greenland.pdf
+['']
+['Examination of precipitation variability in southern Greenland']
+['no_doi']
+['10.1002/2016JD026377.']
+['10.1002/2016JD026377.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  35025
+Words: 3592.308 - 4670.000	Pages: 14.032 - 18.680
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Mao - An RM‐NN algorithm for retrieving land surface temperature and.pdf
+['']
+['']
+['An RM-NN algorithm for retrieving land surface temperature and emissivity from EOS/MODIS data']
+['no_doi']
+['10.1029/2007JD008428']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  41469
+Words: 4784.885 - 6220.350	Pages: 18.691 - 24.881
+--------------------
+JGR Atmospheres - 2018 - Mechem - The Challenge of Identifying Controls on Cloud Properties and Precipitation Onset for.pdf
+['']
+['The Challenge of Identifying Controls on Cloud Properties and Precipitation Onset for Cumulus Congestus Sampled During MC3E']
+['/10.1002/2017JD027457']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  52294
+Words: 5363.487 - 6972.533	Pages: 20.951 - 27.890
+--------------------
+Journal of Geophysical Research Atmospheres - 2010 - Taguchi - Observed connection of the stratospheric quasi‐biennial.pdf
+['']
+['']
+['']
+['']
+['']
+['Observed connection of the stratospheric quasibiennial oscillation with El NiñoSouthern Oscillation in radiosonde data']
+['no_doi']
+['10.1029/2010JD014325']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  41435
+Words: 4249.744 - 5524.667	Pages: 16.601 - 22.099
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Noh - Development of a snowfall retrieval algorithm at high microwave.pdf
+['']
+['']
+['Development of a snowfall retrieval algorithm at high microwave frequencies']
+['no_doi']
+['10.1029/2005JD006826']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  39686
+Words: 4579.154 - 5952.900	Pages: 17.887 - 23.812
+--------------------
+Journal of Geophysical Research Atmospheres - 2007 - Li - Preface to special section on East Asian Studies of Tropospheric.pdf
+['']
+['']
+['Preface to special section on East Asian Studies of Tropospheric Aerosols: An International Regional Experiment (EAST-AIRE)']
+['no_doi']
+['10.1029/2007JD008853']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  41481
+Words: 4786.269 - 6222.150	Pages: 18.696 - 24.889
+--------------------
+JGR Atmospheres - 2019 - Su - Multiple‐Wavelet Coherence of World s Large Rivers With Meteorological Factors and Ocean.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+["MultipleWavelet Coherence of World's Large Rivers With Meteorological Factors and Ocean Signals"]
+['/10.1029/2018JD029842']
+re.compile('font-family: AdvOT569473da; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  56453
+Words: 5790.051 - 7527.067	Pages: 22.617 - 30.108
+--------------------
+JGR Atmospheres - 2013 - Masiello - Diurnal variation in Sahara desert sand emissivity during the dry season from IASI.pdf
+['Diurnal variation in Sahara desert sand emissivity during the dry season from IASI observations']
+['no_doi']
+['10.1002/jgrd.50863.']
+['10.1002/jgrd.50863.']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  34537
+Words: 3542.256 - 4604.933	Pages: 13.837 - 18.420
+--------------------
+JGR Atmospheres - 2016 - Huang - A coupled force‐restore model of surface temperature and soil moisture using the maximum.pdf
+['']
+['A coupled force-restore model of surface temperature and soil moisture using the maximum entropy production model of heatuxes']
+['no_doi']
+['10.1002/2015JD024586.']
+['10.1002/2015JD024586.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  49828
+Words: 5110.564 - 6643.733	Pages: 19.963 - 26.575
+--------------------
+Journal of Geophysical Research Atmospheres - 2003 - Suntharalingam - Estimating the distribution of terrestrial CO2.pdf
+['']
+['']
+['Estimating the distribution of terrestrial COsources and sinks from atmospheric measurements: Sensitivity to configuration of the observation network']
+['no_doi']
+['10.1029/2002JD002207']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  70896
+Words: 8180.308 - 10634.400	Pages: 31.954 - 42.538
+--------------------
+JGR Atmospheres - 2022 - Zhou - The Influence of Bare Ground Thermal Roughness Length Parameterization on the Simulation of.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['The Influence of Bare Ground Thermal Roughness Length Parameterization on the Simulation of Near-Surface Air and Skin Temperatures Over the Tibetan Plateau']
+['/10.1029/2022JD037245']
+re.compile('font-family: STIX-Regular; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  40384
+Words: 4141.949 - 5384.533	Pages: 16.179 - 21.538
+--------------------
+Journal of Geophysical Research Atmospheres - 2004 - Cr ger - What do accumulation records of single ice cores in.pdf
+['']
+['']
+['What do accumulation records of single ice cores in Greenland represent?']
+['no_doi']
+['10.1029/2004JD005014']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  44148
+Words: 5094.000 - 6622.200	Pages: 19.898 - 26.489
+--------------------
+JGR Atmospheres - 2021 - Guo - Validation of IASI Satellite Ammonia Observations at the Pixel Scale Using In Situ Vertical.pdf
+['']
+['']
+['']
+['']
+['Validation of IASI Satellite Ammonia Observations at the Pixel Scale Using In Situ Vertical Profiles']
+['/10.5194/amt-9-963-2016']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  78228
+Words: 8023.385 - 10430.400	Pages: 31.341 - 41.722
+--------------------
+Journal of Geophysical Research Atmospheres - 1999 - Wagnon - Annual cycle of energy balance of Zongo Glacier Cordillera.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1999 - Wagnon - Annual cycle of energy balance of Zongo Glacier Cordillera.pdf
+--------------------
+JGR Atmospheres - 2019 - Bourassa - Satellite Limb Observations of Unprecedented Forest Fire Aerosol in the Stratosphere.pdf
+['']
+['']
+['']
+['']
+['']
+['']
+['']
+['Satellite Limb Observations of Unprecedented Forest Fire Aerosol in the Stratosphere']
+['/10.1029/2019JD030607']
+re.compile('font-family: AdvOT569473da; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  28697
+Words: 2943.282 - 3826.267	Pages: 11.497 - 15.305
+--------------------
+Journal of Geophysical Research Atmospheres - 2008 - Barker - Representing cloud overlap with an effective decorrelation.pdf
+['']
+['']
+['Representing cloud overlap with an effective decorrelation length: An assessment using CloudSat and CALIPSO data']
+['no_doi']
+['10.1029/2008JD010391']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  49800
+Words: 5746.154 - 7470.000	Pages: 22.446 - 29.880
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Leroy - Testing climate models using GPS radio occultation A.pdf
+['']
+['']
+['Testing climate models using GPS radio occultation: A sensitivity analysis']
+['no_doi']
+['10.1029/2005JD006145']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  43702
+Words: 5042.538 - 6555.300	Pages: 19.697 - 26.221
+--------------------
+JGR Atmospheres - 2017 - Oreopoulos - Using MODIS cloud regimes to sort diagnostic signals of aerosol‐cloud‐precipitation.pdf
+['']
+['Using MODIS cloud regimes to sort diagnostic signals of aerosol-cloud-precipitation interactions']
+['no_doi']
+['10.1002/2016JD026120.']
+['10.1002/2016JD026120.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  78320
+Words: 8032.821 - 10442.667	Pages: 31.378 - 41.771
+--------------------
+Journal of Geophysical Research Atmospheres - 2000 - Knudsen - Northern midlatitude stratospheric ozone dilution in spring.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 2000 - Knudsen - Northern midlatitude stratospheric ozone dilution in spring.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 1999 - Grenfell - Representation of a nonspherical ice particle by a.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1999 - Grenfell - Representation of a nonspherical ice particle by a.pdf
+--------------------
+JGR Atmospheres - 2017 - Cramer - A simulation study on the electric field spectral dependence of thunderstorm ground.pdf
+['A simulation study on the electric ﬁeld spectral dependence of thunderstorm ground enhancements and gamma ray glows']
+['no_doi']
+['10.1002/2016JD026422.']
+['10.1002/2016JD026422.']
+re.compile('font-family: MyriadPro-(Regular|It); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  24035
+Words: 2465.128 - 3204.667	Pages: 9.629 - 12.819
+--------------------
+JGR Atmospheres - 2020 - Guo - Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in.pdf
+['']
+['']
+['']
+['']
+['Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in the Mesopause Region Over the Andes']
+['/10.1029/2020JD033825']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  59001
+Words: 6051.385 - 7866.800	Pages: 23.638 - 31.467
+--------------------
+Journal of Geophysical Research Atmospheres - 2009 - Yue - Characteristics of aerosol size distributions and new particle.pdf
+['']
+['']
+['Characteristics of aerosol size distributions and new particle formation in the summer in Beijing']
+['no_doi']
+['10.1029/2008JD010894']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  44426
+Words: 5126.077 - 6663.900	Pages: 20.024 - 26.656
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Henderson - Temporal variations of accumulation and temperature.pdf
+['']
+['']
+['Temporal variations of accumulation and temperature during the past two centuries from Belukha ice core, Siberian Altai']
+['no_doi']
+['10.1029/2005JD005819']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  37420
+Words: 4317.692 - 5613.000	Pages: 16.866 - 22.452
+--------------------
+Journal of Geophysical Research Atmospheres - 2008 - Choi - Characteristics of the atmospheric CO2 signal as observed over.pdf
+['']
+['']
+['Characteristics of the atmospheric COsignal as observed over the conterminous United States during INTEX-NA']
+['no_doi']
+['10.1029/2007JD008899']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  42049
+Words: 4851.808 - 6307.350	Pages: 18.952 - 25.229
+--------------------
+JGR Atmospheres - 2016 - Magaritz‐Ronen - About the horizontal variability of effective radius in stratocumulus clouds.pdf
+['']
+['About the horizontal variability of effective radius in stratocumulus clouds']
+['no_doi']
+['10.1002/2016JD024977.']
+['10.1002/2016JD024977.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  54632
+Words: 5603.282 - 7284.267	Pages: 21.888 - 29.137
+--------------------
+Journal of Geophysical Research Atmospheres - 2006 - Gao - The 1452 or 1453 A D Kuwae eruption signal derived from.pdf
+['']
+['']
+['The 1452 or 1453 A.D. Kuwae eruption signal derived from multiple ice core records: Greatest volcanic sulfate event of the past 700 years']
+['no_doi']
+['10.1029/2005JD006710']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  28154
+Words: 3248.538 - 4223.100	Pages: 12.690 - 16.892
+--------------------
+Journal of Geophysical Research Atmospheres - 2004 - Rivers - On the influence of land cover on early Holocene climate in.pdf
+['']
+['']
+['On the influence of land cover on early Holocene climate in northern latitudes']
+['no_doi']
+['10.1029/2003JD004213']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  56267
+Words: 6492.346 - 8440.050	Pages: 25.361 - 33.760
+--------------------
+Journal of Geophysical Research Atmospheres - 2002 - Tustison - Scale‐recursive estimation for multisensor Quantitative.pdf
+['']
+['']
+['Scale-recursive estimation for multisensor Quantitative Precipitation Forecast verification: A preliminary assessment']
+['no_doi']
+['10.1029/2001JD001073']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  51399
+Words: 5930.654 - 7709.850	Pages: 23.167 - 30.839
+--------------------
+JGR Atmospheres - 2021 - Peng - Possible Underlying Mechanisms of Severe Decadal Droughts in Arid Central Asia During the.pdf
+['']
+['']
+['']
+['']
+['Possible Underlying Mechanisms of Severe Decadal Droughts in Arid Central Asia During the Last 530\xa0Years: Results From the Last Millennium Climate Reanalysis Project Version 2.0']
+['/10.1002/joc.626']
+re.compile('font-family: STIXTwoText; font-size:9px')
+Found references, stoping content extraction ...
+Content length:  33370
+Words: 3422.564 - 4449.333	Pages: 13.369 - 17.797
+--------------------
+Journal of Geophysical Research Atmospheres - 1998 - Peter - Stratospheric and mesospheric latitudinal water vapor.pdf
+Skipping Journal pdf: Journal of Geophysical Research Atmospheres - 1998 - Peter - Stratospheric and mesospheric latitudinal water vapor.pdf
+--------------------
+Journal of Geophysical Research Atmospheres - 2010 - Monteiro - A diagnostic study of time variations of regionally.pdf
+['']
+['']
+['']
+['']
+['']
+['A diagnostic study of time variations of regionally averaged background error covariances']
+['no_doi']
+['10.1029/2010JD014095']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  28585
+Words: 2931.795 - 3811.333	Pages: 11.452 - 15.245
+--------------------
+JGR Atmospheres - 2018 - Belu i Vozila - Wind Over the Adriatic Region in CORDEX Climate Change Scenarios.pdf
+['']
+['Wind Over the Adriatic Region in CORDEX Climate Change Scenarios']
+['/10.1029/2018JD028552']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  54731
+Words: 5613.436 - 7297.467	Pages: 21.927 - 29.190
+--------------------
+Journal of Geophysical Research Atmospheres - 2008 - Danielache - High‐precision spectroscopy of 32S 33S and 34S sulfur.pdf
+['']
+['']
+['High-precision spectroscopy ofS,S, andS sulfur dioxide: Ultraviolet absorption cross sections and isotope effects']
+['no_doi']
+['10.1029/2007JD009695']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  28479
+Words: 3286.038 - 4271.850	Pages: 12.836 - 17.087
+--------------------
+Journal of Geophysical Research Atmospheres - 2012 - Barton - Arctic synoptic regimes Comparing domain‐wide Arctic cloud.pdf
+['']
+['']
+['']
+['']
+['']
+['Arctic synoptic regimes: Comparing domain-wide Arctic cloud observations with CAM4 and CAM5 during similar dynamics']
+['no_doi']
+['10.1029/2012JD017589']
+re.compile('font-family: (AdvTT182ff89e|AdvTT73b978ed.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  64423
+Words: 6607.487 - 8589.733	Pages: 25.810 - 34.359
+--------------------
+JGR Atmospheres - 2017 - Bluvshtein - Broadband optical properties of biomass‐burning aerosol and identification of brown.pdf
+['']
+['Broadband optical properties of biomass-burning aerosol and identication of brown carbon chromophores']
+['no_doi']
+['10.1002/2016JD026230.']
+['10.1002/2016JD026230.']
+re.compile('font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  37970
+Words: 3894.359 - 5062.667	Pages: 15.212 - 20.251
+--------------------
+Journal of Geophysical Research Atmospheres - 2005 - Reinsel - Trend analysis of total ozone data for turnaround and.pdf
+['']
+['']
+['Trend analysis of total ozone data for turnaround and dynamical contributions']
+['no_doi']
+['10.1029/2004JD004662']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  33410
+Words: 3855.000 - 5011.500	Pages: 15.059 - 20.046
+--------------------
+Journal of Geophysical Research Atmospheres - 2003 - Maring - Vertical distributions of dust and sea‐salt aerosols over.pdf
+['']
+['']
+['Vertical distributions of dust and sea-salt aerosols over Puerto Rico during PRIDE measured from a light aircraft']
+['no_doi']
+['10.1029/2002JD002544']
+re.compile('font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px')
+Found references, stoping content extraction ...
+Content length:  43419
+Words: 5009.885 - 6512.850	Pages: 19.570 - 26.051
+--------------------
+JGR Atmospheres - 2015 - Wang - Estimating daily mean land surface albedo from MODIS data.pdf
+['']
+['']
+['']
+['Estimating daily mean land surface albedo from MODIS data']
+['no_doi']
+['10.1002/2015JD023178.']
+['10.1002/2015JD023178.']
+re.compile('font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px')
+Found references, stoping content extraction ...
+Content length:  41903
+Words: 4297.744 - 5587.067	Pages: 16.788 - 22.348
+[]
+[]
+226

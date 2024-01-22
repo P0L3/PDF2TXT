@@ -201,7 +201,7 @@ for y in year_skip:
 samples = listdir(DIR) 
 # print(samples[2])
 # exit()
-# samples = ["JGR Atmospheres - 2013 - Masiello - Diurnal variation in Sahara desert sand emissivity during the dry season from IASI.pdf"]
+# samples = ["JGR Atmospheres - 2020 - Guo - Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in.pdf"]
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -391,5 +391,5 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_jgra.pickle")
+df.to_pickle("test2_jgra.pickle")
 print(Faults)

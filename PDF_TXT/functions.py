@@ -12,7 +12,7 @@ def pdf2html(target="./SAMPLE/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ecto
         output_string = StringIO()
 
         with open(target, 'rb') as fin:
-            extract_text_to_fp(fin, output_string, laparams=LAParams(line_margin=line_margin, all_texts=all_texts), output_type='html', codec=None)
+            extract_text_to_fp(fin, output_string, laparams=LAParams(), output_type='html', codec=None)
 
         return output_string.getvalue()
     except:

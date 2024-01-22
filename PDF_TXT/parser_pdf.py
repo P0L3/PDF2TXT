@@ -200,9 +200,9 @@ def get_content(soup, styles):
     # Find elements with font size 9px -> Tends to be content
     pattern = re.compile(r'{}'.format(styles[0]))
     print(pattern)
-
+    # print(soup)
     s9_mpr_elem = soup.find_all(style=lambda value: value and (pattern.search(value) or value=="font-family: TimesNewReference; font-size:69px"))
-
+    # print(s9_mpr_elem)
     # Extract text content from the found elements
     #text_content = [elem.get_text(separator=' ', strip=True) for elem in s9_mpr_elem]
 
@@ -218,7 +218,9 @@ def get_content(soup, styles):
     content = " ".join(text_content)
     content = re.sub(r"[ ]+", " ", content)
     content = re.sub(r"- ", "", content)
-    
+
+    content = content.split("STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD")[0]
+
     return content
 
 # Added for ehs
