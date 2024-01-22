@@ -2,7 +2,7 @@
 Nature html parsing
 """
 from bs4 import BeautifulSoup
-from parser_pdf import get_title, get_doi, get_from_springerapi, get_authors_and_affiliations, get_references, get_content, check_if_ium
+from parser_pdf import *
 from functions import pdf2html
 import re
 from os import listdir
@@ -10,35 +10,48 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-DIR = "./SAMPLE/NGEO/"
+DIR = "./SAMPLE/NPJCLIMATSCI/"
 
 doctype1_1 = {
-    "get_title": ["font-size:24px"],
-    "get_doi": ["font-family: Whitney-Semibold2; font-size:8px", "font-family: Whitney-Semibold3; font-size:8px"],
-    "get_authors_and_affiliations_au": ["font-family: Whitney-Semibold; font-size:12px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: Whitney-Semibold; font-size:6px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: Whitney-Book; font-size:8px"],       # Affiliation text
+    "get_title": ["font-family: AdvOTa20b42a7; font-size:19px"],
+    "get_doi_regex": ["font-family: AdvMyriad_R; font-size:8px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTT6780a46b; font-size:8px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvTT6780a46b; font-size:5px"],   # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvOT46dcae81; font-size:6px"],       # Affiliation text
     "get_references": [
-        "font-family: MinionPro-Regular; font-size:7px",
-        "font-family: MinionPro-RegularItalic; font-size:7px"
+        "font-family: AdvOT65f8a23b.I; font-size:6px",
+        "font-family: AdvOT46dcae81; font-size:6px"
     ],
-    "get_content": ["font-family: MinionPro-Regular\d*; font-size:9px"]
+    "get_content": ["(font-family: AdvOT46dcae81; font-size:8px|font-family: fb; font-size:8px)"] # Regex content
 }
 
 doctype2_1 = {
-    "get_title": ["font-family: Harding-Bold; font-size:26px"],
-    "get_doi": ["font-family: GraphikNaturel-Medium2; font-size:8px", "font-family: GraphikNaturel-Medium; font-size:8px"],
-    "get_authors_and_affiliations_au": ["font-family: GraphikNaturel-Semibold; font-size:9px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: GraphikNaturel-Semibold; font-size:5px"],  # Number
-    "get_authors_and_affiliations_af": ["font-family: GraphikNaturel-Regular; font-size:7px"],  # Affiliation text
+    "get_title": ["font-family: AdvTTe45e47d2; font-size:24px"],
+    "get_doi_regex": ["font-family: AdvTTe45e47d2; font-size:7px"],
+    "get_authors_and_affiliations_au": ["font-family: AdvTTb5929f4c; font-size:11px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: AdvTTb5929f4c; font-size:7px"],  # Number
+    "get_authors_and_affiliations_af": ["font-family: AdvTTb5929f4c; font-size:7px"],  # Affiliation text
     "get_references": [
-        "font-family: GraphikNaturel-Regular; font-size:8px",
-        "font-family: GraphikNaturel-RegularItalic; font-size:8px"
+        "font-family: AdvTTb5929f4c; font-size:7px",
+        "font-family: 20; font-size:7px"
     ],
-    "get_content": ["font-family: HardingText-Regular; font-size:8px"]
+    "get_content": ["(font-family: AdvTT86d47313; font-size:9px|font-family: 20; font-size:9px)"]
+}
+
+doctype3_1 = {
+    "get_title": ["font-family: MyriadPro-Regular; font-size:24px"],
+    "get_doi_regex": ["font-family: MyriadPro-Regular; font-size:8px"],
+    "get_authors_and_affiliations_au": ["font-family: MyriadPro-Light; font-size:11px"],  # Author
+    "get_authors_and_affiliations_nu": ["font-family: MyriadPro-Light; font-size:7px"],  # Number
+    "get_authors_and_affiliations_af": ["font-family: MyriadPro-Light; font-size:7px"],  # Affiliation text
+    "get_references": [
+        "font-family: MyriadPro-Light; font-size:7px",
+        "font-family: MTSY; font-size:7px"
+    ],
+    "get_content": ["font-family: WarnockPro-Regular; font-size:9px"]
 }
 # List of style samples to try for processing
-styles = [doctype1_1, doctype2_1]
+styles = [doctype1_1, doctype2_1, doctype3_1]
 
 data_list = []
 Faults = 0
@@ -96,6 +109,7 @@ for sample in tqdm(samples):
             title[0] = ""
             Faults += 1
             s += 1
+    # Extract doi data
     doi = []
     while len(doi) == 0:
         try:
@@ -107,13 +121,24 @@ for sample in tqdm(samples):
             s = -1
             break
 
-        doi = get_doi(soup, style["get_doi"])
+        doi = get_doi_regex(soup, style["get_doi_regex"])
         print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
             Faults += 1
             s += 1
+
+    # Try available regex patterns for the style
+    if doi[0] == "no_doi":
+        warning_message = "DOI isn't extracted correctly. -> Implies wrong regex pattern, trying other options if available ..."
+        logging.warning(warning_message)
+        if "get_doi_regex_r" in style.keys():
+            for regex in style["get_doi_regex_r"]:
+                doi = get_doi_regex(soup, style["get_doi_regex"], regex)
+                if doi[0] != "no_doi":
+                    print(doi)
+                    break
     
     if s >= 0 and s < len(styles):
         style = styles[s]
@@ -121,6 +146,18 @@ for sample in tqdm(samples):
         # print(affiliations)
 
         authors, journal, date, subjects, abstract = get_from_springerapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
+        if authors == "no_authors":
+            warning_message = "DOI isn't extracted correctly. -> Implies wrong regex pattern, trying other options if available ..."
+            logging.warning(warning_message)
+            if "get_doi_regex_r" in style.keys():
+                for regex in style["get_doi_regex_r"]:
+                    doi = get_doi_regex(soup, style["get_doi_regex"], regex)
+                    if doi[0] != "no_doi":
+                        print(doi)
+                        break
+            if doi[0].endswith("."): # Hot fix if doi ends with . 
+                doi[0] = doi[0][:-1]
+            authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
         # print(authors)
         # print(journal)
         # print(date)
@@ -169,5 +206,5 @@ for sample in tqdm(samples):
 print(Styleless_samples)
 print(Faulty_samples)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_ngeo.pickle")
+df.to_pickle("test_npjclisci.pickle")
 print(Faults)

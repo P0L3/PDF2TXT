@@ -9,3 +9,6 @@ i = np.random.randint(0, len(df))
 
 print(df["Title"][i])
 print(df["Content"][i])
+print(20*"--")
+print(df["Authors"][i])
+print(df["References"][i])

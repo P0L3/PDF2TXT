@@ -46,7 +46,7 @@ def get_doi(soup, styles):
 
     # Extract text content from the found elements
     text_content = [elem.get_text(separator=' ', strip=True) for elem in s8_wb2_elem]
-
+    print(text_content)
     return [text_content[0].split("doi.org")[1]]
 
 def get_from_springerapi(doi):
