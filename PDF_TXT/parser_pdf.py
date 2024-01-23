@@ -215,7 +215,7 @@ def get_content(soup, styles):
         if elem.text == "STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD":
             print("Found references, stoping content extraction ...")
             break
-    content = " ".join(text_content)
+    content = "".join(text_content)
     content = re.sub(r"[ ]+", " ", content)
     content = re.sub(r"- ", "", content)
 

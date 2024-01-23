@@ -58,7 +58,8 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = listdir(DIR)
+samples = ["s44168-023-00063-4_Corporate_Motivations_And_Co-Benefit_Valuation_In_Private_Climate_Finance_Investments_Through_Voluntary_Carbon_Markets_.pdf"]
+# samples = listdir(DIR)
 for sample in tqdm(samples):
     s = 0
     print(20*"-")
@@ -167,6 +168,7 @@ for sample in tqdm(samples):
         # print(references[:5])
         content = get_content(soup, style["get_content"])
         # print(content[:100])
+        print(content)
 
         # Create a dictionary with the paper's data
         paper_data = {
@@ -202,6 +204,7 @@ for sample in tqdm(samples):
         }
         Styleless_samples.append(sample)
 
+exit()
 # Create the DataFrame from the list of dictionaries
 print(Styleless_samples)
 print(Faulty_samples)
