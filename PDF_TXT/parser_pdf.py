@@ -208,14 +208,14 @@ def get_content(soup, styles):
 
     text_content = []
     for elem in s9_mpr_elem:
-        text = elem.get_text(separator=' ', strip=True)
+        text = elem.get_text(separator=' ', strip=True) #separator=' ', strip=True
         # print(text)
         text_content.append(text)
         
         if elem.text == "STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD":
             print("Found references, stoping content extraction ...")
             break
-    content = "".join(text_content)
+    content = " ".join(text_content)
     content = re.sub(r"[ ]+", " ", content)
     content = re.sub(r"- ", "", content)
 
