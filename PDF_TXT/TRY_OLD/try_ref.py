@@ -1,4 +1,6 @@
-
+"""
+References titles check
+"""
 
 from os import listdir
 from functions import pdf2html

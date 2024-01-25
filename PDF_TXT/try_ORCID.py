@@ -1,4 +1,4 @@
-"""ORCID try"""
+"""ORCID tryout"""
 
 import requests
 

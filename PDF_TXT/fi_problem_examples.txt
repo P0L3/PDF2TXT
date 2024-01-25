@@ -1,0 +1,19 @@
+1 - Word starts with fi litigation -> newline present before
+<br>resolution of the model between T126 and T510. The parameterization is statistically evaluated based on
+<br>the skill of the medium-range forecasts for February 2014. For the medium-range forecasts, the skill
+<br>improvements of the wind speed and temperature in the low troposphere are observed globally and for
+<br>East Asia while both positive and negative effects appear indirectly in the middle-upper troposphere.
+<br>The statistical skill for the precipitation is mostly improved due to the improvements in the synoptic
+<br></span><span style="font-family: fb; font-size:9px">ﬁ</span><span style="font-family: AdvTTe45e47d2; font-size:9px">elds. The improvements are also found for seasonal simulation throughout the troposphere and
+
+2 - Word has a fi litigation in the middle -> no newline inbeetween
+<br>well as orographic speci</span><span style="font-family: fb; font-size:9px">ﬁ</span><span style="font-family: AdvTTe45e47d2; font-size:9px">cations, such as orographic anisotropy [e.g., </span><span style="font-family: AdvTT7329fd89.I; font-size:9px">Gregory et al., </span><span style="font-family: AdvTTe45e47d2; font-size:9px">1998; </span><span style="font-family: AdvTT7329fd89.I; font-size:9px">Scinocca and
+
+3 - Word has a fi litigation in the middle -> no newline inbeetween
+<br>rede</span><span style="font-family: fb; font-size:9px">ﬁ</span><span style="font-family: AdvTTe45e47d2; font-size:9px">ned through multiplication with OD as follows:
+
+4 - Word starts with fi litigation -> no newline present
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:172px; top:3118px; width:403px; height:106px;"><span style="font-family: AdvTTe45e47d2; font-size:9px">The seasonal simulations consisting of </span><span style="font-family: fb; font-size:9px">ﬁ</span><span style="font-family: AdvTTe45e47d2; font-size:9px">ve-member ensembles are performed for the boreal winter from
+
+CONCLUSION:
+Needs to be dealt with the use of vocab, check three possible combinations -> Start, middle, ending 

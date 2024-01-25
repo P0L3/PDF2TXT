@@ -1,5 +1,5 @@
 """
-SpringerNatrue tryout
+Tryout for general view of a pickle dataset
 """
 import re
 import pandas as pd 
