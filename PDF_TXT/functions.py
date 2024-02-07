@@ -3,6 +3,13 @@ from pdfminer.high_level import extract_text_to_fp
 from pdfminer.layout import LAParams
 import logging
 import re
+from nltk.corpus import words
+import nltk
+# nltk.download('words')
+# nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+ 
+lemmatizer = WordNetLemmatizer()
 
 
 
@@ -96,3 +103,53 @@ def find_custom_element_by_regex(soup, regex="^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c
 
     return elem
 
+def likely_word(tokenbefore, token, tokenafter):
+    """
+    Check if the combination of tokens (current, before, and after) constitutes a likely word.
+
+    Args:
+        tokenbefore (str): The token preceding the current token.
+        token (str): The current token.
+        tokenafter (str): The token following the current token.
+
+    Returns:
+        tuple: A tuple containing the following elements:
+            - str: The modified tokenbefore string, after cleaning and processing.
+            - str: The modified token string, after cleaning and processing.
+            - str: The modified tokenafter string, after cleaning and processing.
+            - int: Flag indicating if a likely word is found (1) or not (0).
+    """
+
+    temp_token = token
+    temp_tokenbefore = tokenbefore
+    temp_tokenafter = tokenafter
+
+    # Clean from punctuation and simmilar
+    token = re.sub(r"[(),.!?;]+", "", token).lower()
+    tokenbefore = re.sub(r"[(),.!?;]+", "", tokenbefore).lower()
+    tokenafter = re.sub(r"[(),.!?;]+", "", tokenafter).lower()
+
+    # Deal with concatenated words, such as "age-specific"
+    tokenbefore = re.sub(r"\w+-", "", tokenbefore)
+
+    replace_token = ""
+    
+    if tokenbefore+token+tokenafter in words.words() or lemmatizer.lemmatize(tokenbefore+token+tokenafter) in words.words() or lemmatizer.lemmatize(tokenbefore+token+tokenafter, pos='v') in words.words():
+        return replace_token, temp_tokenbefore+temp_token+temp_tokenafter, replace_token, 1
+    
+    elif token+tokenafter in words.words() or lemmatizer.lemmatize(token+tokenafter) in words.words() or lemmatizer.lemmatize(token+tokenafter, pos='v') in words.words():
+        return temp_tokenbefore, temp_token+temp_tokenafter, replace_token, 1
+    
+    elif tokenbefore+token in words.words() or lemmatizer.lemmatize(tokenbefore+token) in words.words() or lemmatizer.lemmatize(tokenbefore+token, pos='v') in words.words():
+        return replace_token, temp_tokenbefore+temp_token, temp_tokenafter, 1
+    
+    elif token in words.words() in words.words():
+        return temp_tokenbefore, temp_token, temp_tokenafter, 1
+    
+    else:
+        if len(temp_token) > 2:
+            return temp_tokenbefore, temp_token, temp_tokenafter, 1
+        else: 
+            # print(temp_tokenbefore, temp_token, temp_tokenafter)
+            return temp_tokenbefore, replace_token, temp_tokenafter, 0
+    
