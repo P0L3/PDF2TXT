@@ -6,8 +6,8 @@ import unicodedata
 import logging
 from nltk.corpus import words
 import nltk
-# nltk.download('words')
-# nltk.download('wordnet')
+nltk.download('words')
+nltk.download('wordnet')
 import re
 from tqdm import tqdm
 
