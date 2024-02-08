@@ -20,7 +20,8 @@ doctype1_1 = {
     "get_authors_and_affiliations_af": ["font-family: AdvOT46dcae81; font-size:6px"],       # Affiliation text
     "get_references": [
         "font-family: AdvOT65f8a23b.I; font-size:6px",
-        "font-family: AdvOT46dcae81; font-size:6px"
+        "font-family: AdvOT46dcae81; font-size:6px",
+        "font-family: fb; font-size:6px"
     ],
     "get_content": ["(font-family: AdvOT46dcae81; font-size:8px|font-family: fb; font-size:8px)"] # Regex content
 }

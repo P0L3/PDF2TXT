@@ -18,14 +18,18 @@ doctype0_1 = {
     "get_doi_regex": ["font-family: Times-Roman; font-size:8px"],
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
+    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px", 
+                                      "font-family: Symbol; font-size:8px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Bold; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
+    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", 
+                                    "font-family: Times-Bold; font-size:8px", 
+                                    "font-family: Times-Italic; font-size:8px",
+                                    "font-family: Symbol; font-size:8px"], # References
     "get_content": ["font-family: Times-(Roman|Italic); font-size:10px"], # Content
     "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: Times-Roman; font-size:8px"], # Abstract
+    "get_abstract": ["font-family: Times-Roman; font-size:8px", "font-family: Symbol; font-size:8px"], # Abstract
 }
 
 doctype1_1 = {
@@ -86,14 +90,18 @@ doctype4_1 = {
     "get_doi_regex": ["font-family: Times-Roman; font-size:7px"], # Styles of doi text
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_affiliations": ["font-family: Times-Italic; font-size:8px"],  # Affiliation text
-    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px"], # Reference title
+    "get_references_nonumber_title": ["font-family: Times-Roman; font-size:8px", 
+                                      "font-family: Symbol; font-size:8px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", "font-family: Times-Italic; font-size:8px"], # References
-    "get_content": ["font-family: Times-Roman; font-size:10px"], # Content regex
+    "get_references_nonumber_ref": ["font-family: Times-Roman; font-size:8px", 
+                                    "font-family: Times-Italic; font-size:8px",
+                                    "font-family: Symbol; font-size:8px"], # References
+    "get_content": ["font-family: Times-(Roman|Italic); font-size:10px"], # Content regex
     "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
-    "get_abstract": ["font-family: Times-Roman; font-size:8px"], # Abstract
+    "get_abstract": ["font-family: Times-Roman; font-size:8px",
+                     "font-family: Symbol; font-size:8px"], # Abstract
 }
 
 doctypedef_1 = {

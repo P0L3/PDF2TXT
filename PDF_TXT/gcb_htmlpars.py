@@ -22,9 +22,16 @@ doctype0_1 = {
     "get_authors_and_affiliations_af": ["font-family: AdvPalI; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvPalB; font-size:9px"], # Reference title
     "get_references_nonumber_ref": [
-        "font-family: AdvPalR; font-size:7px", "font-family: AdvPalI; font-size:7px", "font-family: AdvPalB; font-size:7px",
-        "font-family: AdvPalR; font-size:6px", "font-family: AdvPalI; font-size:6px", "font-family: AdvPalB; font-size:6px",
-        "font-family: AdvPalR; font-size:5px", "font-family: AdvPalI; font-size:5px", "font-family: AdvPalB; font-size:5px"], # References
+        "font-family: AdvPalR; font-size:7px", 
+        "font-family: AdvPalI; font-size:7px", 
+        "font-family: AdvPalB; font-size:7px",
+        "font-family: AdvPalR; font-size:6px", 
+        "font-family: AdvPalI; font-size:6px", 
+        "font-family: AdvPalB; font-size:6px",
+        "font-family: AdvPalR; font-size:5px", 
+        "font-family: AdvPalI; font-size:5px", 
+        "font-family: AdvPalB; font-size:5px",
+        "font-family: AdvEls-ent4; font-size:7px"], # References
     "get_content": ["font-family: AdvPal[RI]; font-size:9px"], # Content - Regex
     "get_keywords": ["font-family: AdvPalI; font-size:8px"], # Keywords
     "get_abstract": ["font-family: AdvPalB; font-size:9px"], # Abstract
@@ -48,7 +55,8 @@ doctype2_1 = {
     "get_title": ["font-family: AdvPSPAL-B; font-size:17px", "font-family: AdvPSPAL-BI; font-size:17px"],
     "get_doi_regex": ["font-family: AdvPSPAL-R; font-size:8px"],
     "get_doi_regex_r": ["doi:\s*([\d.\/\w-]+)"],
-    "get_authors_and_affiliations_au": ["font-family: AdvPSPAL-R; font-size:8px"],  # Author
+    "get_authors_and_affiliations_au": ["font-family: AdvPSPAL-R; font-size:8px", 
+                                        "font-family: Advpala-ita; font-size:8px"],  # Author
     "get_authors_and_affiliations_nu": ["font-family: 20; font-size:8px"],   # Number, Letter
     "get_authors_and_affiliations_af": ["font-family: Advpala-ita; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvPSPAL-B; font-size:10px"], # Reference title
@@ -122,7 +130,8 @@ doctype6_1 = {
     "get_content": ["font-family: Palatino-(Roman|Italic); font-size:8px"], # Content
     "get_keywords": ["font-family: Palatino-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: Palatino-Roman; font-size:8px", "font-family: Palatino-Italic; font-size:8px"], # Keywords styles
+    "get_keywords_styles": ["font-family: Palatino-Roman; font-size:8px", 
+                            "font-family: Palatino-Italic; font-size:8px"], # Keywords styles
     "get_abstract": ["font-family: Palatino-Bold; font-size:9px", "font-family: Palatino-Bold; font-size:9px"], # Abstract
 }
 

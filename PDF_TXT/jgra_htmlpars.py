@@ -22,8 +22,9 @@ doctype0_1 = {
     "get_authors_and_affiliations_af": ["font-family: MyriadPro-Regular; font-size:8px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: MyriadPro-Bold; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: MyriadPro-Regular; font-size:7px", "font-family: MyriadPro-It; font-size:7px"], # References text
-    "get_content": ["font-family: MyriadPro-(Regular|It); font-size:9px"], # Content regex
+    "get_references_nonumber_ref": ["font-family: MyriadPro-Regular; font-size:7px", 
+                                    "font-family: MyriadPro-It; font-size:7px"], # References text
+    "get_content": ["font-family: (MyriadPro-Regular|MyriadPro-It|fb); font-size:9px"], # Content regex
     "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
@@ -36,14 +37,18 @@ doctype1_1 = {
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvTTaf7f9f4f.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvTTaf7f9f4f.B; font-size:5px"],  # Affiliation number
-    "get_authors_and_affiliations_af": ["font-family: AdvTTe45e47d2; font-size:7px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvTTe45e47d2; font-size:7px", "font-family: fb; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvTTaf7f9f4f.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: AdvTT7329fd89.I; font-size:6px"], # References text
-    "get_content": ["font-family: (AdvTTe45e47d2|AdvTT7329fd89.I); font-size:9px"], # Content regex 
+    "get_references_nonumber_ref": ["font-family: AdvTTe45e47d2; font-size:6px", 
+                                    "font-family: AdvTT7329fd89.I; font-size:6px", 
+                                    "font-family: fb; font-size:6px"], # References text
+    "get_content": ["font-family: (AdvTTe45e47d2|AdvTT7329fd89.I|fb); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvTTaf7f9f4f.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", 
+                            "font-family: 20; font-size:6px", 
+                            "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: AdvTTaf7f9f4f.B; font-size:11px"], # Abstract
 }
 
@@ -60,7 +65,7 @@ doctype2_1 = {
     "get_content": ["font-family: (AdvTT5843c571|AdvTTf90d833a.I); font-size:10px"], # Content regex 
     "get_keywords": ["font-family: AdvTTaf7f9f4f.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", "font-family: 20; font-size:6px", "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: AdvTT5843c571; font-size:10px"], # Abstract
 }
 
@@ -70,14 +75,14 @@ doctype3_1 = {
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvTT3b30f6db.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvTT3b30f6db.B; font-size:5px"],  # Affiliation number
-    "get_authors_and_affiliations_af": ["font-family: AdvTT46dcae81; font-size:7px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvTT46dcae81; font-size:7px", "font-family: fb; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvTT65f8a23b.I; font-size:6px", "font-family: fb; font-size:6px", "font-family: AdvTT46dcae81; font-size:6px"], # References text
-    "get_content": ["font-family: (AdvTT46dcae81|AdvTT65f8a23b.I); font-size:9px"], # Content regex 
+    "get_content": ["font-family: (AdvTT46dcae81|AdvTT65f8a23b.I|fb); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvTT3b30f6db.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvTT46dcae81; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvTT46dcae81; font-size:6px", "font-family: 20; font-size:6px", "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Abstract
 }
 
@@ -138,14 +143,14 @@ doctype7_1 = {
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvOTc022ae45.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvOTc022ae45.B; font-size:5px"],  # Affiliation number
-    "get_authors_and_affiliations_af": ["font-family: AdvOT569473da; font-size:7px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvOT569473da; font-size:7px", "font-family: fb; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: AdvOTf2679e53.I; font-size:6px"], # References text
-    "get_content": ["font-family: AdvOT569473da; font-size:9px"], # Content regex 
+    "get_references_nonumber_ref": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: AdvOTf2679e53.I; font-size:6px", "font-family: fb; font-size:6px"], # References text
+    "get_content": ["font-family: (AdvOT569473da|fb); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvOTc022ae45.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Abstract
 }
 
@@ -162,7 +167,7 @@ doctype8_1 = {
     "get_content": ["font-family: Dutch801BT-(Roman|Italic); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvOTc022ae45.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: Dutch801BT-Roman; font-size:10px"], # Abstract
 }
 

@@ -7,6 +7,76 @@
 - Clean directory
 - Parsers for journals: 1, 2, 6, 29, 30
 
+## Data structure
+
+## Fi problem
+### JGRA
+Solved: S1, S3, S7
+TODO: S0, S2, S4, S5, S6, Sdef
+
+- S1: 
+  - get_references_nonumber_ref
+  - get_keyword_styles
+  - get_content
+  - get_authors_and_affiliations_af
+- S2:
+  - get_keyword_styles
+- S3:
+  - get_keyword_styles
+  - get_content
+  - get_authors_and_affiliations_af
+- S7:
+  - get_content
+  - get_authors_and_affiliations_af
+  - get_references_nonumber_ref
+  - get_keyword_styles
+- S8:
+  - get_keyword_styles
+
+### NGEO
+Solved:
+TODO: S0, S1
+
+### JCLIMATE
+Solved:
+TODO: S0, S1 S2, S3, S4, Sdef
+
+- S0:
+  - get_references_nonumber_title
+  - get_references_nonumber_ref
+  - get_abstract
+- S4: 
+  - get_references_nonumber_title
+  - get_references_nonumber_ref
+  - get_abstract
+
+### NPJCLIAC
+Solved: S0
+TODO: S2, S3
+
+- S0:
+  - get_references
+  - get_content
+
+### GCB
+Solved:
+TODO: S0 - S6, Sdef
+
+### ENERPOL
+Solved: S0, S2, S3
+TODO: S1, S4, S5, Sdef
+
+- S0:
+  - get_content
+  - get_authors_and_affiliations_au
+  - get_references_nonumber_ref
+- S2:
+  - get_authors_and_affiliations_af
+  - get_keywords
+  - get_content
+- S3:
+  - get_content
+
 ## Journals
 1. [Climate Dynamics](https://link.springer.com/journal/382)
 2. [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) 

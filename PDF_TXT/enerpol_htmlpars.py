@@ -17,11 +17,11 @@ doctype0_1 = {
     "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
     "get_doi_regex": ["font-family: AdvOT987ad488; font-size:6px"],
     "get_authors_and_affiliations_au": ["font-family: AdvOT987ad488; font-size:10px", "font-family: fb; font-size:10px"],  # Author
-    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px"],   # Number, Letter
+    "get_authors_and_affiliations_nu": ["font-family: AdvOT987ad488; font-size:7px", "font-family: fb; font-size:7px"],   # Number, Letter
     "get_authors_and_affiliations_af": ["font-family: AdvOTdaa65807.I; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOT5d1c0a47.B; font-size:7px"], # Reference title
-    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT987ad488; font-size:7px"], # Content
+    "get_references_nonumber_ref": ["font-family: AdvOT987ad488; font-size:6px",  "font-family: fb; font-size:6px"], # References
+    "get_content": ["font-family: (AdvOT987ad488|fb); font-size:7px"], # Content
     "get_keywords": ["font-family: AdvOTdaa65807.I; font-size:6px"], # Keywords
 }
 
@@ -40,25 +40,28 @@ doctype1_1 = {
 
 doctype2_1 = {
     "get_title": ["font-family: AdvOT596495f2; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT596495f2; font-size:6px", "font-family: AdvOT596495f2; font-size:7px"],
+    "get_doi_regex": ["font-family: AdvOT596495f2; font-size:6px", 
+                      "font-family: AdvOT596495f2; font-size:7px"],
     "get_authors_and_affiliations_au": ["font-family: AdvOT596495f2; font-size:10px"],  # Author
     "get_authors_and_affiliations_nu": ["font-family: AdvOT596495f2; font-size:7px"],   # Number
-    "get_authors_and_affiliations_af": ["font-family: AdvOT7fb33346.I; font-size:6px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvOT7fb33346.I; font-size:6px", 
+                                        "font-family: fb; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOT1efcda3b.B; font-size:7px"], # Reference title
     "get_references_nonumber_ref": ["font-family: AdvOT596495f2; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT596495f2; font-size:7px"], # Content
-    "get_keywords": ["font-family: AdvOT7fb33346.I; font-size:6px"]
+    "get_content": ["font-family: (AdvOT596495f2|fb); font-size:7px"], # Content
+    "get_keywords": ["font-family: AdvOT7fb33346.I; font-size:6px", 
+                     "font-family: fb; font-size:6px"]
 }
 
 doctype3_1 = {
     "get_title": ["font-family: AdvOT863180fb; font-size:13px"],
-    "get_doi_regex": ["font-family: AdvOT863180fb; font-size:6px"],
+    "get_doi_regex": ["font-family: AdvOT863180fb; font-size:6px", "font-family: fb; font-size:6px"],
     "get_authors_and_affiliations_au": ["font-family: AdvOT863180fb; font-size:10px"],  # Author
     "get_authors_and_affiliations_nu": ["font-family: AdvOT863180fb; font-size:7px"],   # Number
     "get_authors_and_affiliations_af": ["font-family: AdvOTb92eb7df.I; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOTb83ee1dd.B; font-size:7px"], # Reference title
     "get_references_nonumber_ref": ["font-family: AdvOT863180fb; font-size:6px",  ], # References
-    "get_content": ["font-family: AdvOT863180fb; font-size:7px"], # Content
+    "get_content": ["font-family: (AdvOT863180fb|fb); font-size:7px"], # Content
     "get_keywords": ["font-family: AdvOTb92eb7df.I; font-size:6px"], # Keywords
 }
 

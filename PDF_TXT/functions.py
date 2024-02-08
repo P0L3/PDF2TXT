@@ -14,6 +14,25 @@ lemmatizer = WordNetLemmatizer()
 
 
 def pdf2html(target="./SAMPLE/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ectotherms_Scales_Predictably_With_Body_Size_.pdf", line_margin=0.5, all_texts=True):
+    """
+    Converts a PDF file to HTML format.
+
+    Args:
+        target (str): Path to the PDF file to be converted. Default is "./SAMPLE/NCLIMATE/s41558-020-00938-y_Heat_Tolerance_In_Ectotherms_Scales_Predictably_With_Body_Size_.pdf".
+        line_margin (float): Margin between lines in the output HTML. Default is 0.5.
+        all_texts (bool): If True, extracts all text from the PDF. If False, only extracts text from visible elements. Default is True.
+
+    Returns:
+        str: HTML representation of the PDF content.
+
+    Raises:
+        None.
+
+    Note:
+        This function utilizes the `extract_text_to_fp` method from PyPDF2 library to extract text from the PDF.
+        If the PDF cannot be read, a warning message is logged, and None is returned.
+
+    """
 
     try:
         output_string = StringIO()
