@@ -36,7 +36,7 @@ doctype2_1 = {
         "font-family: AdvTTb5929f4c; font-size:7px",
         "font-family: 20; font-size:7px"
     ],
-    "get_content": ["(font-family: AdvTT86d47313; font-size:9px|font-family: 20; font-size:9px)"]
+    "get_content": ["(font-family: AdvTT86d47313; font-size:9px|font-family: 20; font-size:9px|font-family: fb; font-size:9px)"]
 }
 
 doctype3_1 = {

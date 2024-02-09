@@ -32,7 +32,7 @@ doctype0_1 = {
         "font-family: AdvPalI; font-size:5px", 
         "font-family: AdvPalB; font-size:5px",
         "font-family: AdvEls-ent4; font-size:7px"], # References
-    "get_content": ["font-family: AdvPal[RI]; font-size:9px"], # Content - Regex
+    "get_content": ["font-family: AdvPal[RIB]; font-size:9px"], # Content - Regex
     "get_keywords": ["font-family: AdvPalI; font-size:8px"], # Keywords
     "get_abstract": ["font-family: AdvPalB; font-size:9px"], # Abstract
 }
@@ -76,7 +76,7 @@ doctype3_1 = {
     "get_references_nonumber_title": ["font-family: AdvTT6071803a.B; font-size:7px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvTTa9c1b374; font-size:7px", "font-family: AdvTTeb5f0e55.I; font-size:7px"], # References
-    "get_content": ["font-family: AdvTTa9c1b374; font-size:7px", "font-family: AdvTTeb5f0e55.I; font-size:7px"], # Content
+    "get_content": ["font-family: (AdvTTa9c1b374|AdvTTeb5f0e55.I); font-size:7px"], # Content
     "get_keywords": ["font-family: AdvTT6071803a.B; font-size:6px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: AdvTTa9c1b374; font-size:7px"], # Keywords styles

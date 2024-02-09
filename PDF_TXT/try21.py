@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import re
 import random
 from functions import *
+from tqdm import tqdm
 
 # Load ligatures list
 with open("ligatures_list.txt") as f:
@@ -27,7 +28,9 @@ def check_strings_in_text(text, strings):
 
 
 # Iterate
-for j in SUBDIR:
+for j in tqdm(SUBDIR[15:]):
+    if j == "MDPI":
+        continue
     files = listdir(DIR+j)
     print()
     print(30*"-")
@@ -37,15 +40,19 @@ for j in SUBDIR:
     print(30*"-")
 
     files = random.sample(files, 20)
-    for file in files:
-        print(30*"-")
-        print(file)
-        print(30*"-")
+    for file in tqdm(files):
 
         if file.endswith("pdf"):
             html = pdf2html(target=DIR+j+"/"+file)
+
+            if not html:
+                continue
         
             soup =  BeautifulSoup(html, 'html.parser')
+
+            print(30*"-")
+            print(file)
+            print(30*"-")
         else:
             continue 
         current_element = soup.find("span")
@@ -57,21 +64,25 @@ for j in SUBDIR:
         while current_element is not None:
             # Process the current element (print or do other operations)
             if check_strings_in_text(current_element.text, ligatures_list):
-                print()
-                print(current_element.find_previous("span").attrs)
-                # print()
-                print(current_element.attrs)
-                # print()
-                print(current_element.find_next("span").attrs)
-                # pass
-                already_seen.append((
-                        current_element.find_previous("span").attrs,
-                        current_element.attrs,
-                        current_element.find_next("span").attrs)
-                    )
+                temp_0 = current_element.find_previous("span").attrs
+                temp_1 = current_element.attrs
+                try:
+                    temp_2 = current_element.find_next("span").attrs
+                except:
+                    temp_2 = "NONEXT"
+
+                if (temp_0, temp_1, temp_2) not in already_seen:
+                    print()
+                    print(temp_0)
+                    # print()
+                    print(temp_1)
+                    # print()
+                    print(temp_2)
+                    # pass
+                    already_seen.append((temp_0, temp_1, temp_2))
 
             # Move to the next element
             current_element = current_element.find_next("span")
 
 
-# Output to test16.txt
+# Output to test17.txt

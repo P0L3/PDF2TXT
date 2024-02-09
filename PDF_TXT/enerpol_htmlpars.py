@@ -34,7 +34,7 @@ doctype1_1 = {
     "get_authors_and_affiliations_af": ["font-family: CharisSIL-Italic; font-size:6px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: CharisSIL-Bold; font-size:7px"], # Reference title
     "get_references_nonumber_ref": ["font-family: CharisSIL; font-size:6px",  ], # References
-    "get_content": ["font-family: CharisSIL; font-size:7px"], # Content
+    "get_content": ["font-family: CharisSIL(|-Italic); font-size:7px"], # Content
     "get_keywords": ["font-family: CharisSIL-Italic; font-size:6px"]
 }
 
@@ -87,7 +87,7 @@ doctype5_1 = {
     "get_authors_and_affiliations_af": ["font-family: AdvTimes; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvTimes-b; font-size:9px"], # Reference title
     "get_references_nonumber_ref": ["font-family: AdvTimes; font-size:7px"], # References
-    "get_content": ["font-family: AdvTimes; font-size:9px"], # Content
+    "get_content": ["font-family: (AdvTimes|AdvMc_Times-i); font-size:9px"], # Content
     "get_keywords": ["font-family: AdvMc_Times-i; font-size:7px"], # Keywords
 }
 

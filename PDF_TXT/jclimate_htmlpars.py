@@ -40,7 +40,7 @@ doctype1_1 = {
     "get_references_nonumber_title": ["font-family: AdvPSTIM10-R; font-size:7px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
-    "get_content": ["font-family: AdvPSTIM10-(R|I); font-size:9px"], # Content regex
+    "get_content": ["font-family: (AdvPSTIM10-R|AdvPSTIM10-I|AdvP4C4E46); font-size:9px"], # Content regex
     "get_keywords": ["font-family: Times-Italic; font-size:8px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: Times-Italic; font-size:8px"], # Keywords styles
@@ -59,7 +59,7 @@ doctype2_1 = {
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvOTbb216540; font-size:7px", "font-family: AdvOT2b0f33d7.I; font-size:7px", 
                                     "font-family: AdvPSTIM10-R; font-size:7px", "font-family: AdvPSTIM10-I; font-size:7px"], # References
-    "get_content": ["font-family: (AdvOTbb216540|AdvPSTIM10-R); font-size:8px", ], # Content regex
+    "get_content": ["font-family: (AdvOTbb216540|AdvPSTIM10-R); font-size:8px"], # Content regex
     "get_keywords": ["font-family: AdvOTbb216540; font-size:7px",
                      "font-family: AdvPSTIM10-R; font-size:7px"], # Keywords
     "get_keywords_r": ["^(?i)k\s*e\s*y\s*w\s*o\s*r\s*d\s*s\n*"], # Keywords regex

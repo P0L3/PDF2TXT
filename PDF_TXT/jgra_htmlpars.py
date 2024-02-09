@@ -43,7 +43,7 @@ doctype1_1 = {
     "get_references_nonumber_ref": ["font-family: AdvTTe45e47d2; font-size:6px", 
                                     "font-family: AdvTT7329fd89.I; font-size:6px", 
                                     "font-family: fb; font-size:6px"], # References text
-    "get_content": ["font-family: (AdvTTe45e47d2|AdvTT7329fd89.I|fb); font-size:9px"], # Content regex 
+    "get_content": ["font-family: (AdvTTe45e47d2|AdvTT7329fd89.I|fb|20|AdvP4C4E46); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvTTaf7f9f4f.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
     "get_keywords_styles": ["font-family: AdvTTe45e47d2; font-size:6px", 
@@ -70,12 +70,13 @@ doctype2_1 = {
 }
 
 doctype3_1 = {
-    "get_title": ["font-family: AdvTTb65e66bd; font-size:15px"],
+    "get_title": ["font-family: AdvTTb65e66bd; font-size:15px", "font-family: fb; font-size:15px"],
     "get_doi_regex": ["font-family: AdvTT46dcae81; font-size:6px"],
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvTT3b30f6db.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvTT3b30f6db.B; font-size:5px"],  # Affiliation number
-    "get_authors_and_affiliations_af": ["font-family: AdvTT46dcae81; font-size:7px", "font-family: fb; font-size:7px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvTT46dcae81; font-size:7px", 
+                                        "font-family: fb; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvTT3b30f6db.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
     "get_references_nonumber_ref": ["font-family: AdvTT65f8a23b.I; font-size:6px", "font-family: fb; font-size:6px", "font-family: AdvTT46dcae81; font-size:6px"], # References text
@@ -143,14 +144,20 @@ doctype7_1 = {
     "get_doi_regex_r": ["[Dd][Oo][Ii]:\s*([\d.\/\w-]+)"],
     "get_authors_and_affiliations_au": ["font-family: AdvOTc022ae45.B; font-size:9px"],  # Author name text
     "get_authors_and_affiliations_nu": ["font-family: AdvOTc022ae45.B; font-size:5px"],  # Affiliation number
-    "get_authors_and_affiliations_af": ["font-family: AdvOT569473da; font-size:7px", "font-family: fb; font-size:7px"],  # Affiliation text
+    "get_authors_and_affiliations_af": ["font-family: AdvOT569473da; font-size:7px", 
+                                        "font-family: fb; font-size:7px"],  # Affiliation text
     "get_references_nonumber_title": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Reference title
     "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
-    "get_references_nonumber_ref": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: AdvOTf2679e53.I; font-size:6px", "font-family: fb; font-size:6px"], # References text
+    "get_references_nonumber_ref": ["font-family: AdvOT569473da; font-size:6px", 
+                                    "font-family: 20; font-size:6px", 
+                                    "font-family: AdvOTf2679e53.I; font-size:6px", 
+                                    "font-family: fb; font-size:6px"], # References text
     "get_content": ["font-family: (AdvOT569473da|fb); font-size:9px"], # Content regex 
     "get_keywords": ["font-family: AdvOTc022ae45.B; font-size:6px"], # Keywords (Key points)
     "get_keywords_r": ["(?i)^Key Points:\n*"], # Keywords regex
-    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", "font-family: 20; font-size:6px", "font-family: fb; font-size:6px"], # Keywords styles
+    "get_keywords_styles": ["font-family: AdvOT569473da; font-size:6px", 
+                            "font-family: 20; font-size:6px", 
+                            "font-family: fb; font-size:6px"], # Keywords styles
     "get_abstract": ["font-family: AdvOTc022ae45.B; font-size:11px"], # Abstract
 }
 

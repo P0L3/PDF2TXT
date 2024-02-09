@@ -38,8 +38,8 @@ Solved:
 TODO: S0, S1
 
 ### JCLIMATE
-Solved:
-TODO: S0, S1 S2, S3, S4, Sdef
+Solved: S1
+TODO: S0, S2, S3, S4, Sdef
 
 - S0:
   - get_references_nonumber_title
@@ -59,12 +59,12 @@ TODO: S2, S3
   - get_content
 
 ### GCB
-Solved:
-TODO: S0 - S6, Sdef
+Solved: S0
+TODO: S1 - S6, Sdef
 
 ### ENERPOL
-Solved: S0, S2, S3
-TODO: S1, S4, S5, Sdef
+Solved: S0, S2, S3, S5
+TODO: S1, S4, Sdef
 
 - S0:
   - get_content
@@ -76,6 +76,12 @@ TODO: S1, S4, S5, Sdef
   - get_content
 - S3:
   - get_content
+
+### EHS
+Solved:
+TODO:
+
+
 
 ## Journals
 1. [Climate Dynamics](https://link.springer.com/journal/382)
