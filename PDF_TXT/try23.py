@@ -1,10 +1,14 @@
 import re
-test = "(font-family: AdvOT46dcae81; font-size:8px|font-family: fb; font-size:8px)"
+test = "font-size:[789]px"
 
-sizes = list(set(re.findall(r"font-size:(\d+)px", test)))
+sizes = list(set(re.findall(r"font-size:\[*(\d+)\]*px", test)))
 extra_fonts = ["fb", "20"]
 
+if len(sizes) == 1:
+    if len(sizes[0]) > 2:
+        sizes = [s for s in sizes[0]]
 print(sizes)
+
 
 for s in sizes:
     for font in extra_fonts:

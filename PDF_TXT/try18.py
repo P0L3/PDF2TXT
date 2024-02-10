@@ -35,27 +35,37 @@ ligatures_list = [c["sign"] for c in ligatures_dict]
 
 # Regex
 pattern = '|'.join(sorted(re.escape(k) for k in ligatures_conv))
-
-
+print(pattern)
+with open('ligatures_data.py', 'w') as f:
+    f.write(f"ligatures_dict = {ligatures_dict}\n")
+    f.write(f"ligatures_conv = {ligatures_conv}\n")
+    f.write(f"ligatures_list = {ligatures_list}\n")
+    f.write(f"pattern = \"{pattern}\"\n")
+    
 
 tokens = text.split()
 fi_counter_unsolved = []
 fi_counter_solved = []
 
+
 for i, word in enumerate(tokens):
     count = 0
 
     for j, c in enumerate(word):
-        if c in ligatures_list and (j == 0 or j == len(word)-1):
-            temp = tokens[i]
-            # print(20*"-")
-            # print(i, "\t", tokens[i-1], tokens[i], tokens[i+1], end="----")
-            count += 1
-            tokens[i-1], tokens[i], tokens[i+1], f = likely_word(tokens[i-1], re.sub(pattern, lambda m: ligatures_conv.get(m.group(0)), tokens[i]), tokens[i+1])
-            if f == 0:
-                fi_counter_unsolved.append((temp, tokens[i]))
+        if c in ligatures_list:
+            if (j == 0 or j == len(word)-1):
+                temp = tokens[i]
+                # print(20*"-")
+                # print(i, "\t", tokens[i-1], tokens[i], tokens[i+1], end="----")
+                count += 1
+                tokens[i-1], tokens[i], tokens[i+1], f = likely_word(tokens[i-1], re.sub(pattern, lambda m: ligatures_conv.get(m.group(0)), tokens[i]), tokens[i+1])
+                if f == 0:
+                    fi_counter_unsolved.append((temp, tokens[i]))
+                else:
+                    fi_counter_solved.append((temp, tokens[i]))
             else:
-                fi_counter_solved.append((temp, tokens[i]))
+                tokens[i] = re.sub(pattern, lambda m: ligatures_conv.get(m.group(0)), tokens[i])
+                count += 1
             # print(tokens[i-1], tokens[i], tokens[i+1])
     if count > 1: # Check if some word containes multiple ligatures
         print(i, "\t", tokens[i-1], tokens[i], tokens[i+1])

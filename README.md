@@ -6,8 +6,48 @@
 - Structure dataframe output -> Add empty values where missing
 - Clean directory
 - Parsers for journals: 1, 2, 6, 29, 30
+- Add missing columns + style column to each parser
+- test out diff for test3_jgra(_fi)
+- Test performance with fi cleaner
+- Add missing parsers
 
 ## Data structure
+
+| Columns | Descriptions |
+| ------- | ------------ |
+|1. Title|*Paper title in a list*: `["Effects of pretraining corpora"]`|
+|2. Authors_and_Affiliations|*List of author and affil number tuples*: `[("Andrija Poleksic", "1, 2"), (...)]`|
+|3. Affiliations|*Affiliation text and number tuples*: `[(1, "FIDIT"), (...)]`|
+|4. DOI|*Paper doi number in a list*: `["10.23919/mipro57284.2023.10159770"]`|
+|5. Authors|*String containing all authors or detailed list*: `"Poleksic, Andrija and ..."` or `[{'ORCID': '123', 'creator': 'Poleksic, Andrija'}, {...}]`|
+|6. Journal|*Name of the journal*: `"Nature Geoscience"`|
+|7. Date|*Date of publishing*: `5-30-2034`|
+|8. Subjects|*List of topics in the paper*: `["Earth Sciences", "..."`|
+|9. Abstract|*Abstract text of the paper*: `"The amount of data ..."`|
+|10. References|*List of references*: `["Matching the Blanks: Distributio ..."]`|
+|11. Content|*Full text from paper*: `"Reading text to identify and ..."`|
+|12. Keywords|*Keywords or keypoints from a paper, list, or string*: `["Internal variability", "..."]` or `"A significant interdecadal variation ..."`|
+|13. Style|*Debug data*: `"1"`|
+
+
+**Data template**:
+``` python
+paper_data = {
+            "Title": title,
+            "Authors_and_Affiliations": authors_and_affiliations,
+            "Affiliations": affiliations,
+            "DOI": doi,
+            "Authors": authors,
+            "Journal": journal,
+            "Date": date,
+            "Subjects": subjects,
+            "Abstract": abstract,
+            "References": references,
+            "Content": content,
+            "Keywords": keywords,
+            "Style": style,
+        }
+```
 
 ## Fi problem
 ### JGRA

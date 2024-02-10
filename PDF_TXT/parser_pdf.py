@@ -200,7 +200,14 @@ def get_content(soup, styles):
     # Find elements with font size 9px -> Tends to be content
     pattern = re.compile(r'{}'.format(styles[0]))
     
-    sizes = list(set(re.findall(r"font-size:(\d+)px", pattern))) # to get all sizes for extra fonts
+    sizes = list(set(re.findall(r"font-size:\[*(\d+)\]*px", styles[0]))) # to get all sizes for extra fonts
+    
+    # Avoiding regex size situations -> Every regex size has to have at least 3 instances
+    if len(sizes) == 1:
+        if len(sizes[0]) > 2:
+            sizes = [s for s in sizes[0]]
+        
+        
     extra_fonts = ["fb", "20"]
 
     extra = ["font-family: TimesNewReference; font-size:69px"]
@@ -228,6 +235,12 @@ def get_content(soup, styles):
     content = re.sub(r"- ", "", content)
 
     content = content.split("STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD")[0]
+    
+    # Clean ligations
+    print(type(content))
+    print("Cleaning ...")
+    content = fi_cleaner(content)
+    print("Done ...")
 
     return content
 
