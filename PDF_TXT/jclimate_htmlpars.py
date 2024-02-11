@@ -238,7 +238,7 @@ for sample in tqdm(samples):
         # authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # authors_and_affiliations, affiliations = [], []
         # print(affiliations)
-        authors_and_affiliations = ["no_authafil"]
+        authors_and_affiliations = ["no_auth_and_affil"]
         affiliations = get_affiliations(soup, style["get_affiliations"])
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
 
@@ -293,6 +293,7 @@ for sample in tqdm(samples):
             "References": references,
             "Content": content,
             "Keywords": keywords,
+            "Style": s,
         }
 
         # Append the dictionary to the list
@@ -301,17 +302,18 @@ for sample in tqdm(samples):
     else:
         paper_data = {
             "Title": title,
-            "Authors_and_Affiliations": "None",
-            "Affiliations": "None",
+            "Authors_and_Affiliations": "no_auth_and_affil",
+            "Affiliations": "no_affil",
             "DOI": doi,
-            "Authors": "None",
-            "Journal": "None",
-            "Date": "None",
-            "Subjects": "None",
-            "Abstract": "None",
-            "References": "None",
-            "Content": "None",
-            "Keywords": "None",
+            "Authors": "no_authors",
+            "Journal": "no_journal",
+            "Date": "no_date",
+            "Subjects": "no_subjects",
+            "Abstract": "no_abstract",
+            "References": "no_references",
+            "Content": "no_content",
+            "Keywords": "no_keywords",
+            "Style": s,
         }
         Styleless_samples.append(sample)
 
@@ -321,5 +323,5 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_jclimate.pickle")
+df.to_pickle("./PARS_OUT/test_jclimate.pickle")
 print(Faults)

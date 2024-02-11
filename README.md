@@ -2,11 +2,8 @@
 
 ## TODO
 - Solve fi problem -> [ligatures](PDF_TXT/ligatures_list.txt)
-    - Add styles to cover fi detection for all journals, solved: 
 - Structure dataframe output -> Add empty values where missing
-- Clean directory
 - Parsers for journals: 1, 2, 6, 29, 30
-- Add missing columns + style column to each parser
 - test out diff for test3_jgra(_fi)
 - Test performance with fi cleaner
 - Add missing parsers
@@ -32,6 +29,7 @@
 
 **Data template**:
 ``` python
+# Original
 paper_data = {
             "Title": title,
             "Authors_and_Affiliations": authors_and_affiliations,
@@ -46,6 +44,23 @@ paper_data = {
             "Content": content,
             "Keywords": keywords,
             "Style": style,
+        }
+
+# Default
+paper_data = {
+            "Title": "no_title",
+            "Authors_and_Affiliations": "no_auth_and_affil",
+            "Affiliations": "no_affil",
+            "DOI": "no_doi",
+            "Authors": "no_author",
+            "Journal": "no_journal",
+            "Date": "no_date",
+            "Subjects": "no_subjects",
+            "Abstract": "no_abstract",
+            "References": "no_references",
+            "Content": "no_content",
+            "Keywords": "no_keywords",
+            "Style": s,
         }
 ```
 

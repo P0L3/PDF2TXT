@@ -164,4 +164,4 @@ for folder in tqdm(folders):
     print(faults)
     
     df = pd.DataFrame(data_list)
-    df.to_pickle(f"test_mdpi{folder}.pickle")
+    df.to_pickle(f"./PARS_OUT/test_mdpi{folder}.pickle")

@@ -230,6 +230,7 @@ for sample in tqdm(samples):
             "References": references,
             "Content": content,
             "Keywords": keywords,
+            "Style": s,
         }
 
         # Append the dictionary to the list
@@ -238,17 +239,18 @@ for sample in tqdm(samples):
     else:
         paper_data = {
             "Title": title,
-            "Authors_and_Affiliations": "None",
-            "Affiliations": "None",
+            "Authors_and_Affiliations": "no_auth_and_affil",
+            "Affiliations": "no_affil",
             "DOI": doi,
-            "Authors": "None",
-            "Journal": "None",
-            "Date": "None",
-            "Subjects": "None",
-            "Abstract": "None",
-            "References": "None",
-            "Content": "None",
-            "Keywords": "None",
+            "Authors": "no_authors",
+            "Journal": "no_journal",
+            "Date": "no_date",
+            "Subjects": "no_subjects",
+            "Abstract": "no_abstract",
+            "References": "no_references",
+            "Content": "no_content",
+            "Keywords": "no_keywords",
+            "Style": s,
         }
         Styleless_samples.append(sample)
 
@@ -257,5 +259,5 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 df = pd.DataFrame(data_list)
-df.to_pickle("test_enerpol.pickle")
+df.to_pickle("./PARS_OUT/test_enerpol.pickle")
 print(Faults)

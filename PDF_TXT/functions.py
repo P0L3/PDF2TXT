@@ -178,6 +178,15 @@ def likely_word(tokenbefore, token, tokenafter):
             return temp_tokenbefore, replace_token, temp_tokenafter, 0
         
 def fi_cleaner(text):
+    """
+    Cleans the text by replacing ligatures with their corresponding characters.
+    
+    Args:
+    text (str): The input text to be cleaned.
+    
+    Returns:
+    str: The cleaned text with ligatures replaced.
+    """
     
     tokens = text.split()
     
