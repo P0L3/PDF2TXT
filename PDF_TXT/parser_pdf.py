@@ -237,7 +237,7 @@ def get_content(soup, styles):
     content = content.split("STOP CONTENT EXTRACTION HERE IN THE NAME OF GOD")[0]
     
     # Clean ligations
-    print(type(content))
+    # print(type(content))
     print("Cleaning ...")
     content = fi_cleaner(content)
     print("Done ...")
@@ -460,13 +460,16 @@ def get_references_nonumber(soup, ref_title_styles, ref_styles, ref_title_regex=
     
     return ref
 
-def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[\s]*\n*", keyword_styles=[]): # Misses half keywords if they are in multiple lines, strugles with style changes
+def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[\s]*\n*", keyword_styles=[], obj = "div"): # Misses half keywords if they are in multiple lines, strugles with style changes
     """
     Extracts keywords from a BeautifulSoup object.
 
     Parameters:
     soup (BeautifulSoup): The BeautifulSoup object containing parsed HTML.
     keyword_title_styles (List of Strings): List of strings specifying the style attribute of the 'Keywords' title.
+    keyword_title_regex (str, optional): Regular expression pattern to match the 'Keywords' title. Defaults to "^[Kk]eywords:[\s]*\n*".
+    keyword_styles (List of Strings, optional): List of strings specifying the style attribute of keywords. Defaults to [].
+    obj (str, optional): The type of HTML tag to search for keywords within. Defaults to "div".
 
     Returns:
     List or str: A list of extracted keywords or "no_keywords" if not found.
@@ -477,10 +480,17 @@ def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[
 
     If the 'Keywords' title is not found, it returns "no_keywords". Otherwise, it splits the extracted text by newline
     characters and returns a list of extracted keywords.
+
+    The function also attempts to handle cases where keywords might be split across multiple lines or where there are
+    style changes within the keyword section. If specific keyword styles are provided and no keywords are found initially,
+    it will attempt to locate keywords using those styles within the specified HTML tag type.
+
+    Example:
+    >>> keywords = get_keywords(soup, ["font-weight: bold;"])
     """
     # Find the span containing 'Keywords:' with the specific style attribute
     keywords_span = soup.find(style=lambda value: value and any(style in value for style in keyword_title_styles))
-
+    # print(keywords_span)
     keywords = ""
     if type(keywords_span) != type(None):
         while not re.search(keyword_title_regex, keywords_span.text):
@@ -503,15 +513,24 @@ def get_keywords(soup, keyword_title_styles, keyword_title_regex="^[Kk]eywords:[
 
     # print(keywords)
     # Fix for specific keyword styles if no keywords found
-    if "".join(keywords) == "" and len(keyword_styles) > 0:
-        keywords = ""
-        keywords_span = keywords_span.find_next("div")
-        # print(keywords_span)
-        while keywords_span.span["style"] in keyword_styles:
-            
-            keywords += keywords_span.text
-            keywords_span = keywords_span.find_next("div")
-        
+    if obj == "div":
+        if "".join(keywords) == "" and len(keyword_styles) > 0:
+            keywords = ""
+            keywords_span = keywords_span.find_next(obj)
+            # print(keywords_span)
+            while keywords_span.span["style"] in keyword_styles:
+                
+                keywords += keywords_span.text
+                keywords_span = keywords_span.find_next(obj)
+    elif obj == "span":
+        if "".join(keywords) == "" and len(keyword_styles) > 0:
+            keywords = ""
+            keywords_span = keywords_span.find_next(obj)
+            # print(keywords_span)
+            while keywords_span["style"] in keyword_styles:
+                
+                keywords += keywords_span.text
+                keywords_span = keywords_span.find_next(obj)
 
     return keywords
 

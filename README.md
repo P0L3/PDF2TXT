@@ -7,6 +7,7 @@
 - test out diff for test3_jgra(_fi)
 - Test performance with fi cleaner
 - Add missing parsers
+- Change SAMPLE/CLIMD/ an all devices (updated in office)
 
 ## Data structure
 

@@ -1,0 +1,1034 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:83px; width:146px; height:19px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Climate Dynamics (2020) 54:599–614 
+<br>https://doi.org/10.1007/s00382-019-05015-5
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:156px; width:403px; height:34px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:16px">Role of cloud microphysics in improved simulation of the Asian 
+<br>monsoon quasi‑biweekly mode (QBM)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:206px; width:69px; height:24px;"><span style="font-family: MyriadPro-Semibold; font-size:10px">Anupam Hazra</span><span style="font-family: MyriadPro-Semibold; font-size:7px">1</span><span style="font-family: MyriadPro-Semibold; font-size:10px"> 
+<br>B. N. Goswami</span><span style="font-family: MyriadPro-Semibold; font-size:7px">2
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:127px; top:206px; width:369px; height:11px;"><span style="font-family: MyriadPro-Semibold; font-size:10px"> · Hemantkumar S. Chaudhari</span><span style="font-family: MyriadPro-Semibold; font-size:7px">1</span><span style="font-family: MyriadPro-Semibold; font-size:10px"> · Subodh K. Saha</span><span style="font-family: MyriadPro-Semibold; font-size:7px">1</span><span style="font-family: MyriadPro-Semibold; font-size:10px"> · Samir Pokhrel</span><span style="font-family: MyriadPro-Semibold; font-size:7px">1</span><span style="font-family: MyriadPro-Semibold; font-size:10px"> · Ushnanshu Dutta</span><span style="font-family: MyriadPro-Semibold; font-size:7px">1</span><span style="font-family: MyriadPro-Semibold; font-size:10px"> · 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:250px; width:290px; height:18px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Received: 2 March 2019 / Accepted: 14 October 2019 / Published online: 21 October 2019 
+<br>© Springer-Verlag GmbH Germany, part of Springer Nature 2019
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:288px; width:496px; height:224px;"><span style="font-family: MyriadPro-Bold; font-size:10px">Abstract
+<br></span><span style="font-family: STIX-Regular; font-size:10px">A major sub-seasonal variability of the tropics and sub-tropics, the quasi-biweekly mode (QBM), is known to have significant 
+<br>influence on the seasonal mean of the south Asian monsoon rainfall. A coupled Atmosphere–Ocean General Circulation 
+<br>Model (AOGCM) being essential for seasonal prediction, the ability of the AOGCMs in simulating the space–time char-
+<br>acteristics with fidelity is critical for successful seasonal prediction of the south Asian monsoon in particular and seasonal 
+<br>prediction in the tropics in general. However, strength and weaknesses in simulating the QBM by AOGCMs have remained 
+<br>poorly investigated so far. Here, we examine the simulation of the QBM in AOGCM and show that improvement of param-
+<br>eterizations of both convection and microphysics is required to improve the simulation of the QBM. While the standard ver-
+<br>sion of the model overestimates the variance of QBM and simulates a smaller scale Rossby waves (n = 1), the modified version 
+<br>of the model where the simple Arakawa–Schubert (SAS) convection parameterization is combined with a new improved 
+<br>microphysics parameterization (MCMv.1) proposed by us, simulates a more realistic space–time characteristics of the 
+<br>QBM. In yet another version of the model, we combine the new SAS with the new improved microphysics parameterization. 
+<br>Interestingly, this version of the model also simulates the space–time structure poorly with poor westward propagation and 
+<br>fragmented organization, but it simulates a reasonable variance. These results indicate that a synergy among the convective 
+<br>parameterization and microphysics parameterizations is critical in simulating the QBM in particular and equatorial waves 
+<br>in general. We show that most the biases in simulating the QBM may be related to the biases of the model in simulating the 
+<br>stratiform fraction of precipitation. While the simulation of the space–time characteristics of QBM is better simulated in the 
+<br>MCMv.1, the convective coupling is still too strong as compared to observations, an area for future improvement of the model.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:526px; width:450px; height:12px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:10px">Keywords</span><span style="font-family: STIX-Regular; font-size:10px">  Indian summer monsoon · Quasi-biweekly mode (QBM) · CFSv2 · Modified convective microphysics
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:562px; width:80px; height:12px;"><span style="font-family: MyriadPro-Bold; font-size:12px">1  Introduction
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:591px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">The  quasi-biweekly  mode  (QBM),  also  known  as  the 
+<br>10–20  day  oscillation  is  a  major  sub-seasonal  variabil-
+<br>ity  with  significant  influences  on  weather  and  seasonal 
+<br>mean climate of the tropics and the sub-tropics. Studied 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:663px; width:214px; height:30px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Electronic supplementary material</span><span style="font-family: STIX-Regular; font-size:8px">  The online version of this 
+<br>article (https ://doi.org/10.1007/s0038 2-019-05015 -5) contains 
+<br>supplementary material, which is available to authorized users.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:50px; top:702px; width:68px; height:11px;"><span style="font-family: STIX-Regular; font-size:8px"> </span><span style="font-family: Wingdings-Regular; font-size:8px">*</span><span style="font-family: STIX-Regular; font-size:8px">  Anupam Hazra 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:65px; top:716px; width:73px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">hazra@tropmet.res.in
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:734px; width:5px; height:10px;"><span style="font-family: STIX-Regular; font-size:5px">1</span><span style="font-family: STIX-Regular; font-size:8px"> 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:65px; top:736px; width:170px; height:18px;"><span style="font-family: STIX-Regular; font-size:8px">Indian Institute of Tropical Meteorology, Pashan, 
+<br>Pune 411008, India
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:759px; width:214px; height:10px;"><span style="font-family: STIX-Regular; font-size:5px">2</span><span style="font-family: STIX-Regular; font-size:8px">  Department of Physics, Cotton University, Guwahati, India
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:566px; width:240px; height:197px;"><span style="font-family: STIX-Regular; font-size:10px">extensively in the context of boreal summer monsoon sub-
+<br>seasonal fluctuations (Murakami 1975; Krishnamurti and 
+<br>Bhalme 1976; Krishnamurti and Ardanuy 1980; Chen and 
+<br>Chen 1993; Numaguti 1995; Kiladis and Wheeler 1995; 
+<br>Chatterjee and Goswami 2004; Chen and Sui 2010; Kikuchi 
+<br>and Wang 2009), the variance of precipitation associated 
+<br>with the QBM has been found to be significantly correlated 
+<br>with the seasonal anomaly of Indian summer monsoon rain-
+<br>fall (ISMR) (Saha et al. 2019). Explaining interannual vari-
+<br>ance of the ISMR ranging from 5 to 35%, the QBM activity 
+<br>is also found to be tied to predictable drivers like the El 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">Nino and Southern Oscillation (ENSO) (Saha et al. 2019). 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">Therefore, the contribution of the QBM to the seasonal 
+<br>anomaly, so far considered as unpredictable ‘climate noise’ 
+<br>is potentially predictable. However, to realise this potential 
+<br>predictability, the forecast model must be able to simulate 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:50px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn2; font-size:8px">Vol.:(0123456789)</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:50px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:110px; width:493px; height:0px;"></span>
+</div><span style="position:absolute; border: black 1px solid; left:119px; top:207px; width:8px; height:8px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:210px; width:0px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:123px; top:210px; width:2px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:122px; top:210px; width:3px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:209px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:526px; top:118px; width:6px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:526px; top:118px; width:6px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:522px; top:117px; width:14px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:524px; top:119px; width:11px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:523px; top:122px; width:12px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:537px; top:134px; width:2px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:538px; top:134px; width:1px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:540px; top:134px; width:1px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:537px; top:139px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:515px; top:116px; width:28px; height:28px;"></span>
+<span style="position:absolute; border: black 1px solid; left:517px; top:133px; width:3px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:521px; top:133px; width:2px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:524px; top:134px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:525px; top:134px; width:1px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:527px; top:134px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:531px; top:133px; width:2px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:535px; top:133px; width:1px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:519px; top:139px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:522px; top:139px; width:2px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:523px; top:140px; width:1px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:526px; top:138px; width:2px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:526px; top:140px; width:1px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:529px; top:139px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:530px; top:141px; width:1px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:532px; top:138px; width:1px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:534px; top:139px; width:2px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:535px; top:140px; width:1px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:51px; top:657px; width:238px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:51px; top:698px; width:238px; height:0px;"></span>
+<span style="font-family: STIX-Regular; font-size:8px"> 
+<br><span style="position:absolute; border: gray 1px solid; left:0px; top:890px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:890px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:923px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">600 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:923px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:950px; width:240px; height:210px;"><span style="font-family: STIX-Regular; font-size:10px">the space–time characteristics of the QBM with fidelity. 
+<br>Atmosphere–Ocean General Circulation Model (AOGCM) 
+<br>is critical for the simulation and prediction of the Indian 
+<br>summer monsoon (Webster et al. 1998; Wang et al. 2005). 
+<br>Also it is found that there is considerable air-sea interaction 
+<br>associated with the QBM (Sengupta et al. 2004; Ye and Wu 
+<br>2015; Hu and Li 2017). Reinforcing earlier arguments, these 
+<br>findings make an AOGCM an essential tool for seasonal 
+<br>forecasting of the ISMR. However, seasonal forecast models 
+<br>used commonly for operational seasonal forecasting are of 
+<br>relatively low atmospheric resolution. Do these AOGCMs 
+<br>simulate the QBM with high fidelity? What is required to 
+<br>improve the simulation of the QBM in such models? In this 
+<br>study, we examine the simulation of the QBM in such an 
+<br>AOGCM and show that improvement of parameterizations 
+<br>of both convection and microphysics is required to improve 
+<br>the simulation of the QBM.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:1163px; width:240px; height:397px;"><span style="font-family: STIX-Regular; font-size:10px">The dominant temporal characteristics, namely the quasi-
+<br>biweekly period between 10 and 20 days with a preference 
+<br>of about 15-days as well as its dominant westward propagat-
+<br>ing character of the QBM was noted in several early studies 
+<br>(Murakami 1975; Krishnamurti and Bhalme 1976; Krishna-
+<br>murti and Ardanuy 1980). With the availability of better 
+<br>three  dimensional  atmospheric  observation,  the  typical 
+<br>horizontal and vertical structures associated with the QBM 
+<br>over the Indian monsoon region were brought out (Chen and 
+<br>Chen 1993; Chatterjee and Goswami 2004), which reveal 
+<br>that the horizontal spatial structure of the mode bears close 
+<br>resemblance to a n = 1 equatorial Rossby wave with west-
+<br>ward phase speed of approximately 4.5 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">. However, it 
+<br>was found that the pair of vortices associated with the mode 
+<br>is centered around 5° N. This is due to the fact that in the 
+<br>presence of a mean flow, the two vortices of the n = 1 equa-
+<br>torial Rossby wave would be centered around the dynamic 
+<br>equator rather than the geographic equator (Chatterjee and 
+<br>Goswami 2004). They have also shown that very similar 
+<br>QBM occurs in the southern tropics during Austral summer 
+<br>indicating the universal nature of the QBM. Strong convec-
+<br>tive coupling is evident for the mode with almost a weakly 
+<br>baroclinic vertical structure (Chen and Chen 1993; Chatter-
+<br>jee and Goswami 2004; Chen and Sui 2010). The spatial and 
+<br>temporal scale selection for the QBM is supported by theo-
+<br>retical analysis of an n = 1 equatorial Rossby wave driven 
+<br>unstable by convective coupling (Chatterjee and Goswami 
+<br>2004). While exploring the life cycle and global perspective 
+<br>of the QBM, Kikuchi and Wang (2009) have shown that the 
+<br>QBM also has an eastward propagating component in the 
+<br>sub-tropics, whose initiation and propagation are controlled 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">by extra-tropical barotropic Rossby wave trains.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:1563px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">The QBM may be considered as the high frequency com-
+<br>ponent of the monsoon intra-seasonal oscillations (MISOs) 
+<br>with the northward propagating 30–60 day mode representing 
+<br>the lower frequency spectrum of MISOs and explaining about 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:950px; width:241px; height:510px;"><span style="font-family: STIX-Regular; font-size:10px">half of the sub-seasonal variance (see Goswami 2012, for a 
+<br>review). While the simulations of the 30–60 day mode by vari-
+<br>ous models have been studied extensively (e.g., Sabeerali et al. 
+<br>2013), simulation of QBM by models has received very little 
+<br>attention so far. In this study, we examine the simulation of 
+<br>QBM by one coupled AOGCM, namely the Climate Forecast 
+<br>System version 2 (CFSv2) of National Centers for Environ-
+<br>mental Prediction (NCEP; Saha et al. 2010, 2014a, b). Adopt-
+<br>ing this model as the base model under the National Monsoon 
+<br>Mission of India, a seasonal forecast system has been set up 
+<br>for operational seasonal forecasting of the monsoon and some 
+<br>notable developments in improving the model has been made 
+<br>(Hazra et al. 2015, 2016, 2017a, b; Bombardi et al. 2016; Saha 
+<br>et al. 2017; Goswami et al. 2017; Abhik et al. 2017; Pokhrel 
+<br>et al. 2018). A well documented (Dai 2006; Yin et al. 2013; 
+<br>Ahmed and Schumacher 2015; Sabeerali et al. 2015; Chaud-
+<br>hari et al. 2018; Pathak et al. 2019) systematic bias in most of 
+<br>the coupled climate models is that they tend to simulate too 
+<br>much convective rain and too little stratiform rain as compared 
+<br>to observations. The implication is that the simulated verti-
+<br>cal structure of diabatic heating has projection largely on the 
+<br>first baroclinic mode, while the observed vertical structure has 
+<br>significant projection on second baroclinic mode as well. The 
+<br>observed propensity of the stratiform rain fraction is known 
+<br>to play a significant role in organization and propagation of 
+<br>the 30–60 day mode (Kumar et al. 2017). As the QBM is a 
+<br>strongly convectively coupled equatorial wave, it is pertinent 
+<br>that the stratiform rain fraction and resulting vertical structure 
+<br>of heating are equally important for the space–time structure of 
+<br>the QBM. It has been seen that improvement of cloud micro-
+<br>physics in a coupled model leads to improvement of simula-
+<br>tion of stratiform rain fraction and significant improvement in 
+<br>simulation of the 30–60 day mode (Hazra et al. 2017b). These 
+<br>studies provide a scientific basis to think that simulation of 
+<br>QBM in a coupled model may also benefit from improved 
+<br>microphysics parameterization. With this background, we 
+<br>learn some lessons in this study, fronting the biases the simu-
+<br>lation of the QBM in the control version of the model and how 
+<br>improvement of microphysics parameterizations in the model 
+<br>lead to improvement of simulations of the observed characters 
+<br>of the QBM.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:1463px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">This  study  is  organized  as  follows:  Sect.  2  describes 
+<br>details about data and model experiments. Section 3 elab-
+<br>orates the results of the study. Section 4 gives the details 
+<br>about discussion and conclusions of the study.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:1534px; width:166px; height:12px;"><span style="font-family: MyriadPro-Bold; font-size:12px">2   Data and model experiments
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:1563px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">The  Climate  Forecast  System  version  2  (CFSv2;  Saha 
+<br>et al. 2010, 2014a, b) of NCEP, used here is a fully cou-
+<br>pled ocean</span><span style="font-family: Code2000; font-size:10px">‐</span><span style="font-family: STIX-Regular; font-size:10px">atmosphere</span><span style="font-family: Code2000; font-size:10px">‐</span><span style="font-family: STIX-Regular; font-size:10px">land model with advanced physics, 
+<br>to improve the seasonal climate forecasts. It has a spectral 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:890px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:935px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:1731px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:1731px;"><a name="3">Page 3</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:1790px; width:240px; height:660px;"><span style="font-family: STIX-Regular; font-size:10px">atmospheric model with resolution of T126 (~ 0.937°) with 
+<br>64 hybrid vertical levels while the Modular Ocean Model 
+<br>version 4p0d (Griffies et al. 2004) at 0.25–0.5° grid spacing 
+<br>with 40 vertical layers from Geophysical Fluid Dynamics 
+<br>Laboratory (GFDL) is used for ocean model. The resolu-
+<br>tion of ocean model (Modular Ocean Model version 4p0d; 
+<br>Griffies et al. 2004) varies from 0.25° to 0.5°. At Equator 
+<br>it has resolution of 0.25 and it becomes coarse (i.e., 0.5) as 
+<br>we go towards poles. The atmosphere and ocean models 
+<br>are coupled with no flux adjustment. It utilizes simplified 
+<br>Arakawa–Schubert (SAS) cumulus convection (Hong and 
+<br>Pan 1998) with momentum mixing and the new SAS (nSAS) 
+<br>(Han and Pan 2011) convective parameterization scheme, 
+<br>which is believed to make cumulus convection stronger and 
+<br>deeper, and to deplete more instability in the atmospheric 
+<br>column (Han and Pan 2011) in the atmospheric component 
+<br>of the CFS model. It implements orographic gravity wave 
+<br>drag based on Kim and Arakawa (1995) approach and sub 
+<br>grid Scale Mountain blocking by Lott and Miller (1997). 
+<br>It uses rapid radiative transfer model (RRTM) shortwave 
+<br>radiation with maximum random cloud overlap (Iacono et al. 
+<br>2000; Clough et al. 2005). It is also coupled to a four-layer 
+<br>Noah land surface model (Ek et al. 2003) and a two-layer sea 
+<br>ice model (Wu et al. 2005). In CFSv2, the control version 
+<br>of cloud microphysics parameterization scheme is of Zhao 
+<br>and Carr (1997), hereafter referred to as ZC97, which in turn 
+<br>is based on Sundqvist et al. (1989). The predictable vari-
+<br>ables namely, cloud mixing ratio included to the prognostic 
+<br>equations of ZC97 cloud scheme for the representation of 
+<br>cloud ice and cloud water. The thermodynamic effect of con-
+<br>densation is important due to the linkage between radiative, 
+<br>dynamical and hydrological processes. ZC97 cloud scheme 
+<br>in CFSv2 considers two supplies of condensations (namely, 
+<br>convective condensation and large-scale condensation). The 
+<br>convective condensation, following Betts and Miller (1986) 
+<br>is used in CFSv2 to account for the inclusion of the prog-
+<br>nostic variables (e.g., cloud ice and cloud water, ZC97). On 
+<br>the other hand, the expression for the large-scale conden-
+<br>sation is obtained as mentioned in Sundqvist (1988) and 
+<br>Zhao and Carr (1997). The microphysical processes (e.g., 
+<br>snow autoconversion, collection of cloud ice by snow and 
+<br>snow melting etc.) for precipitation calculation in CFSv2 
+<br>model follows ZC97 whereas, the precipitation calculation 
+<br>is carried out by the autoconversion of cloud water to rain, 
+<br>following Sundqvist et al. (1989). In modified versions of 
+<br>the NCEP CFSv2 model, a physically based modified con-
+<br>vective microphysics scheme is implemented. Further, a 
+<br>major modification has been carried out to the existing cloud 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">microphysics scheme in the CFSv2 (Hazra et al. 2017b) with 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">the guidance of some recent observations under the Cloud 
+<br>Aerosol Interaction and Precipitation Enhancement Experi-
+<br>ment (CAIPEEX) of IITM. The modifications of partitioning 
+<br>of cloud water and ice in the existing SAS and nSAS (new 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:1764px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">601
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:1790px; width:240px; height:172px;"><span style="font-family: STIX-Regular; font-size:10px">SAS) convective schemes have also been carried out (Hazra 
+<br>et al. 2017b). The details of the cloud scheme (control and 
+<br>modification) is available in Hazra et al. (2017a, b). In this 
+<br>study the following three versions of model are employed: 
+<br>(1) the standard version of NCEP CFSv2 (Control, CTL), 
+<br>(2) modified cloud microphysics together with modified 
+<br>SAS convection scheme (MCMv.1) and (3) modified cloud 
+<br>microphysics together with modified new SAS convection 
+<br>scheme (MCMv.2). A 20-year long coupled free run for each 
+<br>version of model is carried out. The details of the schemes 
+<br>(i.e.,  MCMv.1  and  MCMv.2)  have  been  documented  in 
+<br>Hazra et al. (2017b). Last 15-years of each run have been 
+<br>used for the analysis presented here and 5 years are left out 
+<br>for spin-up.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:1965px; width:240px; height:72px;"><span style="font-family: STIX-Regular; font-size:10px">The observed QBM is calculated from two different pre-
+<br>cipitation data sets, namely the Global Precipitation Clima-
+<br>tology Project (GPCP; Adler et al. 2003) and Tropical Rain 
+<br>Measuring Mission (TRMM 3B42v7; Huffman et al. 2007). 
+<br>To bring out the QBM, a 10–20 day filter on daily anomalies 
+<br>using a Lanczos filter (Duchon 1979) is used on each field.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2068px; width:51px; height:12px;"><span style="font-family: MyriadPro-Bold; font-size:12px">3   Results
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2097px; width:240px; height:197px;"><span style="font-family: STIX-Regular; font-size:10px">It has been already reported (Hazra et al. 2017b) that the 
+<br>mean state of Indian summer monsoon (ISM) rainfall and 
+<br>the dry biases of the model have been improved significantly 
+<br>by the modified convective microphysics scheme as com-
+<br>pared to the standard version of CFSv2 (control). The biases 
+<br>in the mean ISM may be due to biases in the simulation of 
+<br>the low-frequency MISO. Therefore, in our earlier attempt 
+<br>we documented the improvement of low-frequency MISO 
+<br>simulation in the CFSv2 with modified convective micro-
+<br>physical scheme and how it leads to improvement of the 
+<br>seasonal mean Indian monsoon. In the present endeavour, 
+<br>we shall address the following important question: how the 
+<br>modified convective microphysics (MCM) parameteriza-
+<br>tion improves the simulation of the variance and space–time 
+<br>spectra of the high-frequency MISO (10–20 days time scale, 
+<br>namely the QBM)?
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2313px; width:148px; height:11px;"><span style="font-family: MyriadPro-BoldSemiCn; font-size:11px">3.1   The QBM in the control (CTL)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2341px; width:240px; height:110px;"><span style="font-family: STIX-Regular; font-size:10px">The  variance  of  precipitation  associated  with  the  QBM 
+<br>(10–20 day filtered daily precipitation during JJAS), from 
+<br>observations and in the CTL are shown in Fig. 1. In observa-
+<br>tion, the QBM has large variance along the Western Ghats 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">and  centred  around  the  head  Bay  of  Bengal  and  South 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">China Sea (Fig. 1a). As compared to observations, the CTL 
+<br>overestimates QBM variance almost everywhere (Fig. 1b). 
+<br>While the locations of observed maxima in QBM variance 
+<br>are simulated by the model well, it produces an additional 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:1731px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:1776px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:2572px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:2572px;"><a name="4">Page 4</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:2605px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">602 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:2605px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2631px; width:240px; height:210px;"><span style="font-family: STIX-Regular; font-size:10px">over central India. Time-longitude sections of such com-
+<br>posites averaged over 10° N–20° N for observations as well 
+<br>as for the CTL are illustrated in Fig. 2c, d. The propaga-
+<br>tion speed over the south China Sea (100° E–120° E) is fast 
+<br>with phase speed of approximately 7.7 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">, that becomes 
+<br>slower (phase speed ~ 5.8 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">) over the Bay of Bengal and 
+<br>Indian monsoon region (Fig. 2c) indicating a stronger con-
+<br>vective coupling as compared to that over the south China 
+<br>Sea.  The  average  westward  propagation  speed  obtained 
+<br>from this analysis (~ 6.7 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">) is close to the estimate from 
+<br>the space–time spectra (~ 6.9 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">, Fig. 2a). The CTL fails 
+<br>to simulate organisation over the South China Sea with an 
+<br>indication of eastward rather than westward propagation. 
+<br>However, it simulates a much slower propagation (phase 
+<br>speed ~ 2.6 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">) over the Bay of Bengal and Indian region 
+<br>indicating a much stronger convective coupling in the model 
+<br>than observed over this region.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2853px; width:169px; height:35px;"><span style="font-family: MyriadPro-BoldSemiCn; font-size:11px">3.2   The QBM simulated by improved 
+<br>parameterization of convection 
+<br>and microphysics
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:2906px; width:240px; height:285px;"><span style="font-family: STIX-Regular; font-size:10px">As mentioned before, in MCMv.1 version of the model, 
+<br>the new formulation of cloud microphysics (Hazra et al. 
+<br>2017b) has been incorporated in conjunction with the SAS 
+<br>convective parameterization, while in the MCMv.2 the same 
+<br>is incorporated in conjunction with the new SAS (nSAS) 
+<br>convective parameterization. The improved microphysics 
+<br>parameterization has been shown to improve the simula-
+<br>tion of stratiform rain fraction leading to improvement in 
+<br>simulation of the 30–60 day mode together with signifi-
+<br>cant improvement in dry bias over the Indian sub-continent 
+<br>(Hazra et al. 2017b). As for the simulation of QBM, it may 
+<br>be  noted  that  the  MCMv.1  still  overestimates  the  QBM 
+<br>variance (10–20 day) over oceanic regions, with a large 
+<br>extension over the Bay of Bengal (BoB) and the Arabian 
+<br>Sea (Fig. 3a), which is reduced significantly in MCMv.2 
+<br>(Fig.  3b).  However,  MCMv.1  simulates  QBM  variance 
+<br>more realistically over central India and other land parts of 
+<br>India (e.g., northeast region) as compared to MCMv.2. The 
+<br>QBM variance is reasonably well simulated over the oceanic 
+<br>regions (Fig. 1) in MCMv.2, while significant underestima-
+<br>tion exists over the north BoB and northeast India and north-
+<br>west India. Over the land region however MCMv.1 is better 
+<br>for high frequency MISO variance (QBM).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:3194px; width:240px; height:97px;"><span style="font-family: STIX-Regular; font-size:10px">The westward propagation of QBM over the ISM region 
+<br>for  the  MCMv1  and  MCMv2  runs  are  examined  here. 
+<br>The wave number and frequency structure, finite domain 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">space–time spectra (Fu et al. 2003; Hayashi 1982; Teng and 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">Wang 2003; Wheeler and Kiladis 1999) of 10–20 days fil-
+<br>tered (Lanczos filter; Duchon 1979) rainfall (considered over 
+<br>the 0–180° E and 5° S–20° N) are computed from MCMv.1, 
+<br>and MCMv.2, and shown in Fig. 4a, b. We note that the 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:2926px; width:240px; height:40px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 1   </span><span style="font-family: STIX-Regular; font-size:8px">The  variance  of  precipitation  (mm/day)</span><span style="font-family: STIX-Regular; font-size:5px">2</span><span style="font-family: STIX-Regular; font-size:8px">  associated  with  the 
+<br>QBM in the observations (</span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">, GPCP) and the model simulations with 
+<br>control  CFSv2  (</span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px">,  CTL)  is  calculated  using  the  10–20  days  filtered 
+<br>rainfall anomaly (Lanczos filter)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:2994px; width:240px; height:22px;"><span style="font-family: STIX-Regular; font-size:10px">region of large variance in the south Pacific Convergence 
+<br>Zone (SPCZ) (Fig. 1b).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:3019px; width:240px; height:272px;"><span style="font-family: STIX-Regular; font-size:10px">As the QBM is largely an Asian-Australian monsoon 
+<br>phenomenon and we are focusing on the northern hemi-
+<br>spheric summer monsoon season, the space–time spectra 
+<br>of daily precipitation anomalies are calculated over a lim-
+<br>ited domain between 5° S and 20° N and 0° E and 180° 
+<br>E following Wheeler and Kiladis (1999). The space–time 
+<br>spectra for zonal propagation (averaged between 5° S–20° 
+<br>N) from observation and CTL are shown in Fig. 2a, b. As 
+<br>shown in the earlier studies, westward propagating mode 
+<br>has a maximum power approximately on zonal wave number 
+<br>2 with westward phase speed of approximately 6.9 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">, 
+<br>and that is much stronger than the corresponding eastward 
+<br>propagating mode. Consistent with the simulation of vari-
+<br>ance (Fig. 1), the simulated westward propagating power is 
+<br>also larger than observations. CTL simulates the asymmetry 
+<br>in westward and eastward propagating powers reasonably 
+<br>well. However, CTL simulates westward propagating power 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">in two wavelength regimes—one with wave number ~ 3 and 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">another with zonal wave number 6 (phase speed ~ 2.5 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">; 
+<br>Fig. 2b). The westward propagation characteristics is further 
+<br>examined by constructing lead-lag composites of 10–20 day 
+<br>filtered precipitation with respect to a reference time series 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:2572px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:2617px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:2630px; width:238px; height:279px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:53px; top:2630px; width:232px; height:279px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:3413px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:3413px;"><a name="5">Page 5</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:3446px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">603
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:4006px; width:240px; height:51px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 2   </span><span style="font-family: STIX-Regular; font-size:8px">The  wave  number  and  frequency  structure,  finite  domain 
+<br>space–time  spectra  (Fu  et  al.  2003;  Hayashi  1982;  Teng  and  Wang 
+<br>2003;  Wheeler  and  Kiladis  1999)  of  10–20  days  filtered  (Lanczos 
+<br>filter)  (Duchon  1979)  rainfall  (considered  over  the  0–180°  E  and  5° 
+<br>S–20° N) are computed from observations (</span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">, OBS from GPCP) and 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4008px; width:240px; height:39px;"><span style="font-family: STIX-Regular; font-size:8px">the  CFSv2  control  experiments  (</span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px">,  CTL).  The  eastward  propagation 
+<br>of ISOs using lead/lag regressed 10–20 days filtered rainfall anomaly 
+<br>during JJAS for observation (</span><span style="font-family: STIX-Bold; font-size:8px">c</span><span style="font-family: STIX-Regular; font-size:8px">, OBS from GPCP) and CFSv2 control 
+<br>experiments (</span><span style="font-family: STIX-Bold; font-size:8px">d</span><span style="font-family: STIX-Regular; font-size:8px">, CTL)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:4085px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">major bias in scale selection of the west-ward propagat-
+<br>ing mode in CTL (k ~ 6; ~ 3000 km, Fig. 1b) is corrected in 
+<br>MCMv.1 (Fig. 4b) with maximum westward power being 
+<br>at (k ~ 2; ~ 9000 km) as observed. However, the eastward 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4085px; width:240px; height:47px;"><span style="font-family: STIX-Regular; font-size:10px">propagating power remained higher compared to observa-
+<br>tions. Consistent with Fig. 3b, the power of both westward 
+<br>as well as the eastward propagating components are signifi-
+<br>cantly reduced in MCMv.2 (Fig. 4b) experiments. However, 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:3413px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:3458px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:3471px; width:493px; height:518px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:3471px; width:425px; height:518px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:4254px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:4254px;"><a name="6">Page 6</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:4287px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">604 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:4287px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4313px; width:238px; height:22px;"><span style="font-family: STIX-Regular; font-size:10px">higher dominating in power, Fig. 4b) resulting in only frag-
+<br>mented westward propagation.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4338px; width:240px; height:222px;"><span style="font-family: STIX-Regular; font-size:10px">In continuation with exploration of the space–time char-
+<br>acteristics, we also examined the meridional propagation 
+<br>characteristics of the QBM in observations and model simu-
+<br>lations. For this purpose, lead-lag composite of 10–20 day 
+<br>filtered precipitation with respect to a reference time series 
+<br>over  the  central  India  are  constructed.  Average  of  such 
+<br>composite between 70° E–90° E from observation (Fig. 5a) 
+<br>indicates that the evolution of the mode in the north–south 
+<br>direction is nearly stationary with a meridional wavelength 
+<br>of approximately ~ 30° latitude, consistent with findings of 
+<br>Chatterjee and Goswami (2004). The CTL simulates a north-
+<br>ward propagation of about 1° latitude/day with a meridional 
+<br>scale of approximately 25° latitude (Fig. 5b). The MCMv.1 
+<br>simulates stationary structure in the north–south direction 
+<br>but with somewhat shorter meridional wavelength (~ 25° 
+<br>latitude, Fig. 5c). On the other hand, the MCMv.2 simulates 
+<br>a faster northward propagation ~ 2° latitude/day with meridi-
+<br>onal wavelength even larger than 30° latitude.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4563px; width:240px; height:222px;"><span style="font-family: STIX-Regular; font-size:10px">What  is  the  fidelity  of  the  model  in  simulating  the 
+<br>observed  n = 1  equatorial  Rossby  wave  structure  of  the 
+<br>QBM? To examine this question, composite structure of the 
+<br>mode from 10 to 20 day filtered winds at 850 hPa and pre-
+<br>cipitation is constructed. For this purpose a reference time 
+<br>series of 10–20 filtered zonal winds at 850 hPa averaged 
+<br>over 5° N–10° N and 80° E–90° E during June–September 
+<br>is used to identify 15 phases of the QBM oscillations and 
+<br>composite for each phase is created from all oscillations. 
+<br>The structure of the winds and precipitation associated with 
+<br>phase 8 (trough) and phase 1 (peak) of the mode in obser-
+<br>vations and model simulations are shown in Fig. 6. While 
+<br>all versions of the model simulates an equatorial Rossby 
+<br>wave, both the zonal and meridional scales of the simulated 
+<br>modes in CTL and MCMv.2 are smaller than observed with 
+<br>MCMv.1 coming closer to the observed structure. These 
+<br>observations are consistent with the space–time spectra dis-
+<br>cussed earlier (Figs. 2, 4).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:4788px; width:240px; height:185px;"><span style="font-family: STIX-Regular; font-size:10px">What  is  responsible  for  improved  simulation  of  the 
+<br>space–time characteristics of the QBM in the MCMv.1 and 
+<br>MCMv.2 as compared the CTL? Based on known dynam-
+<br>ics of the MISOs (e.g. Kumar et al. 2017), it is likely to 
+<br>be related to the models fidelity in simulating the observed 
+<br>vertical distribution of heating (Yanai et al. 1973) in the 
+<br>region (Fig. 7), which in turn depends on the model’s abil-
+<br>ity to simulate the stratiform rain fraction correctly. In the 
+<br>context of the 30–60 day oscillation (MISO), analysis of 
+<br>observed relationship between phases of convective rain, 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">stratiform rain and moisture convergence indicated (Kumar 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">et al. 2017) that small-scale convergence leading to convec-
+<br>tive rain breeds stratiform rain, the resultant modification of 
+<br>the vertical profile of heating leading to large-scale conver-
+<br>gence feeding to more convective rain and more stratiform 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:4608px; width:240px; height:40px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 3   </span><span style="font-family: STIX-Regular; font-size:8px">The  variance  of  precipitation  (mm/day)</span><span style="font-family: STIX-Regular; font-size:5px">2</span><span style="font-family: STIX-Regular; font-size:8px">  associated  with  the 
+<br>QBM in the two modified CFSv2 experiments is calculated using the 
+<br>10–20 days filtered rainfall anomaly (Lanczos filter; </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.1 and </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px"> 
+<br>MCMv.2)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:4675px; width:240px; height:297px;"><span style="font-family: STIX-Regular; font-size:10px">the maximum power is centred between k = 3 (~ 6000 km) 
+<br>and k = 5 (~ 3600 km) rather than k = 2 (~ 9000 km) as in 
+<br>observations. We further examine the propagation character-
+<br>istics from the 10–20 day filtered precipitation in MCMv.1 
+<br>and MCMv.2 between 10° N and 20° N as in Fig. 2c, d for 
+<br>observation and the CTL respectively. We note from Fig. 4c 
+<br>that the MCMv.1 simulates organised westward propagation 
+<br>over the whole domain as in observations with fast propaga-
+<br>tion speed of ~ 4.6 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px"> over the south China Sea (20° in 
+<br>5 days) and significantly slower speed over the Bay of Ben-
+<br>gal and Indian land mass (~ 3.4 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">) leading to an average 
+<br>phase speed of ~ 4.0 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">. This is a significant improvement 
+<br>from ~ 2.6 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px"> in the CTL, but falls short of the observed 
+<br>~ 6.7 ms</span><span style="font-family: STIX-Regular; font-size:7px">−1</span><span style="font-family: STIX-Regular; font-size:10px">. Thus, the improved cloud microphysics in con-
+<br>junction with SAS convective parameterization leads to a 
+<br>much improved organization and an overall improved west-
+<br>ward propagation speed. However, the convective coupling 
+<br>over the Bay of Bengal and Indian landmass still remains too 
+<br>strong as compared to observations. It might be due the con-
+<br></span><span style="font-family: STIX-Regular; font-size:10px">vective parameterization scheme (SAS) used in MCMv.1. 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">In  MCMv.2  (where  new  SAS  convection  scheme  used), 
+<br>although the amplitude of variance is closer to observa-
+<br>tions (Fig. 3b), the QBM seems to be poorly organised with 
+<br>predominant smaller spatial scales (consistent with k = 3 or 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:4254px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:4299px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:4312px; width:238px; height:279px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:53px; top:4312px; width:232px; height:279px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:5095px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:5095px;"><a name="7">Page 7</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:5128px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">605
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:5678px; width:240px; height:50px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 4   </span><span style="font-family: STIX-Regular; font-size:8px">The  wave  number  and  frequency  structure,  finite  domain 
+<br>space–time  spectra  (Fu  et  al.  2003;  Hayashi  1982;  Teng  and  Wang 
+<br>2003;  Wheeler  and  Kiladis  1999)  of  10–20  days  filtered  (Lanczos 
+<br>filter)  (Duchon  1979)  rainfall  (considered  over  the  0–180°  E  and  5° 
+<br>S–20°  N)  are  computed  from  the  two  modified  CFSv2  experiments 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:5680px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">(e.g., </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.1, and </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.2). The eastward propagation of ISOs 
+<br>using  lead/lag  regressed  10–20  days  filtered  rainfall  anomaly  dur-
+<br>ing  JJAS  for  two  modified  CFSv2  experiments  (</span><span style="font-family: STIX-Bold; font-size:8px">c</span><span style="font-family: STIX-Regular; font-size:8px">  MCMv.1  and  </span><span style="font-family: STIX-Bold; font-size:8px">d</span><span style="font-family: STIX-Regular; font-size:8px"> 
+<br>MCMv.2)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:5754px; width:240px; height:60px;"><span style="font-family: STIX-Regular; font-size:10px">rain and organization on the large scale. The same processes 
+<br>seems to be operative even for the QBM and the lead–lag 
+<br>relationships between convective rain and stratiform rain, 
+<br>moisture convergence and convective rain, moisture conver-
+<br>gence and stratiform rain are poorly simulated in the CTL 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:5754px; width:240px; height:60px;"><span style="font-family: STIX-Regular; font-size:10px">experiment (Fig. S1a). On the other hand it is better repli-
+<br>cated in the MCMv.1 (Fig. S1b) and MCMv.2 (Fig. S1c) 
+<br>similar to that found in observation for MISO (see their 
+<br>Fig. 8b, Kumar et al. 2017). As this improvement is likely to 
+<br>be related to improvement in simulating the vertical profile 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:5095px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:5140px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:5152px; width:493px; height:508px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:5152px; width:425px; height:508px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:5936px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:5936px;"><a name="8">Page 8</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:5968px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">606 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:5968px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:6495px; width:495px; height:21px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 5   </span><span style="font-family: STIX-Regular; font-size:8px">The  northward  propagation  of  ISOs  using  lead/lag  regressed  10–20  days  filtered  rainfall  anomaly  during  JJAS  for  </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">  GPCP,  </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px">  CTL,  </span><span style="font-family: STIX-Bold; font-size:8px">c</span><span style="font-family: STIX-Regular; font-size:8px"> 
+<br>MCMv.1, and </span><span style="font-family: STIX-Bold; font-size:8px">d</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.2
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:6545px; width:240px; height:110px;"><span style="font-family: STIX-Regular; font-size:10px">of the large-scale heating  (Q</span><span style="font-family: STIX-Regular; font-size:7px">1</span><span style="font-family: STIX-Regular; font-size:10px">), we examine the observed 
+<br>(from CFSR) and model simulated  Q</span><span style="font-family: STIX-Regular; font-size:7px">1</span><span style="font-family: STIX-Regular; font-size:10px"> over two different 
+<br>regions (Extended Indian Monsoon Region (EIMR, 70° 
+<br>E–100° E, 10° N–30° N) and Indian Ocean region (IO, 65° 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">E–95° E; 0–10° S, Fig. 7). Over the EIMR region, the lower 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">and middle level heating is significantly underestimated by 
+<br>the CTL that is improved by about 25% in the MCMv.1 and 
+<br>about 50% in the MCMv.2 (Fig. 7c). Similar but less dra-
+<br>matic improvements are seen over the IO region (Fig. 7d). 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:6545px; width:240px; height:110px;"><span style="font-family: STIX-Regular; font-size:10px">This improvement of vertical structure of  Q</span><span style="font-family: STIX-Regular; font-size:7px">1</span><span style="font-family: STIX-Regular; font-size:10px"> in MCMv.1 
+<br>and MCMv.2 is likely to be related to the simulation of 
+<br>the convective to stratiform ratio. Examination of percent-
+<br>age contribution of convective and stratiform rain to total 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">rain over the central India region (70°–90°E; 10°–25°N) 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">indicates (Fig. 8) that all versions of the model overesti-
+<br>mates contribution of convective rain and underestimates 
+<br>the stratiform rain. However, the new cloud microphysics 
+<br>in conjunction with SAS convection scheme does reduce 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:5936px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:5981px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:5993px; width:493px; height:484px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:5993px; width:425px; height:484px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:6776px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:6776px;"><a name="9">Page 9</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:6809px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">607
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:7446px; width:493px; height:20px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 6   </span><span style="font-family: STIX-Regular; font-size:8px">The JJAS composites of 10–20 days filtered anomalies of wind at 850 hPa and rainfall are shown for phase 8 and for phase 1 (for observa-
+<br>tion and models)
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:6776px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:6822px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:6834px; width:493px; height:594px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:6834px; width:425px; height:594px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:7617px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:7617px;"><a name="10">Page 10</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:7650px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">608 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:7650px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:8031px; width:495px; height:20px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 7   </span><span style="font-family: STIX-Regular; font-size:8px">Vertical profile of heating  (Q</span><span style="font-family: STIX-Regular; font-size:5px">1</span><span style="font-family: STIX-Regular; font-size:8px">) over two different regions (EIMR, 70° E–100° E, 10° N–30° N; Indian Ocean region, 65° E–95° E; 0–10° 
+<br>S) from CFSR and model sensitivity experiments (i.e., CTL, MCMv.1 and MCMv.2)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:8076px; width:240px; height:197px;"><span style="font-family: STIX-Regular; font-size:10px">the contribution of convective rain and increase contribu-
+<br>tion of stratiform rain to total significantly (i.e. in MCMv.1) 
+<br>bringing the ratio closer to observations. On the other hand, 
+<br>in MCMv.2, the combination of nSAS and modified micro-
+<br>physics leads to deterioration of this ratio (convective and 
+<br>stratiform to total). It may be noted here that most of the 
+<br>climate models suffer from this problem, which is related to 
+<br>the convective and stratiform partitioning issues has been 
+<br>well documented (Dai 2006; Yin et al. 2013; Ahmed and 
+<br>Schumacher 2015; Sabeerali et al. 2015; Pathak et al. 2019), 
+<br>although still remains an outstanding problem in climate 
+<br>modeling. We note that our combination of SAS convec-
+<br>tion scheme in conjunction with the modified microphysics 
+<br>scheme not only improves this ratio dramatically over India, 
+<br>China and northern South America, but also improves nota-
+<br>bly over most of the world oceans. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:8276px; width:240px; height:59px;"><span style="font-family: STIX-Regular; font-size:9px">The  vertical  profile  of  pressure  vertical  velocity 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">(Omega; pa/s) and specific humidity over two contrast-
+<br>ing regions (i.e., EIMR and Indian Ocean) from NCEP 
+<br>reanalysis and model sensitivity experiments (i.e., CTL, 
+<br>MCMv.1 and MCMv.2) are also presented in Figs. 9 and 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:8076px; width:240px; height:260px;"><span style="font-family: STIX-Regular; font-size:10px">10  respectively.  The  CTL  experiment  depicts  weaker 
+<br>updraft  over  the  EIMR  region  (Fig.  9b)  compared  to 
+<br>observation (Fig. 9a). The updraft speed improved sig-
+<br>nificantly over central India in both MCMv.1 (Fig. 9c) and 
+<br>MCMv.2 (Fig. 9d). It is also noted that low level updraft 
+<br>over oceanic region is weaker as compared to land region 
+<br>as seen in NCEP reanalysis (Fig. 9a), which is reversed 
+<br>in CTL (Fig. 9b) but agreeing in MCMv.1 (Fig. 9c) and 
+<br>MCMv.2 (Fig. 9d) experiments. Similarly, the vertical pro-
+<br>file of specific humidity over the two regions (EIMR and 
+<br>Indian Ocean) also indicates that differences (land–ocean 
+<br>contrast) is weaker in CTL (Fig. 10b) compared to NCEP 
+<br>(Fig. 10a), which is improved in MCMv.1 (Fig. 10c). But 
+<br>the land–ocean difference of specific humidity is stronger 
+<br>than observed in MCMv.2 (Fig. 10d), which might be the 
+<br>cause of more convective rain over Ocean and deteriorates 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">the ratio of convective/stratiform to total rain again in con-
+<br></span><span style="font-family: STIX-Regular; font-size:10px">trast to MCMv.1. This is consistent with improvement in 
+<br>space–time characteristics of QBM in MCMv.1 but not in 
+<br>MCMv.2. It also shows that a synergy between the con-
+<br>vection parameterization scheme and the microphysics 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:7617px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:7662px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:7675px; width:493px; height:338px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:7675px; width:425px; height:338px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:8458px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:8458px;"><a name="11">Page 11</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:8491px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">609
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:9127px; width:240px; height:30px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 8   </span><span style="font-family: STIX-Regular; font-size:8px">Percentage  (%)  of  convective  to  total  rain  from  </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">  observation 
+<br>(TRMM), </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px"> CTL, </span><span style="font-family: STIX-Bold; font-size:8px">c</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.1, </span><span style="font-family: STIX-Bold; font-size:8px">d</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.2 during JJAS, and </span><span style="font-family: STIX-Bold; font-size:8px">e</span><span style="font-family: STIX-Regular; font-size:8px"> differ-
+<br>ence of percentage (%) of convective to total rain between MCMv.1 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:9129px; width:240px; height:29px;"><span style="font-family: STIX-Regular; font-size:8px">and CTL (MCMv.1 minus CTL). Bar plot showing the percentage of 
+<br>convective  to  total  (PCT)  rain  and  percentage  of  stratiform  to  total 
+<br>(PST) rain averaged over central India region (marked as box in </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">)
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:8458px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:8503px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:8516px; width:493px; height:594px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:8516px; width:425px; height:594px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:9299px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:9299px;"><a name="12">Page 12</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:9332px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">610 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:9332px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:9731px; width:495px; height:20px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 9   </span><span style="font-family: STIX-Regular; font-size:8px">Vertical profile of pressure vertical velocity (Omega, × 10</span><span style="font-family: STIX-Regular; font-size:5px">3</span><span style="font-family: STIX-Regular; font-size:8px"> pa/s) over two different regions (EIMR, 70° E–100° E, 10° N–30° N; Indian 
+<br>Ocean region, 65° E–95° E; 0–10° S) from NCEP and model sensitivity experiments (i.e., CTL, MCMv.1 and MCMv.2)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:9771px; width:240px; height:22px;"><span style="font-family: STIX-Regular; font-size:10px">scheme is important for further improving the simulation 
+<br>of the stratiform fraction of rain.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:9796px; width:240px; height:222px;"><span style="font-family: STIX-Regular; font-size:10px">Impact of the QBM on the Indian monsoon climate comes 
+<br>through its contribution to the seasonal mean. Recently, 
+<br>Saha et al. (2019) have shown that the variance of the QBM 
+<br>(10–20 period bands) is not only correlated to the inter-
+<br>annual variability of the seasonal Indian summer monsoon 
+<br>rainfall anomaly, but also is tied to predictable drivers like 
+<br>the ENSO. How do the models simulate the contribution 
+<br>of the QBM to seasonal anomaly? In order to examine this 
+<br>aspect, the correlation between variance of 10–20 day fil-
+<br>tered precipitation during JJAS and seasonal precipitation 
+<br>over regions, namely the Central India (CI, 70° E–90° E, 
+<br>10° N–25° N), together with contributions of convective 
+<br>and stratiform precipitation to total are shown in Fig. 11a. 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">Over CI, the observed weak positive correlation is highly 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">overestimated in the CTL and MCMv.2. While the model 
+<br>overestimates the observed correlation, it is closer to obser-
+<br>vation in the MCMv.1. To understand the differences in the 
+<br>models’ ability to simulate the correlations over a larger 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:9771px; width:240px; height:110px;"><span style="font-family: STIX-Regular; font-size:10px">region (all India region, 70° E–90° E, 10° N–30° N), the 
+<br>partition between convective and stratiform precipitation 
+<br>over the region in observations and also simulated by the 
+<br>three versions of model are plotted in Fig. 11b. Over the 
+<br>larger All India region, the correlation between 10–20 day 
+<br>filtered precipitation and seasonal mean is well simulated by 
+<br>MCMv.1 and again, it seems to be related to a better simula-
+<br>tion of the ratio of contributions of convective and stratiform 
+<br>precipitation to total by the MCMv.1 (Fig. 11b).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:9883px; width:240px; height:122px;"><span style="font-family: STIX-Regular; font-size:10px">The aforementioned analysis provides strong evidence 
+<br>that the stratiform fraction of rainfall plays a critical role 
+<br>in the observed and simulated space–time structure of the 
+<br>QBM. As stratiform rain fraction plays an important role 
+<br>in determining the vertical structure of heating (Chatto-
+<br>padhyay et al. 2009; Schumacher et al. 2004) and since 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">the  variance  of  QBM  is  correlated  with  the  seasonal 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">anomaly, the biases in simulating the QBM are going to 
+<br>be reflected in biases in simulating the mean vertical struc-
+<br>ture of heating by the model. Therefore, we examine the 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:9299px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:9344px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:9357px; width:493px; height:357px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:9357px; width:425px; height:357px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:10140px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:10140px;"><a name="13">Page 13</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:10173px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">611
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:10542px; width:495px; height:20px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 10   </span><span style="font-family: STIX-Regular; font-size:8px">Vertical profile of specific humidity (g/kg) over two different regions (EIMR, 70° E–100° E, 10° N–30° N; Indian Ocean region, 65° 
+<br>E–95° E; 0–10° S) from NCEP and model sensitivity experiments (i.e., CTL, MCMv.1 and MCMv.2)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:10587px; width:240px; height:259px;"><span style="font-family: STIX-Regular; font-size:10px">Walker circulation (represented by the pressure vertical 
+<br>velocity averaged over 5° S–5° N) in observation and in 
+<br>model simulations (Fig. 12). The vertical structure of the 
+<br>vertical velocity being proportional to the vertical struc-
+<br>ture of heating, the maximum of vertical velocity around 
+<br>300 hPa extending west of 60° E is a manifestation of 
+<br>contribution from the stratiform fraction of precipitation 
+<br>in observations (Fig. 12a). In this context, the longitudinal 
+<br>variation of vertical profile of heating (Fig. S2; apparent 
+<br>heat source,  Q</span><span style="font-family: STIX-Regular; font-size:7px">1</span><span style="font-family: STIX-Regular; font-size:10px">) averaged over 5° S–5° N is also consistent 
+<br>with the Walker circulation pattern (Fig. 12). Restricted 
+<br>westward propagation of the QBM in CTL (Fig. 12b) and 
+<br>in MCMv.2 (Fig. 12d) is partly responsible for limiting 
+<br>the westward extension of the vertical velocity to 70° E. 
+<br>Consistent with better westward propagation of the QBM 
+<br>simulated by the MCMv.1 and better simulation of the 
+<br>stratiform fraction of precipitation, the westward exten-
+<br></span><span style="font-family: STIX-Regular; font-size:10px">sion of mean vertical velocity is closer to observation in 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">MCMv.1  with  a  maximum  around  300  hPa  (Fig.  12c). 
+<br>However, the model still underestimates the maximum at 
+<br>300 hPa around 60° E.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:10584px; width:163px; height:12px;"><span style="font-family: MyriadPro-Bold; font-size:12px">4   Conclusions and discussions
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:10613px; width:240px; height:122px;"><span style="font-family: STIX-Regular; font-size:10px">The simulation of the space–time characteristics of the QBM 
+<br>by AOGCMs with fidelity is a critical requirement for suc-
+<br>cess of seasonal prediction of south Asian monsoon rainfall 
+<br>in particular and seasonal prediction in tropics in general, 
+<br>which has received little attention so far. In this endeavor, 
+<br>we learn some lessons by noting biases in the simulation 
+<br>of the QBM in the control version of an AOGCM and how 
+<br>improvement of convection and microphysics parameteriza-
+<br>tions in the model lead to improvement of simulations of the 
+<br>observed characters of the QBM.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:10738px; width:240px; height:122px;"><span style="font-family: STIX-Regular; font-size:10px">For this purpose, we use Climate Forecast system, ver-
+<br>sion 2 (CFSv2) of National Centre Environmental Predic-
+<br>tion (NCEP) and examine simulation of the QBM in three 
+<br>different versions of the model. The standard version of the 
+<br>model overestimates the variance of QBM and simulates 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">a smaller scale Rossby waves (n = 1). In the modified ver-
+<br></span><span style="font-family: STIX-Regular; font-size:10px">sion of the model, where the simple Arakawa–Schubert 
+<br>(SAS) convection parameterization is combined with a new 
+<br>improved microphysics parameterization proposed by us, 
+<br>simulation of the space–time characteristics are is much 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:10140px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:10185px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:10198px; width:493px; height:326px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:85px; top:10198px; width:425px; height:326px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:10981px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:10981px;"><a name="14">Page 14</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:11014px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">612 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:11014px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:11264px; width:240px; height:70px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 11   </span><span style="font-family: STIX-Regular; font-size:8px">The  correlation  of  the  seasonal  mean  with  the  QBM  vari-
+<br>ance  (10–20  days)  from  observation  and  all  three  models  over  two 
+<br>different  regions;  </span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">  central  India  (CI);  </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px">  all  India  regions  (70–90° 
+<br>E  and  10–30°  N).  The  percentage  of  convective  to  total  (PCT)  and 
+<br>stratiform to total (PST) rain fractions during JJAS over the different 
+<br>regions  (</span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px">  CI,  </span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px">  all  India  regions  are  also  presented  here.  The  scale 
+<br>for PCT and PST is given on right of each panel
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:11352px; width:240px; height:85px;"><span style="font-family: STIX-Regular; font-size:10px">closer to observations, but it still overestimates the variance 
+<br>of the QBM. In another version of the model, we combine 
+<br>the new SAS (nSAS) with the new improved microphysics 
+<br>parameterization. Interestingly, this version of the model 
+<br>also simulates the space–time structure poorly with poor 
+<br>westward propagation and fragmented organization while 
+<br>simulating the variance better.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:11440px; width:240px; height:260px;"><span style="font-family: STIX-Regular; font-size:10px">We show that most of the biases in simulating the QBM 
+<br>may be related to the biases of the model in simulating the 
+<br>stratiform fraction of precipitation. The propagation charac-
+<br>teristics and spatial organization of the low frequency MISO 
+<br>(30–60 day mode) is known to be closely linked with the ver-
+<br>tical structure of the heating controlled largely by contribu-
+<br>tion of stratiform fraction of precipitation (Schumacher et al. 
+<br>2004; Chattopadhyay et al. 2009; Kumar et al. 2017). Our 
+<br>results indicate that the same is true for the QBM as well. 
+<br>The generic problem with almost all coupled models is that 
+<br>they highly overestimate contribution of convective precipi-
+<br>tation thereby underestimating the stratiform fraction (e.g., 
+<br>Sabeerali et al. 2015). The CFSv.2 model is no exception to 
+<br>this problem (Fig. 7b) with massive overestimation of convec-
+<br>tive precipitation over warm tropical oceans and underesti-
+<br>mation of it over cold tropical oceans. The new microphysics 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">parameterization in conjunction with SAS convection scheme 
+<br></span><span style="font-family: STIX-Regular; font-size:10px">(MCMv.1) leads to decrease in convective fraction almost eve-
+<br>rywhere but most markedly over land regions of south and 
+<br>south-east Asia and over Amazon. While the convective frac-
+<br>tion still remains higher than observed over oceans, it comes 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:11486px; width:240px; height:40px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Fig. 12   </span><span style="font-family: STIX-Regular; font-size:8px">Walker circulation (averaged over 5° S–5° N) of vertical pres-
+<br>sure velocity (omega) from observation (</span><span style="font-family: STIX-Bold; font-size:8px">a</span><span style="font-family: STIX-Regular; font-size:8px"> NCEP) and CFSv2 model 
+<br></span><span style="font-family: STIX-Regular; font-size:8px">simulations (</span><span style="font-family: STIX-Bold; font-size:8px">b</span><span style="font-family: STIX-Regular; font-size:8px"> CTL, </span><span style="font-family: STIX-Bold; font-size:8px">c</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.1, </span><span style="font-family: STIX-Bold; font-size:8px">d</span><span style="font-family: STIX-Regular; font-size:8px"> MCMv.2) form JJAS mean clima-
+<br></span><span style="font-family: STIX-Regular; font-size:8px">tology
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:11552px; width:240px; height:147px;"><span style="font-family: STIX-Regular; font-size:10px">close to observation over land. This decrease in convective 
+<br>fraction and corresponding increase in stratiform fraction has 
+<br>been responsible for the improved simulation of space–time 
+<br>characteristics of the QBM in this version. Thus, the improve-
+<br>ment of simulation of the stratiform fraction of rainfall must 
+<br>remain as a strategic goal for improvement of coupled models.
+<br>Another lesson that we have learned from our results is that 
+<br></span><span style="font-family: STIX-Regular; font-size:9px">a synergy between the convection and microphysics param-
+<br></span><span style="font-family: STIX-Regular; font-size:10px">eterizations is critical in simulating the QBM in particular 
+<br>and equatorial waves in general. Our finding that when we 
+<br>combine an improved convection parameterization (namely 
+<br>the nSAS) with the new microphysics scheme (the MCMv.2), 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:10981px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:11026px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: black 1px solid; left:51px; top:11039px; width:238px; height:208px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:53px; top:11039px; width:232px; height:208px;"></div><span style="position:absolute; border: black 1px solid; left:306px; top:11039px; width:238px; height:430px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:308px; top:11039px; width:232px; height:430px;"></div><span style="position:absolute; border: gray 1px solid; left:0px; top:11822px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:11822px;"><a name="15">Page 15</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:11881px; width:240px; height:147px;"><span style="font-family: STIX-Regular; font-size:10px">the simulation of the space–time characteristics of the QBM 
+<br>deteriorates compared to that in MCMv.1 with poorer west-
+<br>ward propagation and fragmented organization. This is con-
+<br>sistent with the MCMv.2 simulating larger convective frac-
+<br>tion (Fig. 8d) almost everywhere compared to that by the 
+<br>MCMv.1. This indicates that while microphysics parameteri-
+<br>zation is critical for the simulation of the stratiform fraction, 
+<br>its connectivity with the background convection parameteri-
+<br>zation is equally important. The source of moisture content 
+<br>and triggering of convection through convection scheme are 
+<br>important component for the microphysics scheme to form 
+<br>proper cloud condensates (i.e., cloud water and cloud ice).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12031px; width:240px; height:260px;"><span style="font-family: STIX-Regular; font-size:10px">While  significant  improvement  in  simulating  the 
+<br>space–time characteristics of the QBM has been achieved in 
+<br>the MCMv.1, we still have not found a model for simulating 
+<br>the QBM ‘perfectly’. However, our experiments and analysis 
+<br>have provided some directions for further improvements. 
+<br>The phase propagation of the convectively coupled equato-
+<br>rial waves is dependent on the strength of the convective 
+<br>coupling. Much slower than observed simulated westward 
+<br>propagation characteristics even in the case of MCMv.1 
+<br>(Fig. 4c) is indicative of a stronger convective coupling in 
+<br>the model. This is consistent with the simulation of overall 
+<br>larger than observed convective fraction of precipitation by 
+<br>the model even though it is closer to observations over land. 
+<br>In addition to the required reduction of simulated convective 
+<br>fraction of precipitation, the convective coupling may also 
+<br>depend on how the boundary layer model feeds heat and 
+<br>moisture fluxes to the convective elements. Therefore, an 
+<br>optimum synergy (in terms of proper feedback among vari-
+<br>ous physical processes) would be required among the bound-
+<br>ary layer model (i.e. land surface processes), the convection 
+<br>parameterization and the microphysics parameterization.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12302px; width:240px; height:110px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Acknowledgements</span><span style="font-family: STIX-Regular; font-size:8px">  Indian Institute of Tropical Meteorology (IITM), 
+<br>Pune, is fully funded by the Ministry of Earth Sciences (MoES), Gov-
+<br>ernment of India, New Delhi. We thank MoES and Director IITM, 
+<br>HPCS for all the support to carry out this work. We also thank NCEP 
+<br>for providing initial conditions and modeling support. BNG is grateful 
+<br>to the Science and Engineering Research Board (SERB), Govt. India 
+<br>for a Fellowship. The model simulation is also archived at ‘Aaditya’ 
+<br>HPC system at IITM and available on request from the corresponding 
+<br>author. The authors have no conflicts of interest to declare. Authors 
+<br>are grateful to reviewers for their insightful comments, which help to 
+<br>improve the manuscript.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12449px; width:58px; height:12px;"><span style="font-family: MyriadPro-Bold; font-size:12px">References
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12477px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Abhik S, Krishna RPM, Mahakur M, Ganai M, Mukhopadhyay P, 
+<br>Dudhia J (2017) Revised cloud processes to improve the mean and 
+<br>intraseasonal variability of Indian summer monsoon in climate 
+<br>forecast system: part 1. J Adv Model Earth Syst 9:1–28
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12517px; width:240px; height:18px;"><span style="font-family: STIX-Regular; font-size:8px">Adler RF, Huffman GJ, Chang A, Ferraro R, Xie PP, Janowiak J, Nel-
+<br>kin E et al (2003) The version 2 global precipitation climatology 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:532px; top:11854px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">613
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:323px; top:11881px; width:223px; height:18px;"><span style="font-family: STIX-Regular; font-size:8px">project (GPCP) monthly precipitation analysis (1979–present). 
+<br>J Hydrometeorol 4:1147–1167
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:11901px; width:240px; height:108px;"><span style="font-family: STIX-Regular; font-size:8px">Ahmed F, Schumacher C (2015) Convective and stratiform compo-
+<br>nents of the precipitation–moisture relationship. Geophys Res 
+<br>Lett 42:10453–10462. https ://doi.org/10.1002/2015G L0669 57
+<br>Betts AK, Miller MJ (1986) A new convective adjustment scheme. 
+<br>Part II: single column tests using GATE wave, BOMEX, ATEX 
+<br>and Arctic air-mass data sets. Q J R Meteorol Soc 112:693–709
+<br>Bombardi R, Tawfik A, Manganello J, Marx L, Shin C-S, Halder S, 
+<br>Schneider E, Dirmeyer P, Kinter J (2016) The heated conden-
+<br>sation framework as a convective trigger in the NCEP Climate 
+<br>Forecast System version 2. J Adv Model Earth Syst. https ://doi.
+<br>org/10.1002/2016M S0006 68
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12011px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Chatterjee P, Goswami BN (2004) Structure, genesis and scale selec-
+<br>tion of the tropical quasi-biweekly mode. Q J R Meteorol Soc 
+<br>130:1171–1194
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12041px; width:240px; height:98px;"><span style="font-family: STIX-Regular; font-size:8px">Chattopadhyay R, Goswami BN, Sahai AK, Fraedrich K (2009) Role 
+<br>of stratiform rainfall in modifying the northward propagation of 
+<br>monsoon intra-seasonal oscillation. J Geophys Res 114:D19114
+<br>Chaudhari HS, Hazra A, Pokhrel S, Saha SK, Taluri SS (2018) Simu-
+<br>lation of extreme Indian summer monsoon years in Coupled 
+<br>Model Intercomparison Project Phase 5 models: role of cloud 
+<br>processes. Int J Climatol. https ://doi.org/10.1002/joc.5851
+<br>Chen T-C, Chen J-M (1993) The 10–20 day mode of the 1979 Indian 
+<br>monsoon: its relation with time variation of monsoon rainfall. 
+<br>Mon Weather Rev 121:2465–2482
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12141px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Chen  G,  Sui  C-H  (2010)  Characteristics  and  origin  of  quasi  bi-
+<br>weekly  oscillation  over  the  western  North  Pacific  during 
+<br>boreal  summer.  J  Geophys  Res  115:D14113.  https ://doi.
+<br>org/10.1029/2009J D0133 89
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12180px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Clough SA, Shephard MW, Mlawer EJ, Delamere JS, Iacono MJ, Cady-
+<br>Pereira K, Boukabara S, Brown PD (2005) Atmospheric radiative 
+<br>transfer modeling: a summary of the AER codes. J Quant Spec-
+<br>trosc Radiat Transf 91:233–244
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12220px; width:240px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">Dai A (2006) Precipitation characteristics in eighteen coupled climate 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:323px; top:12230px; width:103px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">models. J Clim 19:4605–4629
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12240px; width:240px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">Duchon CE (1979) Lanczos filtering in one and two dimensions. J Appl 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:323px; top:12250px; width:83px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">Meteorol 18:1016–1022
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12260px; width:240px; height:48px;"><span style="font-family: STIX-Regular; font-size:8px">Ek  MB,  Mitchell  KE,  Lin  Y,  Rogers  E,  Grunmann  P,  Koren  V, 
+<br>Gayno G, Tarpley JD (2003) Implementation of Noah land sur-
+<br>face model advances in the National Centers for Environmen-
+<br>tal Prediction operational mesoscale Eta model. J Geophys Res 
+<br>1089(D22):8851. https ://doi.org/10.1029/2002J D0032 96
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12310px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Fu X, Wang B, Li T, McCreary JP (2003) Coupling between northward 
+<br>propagating, intraseasonal oscillations and sea surface tempera-
+<br>ture in the Indian Ocean. J Atmos Sci 60:1733–1753
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12340px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Goswami BN (2012) South Asian monsoon.In W. K.-M. Lau &amp; D. 
+<br></span><span style="font-family: STIX-Regular; font-size:8px">E. Waliser (Eds.), South Asian monsoon (pp. 21–72). Berlin: 
+<br></span><span style="font-family: STIX-Regular; font-size:8px">Springer
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12370px; width:240px; height:48px;"><span style="font-family: STIX-Regular; font-size:8px">Goswami B, Khouider B, Phani MK, Mukhopadhyay P, Majda AJ 
+<br>(2017)  Implementation  and  calibration  of  a  stochastic  multi-
+<br>cloud convective parameterization in the NCEP Climate Fore-
+<br>cast  System  (CFSv2).  J  Adv  Model  Earth  Syst.  https ://doi.
+<br>org/10.1002/2017M S0010 14
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12420px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Griffies SM, Harrison MJ, Pacanowski RC, Rosati A (2004) A technical 
+<br>guide to MOM4, GFDL ocean group technical report 5, GFDL, 
+<br>p 337
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12450px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Han J, Pan H-L (2011) Revision of convection and vertical diffusion 
+<br>schemes in the NCEP global forecast system. Weather Forecast 
+<br>26:520–533
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12480px; width:240px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">Hayashi Y (1982) Space-time spectral analysis and its applications to 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:323px; top:12490px; width:190px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">the atmospheric waves. J Meteorol Soc Jpn 60:156–171
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12500px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Hazra A, Chaudhari HS, Rao SA, Goswami BN, Dhakate A, Pokhrel 
+<br>S,  Saha  SK  (2015)  Impact  of  revised  cloud  microphysical 
+<br>scheme in CFSv2 on the simulation of the Indian summer mon-
+<br>soon. Int J Climatol 35:4738–4755
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:11822px; width:595px; height:0px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">Role of cloud microphysics in improved simulation of the Asian monsoon quasi-biweekly mode…<span style="position:absolute; border: black 1px solid; left:51px; top:11867px; width:493px; height:0px;"></span>
+</span><span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:12662px; width:595px; height:790px;"></span>
+<div style="position:absolute; top:12662px;"><a name="16">Page 16</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12695px; width:12px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">614 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:12695px; width:43px; height:8px;"><span style="font-family: MyriadPro-SemiCn; font-size:8px">A. Hazra et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12722px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Hazra A, Chaudhari HS, Pokhrel S, Saha SK (2016) Indian summer 
+<br>monsoon precipitating clouds: role of microphysical process 
+<br>rates. Clim Dyn 46:2551–2571
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12751px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Hazra  A,  Chaudhari  HS,  Saha  SK,  Pokhrel  S  (2017a)  Effect  of 
+<br>cloud microphysics on Indian summer monsoon precipitating 
+<br>clouds: a coupled climate modeling study. J Geophys Res Atmos 
+<br>122:3786–3805. https ://doi.org/10.1002/2016J D0261 06
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12791px; width:240px; height:48px;"><span style="font-family: STIX-Regular; font-size:8px">Hazra A, Chaudhari HS, Saha SK, Pokhrel S, Goswami BN (2017b) 
+<br>Progress towards achieving the challenge of Indian summer 
+<br>monsoon climate simulation in a coupled ocean-atmosphere 
+<br>model.  J  Adv  Model  Earth  Syst  9:2268–2290.  https ://doi.
+<br>org/10.1002/2017M S0009 66
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12841px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Hong SY, Pan HL (1998) Convective trigger function for a mass 
+<br>flux  cumulus  parameterization  scheme.  Mon  Weather  Rev 
+<br>126:2599–2620
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12871px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Hu W-T, Li T (2017) Local intraseasonal air–sea relationship over 
+<br>the North Indian Ocean and western North Pacific during the 
+<br>spring-to-summer transition. Atmos Ocean Sci Lett 10:65–72. 
+<br>https ://doi.org/10.1080/16742 834.2017.12354 63
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:12911px; width:240px; height:128px;"><span style="font-family: STIX-Regular; font-size:8px">Huffman GJ, Adler RF, Bolvin DT, Gu G, Nelkin EJ, Bowman KP, 
+<br>Stocker EF, Wolff DB (2007) The TRMM multi satellite pre-
+<br>cipitation analysis: quasi-global, multi-year, combined-sensor 
+<br>precipitation estimates at fine scale. J Hydrometeorol 8:33–55
+<br>Iacono MJ, Mlawer EJ, Clough SA, Morcrette J-J (2000) Impact of 
+<br>an improved longwave radiation model, RRTM, on the energy 
+<br>budget and thermodynamic properties of the NCAR Community 
+<br>Climate Model, CCM3. J Geophys Res 105:14873–14890
+<br>Kikuchi K, Wang B (2009) Global perspective of the quasibiweekly oscil-
+<br>lation. J Clim 22:1340–1359. https ://doi.org/10.1175/2008J CLI23 68.1
+<br>Kiladis G, Wheeler M (1995) Horizontal and vertical structure of 
+<br>observed tropospheric equatorial Rossby waves. J Geophys Res 
+<br>100(D11):22981–22997
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13041px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Kim  YJ,  Arakawa  A  (1995)  Improvement  of  orographic  gravity 
+<br>wave parameterization using a meso-scale gravity wave model. 
+<br>J Atmos Sci 52:1875–1902
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13071px; width:240px; height:88px;"><span style="font-family: STIX-Regular; font-size:8px">Krishnamurti TN, Ardanuy P (1980) The 10 to 20-day westward 
+<br>propagating  mode  and  “Breaks  in  the  Monsoons”.  Tellus 
+<br>32(1):15–26. https ://doi.org/10.3402/tellu sa.v32i1 .10476  
+<br>Krishnamurti TN, Bhalme HN (1976) Oscillations of a monsoon 
+<br>system, part I: observational aspects. J Atmos Sci 33:1937–1954
+<br>Kumar S, Arora A, Chattopadhyay R, Hazra A, Rao AS, Goswami 
+<br>BN  (2017)  Seminal  role  of  stratiform  clouds  in  large-scale 
+<br>aggregation of tropical rain in boreal summer monsoon intra-
+<br>seasonal oscillations. Clim Dyn 48:999–1015
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13161px; width:238px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Lott F, Miller MJ (1997) A new subgrid-scale orographic drag parametri-
+<br>zation: its formulation and testing. Q J R Meteorol Soc 123:101–127
+<br>Murakami T (1975) Cloudiness fluctuations during summer mon-
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:68px; top:13191px; width:133px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">soon. J Meteorol Soc Jpn 54:175–181
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13201px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Numaguti A (1995) Characteristics of 4- to 20-day period distur-
+<br>bances observed in the equatorial Pacific during the TOGA 
+<br>COARE IOP. J Meteorol Soc Jpn 73:353–377
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13231px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Pathak R, Sahany S, Mishra SK, Dash SK (2019) Precipitation biases 
+<br>in CMIP5 models over the south Asian region. Sci Rep 9:9589. 
+<br>https ://doi.org/10.1038/s4159 8-019-45907 -4
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13261px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Pokhrel S, Hazra A, Chaudhari HS, Saha SK, Paulose F, Sujith K, 
+<br>Phani MK, Rao SA (2018) Hindcast skill improvement in Cli-
+<br>mate Forecast System (CFSv2) using modified cloud scheme. 
+<br>Int J Climatol. https ://doi.org/10.1002/joc.5478
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13301px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Sabeerali CT, Dandi AR, Dhakate A, Salunke K, Mahapatra S, Rao 
+<br>SA (2013) Simulation of boreal summer intraseasonal oscilla-
+<br></span><span style="font-family: STIX-Regular; font-size:8px">tions in the latest CMIP5 coupled GCMs. J Geophys Res Atmos 
+<br></span><span style="font-family: STIX-Regular; font-size:8px">118:4401–4420. https ://doi.org/10.1002/jgrd.50403 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:51px; top:13341px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Sabeerali CT, Rao SA, Dhakate AR et al (2015) Why ensemble mean 
+<br>projection of south Asian monsoon rainfall by CMIP5 models 
+<br>is not reliable? Clim Dyn 45:161. https ://doi.org/10.1007/s0038 
+<br>2-014-2269-3
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12721px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Saha S, Moorthi S, Pan H-L, Wu X, Wang J, Nadiga S, Goldberg M 
+<br>et al (2010) The NCEP climate forecast system reanalysis. Bull 
+<br>Amer Meteorol Soc 91:1015–1057
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12751px; width:240px; height:58px;"><span style="font-family: STIX-Regular; font-size:8px">Saha S, Moorthi S, Wu X, Wang J, Nadiga S, Tripp P, Becker E et al (2014a) 
+<br>The NCEP climate forecast system version 2. J Climate 27:2185–2208
+<br>Saha SK, Pokhrel S, Chaudhari HS, Dhakate A, Shewale S, Sabeerali 
+<br>CT, Rao SA et al (2014b) Improved simulation of Indian sum-
+<br>mer monsoon in latest NCEP climate forecast system free run. 
+<br>Int J Climatol 34:1628–1641
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12811px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Saha SK, Sujith K, Pokhrel S, Chaudhari HS, Hazra A (2017) Effects 
+<br>of multilayer snow scheme on the simulation of snow: offline 
+<br>Noah and coupled with NCEP CFSv2. J Adv Model Earth Syst 
+<br>9:1–20. https ://doi.org/10.1002/2016M S0008 45
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12851px; width:240px; height:98px;"><span style="font-family: STIX-Regular; font-size:8px">Saha SK, Hazra A, Pokhrel S, Chaudhari HS, Sujith K, Rai A, Raha-
+<br>man H, Goswami BN (2019) Unraveling the mystery of Indian 
+<br>summer monsoon prediction: improved estimate of predictabil-
+<br>ity limit. J Geophys Res. https ://doi.org/10.1029/2018J D0300 82
+<br>Schumacher  C,  Houze  RA  Jr,  Kraucunas  I  (2004)  The  tropical 
+<br>dynamical response to latent heating estimates derived from 
+<br>the TRMM Precipitation Radar. J Atmos Sci 61:1341–1358
+<br>Sengupta D, Senan R, Murty VSN, Fernando V (2004) A biweekly 
+<br>mode  in  the  equatorial  Indian  Ocean.  J  Geophys  Res 
+<br>109:C10003. https ://doi.org/10.1029/2004J C0023 29
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:12951px; width:240px; height:48px;"><span style="font-family: STIX-Regular; font-size:8px">Sundqvist H (1988) Parameterization of condensation and associated 
+<br>clouds in models for weather prediction and general circulation 
+<br>simulation. In: Schlesinger ME (ed) Physically-based modelling 
+<br>and simulation of climate and climatic change: part I. Kluwer 
+<br>Acad., Springer, Amsterdam, pp 433–461
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13001px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Sundqvist H, Berge E, Kristjansson JE (1989) Condensation and 
+<br>cloud  studies  with  mesoscale  numerical  weather  prediction 
+<br>model. Mon Weather Rev 117:1641–1757
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13031px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Teng H, Wang B (2003) Interannual variations of the Boreal sum-
+<br>mer intraseasonal oscillation in the Asian-Pacific region. J Clim 
+<br>16:3572–3584
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13061px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Wang B, Ding Q, Fu X, Kang I-S, Jin K, Shukla J, Doblas-Reyes F 
+<br>(2005) Fundamental challenge in simulation and prediction of 
+<br>summer monsoon rainfall. Geophys Res Lett 32:L15711. https 
+<br>://doi.org/10.1029/2005G L0227 34
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13101px; width:240px; height:58px;"><span style="font-family: STIX-Regular; font-size:8px">Webster PJ, Magafia VO, Palmer TN, Shukla J, Tomas RA, Yanai 
+<br>M, Yasunari T (1998) Monsoons: processes, predictability and 
+<br>the prospectus for prediction. J Geophys Res 103:14451–14510
+<br>Wheeler  M,  Kiladis  G  (1999)  Convectively  coupled  equatorial 
+<br>waves: analysis of clouds and temperature in the wavenumber–
+<br>frequency domain. J Atmos Sci 56:374–399
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13161px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Wu X, Moorthi KS, Okomoto K, Pan HL (2005) Sea ice impacts 
+<br>on GFS forecasts at high latitudes. In: Eighth conference on 
+<br>polar meteorology and oceanography. American Meteorological 
+<br></span><span style="font-family: STIX-Regular; font-size:8px">Society, San Diego, 7.4
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13201px; width:240px; height:28px;"><span style="font-family: STIX-Regular; font-size:8px">Yanai M, Esbensen S, Chu J (1973) Determination of the bulk prop-
+<br>erties of tropical cloud clusters from large heat and moisture 
+<br>budgets. J Atmos Sci 30:611–627
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13231px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Ye K, Wu R (2015) Contrast of local air–sea relationships between 10–20-
+<br>day and 30–60-day intraseasonal oscillations during May–September 
+<br>over the South China Sea and Western North Pacific. Clim Dyn 
+<br>45:3441–3459. https ://doi.org/10.1007/s0038 2-015-2549-6
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13271px; width:240px; height:38px;"><span style="font-family: STIX-Regular; font-size:8px">Yin L, Fu R, Shevliakova E, Dickinson RE (2013) How well can 
+<br>CMIP5 simulate precipitation and its controlling processes over 
+<br>tropical South America? Clim Dyn 41:3127–3143. https ://doi.
+<br>org/10.1007/s0038 2-012-1582-y
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13311px; width:240px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">Zhao QY, Carr FH (1997) A prognostic cloud scheme for operational 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:323px; top:13321px; width:168px; height:8px;"><span style="font-family: STIX-Regular; font-size:8px">NWP models. Mon Weather Rev 125:1931–1953
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:13340px; width:240px; height:20px;"><span style="font-family: MyriadPro-SemiboldSemiCn; font-size:8px">Publisher’s  Note</span><span style="font-family: STIX-Regular; font-size:8px">  Springer  Nature  remains  neutral  with  regard  to 
+<br>jurisdictional claims in published maps and institutional affiliations.
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:12662px; width:595px; height:0px;"><span style="position:absolute; border: black 1px solid; left:51px; top:12708px; width:493px; height:0px;"></span>
+<span style="font-family: Springnew-Regular; font-size:15px">1 3</span></div><div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a>, <a href="#3">3</a>, <a href="#4">4</a>, <a href="#5">5</a>, <a href="#6">6</a>, <a href="#7">7</a>, <a href="#8">8</a>, <a href="#9">9</a>, <a href="#10">10</a>, <a href="#11">11</a>, <a href="#12">12</a>, <a href="#13">13</a>, <a href="#14">14</a>, <a href="#15">15</a>, <a href="#16">16</a></div>
+</body></html>
