@@ -577,6 +577,11 @@ def get_abstract(soup, abstract_title_styles): # Doesn't work when style interup
     abstract_span = soup.find(style=lambda value: value and any(style in value for style in abstract_title_styles))
 
     abstract = ""
+    if type(abstract_span) == type(None):
+        warning_message = f"Unable to extract abstract -> Implies possibility of no Abstract at all ..."
+        logging.warning(warning_message)
+        return "no_abstract"
+
     while not re.search("^[Aa]bstract[\s]*\n*", abstract_span.text):
         # print(abstract_span.text)
     # print(abstract_span.text)

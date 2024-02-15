@@ -49,7 +49,7 @@ plt.figure(figsize=(10, 6))
 sns.kdeplot(content_lengths, fill=True, color='skyblue')
 
 # Limits
-plt.xlim(-20000, 120000)  # Replace 0 and 1000 with your desired range for the x-axis
+plt.xlim(0, 120000)  # Replace 0 and 1000 with your desired range for the x-axis
 plt.ylim(0, 0.00007)   # Replace 0
 
 # Set labels and title

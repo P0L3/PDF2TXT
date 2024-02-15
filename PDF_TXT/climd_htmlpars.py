@@ -12,6 +12,11 @@ from tqdm import tqdm
 import logging
 
 DIR = "./SAMPLE/CLIMD/"
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 doctype0_1 = {
     "get_title": ["font-family: LfhjmrMyriadPro-SemiboldSemiCn; font-size:16px"],
@@ -109,6 +114,21 @@ doctype5_1 = {
     "get_abstract": ["font-family: AdvPSTIM10-B; font-size:9px"], # Abstract
 }
 
+doctype6_1 = {
+    "get_title": ["font-family: MathPackThree; font-size:17px"],
+    "get_doi_regex": ["font-size:8px"],
+    "get_doi_regex_r": ["[Dd][Oo][Ii]:*\s*([\d.\/\w-]+)"],
+    "get_authors_and_affiliations_au": ["font-family: MathPackThree; font-size:10px"],  # Author name text
+    "get_authors_and_affiliations_nu": ["font-family: MathPackThree; font-size:6px"],  # Affiliation number
+    "get_authors_and_affiliations_af": ["font-family: MathPackOne; font-size:8px"],  # Affiliation text
+    "get_references_nonumber_title": ["font-family: MathPackThree; font-size:10px"], # Reference title
+    "get_references_nonumber_title_r": ["^(?i)r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s\n"], # Reference custom regex
+    "get_references_nonumber_ref": ["font-family: MathPackOne; font-size:8px", "font-family: MathPackTwo; font-size:8px"], # References text
+    "get_content": ["font-family: MathPack(One|Two); (font-size:10px|font-size:9px)"], # Content regex
+    "get_keywords": ["font-family: MathPackThree; font-size:10px"], # Keywords title
+    "get_abstract": ["font-family: MathPackThree; font-size:10px"], # Abstract
+}
+
 doctypedef_1 = {
     "get_title": ["font-size:16px"],
     "get_doi_regex": ["font-size:8px"],
@@ -129,7 +149,7 @@ doctypedef_1 = {
 
 
 # List of style samples to try for processing
-styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctypedef_1]
+styles = [doctype0_1, doctype1_1, doctype2_1, doctype3_1, doctype4_1, doctype5_1, doctype6_1, doctypedef_1]
 
 data_list = []
 Faults = 0
@@ -148,7 +168,7 @@ samples = listdir(DIR)
 # print(samples[2])
 # exit()
 # samples = ["s00382-018-4083-9.pdf"]
-for sample in tqdm(samples[20:]):
+for sample in tqdm(samples[85:]):
     s = 0
     print(20*"-")
     print(sample)
