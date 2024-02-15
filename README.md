@@ -69,7 +69,7 @@ paper_data = {
 
 ## Journals
 - [**climd_htmlpars.py**](PDF_TXT/climd_htmlpars.py)
-	1. [Climate Dynamics](https://link.springer.com/journal/382)
+    1. [Climate Dynamics](https://link.springer.com/journal/382)
 2. [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) 
 - [**ehs_htmlpars.py**](PDF_TXT/ehs_htmlpars.py)    
     3. [Ecosystem Health and Sustainability](https://spj.science.org/journal/ehs)
