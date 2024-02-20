@@ -168,7 +168,7 @@ samples = listdir(DIR)
 # print(samples[2])
 # exit()
 # samples = ["s00382-018-4083-9.pdf"]
-for sample in tqdm(samples[85:]):
+for sample in tqdm(samples):
     s = 0
     print(20*"-")
     print(sample)

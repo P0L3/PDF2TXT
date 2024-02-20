@@ -6,7 +6,7 @@
 - Test out diff for test3_jgra(_fi)
 - Test performance with fi cleaner
 - Add missing parsers
-- Test CLIMD parser
+- Test CLIMD parser and ECOAPP parser
 
 ## Data structure
 
@@ -70,7 +70,8 @@ paper_data = {
 ## Journals
 - [**climd_htmlpars.py**](PDF_TXT/climd_htmlpars.py)
     1. [Climate Dynamics](https://link.springer.com/journal/382)
-2. [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) 
+- [**ecoapp_htmlpars.py**](PDF_TXT/ecoapp_htmlpars.py)
+    2. [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) 
 - [**ehs_htmlpars.py**](PDF_TXT/ehs_htmlpars.py)    
     3. [Ecosystem Health and Sustainability](https://spj.science.org/journal/ehs)
 - [**enerpol_htmlpars.py**](PDF_TXT/enerpol_htmlpars.py)    

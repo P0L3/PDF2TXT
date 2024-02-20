@@ -1,0 +1,134 @@
+Index(['Title', 'Authors_and_Affiliations', 'Affiliations', 'DOI', 'Authors',
+       'Journal', 'Date', 'Subjects', 'Abstract', 'References', 'Content',
+       'Keywords'],
+      dtype='object')
+Content:
+------------------------------
+Words: 5804.795 - 7546.233	Pages: 22.675 - 30.185
+Words: 5752.205 - 7477.867	Pages: 22.470 - 29.911
+Words: 4249.897 - 5524.867	Pages: 16.601 - 22.099
+Words: 4463.218 - 5802.183	Pages: 17.434 - 23.209
+Words: 5065.218 - 6584.783	Pages: 19.786 - 26.339
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Human Disturbance and Long-Term Changes on a Rocky Intertidal Community
+/10.2307/1942008
+Words: 4261.026 - 5539.333	Pages: 16.645 - 22.157
+Words: 3428.654 - 4457.250	Pages: 13.393 - 17.829
+Words: 7182.359 - 9337.067	Pages: 28.056 - 37.348
+Words: 4361.090 - 5669.417	Pages: 17.036 - 22.678
+Words: 3823.885 - 4971.050	Pages: 14.937 - 19.884
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Chemical Contaminants, Liver Disease, and Mortality Rates in English Sole (Pleuronectes Vetulus)
+/10.2307/1942115
+Words: 4277.718 - 5561.033	Pages: 16.710 - 22.244
+Words: 4127.397 - 5365.617	Pages: 16.123 - 21.462
+Words: 3469.577 - 4510.450	Pages: 13.553 - 18.042
+Words: 3174.410 - 4126.733	Pages: 12.400 - 16.507
+Words: 3450.103 - 4485.133	Pages: 13.477 - 17.941
+Words: 4579.974 - 5953.967	Pages: 17.891 - 23.816
+Words: 5223.795 - 6790.933	Pages: 20.405 - 27.164
+Words: 4461.513 - 5799.967	Pages: 17.428 - 23.200
+Words: 3966.308 - 5156.200	Pages: 15.493 - 20.625
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Comparative Effects of Elk Herbivory and 1988 Fires on Northern Yellowstone National Park Grasslands
+/10.2307/2269563
+Words: 5946.859 - 7730.917	Pages: 23.230 - 30.924
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Response of Early- and Late-Flowering Plants to Fire Season in Experimental Prairies
+/10.2307/1942122
+Words: 3852.513 - 5008.267	Pages: 15.049 - 20.033
+Words: 3553.038 - 4618.950	Pages: 13.879 - 18.476
+Words: 4322.859 - 5619.717	Pages: 16.886 - 22.479
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Breeding Success of Hatchery and Wild Coho Salmon (Oncorhynchus Kisutch) in Competition
+/10.2307/1941826
+Words: 3692.949 - 4800.833	Pages: 14.426 - 19.203
+Words: 3149.013 - 4093.717	Pages: 12.301 - 16.375
+Words: 3596.654 - 4675.650	Pages: 14.049 - 18.703
+Words: 3108.718 - 4041.333	Pages: 12.143 - 16.165
+Words: 3072.641 - 3994.433	Pages: 12.003 - 15.978
+Words: 3435.833 - 4466.583	Pages: 13.421 - 17.866
+Words: 1271.218 - 1652.583	Pages: 4.966 - 6.610
+Brazil's worst mining disaster: Corporations must be compelled to pay the actual environmental costs
+/10.1002/eap.1461
+Words: 5069.077 - 6589.800	Pages: 19.801 - 26.359
+Words: 4939.218 - 6420.983	Pages: 19.294 - 25.684
+Words: 4704.179 - 6115.433	Pages: 18.376 - 24.462
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Scalable Decision Rules for Environmental Impact Studies: Effect Size, Type I, and Type II Errors
+/10.2307/1942031
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Relating Riparian Vegetation to Present and Future Streamflows
+/10.2307/1941956
+Words: 3220.179 - 4186.233	Pages: 12.579 - 16.745
+Words: 5878.115 - 7641.550	Pages: 22.961 - 30.566
+Words: 3812.577 - 4956.350	Pages: 14.893 - 19.825
+Words: 83.731 - 108.850	Pages: 0.327 - 0.435
+Erratum
+/10.1002/eap.1440
+Words: 2953.551 - 3839.617	Pages: 11.537 - 15.358
+Words: 4407.667 - 5729.967	Pages: 17.217 - 22.920
+Words: 2522.603 - 3279.383	Pages: 9.854 - 13.118
+Words: 6052.397 - 7868.117	Pages: 23.642 - 31.472
+Words: 2428.641 - 3157.233	Pages: 9.487 - 12.629
+Words: 3819.577 - 4965.450	Pages: 14.920 - 19.862
+Words: 3429.462 - 4458.300	Pages: 13.396 - 17.833
+Words: 493.590 - 641.667	Pages: 1.928 - 2.567
+Land-Use Change in Rural America: Rates, Drivers, and Consequences1
+/10.1890/03-5219
+Words: 3152.692 - 4098.500	Pages: 12.315 - 16.394
+Words: 4207.808 - 5470.150	Pages: 16.437 - 21.881
+Words: 5904.321 - 7675.617	Pages: 23.064 - 30.702
+Words: 3214.974 - 4179.467	Pages: 12.558 - 16.718
+Words: 2852.949 - 3708.833	Pages: 11.144 - 14.835
+Words: 5022.141 - 6528.783	Pages: 19.618 - 26.115
+Words: 3378.308 - 4391.800	Pages: 13.197 - 17.567
+Words: 3942.615 - 5125.400	Pages: 15.401 - 20.502
+Words: 3558.244 - 4625.717	Pages: 13.899 - 18.503
+Words: 3361.436 - 4369.867	Pages: 13.131 - 17.479
+Words: 4035.859 - 5246.617	Pages: 15.765 - 20.986
+Words: 3095.167 - 4023.717	Pages: 12.090 - 16.095
+Words: 2849.000 - 3703.700	Pages: 11.129 - 14.815
+Words: 3934.090 - 5114.317	Pages: 15.368 - 20.457
+Words: 5027.974 - 6536.367	Pages: 19.641 - 26.145
+Words: 4159.436 - 5407.267	Pages: 16.248 - 21.629
+Words: 2774.064 - 3606.283	Pages: 10.836 - 14.425
+Words: 3992.782 - 5190.617	Pages: 15.597 - 20.762
+Words: 3192.090 - 4149.717	Pages: 12.469 - 16.599
+Words: 3959.487 - 5147.333	Pages: 15.467 - 20.589
+Words: 3288.833 - 4275.483	Pages: 12.847 - 17.102
+Words: 3883.205 - 5048.167	Pages: 15.169 - 20.193
+Words: 4032.269 - 5241.950	Pages: 15.751 - 20.968
+Words: 4579.705 - 5953.617	Pages: 17.889 - 23.814
+Words: 3128.551 - 4067.117	Pages: 12.221 - 16.268
+Words: 2066.795 - 2686.833	Pages: 8.073 - 10.747
+Words: 3870.731 - 5031.950	Pages: 15.120 - 20.128
+Words: 4022.487 - 5229.233	Pages: 15.713 - 20.917
+Words: 4110.526 - 5343.683	Pages: 16.057 - 21.375
+Words: 4219.115 - 5484.850	Pages: 16.481 - 21.939
+Words: 3898.372 - 5067.883	Pages: 15.228 - 20.272
+Words: 4278.615 - 5562.200	Pages: 16.713 - 22.249
+Words: 4384.333 - 5699.633	Pages: 17.126 - 22.799
+Words: 3314.859 - 4309.317	Pages: 12.949 - 17.237
+Words: 6811.718 - 8855.233	Pages: 26.608 - 35.421
+Words: 5017.744 - 6523.067	Pages: 19.601 - 26.092
+Words: 2253.013 - 2928.917	Pages: 8.801 - 11.716
+Words: 2448.385 - 3182.900	Pages: 9.564 - 12.732
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+A Model of the Responses of Ecotones to Climate Change
+/10.2307/1941908
+Words: 2196.385 - 2855.300	Pages: 8.580 - 11.421
+Words: 2847.385 - 3701.600	Pages: 11.123 - 14.806
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Foraging of Gray Squirrels on an Urban-Rural Gradient: Use of the Gud to Assess Anthropogenic Impact
+/10.2307/2269597
+Words: 3608.321 - 4690.817	Pages: 14.095 - 18.763
+Words: 3470.744 - 4511.967	Pages: 13.558 - 18.048
+Words: 3980.846 - 5175.100	Pages: 15.550 - 20.700
+Words: 0.897 - 1.167	Pages: 0.004 - 0.005
+Environmental Limits on Net Primary Production and Light-Use Efficiency Across the Oregon Transect
+/10.2307/1941929
+Words: 3736.115 - 4856.950	Pages: 14.594 - 19.428
+Words: 1467.038 - 1907.150	Pages: 5.731 - 7.629
+Underrepresented youth experience barriers prior to field experiences
+/10.1002/eap.2350

@@ -1,0 +1,1287 @@
+
+
+ASSESSING_SIMULATED_ECOSYSTEM_PROCESSES_FOR_CLIMATE_VARIABILITY_RESEARCH_AT_GLACIER_NATIONAL_PARK,_USA__White__1998__Ecological_Applications__Wiley_Online_Library.html
+
+ ASSESSING SIMULATED ECOSYSTEM PROCESSES FOR CLIMATE VARIABILITY RESEARCH AT GLACIER NATIONAL PARK, USA
+<article data-details="/action/ajaxShowPubInfo?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pbContext=%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3Bjournal%3Ajournal%3A19395582%3Bwebsite%3Awebsite%3Aesajournals%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Feap.1998.8.issue-3%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BsubPage%3Astring%3AFull+Text%3BrequestedJournal%3Ajournal%3A19395582%3Barticle%3Aarticle%3Adoi%5C%3A10.1890%2F1051-0761%25281998%2529008%255B0805%253AASEPFC%255D2.0.CO%253B2&amp;accordionHeadingWrapper=h2&amp;showSubjects=true&amp;taxonomiesCodes=enter+your+taxonomy+codes+here&amp;displayCitedByLink=true&amp;displayAlmetricDropzone=true&amp;taxonomyUri=publication-features&amp;topicUri=hide-issue-metadata" data-figures="/action/ajaxShowFigures?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pbContext=%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3Bjournal%3Ajournal%3A19395582%3Bwebsite%3Awebsite%3Aesajournals%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Feap.1998.8.issue-3%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BsubPage%3Astring%3AFull+Text%3BrequestedJournal%3Ajournal%3A19395582%3Barticle%3Aarticle%3Adoi%5C%3A10.1890%2F1051-0761%25281998%2529008%255B0805%253AASEPFC%255D2.0.CO%253B2&amp;accordionHeadingWrapper=h2" data-getftr-count="10" data-getftr-enabled="data-getFTR-enabled" data-getftr-url="/references/links/10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2?linkSource=FULL_TEXT" data-mathjax="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js?config=TeX-MML-CHTML" data-related="/action/ajaxShowRecommended?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pbContext=%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3Bjournal%3Ajournal%3A19395582%3Bwebsite%3Awebsite%3Aesajournals%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Feap.1998.8.issue-3%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BsubPage%3Astring%3AFull+Text%3BrequestedJournal%3Ajournal%3A19395582%3Barticle%3Aarticle%3Adoi%5C%3A10.1890%2F1051-0761%25281998%2529008%255B0805%253AASEPFC%255D2.0.CO%253B2&amp;accordionHeadingWrapper=h2&amp;showSubjects=true&amp;taxonomiesCodes=enter+your+taxonomy+codes+here&amp;displayCitedByLink=true&amp;displayAlmetricDropzone=true&amp;taxonomyUri=publication-features&amp;topicUri=hide-issue-metadata"><div class="row article-row"><div class="col-sm-12 col-md-8 col-lg-8 article__content article-row-left" id="article__content" tabindex="-1"><div class="mrw-banner-dropzone" data-pb-dropzone="mrwBannerDropZone">
+</div><div class="article-citation"><div class="citation">
+<div class="pb-dropzone" data-pb-dropzone="publicaitonContent-series-title"><div class="journal-banner-text" id="journal-banner-text"><a href="/journal/19395582" title="Ecological Applications homepage">Ecological Applications</a></div><a class="volume-issue" href="/toc/19395582/1998/8/3">Volume 8, Issue 3</a><span class="citation__page-range"> p. 805-823</span><a class="citation--logo" href="/journal/19395582" title="Ecological Applications homepage"><img alt="Ecological Applications" class="journal-banner-image" id="journal-banner-image" src="/pb-assets/journal-banners/19395582-1625793061507.jpg" test="test-value"/></a><script>var image = new Image();
+
+image.onerror = function() {
+  // if the image does not exist
+  //document.getElementById("journal-banner-text").style.marginBottom = "15px";
+  document.getElementById("journal-banner-text").style.fontSize = "22px";
+  document.getElementById("journal-banner-image").style.display = "none";
+}
+
+image.src = "/pb-assets/journal-banners/19395582-1625793061507.jpg";</script></div>
+<div class="doi-access-container clearfix"><span class="primary-heading"><span class="primary-heading">Article</span></span><div class="doi-access-wrapper"><div class="full-access access-type"><i aria-hidden="true" class="icon-icon-lock_open"></i><div class="doi-access">Full Access</div></div></div></div>
+<h1 class="citation__title">ASSESSING SIMULATED ECOSYSTEM PROCESSES FOR CLIMATE VARIABILITY RESEARCH AT GLACIER NATIONAL PARK, USA</h1>
+<div class="pb-dropzone" data-pb-dropzone="publicaitonContent-versions"><!-- Empty dropzone --></div>
+<div class="loa comma visible-xs mobile-authors loa-authors-trunc">
+<div class="comma__list"><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am1" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am1" data-id="am1" href="/authored-by/White/Joseph+D." id="am1_Ctrl" role="button"><span>Joseph D. White</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am1_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am1" id="am1" role="region">
+<p class="author-name">Joseph D. White</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/White/Joseph+D.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am2" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am2" data-id="am2" href="/authored-by/Running/Steven+W." id="am2_Ctrl" role="button"><span>Steven W. Running</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am2_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am2" id="am2" role="region">
+<p class="author-name">Steven W. Running</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/Running/Steven+W.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am3" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am3" data-id="am3" href="/authored-by/Thornton/Peter+E." id="am3_Ctrl" role="button"><span>Peter E. Thornton</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am3_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am3" id="am3" role="region">
+<p class="author-name">Peter E. Thornton</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/Thornton/Peter+E.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am4" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am4" data-id="am4" href="/authored-by/Keane/Robert+E." id="am4_Ctrl" role="button"><span>Robert E. Keane</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am4_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am4" id="am4" role="region">
+<p class="author-name">Robert E. Keane</p>
+<p>USDA Forest Service, Intermountain Fire Science Laboratory, P.O. Box 8089, Missoula, Montana 59807 USA</p><a class="moreInfoLink" href="/authored-by/Keane/Robert+E.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am5" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am5" data-id="am5" href="/authored-by/Ryan/Kevin+C." id="am5_Ctrl" role="button"><span>Kevin C. Ryan</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am5_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am5" id="am5" role="region">
+<p class="author-name">Kevin C. Ryan</p>
+<p>USDA Forest Service, Intermountain Fire Science Laboratory, P.O. Box 8089, Missoula, Montana 59807 USA</p><a class="moreInfoLink" href="/authored-by/Ryan/Kevin+C.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am6" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am6" data-id="am6" href="/authored-by/Fagre/Daniel+B." id="am6_Ctrl" role="button"><span>Daniel B. Fagre</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am6_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am6" id="am6" role="region">
+<p class="author-name">Daniel B. Fagre</p>
+<p>USGS, Biological Resource Division, Glacier National Park, West Glacier, Montana 59936 USA</p><a class="moreInfoLink" href="/authored-by/Fagre/Daniel+B.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="am7" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="am7" data-id="am7" href="/authored-by/Key/Carl+H." id="am7_Ctrl" role="button"><span>Carl H. Key</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="am7_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="am7" id="am7" role="region">
+<p class="author-name">Carl H. Key</p>
+<p>USGS, Biological Resource Division, Glacier National Park, West Glacier, Montana 59936 USA</p><a class="moreInfoLink" href="/authored-by/Key/Carl+H.">Search for more papers by this author</a></div></span></div>
+</div>
+<div class="loa-wrapper loa-authors hidden-xs desktop-authors">
+<div class="accordion" id="sb-1">
+<div class="comma__list">
+<div class="accordion-tabbed"><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a1" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a1" data-id="a1" href="/authored-by/White/Joseph+D." id="a1_Ctrl" role="button"><span>Joseph D. White</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a1_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a1" id="a1" role="region">
+<p class="author-name">Joseph D. White</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/White/Joseph+D.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a2" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a2" data-id="a2" href="/authored-by/Running/Steven+W." id="a2_Ctrl" role="button"><span>Steven W. Running</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a2_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a2" id="a2" role="region">
+<p class="author-name">Steven W. Running</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/Running/Steven+W.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a3" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a3" data-id="a3" href="/authored-by/Thornton/Peter+E." id="a3_Ctrl" role="button"><span>Peter E. Thornton</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a3_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a3" id="a3" role="region">
+<p class="author-name">Peter E. Thornton</p>
+<p>Numerical Terradynamics Simulation Group, School of Forestry, University of Montana, Missoula, Montana 59847 USA</p><a class="moreInfoLink" href="/authored-by/Thornton/Peter+E.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a4" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a4" data-id="a4" href="/authored-by/Keane/Robert+E." id="a4_Ctrl" role="button"><span>Robert E. Keane</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a4_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a4" id="a4" role="region">
+<p class="author-name">Robert E. Keane</p>
+<p>USDA Forest Service, Intermountain Fire Science Laboratory, P.O. Box 8089, Missoula, Montana 59807 USA</p><a class="moreInfoLink" href="/authored-by/Keane/Robert+E.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a5" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a5" data-id="a5" href="/authored-by/Ryan/Kevin+C." id="a5_Ctrl" role="button"><span>Kevin C. Ryan</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a5_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a5" id="a5" role="region">
+<p class="author-name">Kevin C. Ryan</p>
+<p>USDA Forest Service, Intermountain Fire Science Laboratory, P.O. Box 8089, Missoula, Montana 59807 USA</p><a class="moreInfoLink" href="/authored-by/Ryan/Kevin+C.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a6" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a6" data-id="a6" href="/authored-by/Fagre/Daniel+B." id="a6_Ctrl" role="button"><span>Daniel B. Fagre</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a6_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a6" id="a6" role="region">
+<p class="author-name">Daniel B. Fagre</p>
+<p>USGS, Biological Resource Division, Glacier National Park, West Glacier, Montana 59936 USA</p><a class="moreInfoLink" href="/authored-by/Fagre/Daniel+B.">Search for more papers by this author</a></div></span><span class="accordion-tabbed__tab-mobile accordion__closed"><a aria-controls="a7" aria-haspopup="true" class="author-name accordion-tabbed__control" data-db-target-for="a7" data-id="a7" href="/authored-by/Key/Carl+H." id="a7_Ctrl" role="button"><span>Carl H. Key</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><span class="comma-separator">, </span><div aria-labelledby="a7_Ctrl" class="author-info accordion-tabbed__content" data-db-target-of="a7" id="a7" role="region">
+<p class="author-name">Carl H. Key</p>
+<p>USGS, Biological Resource Division, Glacier National Park, West Glacier, Montana 59936 USA</p><a class="moreInfoLink" href="/authored-by/Key/Carl+H.">Search for more papers by this author</a></div></span></div>
+</div>
+</div>
+</div>
+<div class="epub-sections"><div class="epub-section"><span class="epub-state">First published: </span><span class="epub-date">01 August 1998</span></div>
+<div class="epub-section"><a aria-label="Digital Object Identifier" class="epub-doi" href="https://doi.org/10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2">https://doi.org/10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2</a></div><div class="epub-section cited-by-count"><span>Citations: <a href="#citedby-section">37</a></span></div></div></div></div><div class="fixedCoolBar"><nav aria-label="Article navigation and tools" class="coolBar stickybar"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="rlist coolBar__zone"><div class="coolBar__section"><a aria-controls="article_Pop" aria-haspopup="true" class="coolBar__ctrl hidden-lg" data-db-switch="icon-close_thin" data-db-target-for="article" href="javascript:void(0)" id="article_Ctrl" role="button"><i class="icon-abstract"></i><span>About</span></a><div aria-labelledby="article_Ctrl" class="coolBar__drop fixed rlist dropBlock__holder" data-db-target-of="article" id="article_Pop"><div class="transplant showit cloned-with-ids" data-direction="from" data-remove="false" data-target=".article-row-right .tab__nav, .coolBar--download" data-targetclass="hidden-xs hidden-sm" data-toggle="transplant" data-transplant="self"><ul class="transplanted-clone"><li><ul class="rlist tab__nav w-slide--list" data-mobile-toggle="slide" role="tablist"><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-figures" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn figures-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-figures" data-toggle="tab" href="#pane-pcw-figures" id="pane-pcw-figurescon-cloned" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-multi-figure"></i><h2>Figures</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-references" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn references-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-references" data-toggle="tab" href="#pane-pcw-references" id="pane-pcw-referencescon-cloned" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-chain"></i><h2>References</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-related" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn related-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-related" data-toggle="tab" href="#pane-pcw-related" id="pane-pcw-relatedcon-cloned" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-related-circles-extend-button"></i><h2>Related</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-details" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn details-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-details" data-toggle="tab" href="#pane-pcw-details" id="pane-pcw-detailscon-cloned" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-Icon_Information"></i><h2>Information</h2></a></li></ul></li><li><div class="coolBar__section coolBar--download PdfLink"><a class="coolBar__ctrl pdf-download" href="/doi/epdf/10.1890/1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2" title="ePDF"><img alt="PDF" src="/specs/products/acropolis/pericles/releasedAssets/images/pdf-icon-169a2eb30e52100e76dfa5f4b66998e6.png"/>PDF</a></div></li></ul></div></div></div><div class="coolBar__section coolBar--sections"><a aria-controls="sections_Pop" aria-haspopup="true" class="coolBar__ctrl" data-db-switch="icon-close_thin" data-db-target-for="sections" href="javascript:void(0)" id="sections_Ctrl" role="button"><i class="icon-list-unordered"></i><span>Sections</span></a><div aria-labelledby="sections_Ctrl" class="coolBar__drop dropBlock__holder rlist fixed" data-db-target-of="sections" id="sections_Pop"></div></div></div><div class="coolBar__second rlist"><div class="coolBar__section coolBar--download PdfLink cloned"><a class="coolBar__ctrl pdf-download" href="/doi/epdf/10.1890/1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2" title="ePDF"><img alt="PDF" src="/specs/products/acropolis/pericles/releasedAssets/images/pdf-icon-169a2eb30e52100e76dfa5f4b66998e6.png"/>PDF</a></div>
+<div class="relative"><a aria-controls="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Pop" aria-haspopup="true" aria-label="Tools" class="article-tools__ctrl" data-db-switch="icon-close_thin" data-db-target-for="0e406ce9-5c43-4e2d-b741-e0b43d1f1865" href="#" id="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Ctrl" role="button"><i aria-hidden="true" class="icon-Icon_Tools"></i><span>Tools</span></a><div aria-labelledby="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Ctrl" class="article-tools__block fixed dropBlock__holder" data-db-target-of="0e406ce9-5c43-4e2d-b741-e0b43d1f1865" id="0e406ce9-5c43-4e2d-b741-e0b43d1f1865_Pop"><ul class="rlist w-slide--list" role="menu"><li class="article-tool" role="presentation"><a href="https://esajournals.onlinelibrary.wiley.com/action/rightsLink?doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;mode=" role="menuitem" target="_blank"><i aria-hidden="true" class="icon-permissions-key"></i><span>Request permission</span></a></li><li class="article-tool" role="presentation"><a href="/action/showCitFormats?doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2" role="menuitem" target="_self"><i aria-hidden="true" class="icon-export-icon"></i><span>Export citation</span></a></li><li class="article-tool" role="presentation"><a href="/personalize/addFavoritePublication?doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2" role="menuitem" target="_self"><i aria-hidden="true" class="icon-favorites"></i><span>Add to favorites</span></a></li><li class="article-tool" role="presentation"><a href="/action/addCitationAlert?doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2" role="menuitem" target="_self"><i aria-hidden="true" class="icon-Icon_Track-citations"></i><span>Track citation</span></a></li></ul></div></div>
+<!-- Go to https://www.addtoany.com/buttons/customize/ to customize your tools --><script defer="defer" src="https://static.addtoany.com/menu/page.js" type="osano/blocked"></script><div class="relative"><a aria-controls="share_Pop" aria-haspopup="true" aria-label="Share" class="share-access__ctrl" data-db-switch="icon-close_thin" data-db-target-for="dff42abe-4b17-4fe9-a9c5-625405cd1007" href="#" id="share-access__ctrl" role="button"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><a aria-controls="share_Pop" aria-haspopup="true" class="share__ctrl hidden" data-db-switch="icon-close_thin" data-db-target-for="dff42abe-4b17-4fe9-a9c5-625405cd1007" href="#" id="share__ctrl" role="button"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><div aria-labelledby="share-access__ctrl" class="share__block dropBlock__holder fixed" data-db-target-of="dff42abe-4b17-4fe9-a9c5-625405cd1007" id="share_Pop">
+<div class="share-access hidden" data-share-access="/action/authorizeSharing?doi=10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2&amp;shareType=P2P&amp;format=PDF"><p>Give access</p><a class="share-access__link" data-target="#shareAccess" data-toggle="modal" href="#"><i class="icon-users"></i>Share full text access</a></div><div class="ux-modal-container share-access__modal"><div class="modal" id="shareAccess"><div class="modal__dialog"><div class="modal__header"><button class="close" data-dismiss="modal" type="button"><i aria-hidden="true" class="icon-close_thin"></i><span class="sr-only">Close modal</span></button><p>Share full-text access</p></div><div class="modal__body"><form method="post"><fieldset><legend>Please review our <a href="https://onlinelibrary.wiley.com/termsAndConditions" target="_blank">Terms and Conditions of Use</a> and check box below to share full-text version of article.</legend><div class="input-group"><label class="checkbox--primary" for="terms-and-conditions"><input data-ajax-link="/action/generateShareUrl?doi=10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2&amp;shareType=P2P&amp;format=PDF" data-shareable-link="" id="terms-and-conditions" name="terms-and-conditions" required="" type="checkbox" value="yes"/><span class="label-txt">I have read and accept the Wiley Online Library Terms and Conditions of Use</span></label></div></fieldset><hr class="separator"/><div class="shareable"><label>Shareable Link</label><p>Use the link below to share a full-text version of this article with your friends and colleagues. <a class="emphasis" href="https://onlinelibrary.wiley.com/researchers/tools-resources/sharing" target="_blank">Learn more.</a></p><div class="shareable__box"><div class="shareable__text"><div class="shareable__field"><span id="shareable__text"></span><textarea class="shareable__text-area" tabindex="-1"></textarea></div></div><button class="btn shareable__btn" disabled="" type="submit">Copy URL</button></div><div class="error shareable__error hidden"></div></div></form></div></div></div></div>
+<p>Share a link</p><span class="sr-only">Share on</span><ul class="rlist w-slide--list a2a a2a_kit a2a_kit_size_32 a2a_default_style"><li class="a2a_listitem_custom"><a class="a2a_button_email" role="link" title="Email"><i aria-hidden="true" class="at-icon-wrapper icon-Email"></i>Email</a></li><li class="a2a_listitem_custom"><a class="a2a_button_facebook" role="link" title="Facebook"><i aria-hidden="true" class="at-icon-wrapper icon-facebook"></i>Facebook</a></li><li class="a2a_listitem_custom"><a class="a2a_button_twitter" role="link" title="Twitter"><i aria-hidden="true" class="at-icon-wrapper icon-twitter-t"></i>Twitter</a></li><li class="a2a_listitem_custom"><a class="a2a_button_linkedin" role="link" title="LinkedIn"><i aria-hidden="true" class="at-icon-wrapper icon-linkedin"></i>LinkedIn</a></li><li class="a2a_listitem_custom"><a class="a2a_button_reddit" role="link" title="Reddit"><i aria-hidden="true" class="at-icon-wrapper icon-reddit-alien"></i>Reddit</a></li><li class="a2a_listitem_custom"><a class="a2a_button_wechat" role="link" title="Wechat"><i aria-hidden="true" class="at-icon-wrapper icon-wechat"></i>Wechat</a></li></ul></div></div>
+</div></div></nav></div><div class="accessDenialslot" id="accessDenialslot"></div><div class="article__body"><article>
+<div class="metis-abstract">
+<section class="article-section article-section__abstract" data-lang="en" id="section-1-en" lang="en">
+<h2 class="article-section__header section__title main main" id="d5046421">Abstract</h2>
+<div class="article-section__content en main"><p>Glacier National Park served as a test site for ecosystem analyses that involved a suite of integrated models embedded within a geographic information system. The goal of the exercise was to provide managers with maps that could illustrate probable shifts in vegetation, net primary production (NPP), and hydrologic responses associated with two selected climatic scenarios. The climatic scenarios were (a) a recent 12-yr record of weather data, and (b) a reconstituted set that sequentially introduced in repeated 3-yr intervals wetter–cooler, drier–warmer, and typical conditions. To extrapolate the implications of changes in ecosystem processes and resulting growth and distribution of vegetation and snowpack, the model incorporated geographic data. With underlying digital elevation maps, soil depth and texture, extrapolated climate, and current information on vegetation types and satellite-derived estimates of leaf area indices, simulations were extended to envision how the park might look after 120 yr. The predictions of change included underlying processes affecting the availability of water and nitrogen. Considerable field data were acquired to compare with model predictions under current climatic conditions. In general, the integrated landscape models of ecosystem processes had good agreement with measured NPP, snowpack, and streamflow, but the exercise revealed the difficulty and necessity of averaging point measurements across landscapes to achieve comparable results with modeled values. Under the extremely variable climate scenario significant changes in vegetation composition and growth as well as hydrologic responses were predicted across the park. In particular, a general rise in both the upper and lower limits of treeline was predicted. These shifts would probably occur along with a variety of disturbances (fire, insect, and disease outbreaks) as predictions of physiological stress (water, nutrients, light) altered competitive relations and hydrologic responses. The use of integrated landscape models applied in this exercise should provide managers with insights into the underlying processes important in maintaining community structure, and at the same time, locate where changes on the landscape are most likely to occur.</p></div>
+</section>
+</div>
+<div class="pb-dropzone" data-pb-dropzone="below-abstract-group"><!-- Empty dropzone --></div>
+<section class="article-section article-section__full">
+<section class="article-section__content" id="s1">
+<h2 class="article-section__title section__title section1" id="s1-title"> Introduction</h2>
+<p>Models of ecosystem processes are tools for interpreting the basis of interaction and change. Process models, in particular, may help to sort out complex ecosystem-level responses to change by organizing different hierarchies of well-known mechanisms into a coherent structure (<a class="scrollableLink" href="#i1051-0761-8-3-805-korzukhin1">Korzukhin et al. 1996</a>). The predictions of ecosystem process models are normally assessed by comparing observed and predicted values. This approach is criticized because it involves an iterative process of calibration and testing for which the final validity of the model is highly subjective (<a class="scrollableLink" href="#i1051-0761-8-3-805-oreskes1">Oreskes et al. 1994</a>) or short-term successes are inappropriately interpreted as long-term predictability (<a class="scrollableLink" href="#i1051-0761-8-3-805-rastetter1">Rastetter 1996</a>). Ecological models are best exploited when exploring the possible interactions among living and nonliving components of an ecosystem rather than pinpointing responses at specific points in space and time. Regardless of the care in developing theoretically sound models, adequacy is ultimately judged by their general predictive accuracy (<a class="scrollableLink" href="#i1051-0761-8-3-805-oreskes1">Oreskes et al. 1994</a>) and their fidelity in defining internal processes (<a class="scrollableLink" href="#i1051-0761-8-3-805-rastetter1">Rastetter 1996</a>).</p>
+<p>Judging the accuracy of models applied across heterogeneous landscapes is particularly challenging because ecosystem processes often respond nonlinearly to variations in climate and physiography (<a class="scrollableLink" href="#i1051-0761-8-3-805-band3">Band et al. 1991</a>, <a class="scrollableLink" href="#i1051-0761-8-3-805-pierce1">Pierce and Running 1995</a>). One approach to improving model accuracy is to average simulated and observed values across similar areas and across longer time periods (<a class="scrollableLink" href="#i1051-0761-8-3-805-nikolov1">Nikolov and Fox 1994</a>). However, this scaling process should be limited in scope such that ecosystem responses are not directly interacting with regional climatic conditions, the driving variables themselves.</p>
+<p>Regional ecosystem models that assess climate impacts on vegetation generally do not explicitly define the mechanisms controlling carbon, water, and mineral cycling rates. Rather, these cycles are assumed to be constrained by climate with some level of ecosystem equilibrium (<a class="scrollableLink" href="#i1051-0761-8-3-805-arris1">Arris and Eagleson 1994</a>, <a class="scrollableLink" href="#i1051-0761-8-3-805-nielson1">Nielson 1995</a>). Because long-term vegetation response to climate is driven by physiological thresholds rather than short-term successional dynamics (<a class="scrollableLink" href="#i1051-0761-8-3-805-prentice1">Prentice et al. 1992</a>), models incorporating biophysical processes should be developed as a precursor to biogeographical models. Most simulations of plant responses to climate change focus on average annual carbon balance values (<a class="scrollableLink" href="#i1051-0761-8-3-805-ojima1">Ojima et al. 1991</a>); however, cumulative effects of climate on water, carbon, and nutrient availability are often more informative when comparing simulations (<a class="scrollableLink" href="#i1051-0761-8-3-805-dale1">Dale and Rauscher 1994</a>). Annual simulations of NPP trajectories may show production responses to long-term climate, but such activity offers no information about the potential buffering capacity of the system to stress. More understanding is gained when seasonal and annual variations are studied following periods of stress (e.g., drought, air pollution, and subfreezing temperatures). Study of interannual changes in ecosystem behavior may also help explain competitive response of different vegetation types in regards to their present and future distribution across landscapes.</p>
+<p>Within the suite of predicted climatic change scenarios, interannual climate variability has been largely neglected. Climatic variability, defined as an increase in the frequency of extreme climatic conditions, has increased over the past 20 yr throughout the United States (<a class="scrollableLink" href="#i1051-0761-8-3-805-karl1">Karl et al. 1995</a>) leading to speculation about the response of vegetation to short-term climatic variability. Interannual climatic variability and serial correlated weather patterns are thought to influence plant production and ecological interactions by changing year-to-year water and nitrogen availability (<a class="scrollableLink" href="#i1051-0761-8-3-805-cohen1">Cohen and Pastor 1991</a>). Ecotonal communities may show increasing climatic variability by altering the carbon and water balances of vegetation to the extent that conditions exceed borderline existences of species present (<a class="scrollableLink" href="#i1051-0761-8-3-805-arris1">Arris and Eagleson 1994</a>, <a class="scrollableLink" href="#i1051-0761-8-3-805-walker1">Walker et al. 1994</a>). Climate variability is an important aspect of climate change because persistence of interannual climatic extremes could cause dramatic changes to occur in the near term long before mean conditions exert significant effects (<a class="scrollableLink" href="#i1051-0761-8-3-805-ausubel1">Ausubel 1991</a>).</p>
+<p>In this paper, we examined the predictive capabilities of a regional ecosystem model and then simulated ecosystem response to increased interannual climate variability. First, we simulated carbon and water budgets in two watersheds at Glacier National Park and compared these to measured values. We then examined the departure between modeled and observed values to scale point measurements to the appropriate spatial and temporal domains of the model. Finally, we simulated productivity and examined variation over a 120-yr “current” and variable climate scenario to examine the sensitivity of various vegetation types to increased and persistent climate variability, focusing on the modeled physiological and spatial manifestations of major productivity changes. The ultimate purpose of this study was to test our ecosystem process model with spatial linkages as an ecosystem management format whereby we sought to identify potential stress indicators from point simulations and locate regions sensitive to change resulting from combined ecological, hydrological, and climatic interactions in plant communities.</p>
+</section>
+<section class="article-section__content" id="s2">
+<h2 class="article-section__title section__title section1" id="s2-title"> Methods</h2>
+<section class="article-section__sub-content" id="s2a">
+<h3 class="article-section__sub-title section2" id="s2a-title"> Site description</h3>
+<p>Two watersheds located in Glacier National Park, Montana, Lake McDonald and St. Mary’s Lake, were used as study areas for modeling and measuring ecosystem processes. These watersheds straddle the Rocky Mountain Continental Divide and occupy ∼100000 ha of Glacier Park. The watershed valleys are glacially scoured and dominated by large, deep lakes with steep topography ranging in elevation from 960 to 2800 m. Coniferous forests dominate much of the landscape with intermingled deciduous tree, shrub, and grass communities that reflect the gradients of available soil moisture and fire history (<a class="scrollableLink" href="#i1051-0761-8-3-805-kessell1">Kessell 1979</a>). Broad-leaved forest species present include paper birch (<i>Betula papyrifera</i> Marsh.) and black cottonwood (<i>Populus trichocarpa</i> Torr. and Gray) found in stream bottoms, recently burned areas, and avalanche chutes. Aspen groves (<i>Populus tremuloides</i> Michx.) are prevalent along the eastern margin of the park. Lowland conifer forests composed of lodgepole pine (<i>Pinus contorta</i> var. <i>latifolia</i> Engelm.), Douglas-fir (<i>Pseudotsuga menziesii</i> var. <i>glauca</i> (Mirb.) Franco), and western larch (<i>Larix occidentalis</i> Nutt.) are found on drier sites with western hemlock (<i>Tsuga heterophylla</i> (Raf.) Sarg.) and western red cedar (<i>Thuja plicata</i> Donn ex D. Don) inhabiting more mesic environments. Subalpine fir (<i>Abies lasiocarpa</i> (Hook.) Nutt.) and white bark pine (<i>P. albicaulis</i> Engelm.) dominate the cold, dry, upland sites. Alpine vegetation occurs above treeline (&gt;1900 m) and includes herbaceous species such as glacier lily (<i>Erythronium grandiflorum</i> Pursh) and woody species such as white dryas (<i>Dryas octopetula</i> L.). The lower treeline occurs primarily on the eastern side (&lt;1000 m) and is composed of a transition between coniferous forests, aspen, and montane grasslands.</p>
+<p>Climate changes from maritime to more continentaly from west to east (<a class="scrollableLink" href="#i1051-0761-8-3-805-finklin1">Finklin 1986</a>). Annual average precipitation for the Lake McDonald watershed is 91 cm, 44 cm as snow and 47 cm as rain, and 87 cm in the St. Mary Lake watersheds with 50 cm as snow and 37 cm as rain. Mean January minimum and maximum temperatures for the McDonald watershed average −11.2°C and −3.0°C, while July temperatures are 8°C and 26°C, respectively. At St. Mary’s Lake, January minimum and maximum temperatures average −13.6°C and −3.3°C, while July temperatures are 7.2°C and 24.4°C, respectively.</p>
+</section>
+<section class="article-section__sub-content" id="s2b">
+<h3 class="article-section__sub-title section2" id="s2b-title"> Field measurements</h3>
+<p>Measurements on 97 plots were taken during the summers of 1993–1995 to characterize various ecological processes within the Lake McDonald and St. Mary’s Lake watersheds. Data collected on these plots included: general descriptions of site physiography, tree heights, tree diameters, tree increment cores, cover by canopy strata, vegetation type, leaf area index (LAI), seasonal soil water content, soil depth, litter collection, aboveground harvesting (in grass and herbaceous plots only), and seasonal soil CO<sub>2</sub> efflux measurements.</p>
+<p><i>Carbon budget measurements.</i>—We estimated NPP for the grass and forest plots from soil CO<sub>2</sub> efflux measurements, litter collection, stem growth, and seasonal LAI measurements. Belowground carbon allocation was calculated by subtracting the annual flux of carbon of the soil from aboveground litter inputs (<a class="scrollableLink" href="#i1051-0761-8-3-805-raich1">Raich and Nadelhoffer 1989</a>) and reduced by 50% to account for growth and maintenance respiration of root tissue (<a class="scrollableLink" href="#i1051-0761-8-3-805-ryan1">Ryan 1991</a>). For the grass plots, carbon contribution to litter pools was assumed to equal annual aboveground production found from harvesting, with dry matter converted to carbon with a dry mass to carbon ratio of 2.0 (<a class="scrollableLink" href="#i1051-0761-8-3-805-prescott1">Prescott et al. 1988</a>). NPP for the grass plots was calculated by adding the estimated belowground values and the measured aboveground harvest.</p>
+<p>Initially, soil CO<sub>2</sub> efflux rates were measured between June and September on selected forest and grass sites with soda lime in static, unventilated chambers (<a class="scrollableLink" href="#i1051-0761-8-3-805-edwards1">Edwards 1982</a>). <a class="scrollableLink" href="#i1051-0761-8-3-805-nay1">Nay et al. (1994)</a> reported that this method potentially underestimates the actual efflux because unmixed air causes saturation of the soda lime located at the soil surface. To calibrate the soda lime efflux values from the previous summer sampling, we compared efflux measured with a LI-COR 6200 infrared gas analyzer (IRGA) and soil chamber attachment (Part 6000-09, LI-COR, Lincoln, Nebraska, USA) and soda-lime-measured efflux acquired between May and October 1995. In this experiment, IRGA efflux measurements (in micromoles of CO<sub>2</sub> per square meter per second) were taken twice daily at monthly intervals and compared to soda lime efflux values collected over a 24-h period on forested sites. A least-squares regression model was calculated to calibrate soda lime efflux rates for the previous summer’s samples. Growing-season effluxes were found for each site by averaging the monthly measurements and multiplying by the number of days between observed spring snow ablation and first snowfall in autumn. No data were collected during winter months, therefore, winter effluxes were assumed to be half of those in autumn, which when summed for winter months, resulted in the winter efflux that contributed ∼30% to annual soil CO<sub>2</sub> efflux. This assumption is reasonable, given similar reported winter efflux proportions (25%) in subapline forests of Wyoming (<a class="scrollableLink" href="#i1051-0761-8-3-805-sommerfield1">Sommerfield et al. 1993</a>).</p>
+<p>Litter was collected monthly on six forested plots, selected across an elevation gradient in a subcatchment of the St. Mary’s watershed. Litter was dried at 70°C for 24 h, and weighed to the nearest 0.01 g. Growing-season litter production was found by summing data for the entire sampling period and expanded to an annual basis by averaging the spring and autumn samples and multiplying by 8, the number of months in which litter was not collected.</p>
+<p>Tree cores were extracted and analyzed to estimate annual stem diameter increment. Increment data were used to reconstruct the diameter of each tree through time with individual tree stem biomass calculated from these diameter values using species-specific allometric regression models (<a class="scrollableLink" href="#i1051-0761-8-3-805-t01">Table 1</a>). Stand stem biomass (in kilograms of carbon per hectare) was calculated by multiplying the biomass of individual trees times the number of trees represented in a particular diameter size class, normally representing 10-cm increments.</p>
+<div class="article-table-content" id="i1051-0761-8-3-805-t01">
+<header class="article-table-caption"><span class="table-caption__label">Table 1.
+                </span>Regression equations used for estimating stem biomass (STB) using diameter at breast height (dbh) and height (ht). All equations predicted dry mass (dm), which was converted into carbon assuming a 0.5 carbon to total mass ratio.</header>
+<a href="/cms/asset/1c38b494-35ed-4e72-80e4-09f4f7d9859d/i1051-0761-8-3-805-t01.jpg" target="_blank"><img alt="table image" class="table__image" loading="lazy" src="/cms/asset/1c38b494-35ed-4e72-80e4-09f4f7d9859d/i1051-0761-8-3-805-t01.jpg" title="table image"/></a>
+<div class="article-section__table-source"></div>
+</div>
+<p>Forest net foliar production was estimated by comparing changes in LAI determined with the LI-COR LAI-2000 (LI-COR Inc., Lincoln, Nebraska, USA) between spring and autumn to assess leaf growth. Estimated differences in LAI were assumed to indicate net foliar growth (i.e., foliar growth minus litter loss) that were converted into carbon mass values using a constant specific leaf area value of 25 m<sup>2</sup>/kg C. Aboveground production on grass plots was assessed by clipping different areas within a 1 m<sup>2</sup> area monthly over 4 mo. Harvested mass was dried for 24 h at 70°C and weighed to the nearest 0.01 g.</p>
+<p><i>Water budget measurements.</i>—Components of the watershed hydrologic system were measured, including snow water, soil water content, predawn leaf water potential, and stream discharge. Snowpack water was sampled on selected sites during the winters of 1993–1995. Snow water equivalent values were determined with standard snow core methods (<a class="scrollableLink" href="#i1051-0761-8-3-805-soil1">Soil Conservation Service 1984</a>). Transects were selected in both watersheds to represent major aspect, slope, and elevation configurations in the watersheds.</p>
+<p>Soil water was collected for most plots by measuring gravimetric water content of collected soil samples at singular sampling dates during the summers of 1993–1994. At each plot, at least two soil samples were collected between 10 and 30 cm. Gravimetric water content was calculated as the difference between wet and dry soil masses. Bulk densities were found by weighing oven-dried soil cores, which resulted in values ranging from 0.67 to 1.25 g/cm<sup>3</sup> for clayey organic to silty loam soils.</p>
+<p>Leaf water potential was measured four times from sites selected in the St. Mary’s Lake watershed across a over the growing season of 1994 using a pressure-chamber (PMS Instrument Co., Corvallis, Oregon, USA) during predawn, morning hours (<a class="scrollableLink" href="#i1051-0761-8-3-805-waring1">Waring and Cleary 1967</a>). On each forested plot, 4–6 mature coniferous and broad-leaved trees were randomly selected on nondroughty sites. Water potentials of selected grass and herbaceous species were measured on nonforest plots during June and July prior to late-summer senescence.</p>
+<p>Stream discharge was measured on McDonald Creek near the input to the head of Lake McDonald (data from Ric Hauer, University of Montana, Yellow Bay Biological Station) Hourly discharge data recorded in units of cubic meters per hour was converted into meters per day by dividing the discharge data by the upslope contributing drainage area and summed discharge for the 24-h record.</p>
+</section>
+<section class="article-section__sub-content" id="s2c">
+<h3 class="article-section__sub-title section2" id="s2c-title"> Model description</h3>
+<p>The Regional Hydro-Ecological Simulation System (RHESSys) was used to simulate carbon and water budgets for the study area watersheds. The structure of this modeling system has been previously described in terms of using average hillslope attributes for modeling (<a class="scrollableLink" href="#i1051-0761-8-3-805-band3">Band et al. 1991</a>), the organization of input spatial data (<a class="scrollableLink" href="#i1051-0761-8-3-805-nemani1">Nemani et al. 1992</a>), and for incorporating a hydrologic model, TOPMODEL (<a class="scrollableLink" href="#i1051-0761-8-3-805-band2">Band et al. 1993</a>).</p>
+<p><i>Climate.</i>—Daily meteorological data were calculated in RHESSys with the MT-CLIM model (<a class="scrollableLink" href="#i1051-0761-8-3-805-running5">Running et al. 1987</a>). In this model, temperature and precipitation were estimated from seasonally variable elevation-related lapse rates (<a class="scrollableLink" href="#i1051-0761-8-3-805-thornton1">Thornton et al. 1997</a>) calculated from published long-term climate summaries (<a class="scrollableLink" href="#i1051-0761-8-3-805-finklin1">Finklin 1986</a>).</p>
+<p>Snowpack water content was calculated (Coughlan and Running 1996) whereby snow is deposited, accumulates, reaches isothermal conditions, and melts based on simple radiation and temperature controls. The snow model requires several constant values including a temperature melt coefficient, an albedo decay constant, and a temperature value, which were calibrated by an independent set of snowpack water content data collected for the Lake McDonald watershed with simulated data. The final values used in our simulations were 0.005 m H<sub>2</sub>O/°C for temperature melt, 0.004 for the albedo decay constant, and 5.0°C for the minimum/maximum snowpack temperature.</p>
+<div class="paragraph-element"><i>Hydrology.</i>—The TOPMODEL procedure in RHESSys calculated soil water based on the total amount water in the unsaturated zone (<i>S</i><sub>uz</sub>; in meters) and the height of the saturated water “lens” in the soil column (<i>S</i><sub>sz</sub>; in meters) (<a class="scrollableLink" href="#i1051-0761-8-3-805-beven1">Beven and Kirkby 1979</a>). We calculated the depth to the <i>S</i><sub>sz</sub> as a zero-plane displacement downward from the soil surface:
+
+               <div class="displayed-item-text-type"><span class="displayed-item-text-type__label">((1))</span><div class="displayed-item-text-type__content"><i>S</i><sub>sz</sub> = <span style="text-decoration:overline"><i>S</i></span> + <i>m</i>(<span style="text-decoration:overline">TSI</span> − TSI) + <i>z</i>
+</div>
+</div>where <span style="text-decoration:overline"><i>S</i></span> (in meters) is the hillslope average depth to saturated soil, <i>m</i> is a scaling parameter to account for the change in hydraulic conductivity with depth, <span style="text-decoration:overline">TSI</span> (unitless) is the hillslope average topographic saturation index value, and <i>z</i> (in meters) is an offset value used to calibrate the model-based soil depths of existing perennial streams and permanent water bodies (<a class="scrollableLink" href="#i1051-0761-8-3-805-franchini1">Franchini et al. 1996</a>). The value of the <i>m</i> parameter was approximated by graphical comparison of observed and modeled values from which we found an optimal value of 0.3.
+</div>
+<p>The daily volumetric water content was estimated within TOPMODEL by finding the amount of water in soil column relative to the total soil column defined as depth to bedrock for each hillslope. Soil water potential (Ψ<sub>soil</sub>) was calculated as a function of soil texture (<a class="scrollableLink" href="#i1051-0761-8-3-805-cosby1">Cosby et al. 1984</a>). For our simulations we assumed a uniform soil texture defined as cobbly silty loam with 20% sand and 15% clay.</p>
+<div class="paragraph-element">Baseflow and overland flow are the two pathways for water discharge from the modeled hydrologic system. Baseflow (<i>Q</i><sub>b</sub>; in meters) is calculated where
+
+               <div class="displayed-item-text-type"><span class="displayed-item-text-type__label">((2))</span><div class="displayed-item-text-type__content"><i>Q</i><sub>b</sub> = <i>e</i><sup>−<span style="text-decoration:overline">TSI</span></sup><i>e</i><sup>−<span style="text-decoration:overline"><i>S</i></span>/<i>m</i></sup>
+</div>
+</div>the hillslope average saturation depth is the net amount after soil seepage and transpiration. Runoff is estimated as the amount of water derived when the value of <i>S</i><sub>sz</sub> is less than 0.0, indicating soil saturation.
+</div>
+<p><i>Ecosystem processes.</i>—The ecosystem process model used for our simulations is an updated version of the original daily FOREST-BGC (<a class="scrollableLink" href="#i1051-0761-8-3-805-running2">Running and Coughlan 1988</a>) with a combined annual carbon allocation logic similar to both FOREST-BGC (<a class="scrollableLink" href="#i1051-0761-8-3-805-running3">Running and Gower 1991</a>) and BIOME-BGC (<a class="scrollableLink" href="#i1051-0761-8-3-805-running4">Running and Hunt 1993</a>). At the daily time-step, vegetation conductance to water vapor and CO<sub>2</sub> were calculated by modifying a maximum conductance value using scalars of minimum night temperature, predawn leaf water potential (Ψ<sub>leaf</sub>), vapor pressure deficit (VPD), and radiation. Linear reductions of stomatal conductance were imposed using minimum and maximum values describing the start and completion of stomatal closure for minimum night temperature, Ψ<sub>leaf</sub>, and VPD. The radiation reduction scalar was calculated with a hyperbolic function to represent the saturating effect of radiation on stomatal conductance. Leaf conductances were scaled to the canopies with parallel and series connections of stomatal, cuticular, and leaf-boundary conductance multiplied by LAI. With vegetation-type specific aerodynmanic conductances, transpiration was estimated daily using the Penman-Monteith equation with canopy radiation absorption calculated using Beer’s Law where <i>I</i><sub>c</sub> = <i>I</i><sub>0</sub><i>e</i><sup>(−<i>k</i>LAI)</sup>, where <i>I</i><sub>0</sub> is the incident radiation, <i>k</i> is a vegetation-type-specific extinction coefficient, and LAI is the projected leaf area index. Evaporation from wet leaves and bare soil were also estimated from the Penman-Monteith equation with boundary conductance modified by LAI and soil moisture content for leaves and soil, respectively.</p>
+<p>Daily photosynthesis was modeled with a biochemical model described by <a class="scrollableLink" href="#i1051-0761-8-3-805-farquhar1">Farquhar et al. (1980)</a> that defines the rate of CO<sub>2</sub> fixation from limits of either carboxylating enzyme ribulose bisphosphate caraboxylase (RuBisCO) or the substrate ribulose bisphosphate (RuBP), which is limited by the light reaction of photosynthesis that reduces NADP<sup>+</sup> to NADPH via an electron transport system. The maximum rate of assimilation constrained by RuBisCO supply was calculated based on the amount of leaf nitrogen in the enzyme RuBisCO, set as an input parameter, times a RuBisCO temperature-sensitive activation coefficient. Although the fraction of leaf nitrogen allocated to RuBisCO was constant, leaf nitrogen varied in our simulations based on nitrogen mineralization and plant uptake, which subsequently varied RuBisCO-limited photosynthesis. The assimilation rate based on RuBP regeneration was calculated from a linear function with the RuBisCO-limited assimilation rate (<a class="scrollableLink" href="#i1051-0761-8-3-805-wullschleger1">Wullschleger 1993</a>). Final net photosynthesis was taken as the minimum value calculated from these two functions minus daily leaf maintenance respiration. All simulations were run with a constant atmospheric CO<sub>2</sub> concentration of 355 ppm to focus our research on the environmental effects of climate change in our model. We acknowledge that CO<sub>2</sub> fertilization will influence plant response to climate change and will address this issue in forthcoming research.</p>
+<div class="paragraph-element">Plant carbon allocation was modeled based on water and nitrogen limits that influence the overall growth habit of vegetation, represented by shoot vs. root allocation, and the amount of carbon moved into a plant organ, such as during leaf expansion (<a class="scrollableLink" href="#i1051-0761-8-3-805-running3">Running and Gower 1991</a>). First, an initial, maximum shoot-to-root ratio [shoot/(shoot + root)] was modified by scalar values representing the relative availability of water and nitrogen for leaf growth. Note that the root portion of this ratio refers to fine root biomass defined as roots &lt;5 mm in diameter. Water limitations were based on an index that expresses the reduction in potential leaf growth as a function of integrated, growing-season water stress (<a class="scrollableLink" href="#i1051-0761-8-3-805-myers1">Myers 1988</a>):
+
+               <div class="inline-equation" id="i1051-0761-8-3-805-e3"><span class="inline-equation__construct"><img alt="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e3" class="" loading="lazy" src="/cms/asset/894c90c2-4833-4ecb-bafd-9842ef09b9e2/i1051-0761-8-3-805-e3.gif" title="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e3"/></span><span class="inline-equation__label"></span></div>The equation describes the difference between the growing-season (<i>d</i>; in days) average predawn Ψ<sub>leaf</sub> and the spring maximum potential (Ψ<sub>max</sub>; megapascals) over the growing season scaled by a shape coefficient (<i>a</i>; dimensionless).
+</div>
+<div class="paragraph-element">Nitrogen limits were calculated by estimating the amount of leaf nitrogen (<i>N</i><sub>leaf</sub>) required to meet a minimum leaf nitrogen concentration as established by the previous year’s leaf nitrogen content set by the amount of nitrogen available to the plant through uptake (<i>N</i><sub>up</sub>) and retranslocation (<i>N</i><sub>trans</sub>) from older leaves before abscission where
+
+               <div class="displayed-item-text-type"><span class="displayed-item-text-type__label">((4))</span><div class="displayed-item-text-type__content"><i>I</i><sub>N</sub> = (<i>N</i><sub>trans</sub> + <i>N</i><sub>up</sub>)/<span><i>N</i><sup><i>t</i>+1</sup><sub>leaf</sub>.</span>
+</div>
+</div>Nitrogen limitation (<i>I</i><sub>N</sub>) was not allowed to exceed 1.0 once leaf nitrogen demand was satisfied. Available, mineralized nitrogen taken up by plants (<i>N</i><sub>up</sub>) was limited by fine root mass in a Michaelis-Menten function (<a class="scrollableLink" href="#i1051-0761-8-3-805-raich2">Raich et al. 1991</a>).
+</div>
+<p>A final shoot-to-root ratio was calculated as the product of the potential shoot-to-root ratio times the water and nitrogen indices. Net annual photosynthesis times the shoot-to-root ratio determined the leaf carbon allocation fraction minus growth respiration calculated as a fraction of the allocation related to synthesis of organic substances (<a class="scrollableLink" href="#i1051-0761-8-3-805-penningdevries1">Penning de Vries et al. 1974</a>). The fine root allocation fraction was calculated by multiplying the leaf fraction with the reciprocal of the shoot-to-root ratio minus one. Remaining photosynthate was allocated hierarchically to storage, stem, and coarse root pools depending on vegetation types. Woody vegetation-type stem carbon allocation was controlled by a leaf-to-sapwood mass ratio. If a predetermined threshold value was exceeded, stem mass was transferred from sapwood to heartwood.</p>
+<div class="paragraph-element">The nitrogen budget was calculated starting with inputs into the litter. Leaves and fine roots were transformed into litter based on fixed turnover rates. A heterotrophic litter decomposition rate scalar (<i>R</i><sub>H, litter</sub>) was initially calculated based on litter nitrogen and lignin content (<a class="scrollableLink" href="#i1051-0761-8-3-805-taylor1">Taylor et al. 1989</a>):
+
+               <div class="inline-equation" id="i1051-0761-8-3-805-e5"><span class="inline-equation__construct"><img alt="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e5" class="" loading="lazy" src="/cms/asset/262891e3-bcb4-4cc5-afbb-fc2a89fb17c1/i1051-0761-8-3-805-e5.gif" title="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e5"/></span><span class="inline-equation__label"></span></div>where lignin:N is the annually updated litter lignin-to-nitrogen ratio from leaves and fine root inputs. Note that the original formula given by <a class="scrollableLink" href="#i1051-0761-8-3-805-taylor1">Taylor et al. (1989)</a> was for a 4-mo interval, which we multiplied by 3.0 to derive an annual decomposition rate. Nitrogen flow into litter was determined from nitrogen in leaves and fine root minus translocation in leaves and a fraction of fine root nitrogen reabsorbed by mycorrhizae (<a class="scrollableLink" href="#i1051-0761-8-3-805-yanai1">Yanai et al. 1995</a>). Temperature and Ψ<sub>soil</sub> scalars were used to further modify litter decomposition. The temperature scalar was based on an inverse hyperbolic function using 25°C as the optimum decomposition temperature for a 1-yr turnover rate (<a class="scrollableLink" href="#i1051-0761-8-3-805-townsend1">Townsend et al. 1995</a>). The soil water potential scalar (<i>R</i><sub>H, W</sub>) was calculated based on the logarithmic relationship between soil microbial activity and Ψ<sub>soil</sub> (<a class="scrollableLink" href="#i1051-0761-8-3-805-orchard1">Orchard and Cook 1983</a>), such that
+
+               <div class="inline-equation" id="i1051-0761-8-3-805-e6"><span class="inline-equation__construct"><img alt="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e6" class="" loading="lazy" src="/cms/asset/7ff788fc-ea61-49fa-b367-c59fd242d161/i1051-0761-8-3-805-e6.gif" title="urn:x-wiley:10510761:media:eap199883805:i1051-0761-8-3-805-e6"/></span><span class="inline-equation__label"></span></div>where Ψ<sub>min</sub> is the minimum value of for which soil microbial activity could occur and Ψ<sub>max</sub> is the maximum soil water potential. For our simulations, Ψ<sub>min</sub> was assigned a value of −10.0 MPa and Ψ<sub>max</sub> = Ψ<sub>sat</sub> (e.g., −0.3 MPa). The products of these two scalars were summed annually and multiplied by litter and soil carbon to estimate decomposition. For soil, maximum soil carbon turnover rate was set at 0.03 per year (<a class="scrollableLink" href="#i1051-0761-8-3-805-townsend1">Townsend et al. 1995</a>).
+</div>
+<p>Nitrogen mineralization was calculated annually when modeled litter and soil pool C:N ratios fell below threshold C:N limits. Carbon and nitrogen fluxes between the litter and soil pool were controlled by the amount of recalcitrant carbon, represented by lignin content, left in the litter following partial decomposition. Lignin carbon was transferred from the litter to soil carbon pools with nitrogen following stoichiometrically based on the litter C:N ratio. The soil C:N ratio was updated annually and soil nitrogen mineralization calculated. Mineralized nitrogen was leached from the available soil pool with a site residence time of 20 yr. Atmospheric nitrogen was added to the soil nitrogen pool at a rate of 2.0 kg N·ha<sup>−1</sup>·yr<sup>−1</sup> from summed wet and dry deposition data recorded near West Glacier (National Atmospheric Deposition Program, Environmental Protection Agency site). Available nitrogen for plant uptake was calculated as total mineralized nitrogen plus atmospheric deposition minus leaching.</p>
+</section>
+<section class="article-section__sub-content" id="s2d">
+<h3 class="article-section__sub-title section2" id="s2d-title"> Spatial data assemblage for RHESSys</h3>
+<p>Several spatial databases were required to run RHESSys, including: LAI, digital elevation models (DEM), and soil hydraulic conductance. Leaf area index (LAI) was calculated for all vegetation using an exponential function of normalized difference vegetation index [(near infrared − red)/(near-infrared + red)] from Landsat Thematic Mapper data (<a class="scrollableLink" href="#i1051-0761-8-3-805-white2">White et al. 1997</a>). The TSI values needed for hydrologic modeling (<a class="scrollableLink" href="#i1051-0761-8-3-805-e1">Eq. 1</a>) were calculated from 30-m DEM data employing a landscape partitioning procedure described by <a class="scrollableLink" href="#i1051-0761-8-3-805-band1">Band (1986)</a> with soil transmissivity estimated from the surface texture in the state 1:250000 soils database (STATSGO; <a class="scrollableLink" href="#i1051-0761-8-3-805-soil2">Soil Conservation Service 1991</a>). Total soil depth, which was used to estimate soil water capacitance, was determined spatially from a linear model of TSI values and measured depth to bedrock (<a class="scrollableLink" href="#i1051-0761-8-3-805-f01">Fig. 1</a>).</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f01"><a href="/cms/asset/85c40dc0-47ea-41ef-a3e7-606e26295835/i1051-0761-8-3-805-f01.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/85c40dc0-47ea-41ef-a3e7-606e26295835/i1051-0761-8-3-805-f01.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/85c40dc0-47ea-41ef-a3e7-606e26295835/i1051-0761-8-3-805-f01.jpg" loading="lazy" src="/cms/asset/11caae72-3468-4bc7-b79a-e586c21a0500/i1051-0761-8-3-805-f01.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 1</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f01&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Plot of the topographic soil index (TSI; <a class="scrollableLink" href="#i1051-0761-8-3-805-beven1">Beven and Kirkby 1979</a>) and measured soil depths (cm).</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Finally, a landcover map developed from Landsat data for the Montana GAP Analysis (R. Redmond, University of Montana) was aggregated into five vegetation types (evergreen conifer forest, deciduous broad-leaved forest, deciduous broad-leaved shrub, grass, and alpine) to initialize the model with a minimal number of type-specific ecological variables.</p>
+</section>
+<section class="article-section__sub-content" id="s2e">
+<h3 class="article-section__sub-title section2" id="s2e-title"> Model simulations</h3>
+<p><i>Initial variable values.</i>—Only a few key variables, including leaf longevity, presence of woody biomass, light interception, cold tolerance, and plant nutrition demands, varied among the five vegetation types (<a class="scrollableLink" href="#i1051-0761-8-3-805-t02">Table 2</a>). Evergreen vegetation was assigned a 4-yr leaf turnover vs. annual turnover for deciduous vegetation. Forests and shrubs contained significant amounts of woody biomass in contrast to grasses and alpine vegetation. The aerodynamic conductance of taller and vertically structured canopies were assigned larger values compared to short uniform canopies. Alpine and grass vegetation were assumed to be functionally similar with alpine vegetation having more interannual carbon storage, lower temperature optima for stomatal conductance, and increased leaf nitrogen content (<a class="scrollableLink" href="#i1051-0761-8-3-805-korner1">Körner 1989</a>).</p>
+<div class="article-table-content" id="i1051-0761-8-3-805-t02">
+<header class="article-table-caption"><span class="table-caption__label">Table 2.
+                </span>Selected parameter list used in simulations for five lifeform types. Only parameters that varied among different vegetation types are listed.</header>
+<a href="/cms/asset/6d9e46a5-8db6-44bb-af2d-7823a15ae928/i1051-0761-8-3-805-t02.jpg" target="_blank"><img alt="table image" class="table__image" loading="lazy" src="/cms/asset/6d9e46a5-8db6-44bb-af2d-7823a15ae928/i1051-0761-8-3-805-t02.jpg" title="table image"/></a>
+<div class="article-section__table-source"></div>
+</div>
+<p>The state pools of carbon and nitrogen for leaves, stems, and roots were estimated from LAI and vegetation-type-specific allometric input fractions (e.g., specific leaf area). Estimates of initial litter and soil carbon and nitrogen resident on the site were based on literature values (Prescott et al. 1989, <a class="scrollableLink" href="#i1051-0761-8-3-805-vogt1">Vogt 1991</a>) scaled using LAI, which reflected the amount of carbon transferred to litter from leaves. Litter and soil nitrogen masses were initialized by dividing litter and soil carbon by mineralization threshold C:N ratios.</p>
+<p><i>Simulations.</i>—Model simulations were run with meteorological data from 1993 to 1995 to compare model and observed values from the same time period. Stem increment measurements available for a 5-yr period, 1989–1992, were compared with model estimates from the same time period. In addition, a set of simulations was made to assess climate change impacts on the equilibrium of vegetation productivity and variation by (a) comparing differences in NPP for the five vegetation types across the Continental Divide between the current and an extremely variable climate, (b) investigating the water and nitrogen limits to growth between these two climate scenarios, and (c) identifying changes in spatial trends of NPP associated with changes in climatic variability. For (a) and (b), four areas were modeled representing a gradient in environmental conditions, including a moist, bottomland forest in the Lake McDonald watershed (Avalanche Creek), a cold upper treeline ecotone at the Continental Divide (Logan Pass), a dry, midslope forest in the St. Mary’s Lake watershed (St. Mary’s Lake), and a dry grass–forest ecotone on the front range in the St. Mary’s Lake watershed (Eastern Foothills). The “current” climate variability was constructed by duplicating meteorological data from 1982 to 1993 10 times to produce a longer data set. To investigate long-term effects of frequent, serially correlated climate, three years were chosen from the 1982–1993 record that represented (a) average, (b) cool-wet, and (c) hot-dry years, which were ordered repetitively to create an expanded, extremely variable 120-yr climate record. The cool-wet year was 1.1°C cooler and had 58% more precipitation than average, whereas, the hot-dry climate was 1.1°C warmer and had 17% less precipitation than average.</p>
+<p>Simulated NPP and statistical variation were compared between the two levels of climate variability. Climate effects on water and nitrogen limits to growth were examined from the index values calculated for carbon allocation (<a class="scrollableLink" href="#i1051-0761-8-3-805-e3">Eqs. 3</a> and <a class="scrollableLink" href="#i1051-0761-8-3-805-e4">4</a>). Finally, the spatial patterns of NPP between climate variability scenarios were contrasted by difference between the spatial distributions between the two simulations.</p>
+</section>
+</section>
+<section class="article-section__content" id="s3">
+<h2 class="article-section__title section__title section1" id="s3-title"> Results</h2>
+<section class="article-section__sub-content" id="s3a">
+<h3 class="article-section__sub-title section2" id="s3a-title"> Carbon budgets</h3>
+<p>The two methods of measuring soil CO<sub>2</sub> efflux showed a consistent linear correlation (<i>r</i><sup>2</sup> = 0.65) across a temperature and moisture gradient (<a class="scrollableLink" href="#i1051-0761-8-3-805-f02">Fig. 2</a>). In general, the LI-COR IRGA measured efflux rates at a 3:1 ratio over the static chamber soda-lime method, which was lower than the 4:1 ratio estimated by <a class="scrollableLink" href="#i1051-0761-8-3-805-nay1">Nay et al. (1994)</a>.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f02"><a href="/cms/asset/6c5d5afd-9d19-47c3-919f-dd246439641e/i1051-0761-8-3-805-f02.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/6c5d5afd-9d19-47c3-919f-dd246439641e/i1051-0761-8-3-805-f02.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/6c5d5afd-9d19-47c3-919f-dd246439641e/i1051-0761-8-3-805-f02.jpg" loading="lazy" src="/cms/asset/02c85e83-cf16-4fc9-8beb-c7cc3edd35ef/i1051-0761-8-3-805-f02.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 2</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f02&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Comparison of measurements from the two methods of measuring soil CO<sub>2</sub> efflux from cool-moist and warm-dry conifer forests near Glacier National Park: static-chamber, soda-lime measurements vs. LI-COR infra-red gas analysis.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>The grass areas had the highest measured efflux with the larger occurring at the upper rather than lower elevation sites (9426 ± 360 v. 9079 ± 49 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>; note that values are reported with ±1 <span class="smallCaps">sd</span>). Simulated values for the grass sites were significantly lower than observed (<i>P</i> &lt; 0.05) (<a class="scrollableLink" href="#i1051-0761-8-3-805-f03">Fig. 3</a>) with predicted values of 7369 ± 340 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> for the upper site and 8146 ± 114 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> for the lower site. Predicted and observed soil effluxes were similar on both forest sites (<a class="scrollableLink" href="#i1051-0761-8-3-805-f03">Fig. 3</a>) with the lower elevation having a higher observed efflux (8871 ± 344 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>) than the upper elevation site (7748 ± 845 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>).</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f03"><a href="/cms/asset/d80c2a7e-8f16-4e33-9e00-a1ae227bef56/i1051-0761-8-3-805-f03.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/d80c2a7e-8f16-4e33-9e00-a1ae227bef56/i1051-0761-8-3-805-f03.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/d80c2a7e-8f16-4e33-9e00-a1ae227bef56/i1051-0761-8-3-805-f03.jpg" loading="lazy" src="/cms/asset/1b287868-5f04-456a-b66f-cb004c63dc56/i1051-0761-8-3-805-f03.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 3</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f03&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Comparison of modeled and observed soil carbon efflux from intensive-study grass and forest sites. Predicted soil carbon efflux includes soil and litter decomposition, and fine and coarse root maintenance and growth respiration. Significantly different predicted and observed values are indicated (*<i>P</i> &lt; 0.05).</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Productivity values for both grass and forest plots were similar (<a class="scrollableLink" href="#i1051-0761-8-3-805-f04">Fig. 4</a>) with predicted vs. observed grass NPP of 5563 ± 15 to 5487 ± 91 kg C/ha compared to measured values of 5631 ± 104 to 6251 ± 142 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> from lower to upper sites, respectively. Only on the upper grass site did predictions vary significantly from observed values (<i>P</i> &lt; 0.05). The range and trend between predicted and observed NPP on forested sites corresponded with predicted 6903 ± 1184 to 4667 ± 42 kg C/ha and observed 6506 ± 484 to 4983 ± 214 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> from the lower to upper sites.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f04"><a href="/cms/asset/3eb3f10f-ba3b-4a8f-b232-615c98237364/i1051-0761-8-3-805-f04.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/3eb3f10f-ba3b-4a8f-b232-615c98237364/i1051-0761-8-3-805-f04.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/3eb3f10f-ba3b-4a8f-b232-615c98237364/i1051-0761-8-3-805-f04.jpg" loading="lazy" src="/cms/asset/ad4b9f91-d50c-4444-b3f5-aef46bb64926/i1051-0761-8-3-805-f04.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 4</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f04&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Comparison of modeled and observed net primary productivity (NPP) soil carbon efflux from the grass and forest sites. Significantly different predicted and observed values are indicated (*<i>P</i> &lt; 0.05).</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Comparison of modeled and observed forest stem production showed that individual points in time and space were not well correlated with an asymptote near 2000 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> (<a class="scrollableLink" href="#i1051-0761-8-3-805-f05">Fig. 5</a>). Model accuracy slightly improved when comparisons were made with values averaged over a 5-yr interval, however, only linear correlation (<i>r</i><sup>2</sup> = 0.91; <i>y</i> = 1.1809<i>x</i> + 221.81) was found after data were also aggregated by major hillslopes with areas &gt;10 ha. A significant intercept in this relationship (<i>P</i> &lt; 0.05) indicated that stem growth was overestimated by &gt;200 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>. The spatial patterns between average modeled and observed stem production were similar with the highest production in the Lake McDonald watershed (1500 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>) and the lowest on the St. Mary’s Lake side of the Continental Divide (700 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>) (<a class="scrollableLink" href="#i1051-0761-8-3-805-f06">Fig. 6</a>).</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f05"><a href="/cms/asset/a129006a-06cf-4daf-9c9d-5f59ccad9fb2/i1051-0761-8-3-805-f05.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/a129006a-06cf-4daf-9c9d-5f59ccad9fb2/i1051-0761-8-3-805-f05.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/a129006a-06cf-4daf-9c9d-5f59ccad9fb2/i1051-0761-8-3-805-f05.jpg" loading="lazy" src="/cms/asset/58d1e1c3-4c19-4e76-8d96-cd6a6bffe994/i1051-0761-8-3-805-f05.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 5</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f05&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Scatterplot of predicted and observed stem production values for individual sites and years (RAW), 5-yr averages (TIME), and 5-yr plus hillslope averaged (TIME + SPACE) values. The regression equation is for the TIME + SPACE plot.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f06"><a href="/cms/asset/a82fed05-cadb-46e4-a1fd-f6529adf727e/i1051-0761-8-3-805-f06.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/a82fed05-cadb-46e4-a1fd-f6529adf727e/i1051-0761-8-3-805-f06.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/a82fed05-cadb-46e4-a1fd-f6529adf727e/i1051-0761-8-3-805-f06.jpg" loading="lazy" src="/cms/asset/2d1b2342-f9d6-41f7-bc98-e24c76a078a4/i1051-0761-8-3-805-f06.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 6</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f06&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Bar diagram plot of modeled and observed hillslope and 5-yr averaged stem production values with data arranged from west to east to illustrate spatial trends in model predictions. Grass aboveground production values are also included. Conifer forest data are labeled “Cf.” Mean hillsope elevation (m) and aspect are also shown. NA = no aspect.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+</section>
+<section class="article-section__sub-content" id="s3b">
+<h3 class="article-section__sub-title section2" id="s3b-title"> Water budgets</h3>
+<p>Comparison of point-predicted and observed snowpack measurements were highly variable when compared on a daily basis (<a class="scrollableLink" href="#i1051-0761-8-3-805-f07">Fig. 7a</a>). In general south-facing slopes had higher predicted snowpack than observed. The correlation between predicted and observed snowpack improved after values were averaged over the entire measurement period (<i>r</i><sup>2</sup> = 0.95; <i>y</i> = 1.0712<i>x</i> + 1.9236), however predicted values were significantly overestimated (<i>P</i> &lt; 0.05) (<a class="scrollableLink" href="#i1051-0761-8-3-805-f07">Fig. 7b</a>). On a watershed basis, predicted snowpack for Lake McDonald was 18.3 cm vs. 16.4 cm observed and in the St. Mary’s watershed, predicted snowpack was 32.8 cm compared to 25.6 cm observed.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f07"><a href="/cms/asset/307afd5a-8f6c-4a3c-85e1-ec7587921b26/i1051-0761-8-3-805-f07.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/307afd5a-8f6c-4a3c-85e1-ec7587921b26/i1051-0761-8-3-805-f07.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/307afd5a-8f6c-4a3c-85e1-ec7587921b26/i1051-0761-8-3-805-f07.jpg" loading="lazy" src="/cms/asset/9cf0b889-6637-4679-a1f5-cc358858b5db/i1051-0761-8-3-805-f07.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 7</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f07&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>(a) Scatterplot of predicted and observed snow water equivalent values with sites separated into north- and south-facing aspects. The 1:1 line is shown for reference. (b) Linear regression of snow water averaged over the total sampling season(s) and by area (&gt;10 ha).</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>As a result of achieving good agreement with measured snowpack, predicted stream flow was also close to that measured (<a class="scrollableLink" href="#i1051-0761-8-3-805-f08">Fig. 8</a>). In general, the amount of baseflow and the timing of spring melt and peak flow were well represented by the model. There was, however, some discrepancy in the late-summer discharge where modeled values were lower than observed until streams all but dry up near the end of August.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f08"><a href="/cms/asset/cbc10ac2-75d0-43ce-8cbb-877101f51f9b/i1051-0761-8-3-805-f08.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/cbc10ac2-75d0-43ce-8cbb-877101f51f9b/i1051-0761-8-3-805-f08.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/cbc10ac2-75d0-43ce-8cbb-877101f51f9b/i1051-0761-8-3-805-f08.jpg" loading="lazy" src="/cms/asset/c7f069be-80ad-4709-894b-1150c293d3f0/i1051-0761-8-3-805-f08.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 8</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f08&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Observed and modeled stream discharge values (cm) for McDonald Creek above Lake McDonald. Lines have been averaged using a running average with a 7-d period. Underprediction between days of year 150 and 200 may be attributed to late-summer glacier meltwater.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Measured soil water content showed that the Lake McDonald soils contained relatively more water during the growing season of 1993 than St. Mary’s Lake during 1994 (<a class="scrollableLink" href="#i1051-0761-8-3-805-f09">Fig. 9a</a>). The modeled values for both watersheds were generally higher with an asymptotic relationship where modeled soils were saturated when observed values were &gt;0.1 (<a class="scrollableLink" href="#i1051-0761-8-3-805-f09">Fig. 9b</a>). On average, the 1993 Lake McDonald soil water volumetric content values were overestimated by 0.02 and the 1994 St. Mary’s Lake values were overestimated by 0.05.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f09"><a href="/cms/asset/9da8f80c-331b-47c3-a65d-f32a97b41eb2/i1051-0761-8-3-805-f09.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/9da8f80c-331b-47c3-a65d-f32a97b41eb2/i1051-0761-8-3-805-f09.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/9da8f80c-331b-47c3-a65d-f32a97b41eb2/i1051-0761-8-3-805-f09.jpg" loading="lazy" src="/cms/asset/0dd1783e-ffb7-484b-ba0a-914795562ae6/i1051-0761-8-3-805-f09.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 9</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f09&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>(a) Plot showing measured trends in volumetric soil water content taken from soil samples from Lake McDonald in 1993 and St. Mary’s Lake watershed in 1994. The lower plot (b) is a comparison of the observed and predicted volumetric soil water content for 1993 and 1994 on a point-by-point basis. The measured soil water values were taken from a standard 30 cm; however, the model calculates soil water content across the entire soil column.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Ψ<sub>leaf</sub> measurement during 1994 showed a trend of decreasing water potential values through the growing season, which was less pronounced with increasing elevation (<a class="scrollableLink" href="#i1051-0761-8-3-805-f10">Fig. 10a</a>). As with the soil water measurements, Ψ<sub>leaf</sub> values compared only moderately well on a point by point basis (<a class="scrollableLink" href="#i1051-0761-8-3-805-f10">Fig. 10b</a>), however when we averaged the measured and predicted values of Ψ<sub>leaf</sub> for all plots, the values of Ψ<sub>leaf</sub> were generally in good agreement (<a class="scrollableLink" href="#i1051-0761-8-3-805-f10">Fig. 10c</a>).</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f10"><a href="/cms/asset/a5a40b0b-21f4-44ee-a924-5648283278d0/i1051-0761-8-3-805-f10.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/a5a40b0b-21f4-44ee-a924-5648283278d0/i1051-0761-8-3-805-f10.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/a5a40b0b-21f4-44ee-a924-5648283278d0/i1051-0761-8-3-805-f10.jpg" loading="lazy" src="/cms/asset/0eec9c48-edb3-41ec-9def-3dd2091b52e0/i1051-0761-8-3-805-f10.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 10</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f10&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>(a) Predawn leaf potential comparisons are shown from samples taken across an elevation gradient in the St. Mary’s Lake watershed. Elevation in meters is indicated for each sample. Plot-measured leaf water potential (Ψ<sub>leaf</sub>) compared modeled and observed Ψ<sub>leaf</sub> on a site-by-site basis. (b) Watershed average Ψ<sub>leaf</sub> for all sites and the averaged modeled trend line. (c) Averaged Ψ<sub>leaf</sub> for all St. Mary’s Lake watersheds with seasonal modeled trendline.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+</section>
+<section class="article-section__sub-content" id="s3c">
+<h3 class="article-section__sub-title section2" id="s3c-title"> Climate change simulations</h3>
+<p>Comparison of the current and serial, extreme climate simulations indicated that conifer forests NPP would decrease from 4 to 13% on all sites with a definite west-to-east trend (<a class="scrollableLink" href="#i1051-0761-8-3-805-f11">Fig. 11</a>). Productivity generally increased in all other vegetation types in response to the extreme scenario with some notable exceptions. For example, NPP in broad-leaved forests decreased by 3% at Logan Pass and grass NPP by 4% at the Eastern Foothills site, the current forest–grass ecotone. Under the extremely variable climate, broad-leaved shrub vegetation type had higher NPP with increases of 2–7% at all sites. Finally, alpine vegetation, which was only simulated at the Logan Pass site, indicated that NPP should increase by 2% under the extremely variable climate.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f11"><a href="/cms/asset/f2537d9b-57ab-4de5-b1c3-c32c344a62ff/i1051-0761-8-3-805-f11.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/f2537d9b-57ab-4de5-b1c3-c32c344a62ff/i1051-0761-8-3-805-f11.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/f2537d9b-57ab-4de5-b1c3-c32c344a62ff/i1051-0761-8-3-805-f11.jpg" loading="lazy" src="/cms/asset/25d1fbdc-7878-455d-a679-c7b56963baf4/i1051-0761-8-3-805-f11.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 11</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f11&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Transect over the Continental Divide going from west to east showing the simulation plots with simulated net primary productivity (NPP, kg C·ha<sup>−1</sup>·yr<sup>−1</sup>). Graph on left is relative difference in simulated NPP for each vegetation type between the current and extreme variable climate. Graph on the right shows the difference in relative coefficient of variation for each vegetation type. Positive responses indicate that the variable increased with extreme climate variability.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Interannual productivity variation, illustrated by the relative differences in NPP coefficient of variation from current to extreme climate scenarios, showed that variation changes were large depending on vegetation type and site (<a class="scrollableLink" href="#i1051-0761-8-3-805-f11">Fig. 11</a>). In general, all vegetation types had higher interannual productivity variation on the Eastern Foothills site with the coefficient of variation increasing from 40 to 110%. Broad-leaved forests had the highest variation changes (103%) and grasses the lowest (40%). Variation decreased by ∼55% under the extreme climate in conifer forests and for alpine vegetation at Logan Pass sites. In addition, broad-leaved forest, shrubs, and grasses had decreased variation ranging from 20 to 35% at the Avalanche Creek site.</p>
+<p>Water and nitrogen indices calculated as part of the carbon allocation process integrate information about water stress, nutrient availability, and the potential shoot-to-root growth in vegetation. Shoot allocation on current forested sites, represented by the Avalanche Creek and St. Mary’s Lake sites, was limited most by nitrogen availability in conifer forests and broad-leaved shrubs (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Figs. 12a, c</a>). Grasses were water limited, whereas broad-leaved forests were equally limited by both water and nitrogen. These limitations remained constant for all vegetation types for both climate scenarios. At both upper and lower treelines, water and nitrogen became limiting depending on vegetation type and climate. For instance, Logan Pass simulations showed that all vegetation types were water limited under the current climate, however, the alpine vegetation became nitrogen limited under the extreme variable climate (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12b</a>). Production was also water limited at the Eastern Foothills site (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12d</a>). The conifer forest type became slightly nitrogen limited under the extreme scenario.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f12"><a href="/cms/asset/78aa7beb-1ae0-4a9d-8eab-e6667cb7d38f/i1051-0761-8-3-805-f12.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/78aa7beb-1ae0-4a9d-8eab-e6667cb7d38f/i1051-0761-8-3-805-f12.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/78aa7beb-1ae0-4a9d-8eab-e6667cb7d38f/i1051-0761-8-3-805-f12.jpg" loading="lazy" src="/cms/asset/f5deb807-3c59-4ad6-ab08-ed3c0896743d/i1051-0761-8-3-805-f12.gif" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 12</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f12&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Radial plots of water and nitrogen shoot:root allocation scalars for all lifeforms at the simulation plots. Plots of the 120-yr simulations for the current and extreme variable climates are shown for the Avalanche Creek (a), Logan Pass (b), St. Mary’s Lake (c), and Eastern Foothills (d) sites. Conifer forests are generally N limited on presently forested sites, and alpine vegetation becomes N limited under extreme climate variability.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+<p>Mapped NPP between climate scenarios showed a strong west–east trend (<a class="scrollableLink" href="#i1051-0761-8-3-805-f13">Fig. 13</a>) with productivity enhanced in Lake McDonald and reduced in the St. Mary’s Lake watershed. Average NPP for the 120-yr current climate was 3209 ± 1345 for the Lake McDonald and 4069 ± 1738 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> for St. Mary’s Lake. Under the variable climate, average NPP for Lake McDonald increased to 4239 ± 1256 and decreased to 3369 ± 1266 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> for St. Mary’s Lake.</p>
+<section class="article-section__inline-figure">
+<figure class="figure" id="i1051-0761-8-3-805-f13"><a href="/cms/asset/f51369ea-0074-4a88-9c79-ae0d0decd4d6/i1051-0761-8-3-805-f13.jpg" target="_blank"><picture>
+<source media="(min-width: 1650px)" srcset="/cms/asset/f51369ea-0074-4a88-9c79-ae0d0decd4d6/i1051-0761-8-3-805-f13.jpg"/><img alt="figure image" class="figure__image" data-lg-src="/cms/asset/f51369ea-0074-4a88-9c79-ae0d0decd4d6/i1051-0761-8-3-805-f13.jpg" loading="lazy" src="/cms/asset/9ef15c6b-fd77-4b5d-9138-a44469ac03d6/i1051-0761-8-3-805-f13.jpg" title="figure image"/></picture></a><figcaption class="figure__caption">
+<div class="figure__caption__header"><strong class="figure__title">Figure 13</strong><div class="figure-extra"><a class="open-figure-link" href="#">Open in figure viewer</a><a class="ppt-figure-link" href="/action/downloadFigures?id=i1051-0761-8-3-805-f13&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2"><i aria-hidden="true" class="icon-Icon_Download"></i><span>PowerPoint</span></a></div>
+</div>
+<div class="figure__caption figure__caption-text">
+<p>Maps showing 120-yr average net primary productivity (NPP, kg C·ha<sup>−1</sup>·yr<sup>−1</sup>) from the current and variable climate scenarios in the Lake McDonald and St. Mary’s Lake watershed. Also mapped is the mean absolute difference where the variable climate is subtracted from the current NPP simulations. Lake McDonald becomes more productive than St. Mary’s under the variable climate scenario.</p>
+</div>
+</figcaption>
+</figure>
+</section>
+</section>
+</section>
+<section class="article-section__content" id="s4">
+<h2 class="article-section__title section__title section1" id="s4-title"> Discussion</h2>
+<section class="article-section__sub-content" id="s4a">
+<h3 class="article-section__sub-title section2" id="s4a-title"> Model predictions and field measurements</h3>
+<p><i>Carbon budgets.</i>—Regional models predict regional processes by assuming that local variation and interaction of some ecosystem elements are more influential at one scale than at another (<a class="scrollableLink" href="#i1051-0761-8-3-805-wiens1">Wiens 1989</a>). In general, we found that scaling to larger areas and longer time periods reduced the average difference between predicted and observed values. In fact, averaging spatially and temporally is essential because: (a) models only effectively operate at a particular spatial and temporal resolution and the measured data must be at a comparable resolution (<a class="scrollableLink" href="#i1051-0761-8-3-805-white1">White and Running 1994</a>) and (b) some observed data, such as the belowground production estimates derived from litter and soil CO<sub>2</sub> efflux, are only representative of broad bioclimatic zones (<a class="scrollableLink" href="#i1051-0761-8-3-805-gower3">Gower et al. 1996</a>). By averaging data to macro scales, the implications of the climatic conditions we chose to drive the model become more apparent. However, some model predictions were influenced by factors beyond simple climate gradients, i.e., the interaction of vegetation, hydrology, and climate together. For instance, climate coupled with satellite-derived LAI influenced carbon balances most. Also, water balances were affected by water interception and use by plants, soil water characteristics predicted by TOPMODEL, and predicted precipitation and radiation patterns.</p>
+<p>The ability to estimate and compare NPP from measured values was contingent on our confidence in belowground production estimates. We found that the nonventilated soda lime capture technique was robust when calibrated with the IRGA measurements (<a class="scrollableLink" href="#i1051-0761-8-3-805-f02">Fig. 2</a>; <a class="scrollableLink" href="#i1051-0761-8-3-805-nay1">Nay et al. 1994</a>). Observed soil carbon efflux was higher in grasses, which was not predicted by the model (<a class="scrollableLink" href="#i1051-0761-8-3-805-f03">Fig. 3</a>). The reason for this difference is difficult to assess because we were unsure whether the measurement technique or the initial model values were appropriate for grasses. Soil carbon efflux in grasses was measured by clipping vegetation to the ground level under each chamber and waiting 24 h before measurement. Therefore, we expected some variation to occur as a result of changes in root activity related to the time between foliage clipping and CO<sub>2</sub> measurement. Other possible sources of CO<sub>2</sub> efflux, which were not accounted for in the model, were derived from burrowing mammals found within 20 m of each sampled grass site. The effect of these animals on our measurements most likely changed the source of soil CO<sub>2</sub> efflux from root activity to animal respiration and centralized emissions near inhabited burrows (<a class="scrollableLink" href="#i1051-0761-8-3-805-holland1">Holland and Detling 1990</a>).</p>
+<p>The predictive capability of regional modeling is partially limited by the ability to spatially extrapolate initial site values. Some of the differences between predicted and observed soil carbon efflux resulted from difficulty in deriving initial soil and litter carbon pools. Initial values were estimated based on allometric relationships with LAI, which worked well for forests but not for grasses (<a class="scrollableLink" href="#i1051-0761-8-3-805-f03">Fig. 3</a>). LAI values used in the model were derived from satellite data acquired in early August 1994. LAI (and other estimated carbon pools) was underestimated because field observations indicated that LAI peaked during July before the August satellite overflight. Observed LAIs for the lower and upper grass sites during July were 2.8 and 2.3, respectively, in contrast to satellite-predicted LAIs of 2.5 and 1.5 from August. In the model, this translated into a reduction of potential litter + soil carbon of 55 Mg C/ha. Also, soil and litter carbon are related to long-term productivity patterns in grasses, mediated by climate and land use patterns, factors that were not included in our initialization scheme.</p>
+<p>As with soil carbon efflux, NPP was better predicted for forests than for grasses, which was expected given the significant differences between soil carbon efflux. For forested areas, the patterns of soil carbon efflux and NPP indicated that the model represented above- and belowground processes relatively well. Higher production in the lower elevation stand (<a class="scrollableLink" href="#i1051-0761-8-3-805-f04">Fig. 4</a>) coupled with lower soil carbon efflux indicated that a larger proportion of annual production is in stems and leaves. This contrasts with the upper site, which had lower production and higher soil carbon efflux. The lower site is situated generally on deeper (30 vs. 10 cm), moister soils. The model, therefore, represented the droughty conditions of the upper site, which modeled the shift in production to roots as was generally observed.</p>
+<p>The time- and space-averaged predictions of stem production (<a class="scrollableLink" href="#i1051-0761-8-3-805-f05">Fig. 5</a>) represent near-optimum resolution of the model. However, the asymptotic relationships between the nonaveraged measurements illustrate that there are age-related processes and patterns that probably are not captured by the model or were not registered in the initial spatial data. Forest ages ranged from 25 to &gt;250 yr with an average age of 125 yr. Younger forests, such as a sampled stand regrowing after a fire in the Lake McDonald watershed in 1967, had the highest growth rate of all forests sampled (2900 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>). Some of the variation between predicted and observed values comes from applying biomass regression equations (<a class="scrollableLink" href="#i1051-0761-8-3-805-t01">Table 1</a>) to a young forest with exponential height growth. Model error comes from calculating stem growth with predefined limits based on maximum leaf carbon to sapwood carbon ratios (<a class="scrollableLink" href="#i1051-0761-8-3-805-callaway1">Callaway et al. 1994</a>) and an allocation strategy that assumes carbon balances are at equilibrium with water availability. Modeled interannual variability is controlled by climatic patterns for which forests may be less sensitive than other vegetation or respond more nonlinearly on an annual time-step (<a class="scrollableLink" href="#i1051-0761-8-3-805-graumlich1">Graumlich 1991</a>). Year-to-year tree growth in younger stands may be constrained more by competition and less by environmental effects, which would explain the observed increase in interannual variability. We limited our analysis to 5 yr to avoid growth trends, however, better correlation is likely if modeled and observed data are detrended for growth effects (<a class="scrollableLink" href="#i1051-0761-8-3-805-hunt1">Hunt et al. 1991</a>).</p>
+<p>Hydraulic conductance changes with tree age (<a class="scrollableLink" href="#i1051-0761-8-3-805-ryan2">Ryan and Yoder 1997</a>) and may vary the type of response trees have to interannual site water availability. The need to incorporate aging effects in the model was supported by overestimated stem production (∼200 kg C·ha<sup>−1</sup>·yr<sup>−1</sup>), which probably resulted from predicted older stands conducting more water than was observed (<a class="scrollableLink" href="#i1051-0761-8-3-805-running1">Running 1994</a>). However, aging effects are often predicted from tree height changes, data that are difficult to extrapolate over complex terrain without intensive spatial sampling.</p>
+<p>Averaging the stem production data into 5-yr intervals did not improve the correlation between predicted and observed values because, as the comparisons of soil water content demonstrate (<a class="scrollableLink" href="#i1051-0761-8-3-805-f09">Fig. 9b</a>), the hydrologic model is not point specific. By averaging 5 yr of data occurring on the same hillslopes we limited the influence that variable hillslope water had on predicted stem growth. Spatial averaging also aggregated stands into similar climatic regimes, which emphasized overriding climate effects on stem production. This pattern is also found in <a class="scrollableLink" href="#i1051-0761-8-3-805-f06">Fig. 6</a> where averaged production values follow a distinct west–east trend, related to elevation. While the results of the averaged predicted and observed data are autocorrelated due to climate, this analysis provides a basis for predicting an appropriate range of carbon accumulation in these watersheds. Results from the soil carbon efflux and NPP estimates showed that modeled processes were sensitive to other factors, including climate (e.g., initial litter and soil carbon, site droughtiness), such that the responses of vegetation carbon balances to climate change are not simple reflections of the topographic climate patterns.</p>
+<p><i>Water budgets.</i>—The water budget of Lake McDonald and St. Mary’s Lake watersheds are snow-dominated systems with ∼60% of precipitation falling as snow (<a class="scrollableLink" href="#i1051-0761-8-3-805-finklin1">Finklin 1986</a>). Given the importance of snow in this system, predictions of snow development, accumulation, and melt strongly influence derivation of outflow, soil, and plant water content. Spatial patterns exist in the predictions, north-facing slopes having a higher correlation with observed values compared with south-facing slopes (<a class="scrollableLink" href="#i1051-0761-8-3-805-f07">Fig. 7a</a>). Some of the variation noted is a function of representing average snowpack for an area. For example, snow water equivalent varied as much as 3.61 cm within a 100 m<sup>2</sup> area during February 1994. Within the model, LAI affects snow interception, irradiance, and energy balance (Coughlan and Running 1996). South-facing slopes generally had more variable canopy cover as measured from satellite reflectance data. LAI values were averaged across areas normally &gt;10 ha for simulation, and therefore, would not capture the variation observed in the field. Also, changes in snowpack age and density, which affect albedo and water content, are not fully accounted for as they may be very site specific (Coughlan and Running 1996).</p>
+<p>Overestimation of snowpack at sites in the Lake McDonald basin was probably a function of assessing local canopy conditions, whereas in the St. Mary’s watershed wind is an important variable. Average windspeeds during winter months at St. Mary’s Ranger Station are 25 km/h vs. 15 km/h along the western boundary of the park (<a class="scrollableLink" href="#i1051-0761-8-3-805-finklin1">Finklin 1986</a>). Chinook winds, which increase air temperatures, especially at higher elevations, are common also the eastern slopes. Because, RHESSys does not model wind, the effect of snow redistribution and chinook anomalies on exposed sites were ignored, resulting in average overestimation of 14 cm of snow water. In Lake McDonald where wind is less intense, snowpack differences were overestimated by only 2 cm.</p>
+<p>As with the carbon balances analyses, spatial and temporal averaging increased the correlation between predicted and observed snowpack (<a class="scrollableLink" href="#i1051-0761-8-3-805-f07">Fig. 7b</a>). The significance of these results is that precipitation and temperature are reasonably well predicted by the climate submodel of RHESSys and that the average amount of snow water available for plant use is comparable with some discrepancy in daily estimates. In contrast, the hydrograph integrates the spatial distribution and captures the daily response of snowmelt. Because the predicted and observed ascending limb and peak flow of the hydrograph were correlated (<a class="scrollableLink" href="#i1051-0761-8-3-805-f08">Fig. 8</a>), we can assume that the transfer of water into the soil is also correlated. Divergence of predicted and observed flow in the mid- to late summer are related to glacial melt, which is not modeled. <a class="scrollableLink" href="#i1051-0761-8-3-805-fountain1">Fountain and Tangborn (1985)</a> noted that where glaciers cover &gt;5% of the total contributing area, as they do in the Lake McDonald watershed, that late-season flow significantly increased. The influence of glacier water on soil water and vegetation carbon budgets is unknown, however, because glaciers are spatially restricted to certain subcatchments, their impact may be limited at the watershed scale.</p>
+<p>The difference between predicted and observed soil water was attributable to sampling techniques and the spatial representation of TOPMODEL. Soil water measurements were taken by subsampling soils dug from pits that extended &lt;30 cm into the soil column. The model estimates soil water content for the entire depth of soil, which varied topographically (<a class="scrollableLink" href="#i1051-0761-8-3-805-f01">Fig. 1</a>). Therefore, the model and observed values were not paired where depths exceeded 30 cm. TOPMODEL is described as a “quasi-distributed” model (<a class="scrollableLink" href="#i1051-0761-8-3-805-beven1">Beven and Kirkby 1979</a>), meaning that hydrologic predictions are representative of larger spatial entities such as hillslopes or subcatchments. Better predictions of point soil water content are likely to come from models that use grid cells as the base hydrological modeling unit (<a class="scrollableLink" href="#i1051-0761-8-3-805-wigmosta1">Wigmosta et al. 1994</a>).</p>
+<p>Our measurements of leaf water potential better characterized soil water conditions because plant roots are likely to penetrate the entire soil column of the shallow soils in these watersheds. The difference between the soil water content and Ψ<sub>leaf</sub> comparisons is that the results were more linear and the point-by-point relationships were closer to a one-to-one relationship. However, like soil water content, the relationship between modeled and observed values was asymptotic near a Ψ<sub>leaf</sub> of −1.2 MPa. These results indicate that the model underestimated water stress in vegetation because the amount of water in the soil was overestimated. The correlation between predicted and observed Ψ<sub>leaf</sub>, averaged for the entire watershed (<a class="scrollableLink" href="#i1051-0761-8-3-805-f10">Fig. 10c</a>), demonstrates that TOPMODEL represents soil water balances better at the watershed scale. Carbon balances are associated with water balances, although not linearly (<a class="scrollableLink" href="#i1051-0761-8-3-805-white1">White and Running 1994</a>), therefore, our predictions of various water-related processes do not directly correspond with watershed carbon budgets at seasonal time scales. In the long term, however, seasonal variation in hydrologic properties across a watershed may induce alterations in plant communities through leaf area changes, nutrient availability, drought, and the length of the growing season.</p>
+</section>
+<section class="article-section__sub-content" id="s4b">
+<h3 class="article-section__sub-title section2" id="s4b-title"> Simulated ecological response to climatic variability</h3>
+<p>The climate change simulations demonstrated that certain characteristics of vegetation are more advantageous under a different climate variation pattern. Large, persistent fluctuations in temperature and precipitation shift the productive potential from long-lived evergreens to vegetation with a short leaf life-spans, less leaf lignin, and less woody biomass. Climatic variability induces shifts in competitive relations for resources (water, nitrogen, light) that lead in the composition of vegetation.</p>
+<p>More specifically, reduced water availability restricts LAI development, photosynthetic capacity, decomposition rates, and nutrient release. Large interannual fluctuations in an ecosystem’s carbon budget are indicative of large variation in a few resources that alter allocation patterns (<a class="scrollableLink" href="#i1051-0761-8-3-805-walker1">Walker et al. 1994</a>). In our analysis, increases in productivity between climate scenarios were therefore an indication of a vegetation type’s increased competition potential or the reverse. Large predicted decreases in the productivity of coniferous forests coupled with increases in grass and broad-leaved shrub production indicated a shift upward in both upper and lower treelines (<a class="scrollableLink" href="#i1051-0761-8-3-805-f11">Fig. 11</a>). At all sites modeled, the relative increases in production by shrubs were greater than for other types of vegetation under the extreme climate variability scenario. Stunted trees, in our classification scheme, are included under “shrub-type” vegetation. In this growth form, stunted trees typically have higher sapwood mass to leaf area ratios than normal. Shrub vegetation was defined in our model as persistently small trees, represented by a lower sapwood mass to LAI than forests to account for height differences (<a class="scrollableLink" href="#i1051-0761-8-3-805-t02">Table 2</a>). These structural attributes resulted in higher photosynthetic gain per unit respiration. Although ratios of gross primary productivity to autotrophic respiration are fairly conservative (<a class="scrollableLink" href="#i1051-0761-8-3-805-gifford1">Gifford 1994</a>), species-level variation may provide a slight competitive advantage in a stressed environment based on how carbon resources are allocated. Currently, clumped groves of small <i>P. tremuloides</i> are found in habitats ranging from the prairie grass ecotone of the Eastern Foothills to subapline zones. We can, therefore, interpret the increased production potential of shrub vegetation to be an expression of stunted trees with height growth probably limited by climate-induced hydraulic resistances (<a class="scrollableLink" href="#i1051-0761-8-3-805-ryan2">Ryan and Yoder 1997</a>).</p>
+<p>For all sites, broad-leaved forests and shrub vegetation show little or no changes in water and nitrogen stress under either climate. Low water and nitrogen stresses result in higher LAI with higher potential productivity. In the model, deciduous vegetation avoids drought by dropping leaves. Nitrogen stress is reduced because deciduous vegetation has lower leaf lignin concentrations, which may increase nitrogen turnover on favorable sites (<a class="scrollableLink" href="#i1051-0761-8-3-805-stump1">Stump and Binkley 1993</a>).</p>
+<p>Under the extreme variable climate scenario, the annual productivities of all communities were more variable (<a class="scrollableLink" href="#i1051-0761-8-3-805-f11">Fig. 11</a>), however, productivity in broad-leaved forests and shrubs were substantially higher than coniferous forests. Grass productivity decreases as water becomes less available and the index of predawn water potential falls. Comparison of water and nitrogen growth indices showed that conifer forests may be nitrogen limited under both climate scenarios at both currently forested sites (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12a, c</a>). Results from comparing water balances indicated that the model underestimated water stress, therefore interpretation of these growth indicators is restricted. However, measured Ψ<sub>leaf</sub> at midelevation sites during 1994 showed only small water stress in forests during a relatively dry year (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12a</a>). In our model, leaf turnover, retranslocation, and lignin content were set as constants for each vegetation type. This constrained nitrogen availability in non-water-limited sites because there was no dynamic response to nitrogen stress, such as changes in leaf retention or retranslocation rates. Nitrogen stress can be expected to extend widely throughout the Rocky Mountains because litter decomposition is limited by high leaf lignin content (<a class="scrollableLink" href="#i1051-0761-8-3-805-stump1">Stump and Binkley 1993</a>) and accumulation of nitrogen in woody debris (<a class="scrollableLink" href="#i1051-0761-8-3-805-pearson1">Pearson et al. 1987</a>). The degree of nitrogen stress may still be overstated because some species such as <i>T. heterophylla</i> and <i>T. plicata</i> can reabsorb up to 75% of their nitrogen before leaf fall (<a class="scrollableLink" href="#i1051-0761-8-3-805-keenan1">Keenan et al. 1995</a>). Nonetheless, given that nitrogen may be more available to forests than is modeled, periodic variation in climate may adversely affect mycorrhizal associations and reduce nutrient uptake (<a class="scrollableLink" href="#i1051-0761-8-3-805-perry1">Perry et al. 1990</a>).</p>
+<p>Water and nitrogen limits at the ecotone sites showed small changes under the two variable climates with nitrogen being limiting to alpine vegetation at Logan Pass (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12b</a>) and conifer forests at the Eastern Foothills site (<a class="scrollableLink" href="#i1051-0761-8-3-805-f12">Fig. 12d</a>). Despite increased productivity in alpine vegetation in the extreme climate, encroachment of woody vegetation may compete for light and nutrients in the alpine zone. Higher nitrogen stress in alpine vegetation is a result of higher modeled nitrogen demand to permit rapid growth during an abbreviated growing season (<a class="scrollableLink" href="#i1051-0761-8-3-805-korner1">Körner 1989</a>). Short-term experimental evidence in tundra indicates that released nitrogen is quickly absorbed by plants (<a class="scrollableLink" href="#i1051-0761-8-3-805-chapin1">Chapin et al. 1995</a>). Enhanced short-term uptake, however, may eventually decrease the rate of mineral cycling if much of the nitrogen is sequestered in woody material. Increased production in broad-leaved shrubs and lower interannual variability in coniferous forests suggest that the upper treeline could encroach into alpine communities. Evidence from dendrochronological data indicates that treeline forest has shown increased growth over the past 150+ yr, which has interpreted by some as a climate change signal (<a class="scrollableLink" href="#i1051-0761-8-3-805-innes1">Innes 1991</a>). These increases have also been attributed to global increases in carbon dioxide and atmospheric nitrogen deposition, factors not included in our model. However, production increases alone will not determine the vegetation composition of the alpine zone because dispersion will be driven ultimately by wind and snow patterns (<a class="scrollableLink" href="#i1051-0761-8-3-805-walker1">Walker et al. 1994</a>), factors we did not include in our model.</p>
+<p>The indicators of water and nitrogen stress illustrate potential physiological mechanisms that could account for shifts in the distribution of vegetation across the landscape. The competitive status of a plant community is approximated by these physiological indicators, but more detailed information is required regarding reproductive adaptations and other life history traits to assess the full degree of actual ecological adaptation (<a class="scrollableLink" href="#i1051-0761-8-3-805-smith1">Smith and Huston 1989</a>). Competition among coexisting vegetation types on particular sites will respond differently depending on the resource limits for each vegetation type. Competition in forested plots among trees and understory vegetation is generally in response to light, however, intravegetation-type competition could also involve root competition for nitrogen (<a class="scrollableLink" href="#i1051-0761-8-3-805-coffin1">Coffin and Urban 1993</a>). Competition could be incorporated into our model by assigning the vertical space each vegetation type occupies in the modeling unit, both above and below ground, and allowing each vegetation type to extract resources based on the mass or surface area involved (<a class="scrollableLink" href="#i1051-0761-8-3-805-riegel1">Riegel et al. 1992</a>).</p>
+<p>The landscape dynamics of vegetation change are linked to ecosystem processes modified by species interactions and diversity (<a class="scrollableLink" href="#i1051-0761-8-3-805-turner1">Turner et al. 1995</a>). We have indicated that climate variability affects physiological stress in different vegetation types that could provide the basis for spatial redistribution. Carbon allocation changes affect chemical defense production (<a class="scrollableLink" href="#i1051-0761-8-3-805-waring2">Waring and Pitman 1983</a>) and fire fuel production through self-thinning (<a class="scrollableLink" href="#i1051-0761-8-3-805-makela1">Mäkelä 1997</a>). RHESSys does not simulate pathogen or fire disturbances; however, persistent, extreme weather patterns could influence carbon balances leading to changes in disease susceptibility and mortality. R. E. Keane et al. (<i>unpublished manuscript</i>) simulated fire disturbance in Glacier National Park and found that a warmer, slightly wetter climate resulted in accumulated fuel and greater fire frequency. While productivity generally increased, fire frequency and severity also increased, which shifted forest composition towards earlier pioneer, disturbance-adapted communities.</p>
+<p>Lastly, we should include what interactions occur between primary producers and consumers with changing vegetation type and resource. Mountain reserves, such as Glacier National Park, are politically constrained within a shifting biogeographical continuum. Changes in resource availability due to climate change are, therefore, exaggerated under stressed conditions. Reductions in conifer forests would adversely affect avian species and arboreal mammals by reducing habitat. Increased broad-leaved vegetation production and distribution would enhance browse for large ungulate mammals. However, if the lower treeline increases altitude dramatically without increasing browse and hiding cover, ungulate populations could be negatively affected. Feedbacks among vegetation carbon balances, consumers, and vegetation distribution are also likely to occur. One example is the relationship between whitebark pine (<i>P. albicaulis</i>), Clark’s Nutcracker (<i>Nucifraga columbiana</i>), and fire disturbance. Changes in productivity and carbon balances, attributed to climate variability, may increase the susceptibility <i>P. albicaulis</i> to blister rust infection. Reduced regeneration could be exaggerated by nutcracker harvesting, reducing or eliminating seed sources. Increased mortality could increase fire disturbance and result in vegetation composition change (<a class="scrollableLink" href="#i1051-0761-8-3-805-keane1">Keane et al. 1996</a>).</p>
+<p>Across the park, from west to east, projections of NPP differ. From the climatic scenarios analyzed, production was higher in the western part than in the eastern part in response to more variable climate. The years chosen for the extreme variable climate record varied in their extremes from the West Glacier to the St. Mary’s stations. For instance, in 1995, designated the cool-wet year, West Glacier precipitation was 47% greater than average, while the St. Mary’s station only received 21% more precipitation for the same year. In the average year selected, 1984, the precipitation received at West Glacier was only 5% more than the 12-yr averaged value, however the St. Mary’s station had 15% less the 12-yr average. By using real climate records, the simulation for the St. Mary’s watershed was automatically biased for a drier climate than Lake McDonald. However, this alone does not explain the &gt;800 kg C·ha<sup>−1</sup>·yr<sup>−1</sup> decrease in NPP between the two simulations. NPP values in the St. Mary’s watershed were modeled higher than the Lake McDonald because of lower initial, average LAI values (5.9 vs. 8.0) that resulted in lower initial woody biomass. Under the extremely variable climate, the drier and warmer climate of St. Mary’s negated the relative benefits of lower site biomass because of increased drought and higher autotrophic respiration. Also, higher production in the Lake McDonald basin under the extreme variable climate occurred because much of the upper basin vegetation is currently a mix of deciduous broad-leaved shrubs, vegetation we believe will flourish with more extreme climatic variability. Obviously, changes in vegetation distribution would shift with changing climate, altering the outcome of this result.</p>
+</section>
+</section>
+<div class="article-section__content">
+<h2 class="article-section__title section__title section1" id="ack1-title"> Acknowledgments</h2>
+<p>The authors of this paper would like to thank Dr. Richard Waring and the anonymous reviewer for technical and scientific comments on an earlier draft of this manuscript. The research presented was accomplished through the efforts of Drs. Ramakrishna Nemani, Ric Hauer, Mark Finney, Kathy Hibbard, Michael White, Polly Thornton, Todd Carlson, Kirsten Schmidt, Galina Churkina, and Fritz Klassner. The authors also thank Drs. Neal Scott and Craig Trotter for their advice and support of this research. Funding for this project was provided by the Global Change Project of the Biological Resource Division of the USGS grant 1445-CA9009-95-0012, the U.S. Forest Service INT 9433-RJVA, and by a grant from NASA Mission to Planet Earth, NAS5-3168. Technical support was additionally provided by Landcare Research, New Zealand, through funding from New Zealand’s Foundation for Research Science and Technology Public Good Science Fund, contract number CO9619.</p>
+<ol></ol>
+</div>
+<section class="article-section article-section__references" id="references-section">
+<div class="accordion article-accordion">
+<h2>
+<div aria-expanded="false" class="accordion__control" data-references="/action/ajaxShowEnhancedAbstract?widgetId=5cf4c79f-0ae9-4dc5-96ce-77f62de7ada9&amp;ajax=true&amp;doi=10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pbContext=%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3Bjournal%3Ajournal%3A19395582%3Bwebsite%3Awebsite%3Aesajournals%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Feap.1998.8.issue-3%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BsubPage%3Astring%3AFull+Text%3BrequestedJournal%3Ajournal%3A19395582%3Barticle%3Aarticle%3Adoi%5C%3A10.1890%2F1051-0761%25281998%2529008%255B0805%253AASEPFC%255D2.0.CO%253B2&amp;accordionHeadingWrapper=h2&amp;onlyLog=true" role="button" tabindex="0"><span class="section__title" id="references-section-1">Literature Cited</span><i aria-hidden="true" class="icon-section_arrow_d"></i></div>
+</h2>
+<div aria-labelledby="references-section-1" class="accordion__content" role="region" style="display: none;">
+<ul class="rlist separator">
+<li data-bib-id="i1051-0761-8-3-805-arris1">
+<span class="author">Arris, L. L.</span>, and 
+<span class="author">P. S. Eagleson</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">A water use model for locating the boreal/deciduous forest ecotone in eastern North America.</span>
+<i>Water Resource Research</i>
+<span class="vol">30</span>:
+ <span class="pageFirst">1</span>–<span class="pageLast">9</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_2_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-ausubel1">
+<span class="author">Ausubel, J. H.</span>
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">A second look at the impacts of climate change.</span>
+<i>American Scientist</i>
+<span class="vol">79</span>:
+ <span class="pageFirst">210</span>–<span class="pageLast">221</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_3_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-band1">
+<span class="author">Band, L. E.</span>
+<span class="pubYear">1986</span>. 
+<span class="articleTitle">Topographic partition of watersheds with digital elevation models.</span>
+<i>Water Resources Research</i>
+<span class="vol">22</span>:
+ <span class="pageFirst">15</span>–<span class="pageLast">24</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_4_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-band2">
+<span class="author">Band, L. E.</span>, 
+<span class="author">P. Patterson</span>, 
+<span class="author">R. Nemani</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">Forest ecosystem processes at the watershed scale.</span>
+<i>Agricultural and Forest Meteorology</i>
+<span class="vol">63</span>:
+ <span class="pageFirst">93</span>–<span class="pageLast">126</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_5_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-band3">
+<span class="author">Band, L. E.</span>, 
+<span class="author">D. L. Peterson</span>, 
+<span class="author">S. W. Running</span>, 
+<span class="author">J. Coughlan</span>, 
+<span class="author">R. Lammers</span>, 
+<span class="author">J. Dungan</span>, and 
+<span class="author">R. Nemani</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Forest ecosystem processes at the watershed scale: basis for distributed simulation.</span>
+<i>Ecological Modelling</i>
+<span class="vol">56</span>:
+ <span class="pageFirst">171</span>–<span class="pageLast">196</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_6_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-bella1">
+<span class="author">Bella, I. E.</span>, and 
+<span class="author">J. P. De Franceschi</span>
+. 
+<span class="pubYear">1980</span>. 
+<span class="articleTitle">Biomass productivity of young aspen stands in western Canada.</span> 
+Environment Canada, Canadian Forestry Service, Northern Forestry Research Centre, Edmonton, Alberta Information Report <b>NOR-X-219</b>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_7_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-brown1">
+<span class="author">Brown, J. K.</span>
+<span class="pubYear">1978</span>. 
+<span class="articleTitle">Weight and density of crowns of Rocky Mountain conifers.</span> 
+USDA Forest Service Research Paper <b>INT-197</b>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_8_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-beven1">
+<span class="author">Beven, K. J.</span>, and 
+<span class="author">M. J. Kirkby</span>
+. 
+<span class="pubYear">1979</span>. 
+<span class="articleTitle">A physically based, variable contributing area model of basin hydrology.</span>
+<i>Hydrological Sciences Bulletin</i>
+<span class="vol">24</span>:
+ <span class="pageFirst">43</span>–<span class="pageLast">69</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_9_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-callaway1">
+<span class="author">Callaway, R. M.</span>, 
+<span class="author">E. H. DeLucia</span>, and 
+<span class="author">W. H. Schlesinger</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Biomass allocation of montane and desert ponderosa pine: an analog response to climate change.</span>
+<i>Ecology</i>
+<span class="vol">75</span>:
+ <span class="pageFirst">1474</span>–<span class="pageLast">1481</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_10_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-chapin1">
+<span class="author">Chapin, F. S.</span>, 
+<span class="author">G. R. Shaver</span>, 
+<span class="author">A. E. Giblin</span>, 
+<span class="author">K. L. Nadelhoffer</span>, and 
+<span class="author">J. A. Laudre</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Responses of arctic tundra to experimental and observed changes in climate.</span>
+<i>Ecology</i>
+<span class="vol">76</span>:
+ <span class="pageFirst">694</span>–<span class="pageLast">711</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_11_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-coffin1">
+<span class="author">Coffin, D. P.</span>, and 
+<span class="author">D. L. Urban</span>
+. 
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">Implications of natural history traits to system-level dynamics: comparisons of a grassland and a forest.</span>
+<i>Ecological Modelling</i>
+<span class="vol">67</span>:
+ <span class="pageFirst">147</span>–<span class="pageLast">178</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_12_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-cohen1">
+<span class="author">Cohen, Y.</span>, and 
+<span class="author">J. Pastor</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">The responses of a forest model to serial correlations of global warming.</span>
+<i>Ecology</i>
+<span class="vol">72</span>:
+ <span class="pageFirst">1161</span>–<span class="pageLast">1165</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_13_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-coughlan1">
+<span class="author">Coughlan, J. C.</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<i>In press.</i>
+<span class="articleTitle">Regional ecosystem simulation: a general model for simulating snow accumulation and melt in mountainous terrain.</span>
+<i>Landscape Ecology.</i>
+<ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_14_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-cosby1">
+<span class="author">Cosby, B. J.</span>, 
+<span class="author">G. M. Hornberger</span>, 
+<span class="author">R. B. Clapp</span>, and 
+<span class="author">T. R. Ginn</span>
+. 
+<span class="pubYear">1984</span>. 
+<span class="articleTitle">A statistical exploration of the relationship of soil moisture characteristics to the physical properties of the soils.</span>
+<i>Water Resources Research</i>
+<span class="vol">20</span>:
+ <span class="pageFirst">682</span>–<span class="pageLast">690</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_15_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-dale1">
+<span class="author">Dale, V. H.</span>, and 
+<span class="author">H. M. Rauscher</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Assessing impacts of climate change on forests: the state of biological modeling.</span>
+<i>Climatic Change</i>
+<span class="vol">28</span>:
+ <span class="pageFirst">65</span>–<span class="pageLast">90</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_16_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-edwards1">
+<span class="author">Edwards, N. T.</span>
+<span class="pubYear">1982</span>. 
+<span class="articleTitle">The use of soda-lime for measuring respiration rates in terrestrial systems.</span>
+<i>Pedobiologia</i>
+<span class="vol">23</span>:
+ <span class="pageFirst">321</span>–<span class="pageLast">330</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_17_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-farquhar1">
+<span class="author">Farquhar, G. D.</span>, 
+<span class="author">S. von Caemmerer</span>, and 
+<span class="author">J. A. Berry</span>
+. 
+<span class="pubYear">1980</span>. 
+<span class="articleTitle">A biochemical model of photosynthetic CO<sub>2</sub> assimilation in leaves of C<sub>3</sub> species.</span>
+<i>Planta</i>
+<span class="vol">149</span>:
+ <span class="pageFirst">78</span>–<span class="pageLast">90</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_18_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-finklin1">
+<span class="author">Finklin, A. I.</span>
+<span class="pubYear">1986</span>. 
+<span class="articleTitle">A climatic handbook for Glacier National Park - with data for Waterton Lakes National Park.</span> 
+USDA Forest Service General Technical Report <b>INT-204.</b>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_19_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-fountain1">
+<span class="author">Fountain, A. G.</span>, and 
+<span class="author">W. V. Tangborn</span>
+. 
+<span class="pubYear">1985</span>. 
+<span class="articleTitle">The effect of glaciers on streamflow variations.</span>
+<i>Water Resources Research</i>
+<span class="vol">21</span>:
+ <span class="pageFirst">579</span>–<span class="pageLast">586</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_20_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-franchini1">
+<span class="author">Franchini, M.</span>, 
+<span class="author">J. Wendling</span>, 
+<span class="author">C. Obled</span>, and 
+<span class="author">E. Todini</span>
+. 
+<span class="pubYear">1996</span>. 
+<span class="articleTitle">Physical interpretation and sensitivity analysis of the TOPMODEL.</span>
+<i>Journal of Hydrology</i>
+<span class="vol">175</span>:
+ <span class="pageFirst">293</span>–<span class="pageLast">338</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_21_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-gifford1">
+<span class="author">Gifford, R. M.</span>
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">The global carbon cycle: a viewpoint on the missing sink.</span>
+<i>Australian Journal of Plant Physiology</i>
+<span class="vol">21</span>:
+ <span class="pageFirst">1</span>–<span class="pageLast">15</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_22_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-gower1">
+<span class="author">Gower, S. T.</span>, 
+<span class="author">C. C. Grier</span>, 
+<span class="author">A. G. Campbell</span>, and 
+<span class="author">A. T. Brown</span>
+. 
+<span class="pubYear">1979</span>. 
+<span class="articleTitle">Equations for estimating biomass and leaf are of plants in the Pacific Northwest.</span> 
+Research Paper 41, Oregon State University, School of Forestry, Corvallis, Oregon, USA.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_23_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-gower2">
+<span class="author">Gower, S. T.</span>, 
+<span class="author">C. C. Grier</span>, 
+<span class="author">D. J. Vogt</span>, and 
+<span class="author">K. A. Vogt</span>
+. 
+<span class="pubYear">1987</span>. 
+<span class="articleTitle">Allometric relations of deciduous (<i>Larix occidentalis</i>) and evergreen confiers (<i>Pinus contorta</i> and <i>Pseudotsuga menziesii</i>) of the Cascade Mountains in central Washington.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">17</span>:
+ <span class="pageFirst">630</span>–<span class="pageLast">634</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_24_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-gower3">
+<span class="author">Gower, S. T.</span>, 
+<span class="author">S. Pongracic</span>, and 
+<span class="author">J. J. Landsberg</span>
+. 
+<span class="pubYear">1996</span>. 
+<span class="articleTitle">A global trend in belowground carbon allocation: can we use the relationship at smaller scales?</span>
+<i>Ecology</i>
+<span class="vol">77</span>:
+ <span class="pageFirst">1750</span>–<span class="pageLast">1755</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_25_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-graumlich1">
+<span class="author">Graumlich, L. J.</span>
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Recent trends in subalpine tree growth.</span>
+<i>Ecology</i>
+<span class="vol">72</span>:
+ <span class="pageFirst">1</span>–<span class="pageLast">11</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_26_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-holland1">
+<span class="author">Holland, E. A.</span>, and 
+<span class="author">J. K. Detling</span>
+. 
+<span class="pubYear">1990</span>. 
+<span class="articleTitle">Plant responses to herbivory and belowground nitrogen cycling.</span>
+<i>Ecology</i>
+<span class="vol">71</span>:
+ <span class="pageFirst">1040</span>–<span class="pageLast">1049</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_27_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-hunt1">
+<span class="author">Hunt, E. R.</span>, 
+<span class="author">F. C. Martin</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Simulating the effects of climatic variation on stem carbon accumulation of a ponderosa pine stand: comparison with annual growth increment data.</span>
+<i>Tree Physiology</i>
+<span class="vol">9</span>:
+ <span class="pageFirst">161</span>–<span class="pageLast">171</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_28_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-innes1">
+<span class="author">Innes, J. L.</span>
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">High-altitude and high-latitude tree growth in relation to past, present, and future global climate change.</span> 
+Holocene <b>1, 2</b>:168–173.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_29_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-karl1">
+<span class="author">Karl, T. R.</span>, 
+<span class="author">R. W. Knight</span>, 
+<span class="author">D. R. Easterling</span>, and 
+<span class="author">R. G. Quayle</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Indices of climate change for the United States.</span>
+<i>Bulletin of the American Meteorological Society</i>
+<span class="vol">77</span>:
+ <span class="pageFirst">279</span>–<span class="pageLast">292</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_30_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-keane1">
+<span class="author">Keane, R. E.</span>, 
+<span class="author">P. M. Morgan</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<span class="pubYear">1996</span>. 
+<span class="articleTitle">FIRE-BGC—a mechanistic ecological process model for simulating fire succession on coniferous forest landscapes of the northern Rocky Mountains.</span> 
+USDA Forest Service Research Paper <b>INT-RP-484</b>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_31_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-keenan1">
+<span class="author">Keenan, R. J.</span>, 
+<span class="author">C. E. Prescott</span>, and 
+<span class="author">J. P. Kimmins</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Litter production and nutrient resorption in western red cedar and western hemlock forests on northern Vancouver Island, British Columbia.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">25</span>:
+ <span class="pageFirst">1850</span>–<span class="pageLast">1857</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_32_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-kessell1">
+<span class="author">Kessell, S. R.</span>
+<span class="pubYear">1979</span>. 
+<span class="articleTitle">Gradient modeling.</span> 
+Springer-Verlag, New York, New York, USA.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_33_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-korner1">
+<span class="author">Körner, C.</span>
+<span class="pubYear">1989</span>. 
+<span class="articleTitle">The nutritional status of plants from high altitudes.</span>
+<i>Oecologia</i>
+<span class="vol">81</span>:
+ <span class="pageFirst">379</span>–<span class="pageLast">391</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_34_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-korzukhin1">
+<span class="author">Korzukhin, M. D.</span>, 
+<span class="author">M. T. Ter-Mikaelian</span>, and 
+<span class="author">R. G. Wagner</span>
+. 
+<span class="pubYear">1996</span>. 
+<span class="articleTitle">Process versus empirical models: which approach for forest ecosystem management.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">26</span>:
+ <span class="pageFirst">879</span>–<span class="pageLast">887</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_35_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-makela1">
+<span class="author">Mäkelä, A.</span>
+<span class="pubYear">1997</span>. 
+<span class="articleTitle">A carbon balance model of growth and self-pruning in trees based on structural relationships.</span>
+<i>Forest Science</i>
+<span class="vol">43</span>:
+ <span class="pageFirst">7</span>–<span class="pageLast">23</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_36_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-myers1">
+<span class="author">Myers, B. J.</span>
+<span class="pubYear">1988</span>. 
+<span class="articleTitle">Water stress integral—a link between short-term stress and long-term growth.</span>
+<i>Tree Physiology</i>
+<span class="vol">4</span>:
+ <span class="pageFirst">315</span>–<span class="pageLast">323</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_37_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-nay1">
+<span class="author">Nay, S. M.</span>, 
+<span class="author">K. G. Mattson</span>, and 
+<span class="author">B. T. Bormann</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Biases of chamber methods for measuring soil CO<sub>2</sub> efflux demonstrated with laboratory apparatus.</span>
+<i>Ecology</i>
+<span class="vol">75</span>:
+ <span class="pageFirst">2460</span>–<span class="pageLast">2463</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_38_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-nemani1">
+<span class="author">Nemani, R.</span>, 
+<span class="author">S. W. Running</span>, 
+<span class="author">L. E. Band</span>, and 
+<span class="author">D. L. Peterson</span>
+. 
+<span class="pubYear">1992</span>. 
+<span class="articleTitle">Regional hydroecological simulation system: an illustration of the integration of ecosystem models in a GIS.</span> 
+Pages 296–304 <i>in</i> M. Goodchild, B. Banks, and G. Steyaert, editors. Integration GIS and environmental modeling Oxford Press, London, UK.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_39_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-nielson1">
+<span class="author">Nielson, R. P.</span>
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">A model fore predicting continental-scale vegetation distribution and water balance.</span>
+<i>Ecological Applications</i>
+<span class="vol">5</span>:
+ <span class="pageFirst">362</span>–<span class="pageLast">385</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_40_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-nikolov1">
+<span class="author">Nikolov, N. T.</span>, and 
+<span class="author">D. G. Fox</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">A coupled carbon-water-energy-vegetation model to assess repsonses to temperate forest ecosystems to changes in climate and atmospheric CO<sub>2</sub> part I. model concept.</span>
+<i>Environmental Pollution</i>
+<span class="vol">83</span>:
+ <span class="pageFirst">251</span>–<span class="pageLast">262</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_41_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-ojima1">
+<span class="author">Ojima, D. S.</span>, 
+<span class="author">T. G. F. Kittel</span>, 
+<span class="author">T. Roswall</span>, and 
+<span class="author">B. H. Walker</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Critical issues for understanding global change effects on terrestrial ecosystems.</span>
+<i>Ecological Applications</i>
+<span class="vol">1</span>:
+ <span class="pageFirst">316</span>–<span class="pageLast">325</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_42_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-orchard1">
+<span class="author">Orchard, V. A.</span>, and 
+<span class="author">F. J. Cook</span>
+. 
+<span class="pubYear">1983</span>. 
+<span class="articleTitle">Relationship between soil respiration and soil moisture.</span>
+<i>Soil Biological Biochemistry</i>
+<span class="vol">15</span>:
+ <span class="pageFirst">447</span>–<span class="pageLast">453</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_43_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-oreskes1">
+<span class="author">Oreskes, N.</span>, 
+<span class="author">K. Shrader-Frechette</span>, and 
+<span class="author">K. Belitz</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Verification, validation, and confirmation of numerical models in earth sciences.</span>
+<i>Science</i>
+<span class="vol">263</span>:
+ <span class="pageFirst">641</span>–<span class="pageLast">646</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_44_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-pearson1">
+<span class="author">Pearson, J. A.</span>, 
+<span class="author">D. H. Knight</span>, and 
+<span class="author">T. J. Fahey</span>
+. 
+<span class="pubYear">1987</span>. 
+<span class="articleTitle">Biomass and nutrient accumulation during stand development in Wyoming lodgepole pine forests.</span>
+<i>Ecology</i>
+<span class="vol">68</span>:
+ <span class="pageFirst">1966</span>–<span class="pageLast">1973</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_45_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-penningdevries1">
+<span class="author">Penning de Vries, F. W. T.</span>, 
+<span class="author">A. Brunsting</span>, and 
+<span class="author">H. H. van Laar</span>
+. 
+<span class="pubYear">1974</span>. 
+<span class="articleTitle">Products, requirements, and efficiency of biosynthesis; a quantitative approach.</span>
+<i>Journal of Theoretical Biology</i>
+<span class="vol">45</span>:
+ <span class="pageFirst">339</span>–<span class="pageLast">377</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_46_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-perry1">
+<span class="author">Perry, D. A.</span>, 
+<span class="author">J. G. Borchers</span>, 
+<span class="author">S. L. Borchers</span>, and 
+<span class="author">M. P. Amaranthus</span>
+. 
+<span class="pubYear">1990</span>. 
+<span class="articleTitle">Species migrations and ecosystem stability during climate change: the belowground connection.</span>
+<i>Conservation Biology</i>
+<span class="vol">4</span>:
+ <span class="pageFirst">266</span>–<span class="pageLast">274</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_47_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-pierce1">
+<span class="author">Pierce, L. L.</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">The effects of aggregating sub-grid land surface variation on large-scale estimates of net primary productivity.</span>
+<i>Landscape Ecology</i>
+<span class="vol">10</span>:
+ <span class="pageFirst">239</span>–<span class="pageLast">253</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_48_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-prentice1">
+<span class="author">Prentice, C.</span>, 
+<span class="author">W. Cramer</span>, 
+<span class="author">S. Harrison</span>, 
+<span class="author">R. Leemons</span>, 
+<span class="author">R. Monserud</span>, and 
+<span class="author">R. Solomon</span>
+. 
+<span class="pubYear">1992</span>. 
+<span class="articleTitle">A global biome model based on physiology and dominance, soil properties, and climate.</span>
+<i>Journal of Biogeography</i>
+<span class="vol">19</span>:
+ <span class="pageFirst">117</span>–<span class="pageLast">134</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_49_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-prescott1">
+<span class="author">Prescott, C. E.</span>, 
+<span class="author">J. P. Corbin</span>, and 
+<span class="author">D. Parkinson</span>
+. 
+<span class="pubYear">1988</span>. 
+<span class="articleTitle">Input, accumulation, and residence of carbon, nitrogen, and phosphorus in four Rocky Mountain coniferous forests.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">19</span>:
+ <span class="pageFirst">489</span>–<span class="pageLast">498</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_50_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-raich1">
+<span class="author">Raich, J. W.</span>, and 
+<span class="author">K. J. Nadelhoffer</span>
+. 
+<span class="pubYear">1989</span>. 
+<span class="articleTitle">Belowground carbon allocation in forest ecosystems: global trends.</span>
+<i>Ecology</i>
+<span class="vol">70</span>:
+ <span class="pageFirst">1346</span>–<span class="pageLast">1354</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_51_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-raich2">
+<span class="author">Raich, J. W.</span>, 
+<span class="author">E. B. Rastetter</span>, 
+<span class="author">J. M. Melillo</span>, 
+<span class="author">D. W. Kicklighter</span>, 
+<span class="author">P. A. Steudler</span>, 
+<span class="author">B. J. Peterson</span>, 
+<span class="author">A. L. Grace</span>, 
+<span class="author">B. Moore</span>, and 
+<span class="author">C. J. Vörösmarty</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Potential net primary productivity in South America: application of a global model.</span>
+<i>Ecological Applications</i>
+<span class="vol">1</span>:
+ <span class="pageFirst">399</span>–<span class="pageLast">429</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_52_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-rastetter1">
+<span class="author">Rastetter, E. B.</span>
+<span class="pubYear">1996</span>. 
+<span class="articleTitle">Validating models of ecosystem response to climate change.</span>
+<i>Bioscience</i>
+<span class="vol">46</span>:
+ <span class="pageFirst">190</span>–<span class="pageLast">198</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_53_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-riegel1">
+<span class="author">Riegel, G. M.</span>, 
+<span class="author">R. F. Miller</span>, and 
+<span class="author">W. C. Krueger</span>
+. 
+<span class="pubYear">1992</span>. 
+<span class="articleTitle">Competition for resources between understory vegetation and overstory <i>Pinus ponderosa.</i></span>. 
+<i>Ecological Applications</i>
+<span class="vol">2</span>:
+ <span class="pageFirst">71</span>–<span class="pageLast">85</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_54_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-running1">
+<span class="author">Running, S. W.</span>
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Testing FOREST-BGC ecosystem process simulations across a climatic gradient in Oregon.</span>
+<i>Ecological Applications</i>
+<span class="vol">4</span>:
+ <span class="pageFirst">238</span>–<span class="pageLast">247</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_55_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-running2">
+<span class="author">Running, S. W.</span>, and 
+<span class="author">J. C. Coughlan</span>
+. 
+<span class="pubYear">1988</span>. 
+<span class="articleTitle">A general model of forest ecosystem processes for regional applications I. Hydrologic balance, canopy gas exchange, and primary production processes.</span>
+<i>Ecological Modelling</i>
+<span class="vol">42</span>:
+ <span class="pageFirst">125</span>–<span class="pageLast">154</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_56_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-running3">
+<span class="author">Running, S. W.</span>, and 
+<span class="author">S. T. Gower</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">FOREST-BGC, a general model of forest ecosystem processes for regional applications. II. Dynamic carbon allocation and nitrogen budgets.</span>
+<i>Tree Physiology</i>
+<span class="vol">9</span>:
+ <span class="pageFirst">147</span>–<span class="pageLast">160</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_57_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-running4">
+<span class="author">Running, S. W.</span>, and 
+<span class="author">E. R. Hunt</span>
+. 
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">Generalization of a forest ecosystem process model for other biomes, BIOME-BGC, and application for global-scale models.</span>
+<i>In</i> Pages 141–158 <i>in</i> J. R. Ehleringer and C. B. Fields, editors. Scaling physiological processes: leaf to globe. Academic Press, San Diego, California, USA.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_58_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-running5">
+<span class="author">Running, S. W.</span>, 
+<span class="author">R. R. Nemani</span>, and 
+<span class="author">R. D. Hungerford</span>
+. 
+<span class="pubYear">1987</span>. 
+<span class="articleTitle">Extrapolation of synoptic meteorological data in mountainous terrain and its use for simulation forest evapotranspiration and photosynthesis.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">17</span>:
+ <span class="pageFirst">472</span>–<span class="pageLast">483</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_59_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-ryan1">
+<span class="author">Ryan, M. G.</span>
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">A simple method for estimating gross carbon budgets for vegetation in forest ecosystems.</span>
+<i>Tree Physiology</i>
+<span class="vol">19</span>:
+ <span class="pageFirst">255</span>–<span class="pageLast">266</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_60_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-ryan2">
+<span class="author">Ryan, M. G.</span>, and 
+<span class="author">B. J. Yoder</span>
+. 
+<span class="pubYear">1997</span>. 
+<span class="articleTitle">Hydraulic limits to tree height and tree growth.</span>
+<i>BioScience</i>
+<span class="vol">47</span>:
+ <span class="pageFirst">235</span>–<span class="pageLast">242</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_61_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-smith1">
+<span class="author">Smith, T.</span>, and 
+<span class="author">M. Huston</span>
+. 
+<span class="pubYear">1989</span>. 
+<span class="articleTitle">A theory of the spatial and temporal dynamics of plant communities.</span>
+<i>Vegetatio</i>
+<span class="vol">83</span>:
+ <span class="pageFirst">49</span>–<span class="pageLast">69</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_62_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-soil1">
+<span class="groupName">Soil Conservation Service</span>. 
+<span class="pubYear">1984</span>. 
+<span class="articleTitle">Snow Survey Sampling Guide.</span> 
+USDA Soil Conservation Service Agriculture Handbook <b>169</b>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_63_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-soil2">
+<span class="author">Smith, T.</span>, and 
+<span class="author">M. Huston</span>
+. 
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">State Soil Geographic Data Base (STATSGO).</span> 
+USDA Soil Conservation Service Miscellaneous Publication Number <b>1492.</b>
+<ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_64_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-sommerfield1">
+<span class="author">Sommerfield, R. A.</span>, 
+<span class="author">A. R. Mosier</span>, and 
+<span class="author">R. C. Musselman</span>
+. 
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">CO<sub>2</sub>, CH<sub>4</sub>, and N<sub>2</sub>O flux through a Wyoming snowpack and implication for global budgets.</span>
+<i>Nature</i>
+<span class="vol">361</span>:
+ <span class="pageFirst">140</span>–<span class="pageLast">142</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_65_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-stump1">
+<span class="author">Stump, L. M.</span>, and 
+<span class="author">D. Binkley</span>
+. 
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">Relationships between litter quality and nitrogen availability in Rocky Mountain forests.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">23</span>:
+ <span class="pageFirst">492</span>–<span class="pageLast">502</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_66_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-taylor1">
+<span class="author">Taylor, B. R.</span>, 
+<span class="author">D. Parkinson</span>, and 
+<span class="author">W. F. J. Parsons</span>
+. 
+<span class="pubYear">1989</span>. 
+<span class="articleTitle">Nitrogen and lignin content as predictors of litter decay rates: a microcosm test.</span>
+<i>Ecology</i>
+<span class="vol">70</span>:
+ <span class="pageFirst">97</span>–<span class="pageLast">104</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_67_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-thornton1">
+<span class="author">Thornton, P. E.</span>, 
+<span class="author">S. W. Running</span>, and 
+<span class="author">M. A. White</span>
+. 
+<span class="pubYear">1997</span>. 
+<span class="articleTitle">Generating surfaces of daily meteorological variables over large regions of complex terrain.</span>
+<i>Journal of Hydrology</i>
+<span class="vol">190</span>:
+ <span class="pageFirst">214</span>–<span class="pageLast">251</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_68_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-townsend1">
+<span class="author">Townsend, A. R.</span>, 
+<span class="author">P. M. Vitousek</span>, and 
+<span class="author">S. E. Trumbore</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Soil organic matter dynamics along gradients in temperature and land use on the island of Hawaii.</span>
+<i>Ecology</i>
+<span class="vol">76</span>:
+ <span class="pageFirst">721</span>–<span class="pageLast">733</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_69_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-turner1">
+<span class="author">Turner, M. G.</span>, 
+<span class="author">R. H. Gardner</span>, and 
+<span class="author">R. V. O’Neill</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Ecological dynamics at broad scales.</span> 
+Pages 29–35 <i>in</i> Bioscience supplement on science and biodiversity policy.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_70_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-vogt1">
+<span class="author">Vogt, K.</span>
+<span class="pubYear">1991</span>. 
+<span class="articleTitle">Carbon budgets of temperate forest ecosystems.</span>
+<i>Tree Physiology</i>
+<span class="vol">9</span>:
+ <span class="pageFirst">69</span>–<span class="pageLast">86</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_71_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-walker1">
+<span class="author">Walker, M. D.</span>, 
+<span class="author">P. J. Webber</span>, 
+<span class="author">E. H. Arnold</span>, and 
+<span class="author">D. Ebert-May</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Effects of interannual climate variation on aboveground phytomass in alpine vegetation.</span>
+<i>Ecology</i>
+<span class="vol">75</span>:
+ <span class="pageFirst">393</span>–<span class="pageLast">408</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_72_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-waring1">
+<span class="author">Waring, R. H.</span>, and 
+<span class="author">B. D. Cleary</span>
+. 
+<span class="pubYear">1967</span>. 
+<span class="articleTitle">Plant moisture stress: evaluation by pressure bomb.</span>
+<i>Science</i>
+<span class="vol">155</span>:
+ <span class="pageFirst">1248</span>–<span class="pageLast">1254</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_73_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-waring2">
+<span class="author">Waring, R. H.</span>, and 
+<span class="author">G. B. Pitman</span>
+. 
+<span class="pubYear">1983</span>. 
+<span class="articleTitle">Physiological stress in lodgepole pine as a precursor for mountain pine beetle attack.</span>
+<i>Zeitschrift für angewandte Entomologie</i>
+<span class="vol">96</span>:
+ <span class="pageFirst">265</span>–<span class="pageLast">270</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_74_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-white1">
+<span class="author">White, J. D.</span>, and 
+<span class="author">S. W. Running</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">Testing scale dependent assumptions in regional ecosystem simulations.</span>
+<i>Journal of Vegetation Science</i>
+<span class="vol">5</span>:
+ <span class="pageFirst">687</span>–<span class="pageLast">702</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_75_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-white2">
+<span class="author">White, J. D.</span>, 
+<span class="author">S. W. Running</span>, 
+<span class="author">R. Nemani</span>, 
+<span class="author">R. E. Keane</span>, and 
+<span class="author">K. C. Ryan</span>
+. 
+<span class="pubYear">1997</span>. 
+<span class="articleTitle">Measurement and mapping of LAI in Rocky Mountain montane ecosystems.</span>
+<i>Canadian Journal of Forest Research</i>
+<span class="vol">27</span>:
+ <span class="pageFirst">1714</span>–<span class="pageLast">1727</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_76_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-wiens1">
+<span class="author">Wiens, J. A.</span>
+<span class="pubYear">1989</span>. 
+<span class="articleTitle">Spatial scaling in ecology.</span>
+<i>Functional Ecology</i>
+<span class="vol">3</span>:
+ <span class="pageFirst">385</span>–<span class="pageLast">397</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_77_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-wigmosta1">
+<span class="author">Wigmosta, M. S.</span>, 
+<span class="author">L. W. Vail</span>, and 
+<span class="author">D. P. Lettenmaier</span>
+. 
+<span class="pubYear">1994</span>. 
+<span class="articleTitle">A distributed hydrology-vegetation model for complex terrain.</span>
+<i>Water Resources Research</i>
+<span class="vol">30</span>:
+ <span class="pageFirst">1665</span>–<span class="pageLast">1679</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_78_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-wullschleger1">
+<span class="author">Wullschleger, S.</span>
+<span class="pubYear">1993</span>. 
+<span class="articleTitle">Biochemical limitations to carbon assimilation in C<sub>3</sub> plants—a retrospective analysis of the A/C<sub>i</sub> curves from 109 species.</span>
+<i>Journal of Experimental Botany</i>
+<span class="vol">44</span>:
+ <span class="pageFirst">907</span>–<span class="pageLast">920</span>.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_79_1"></ul></li>
+<li data-bib-id="i1051-0761-8-3-805-yanai1">
+<span class="author">Yanai, R. D.</span>, 
+<span class="author">T. J. Fahey</span>, and 
+<span class="author">S. L. Miller</span>
+. 
+<span class="pubYear">1995</span>. 
+<span class="articleTitle">Efficiency of nutrient acquisition by fine roots and mycorrhizae.</span> 
+Pages 75–104 <i>in</i> W. K. Smith and T. M. Hinckley, editors. Resource physiology of conifers. Academic Press, San Diego, California, USA.
+
+                     <ul class="getFTR rlist--inline getFTR__placeholder" data-target="e_1_2_6_80_1"></ul></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<div style="display:none">
+<ul class="custom-style-list noteList"></ul>
+</div>
+<div class="pb-dropzone" data-pb-dropzone="citedBy-dropzone"><section class="article-section article-section__citedBy cited-by" id="cited-by"><div class="accordion article-accordion"><h2><div aria-controls="cited-by__content" aria-expanded="false" class="accordion__control" data-getftr-count="10" data-getftr-enabled="data-getFTR-enabled" data-getftr-url="/citedBy/links/10.1890/1051-0761(1998)008[0805:ASEPFC]2.0.CO;2?orderBy=YEAR_ONLINE_PREFERRED&amp;orderType=DESC&amp;linkSource=FULL_TEXT" role="button" tabindex="0"><span class="section__title" id="citedby-section">Citing Literature</span><i aria-hidden="true" class="icon-section_arrow_d"></i></div></h2><div class="accordion__content cited-by__content" data-source="/pb/widgets/citedBy?page=0&amp;widgetId=f6d59956-1f70-4e88-8811-a42ff3d9d1fa&amp;pbContext=%3Bpage%3Astring%3AArticle%2FChapter+View%3Bctype%3Astring%3AJournal+Content%3Bjournal%3Ajournal%3A19395582%3Bwebsite%3Awebsite%3Aesajournals%3Bissue%3Aissue%3Adoi%5C%3A10.1002%2Feap.1998.8.issue-3%3Bwgroup%3Astring%3APublication+Websites%3BpageGroup%3Astring%3APublication+Pages%3BsubPage%3Astring%3AFull+Text%3BrequestedJournal%3Ajournal%3A19395582%3Barticle%3Aarticle%3Adoi%5C%3A10.1890%2F1051-0761%25281998%2529008%255B0805%253AASEPFC%255D2.0.CO%253B2" id="cited-by__content"><div class="sciteMetricsDropzone"></div></div></div></section></div>
+</article></div></div><div class="col-lg-4 col-md-4 col-sm-4 hidden-xs hidden-sm hidden-md article-row-right"><div class="publication-cover-info clearfix">
+<div class="cover-image-wrapper cover-image__image hasDetails"><a href="/toc/19395582/1998/8/3" title="View Volume 8, Issue 3"><img alt="" src="/cms/asset/55df49e0-2658-4b69-8f3d-374fe9dfda1f/eap.1998.8.issue-3.cover.gif"/></a></div><div class="extra-info-wrapper cover-image__details"><p class="volume-issue"><a href="/toc/19395582/1998/8/3" title="View Volume 8, Issue 3"><span>Volume</span><span class="val">8</span>, <span>Issue</span><span class="val">3</span></a></p><p>August 1998</p><p class="page-range"><span>Pages</span><span> 805-823</span></p>
+</div>
+</div>
+<div class="pb-ad">
+<div class="advert advert-rail" id="advert-rail-1">
+<script>
+
+				googletag.cmd.push 		( function () {
+					googletag.display 	( 'advert-rail-1' );
+				});
+
+			</script>
+<!-- No JavaScript support is a call to an image -->
+<noscript>
+<a href="/action/clickThrough?id=1011&amp;url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&amp;loc=%2Fdoi%2Ffull%2F10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pubId=50891613&amp;placeholderId=1014&amp;productId=101018" target="_blank">
+<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random"/>
+</a>
+</noscript>
+</div>
+</div>
+<div class="tabs__wrapper"><div class="tab tab--slide tab--flex sticko__md tabs--xs dynamic-sticko article__tab tab--flex tabs--xs" data-default-tab="related"><ul class="rlist tab__nav w-slide--list cloned" data-mobile-toggle="slide" role="tablist"><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-figures" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn figures-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-figures" data-toggle="tab" href="#pane-pcw-figures" id="pane-pcw-figurescon" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-multi-figure"></i><h2>Figures</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-references" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn references-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-references" data-toggle="tab" href="#pane-pcw-references" id="pane-pcw-referencescon" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-chain"></i><h2>References</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-related" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn related-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-related" data-toggle="tab" href="#pane-pcw-related" id="pane-pcw-relatedcon" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-related-circles-extend-button"></i><h2>Related</h2></a></li><li class="tab__nav__item" role="presentation"><a aria-controls="pane-pcw-details" aria-selected="false" class="tab__nav__item__link article-row-right__tabLinks w-slide__btn details-tab empty" data-slide-clone="self" data-slide-target="#pane-pcw-details" data-toggle="tab" href="#pane-pcw-details" id="pane-pcw-detailscon" role="tab" tabindex="-1"><i aria-hidden="true" class="icon-Icon_Information"></i><h2>Information</h2></a></li></ul><div class="tab__content" role="presentation"><div aria-hidden="true" aria-labelledby="pane-pcw-figurescon" class="tab__pane article-row-right__panes empty" data-empty-text="" id="pane-pcw-figures" role="tabpanel"></div><div aria-hidden="true" aria-labelledby="pane-pcw-referencescon" class="tab__pane article-row-right__panes empty" data-empty-text="" id="pane-pcw-references" role="tabpanel"></div><div aria-hidden="true" aria-labelledby="pane-pcw-relatedcon" class="tab__pane article-row-right__panes empty" data-empty-text="" id="pane-pcw-related" role="tabpanel"><div class="is-empty"></div><div class="is-empty"></div></div><div aria-hidden="true" aria-labelledby="pane-pcw-detailscon" class="tab__pane article-row-right__panes empty" data-empty-text="" id="pane-pcw-details" role="tabpanel"><div class="contentTab"></div></div><div class="tab__spinner"><div class="tab__spinner--box"><img alt="" id="spinner" src="/specs/products/acropolis/pericles/releasedAssets/images/spinner-1ffd60b3aabe5b09bc98c48345208fd9.gif"/></div></div></div></div></div><div class="articleAdvert fixed-element">
+<div class="pb-ad">
+<aside>
+<div class="advert advert-rail" id="advert-rail-2">
+<script>
+
+			googletag.cmd.push 		( function () {
+				googletag.display 	( 'advert-rail-2' );
+			});
+
+		</script>
+<!-- No JavaScript support is a call to an image -->
+<noscript>
+<a href="/action/clickThrough?id=1012&amp;url=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fjump%3Fiu%3D%24googlePublisherCategory%26amp%3Bsz%3D160x600%7C160x320%7C160x160%7C120x600%26amp%3Btile%3D2%26amp%3Bc%3D%24random&amp;loc=%2Fdoi%2Ffull%2F10.1890%2F1051-0761%281998%29008%5B0805%3AASEPFC%5D2.0.CO%3B2&amp;pubId=50891613&amp;placeholderId=1013&amp;productId=101018" target="_blank">
+<img src="https://pubads.g.doubleclick.net/gampad/ad?iu=$googlePublisherCategory&amp;sz=160x600|160x320|160x160|120x600&amp;tile=2&amp;c=$random"/>
+</a>
+</noscript>
+</div>
+</aside>
+</div>
+</div></div></div></article>
