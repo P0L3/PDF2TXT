@@ -110,7 +110,8 @@ paper_data = {
 - [**npjclisci_htmlpars.py**](PDF_TXT/npjclisci_htmlpars.py):   
     27. [NPJ Climate and Atmospheric Science](https://www.nature.com/npjclimatsci/)     
     28. [NPJ Ocean Sustainability](https://www.nature.com/npjoceansustain/)
-29. [PNAS](https://www.pnas.org/)
+- [**pnas_htmlpars.py**](PDF_TXT/pnas_htmlpars.py)    
+    29. [PNAS](https://www.pnas.org/)   
 30. [Miscellaneous ArXiv](https://arxiv.org/)
 
 

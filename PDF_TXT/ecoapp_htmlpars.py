@@ -142,7 +142,7 @@ for sample in tqdm(samples):
             "Title": title,
             "Authors_and_Affiliations": authors_and_affiliations,
             "Affiliations": affiliations,
-            "DOI": doi,
+            "DOI": [doi],
             "Authors": authors,
             "Journal": doi,
             "Date": date,
