@@ -1,5 +1,5 @@
 """
-EcoApp HTML pars
+IJOC HTML pars
 """
 from bs4 import BeautifulSoup
 import re
@@ -13,7 +13,7 @@ from functions import *
 
 
 
-DIR = "./SAMPLE/ECOAPP/"
+DIR = "./SAMPLE/IJOC/"
 
 data_list = []
 folders = listdir(DIR)
@@ -158,4 +158,4 @@ for sample in tqdm(samples):
 print(faults)
 
 df = pd.DataFrame(data_list)
-df.to_pickle(f"./PARS_OUT/test_ecoapp.pickle")
+df.to_pickle(f"./PARS_OUT/test_ijoc.pickle")

@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./PARS_OUT/test_ecoapp.pickle")
+df = pd.read_pickle("./PARS_OUT/test_ijoc.pickle")
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
 # df = df[df["Title"] == "The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon Uptake Over the Central US"]
@@ -44,10 +44,17 @@ print(df.keys())
 #     print(doi)
 # print(30*"-")
 # print(30*"-")
-# print("Authors:")
-# print(30*"-")
-# for author in df.Authors:
-#     print(author)
+print("Authors:")
+print(30*"-")
+for author, title, doi in zip(df.Authors, df.Title, df.DOI):
+    print(author)
+    if len(author) < 2:
+        print(title)
+        print(doi)
+        print(20*"-")
+
+        
+
 # print(30*"-")
 # print(30*"-")
 # print("Affiliations:")
@@ -64,17 +71,21 @@ print(df.keys())
 # print(30*"-")
 # print("Abstract:")
 # print(30*"-")
-# for abstract in df.Abstract:
-#     print(len(abstract))
+# for abstract, title, doi in zip(df.Abstract, df.Title, df.DOI):
+#     if len(abstract) < 1000:
+#         print(title)
+#         print(doi)
+#     else:
+#         print(len(abstract))
 # print(30*"-")
 # print(30*"-")
-print("Content:")
-print(30*"-")
-for content, title, doi in zip(df.Content, df.Title, df.DOI):
-    # print(len(content))
-    if not char_number2words_pages(len(content), 8): #or len(content) > 60000:
-        print(title)
-        print(doi)
+# print("Content:")
+# print(30*"-")
+# for content, title, doi in zip(df.Content, df.Title, df.DOI):
+#     # print(len(content))
+#     if not char_number2words_pages(len(content), 4): #or len(content) > 60000:
+#         print(title)
+#         print(doi)
 #         # print(content)
 #         # exit()
 #     # print(content)

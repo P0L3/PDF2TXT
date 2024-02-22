@@ -158,6 +158,7 @@ for folder in tqdm(folders):
                 "References": references,
                 "Content": content,
                 "Keywords": keywords,
+                "Style": "html",
             }
         
         data_list.append(paper_data)

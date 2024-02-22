@@ -68,9 +68,10 @@ paper_data = {
 
 
 ## Journals
-- [**climd_htmlpars.py**](PDF_TXT/climd_htmlpars.py)
-    1. [Climate Dynamics](https://link.springer.com/journal/382)
-- [**ecoapp_htmlpars.py**](PDF_TXT/ecoapp_htmlpars.py)
+
+- [**climd_htmlpars.py**](PDF_TXT/climd_htmlpars.py)    
+    1. [Climate Dynamics](https://link.springer.com/journal/382)    
+- [**ecoapp_htmlpars.py**](PDF_TXT/ecoapp_htmlpars.py)    
     2. [Ecological Applications](https://esajournals.onlinelibrary.wiley.com/journal/19395582) 
 - [**ehs_htmlpars.py**](PDF_TXT/ehs_htmlpars.py)    
     3. [Ecosystem Health and Sustainability](https://spj.science.org/journal/ehs)
@@ -78,7 +79,8 @@ paper_data = {
     4. [Energy Policy](https://www.sciencedirect.com/journal/energy-policy)
 - [**gcb_htmlpars.py**](PDF_TXT/gcb_htmlpars.py)    
     5. [Global Change Biology](https://onlinelibrary.wiley.com/journal/13652486)
-6. [International Journal of Climatology](https://rmets.onlinelibrary.wiley.com/journal/10970088)
+- [**ijoc_htmlpars.py**](PDF_TXT/ijoc_htmlpars.py)    
+    6. [International Journal of Climatology](https://rmets.onlinelibrary.wiley.com/journal/10970088)
 - [**jclimate_htmlpars.py**](PDF_TXT/jclimate_htmlpars.py)  
     7. [Journal of Climate](https://www.ametsoc.org/index.cfm/ams/publications/journals/journal-of-climate/)
 - [**jgra_htmlpars.py**](PDF_TXT/jgra_htmlpars.py)  
