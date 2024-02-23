@@ -5,8 +5,9 @@
 - Parsers for journals: 1, 2, 6, 29, 30
 - Test out diff for test3_jgra(_fi)
 - Test performance with fi cleaner
-- Add missing parsers
-- Test CLIMD parser and ECOAPP parser
+- Add missing parsers: ARX
+- Test CLIMD, ECOAPP, IJOC
+- Solve Acknowledgement problem in [PNAS](/PDF_TXT/pnas_htmlpars.py)
 
 ## Data structure
 
@@ -114,76 +115,8 @@ paper_data = {
     29. [PNAS](https://www.pnas.org/)   
 30. [Miscellaneous ArXiv](https://arxiv.org/)
 
+## Test reports
+- based on [try16.py](/PDF_TXT/try16.py) and outputs in [test25.txt](/PDF_TXT/test25.txt)
 
-## Fi problem
-### JGRA
-Solved: S1, S3, S7
-TODO: S0, S2, S4, S5, S6, Sdef
-
-- S1: 
-  - get_references_nonumber_ref
-  - get_keyword_styles
-  - get_content
-  - get_authors_and_affiliations_af
-- S2:
-  - get_keyword_styles
-- S3:
-  - get_keyword_styles
-  - get_content
-  - get_authors_and_affiliations_af
-- S7:
-  - get_content
-  - get_authors_and_affiliations_af
-  - get_references_nonumber_ref
-  - get_keyword_styles
-- S8:
-  - get_keyword_styles
-
-### NGEO
-Solved:
-TODO: S0, S1
-
-### JCLIMATE
-Solved: S1
-TODO: S0, S2, S3, S4, Sdef
-
-- S0:
-  - get_references_nonumber_title
-  - get_references_nonumber_ref
-  - get_abstract
-- S4: 
-  - get_references_nonumber_title
-  - get_references_nonumber_ref
-  - get_abstract
-
-### NPJCLIAC
-Solved: S0
-TODO: S2, S3
-
-- S0:
-  - get_references
-  - get_content
-
-### GCB
-Solved: S0
-TODO: S1 - S6, Sdef
-
-### ENERPOL
-Solved: S0, S2, S3, S5
-TODO: S1, S4, Sdef
-
-- S0:
-  - get_content
-  - get_authors_and_affiliations_au
-  - get_references_nonumber_ref
-- S2:
-  - get_authors_and_affiliations_af
-  - get_keywords
-  - get_content
-- S3:
-  - get_content
-
-### EHS
-Solved:
-TODO:
+### [PNAS report](/PDF_TXT/REPORTS/PNAS_test.md)
 
