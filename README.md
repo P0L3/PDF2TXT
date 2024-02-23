@@ -6,8 +6,9 @@
 - Test out diff for test3_jgra(_fi)
 - Test performance with fi cleaner
 - Add missing parsers: ARX
-- Test CLIMD, ECOAPP, IJOC
-- Solve Acknowledgement problem in [PNAS](/PDF_TXT/pnas_htmlpars.py)
+- Test CLIMD, ECOAPP
+- Solve Acknowledgement problem in [PNAS](/PDF_TXT/pnas_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/PNAS_test.md)
+- Solve Missing text problems in [IJOC](/PDF_TXT/ijoc_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/IJOC_test.md)
 
 ## Data structure
 
@@ -118,5 +119,6 @@ paper_data = {
 ## Test reports
 - based on [try16.py](/PDF_TXT/try16.py) and outputs in [test25.txt](/PDF_TXT/test25.txt)
 
-### [PNAS report](/PDF_TXT/REPORTS/PNAS_test.md)
+#### [PNAS report](/PDF_TXT/REPORTS/PNAS_test.md)
+#### [IJOC report](/PDF_TXT/REPORTS/IJOC_test.md)
 
