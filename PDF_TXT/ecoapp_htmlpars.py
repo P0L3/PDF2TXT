@@ -12,7 +12,6 @@ import requests
 from functions import *
 
 
-
 DIR = "./SAMPLE/ECOAPP/"
 
 data_list = []
@@ -20,7 +19,10 @@ folders = listdir(DIR)
 faults = []
 skip_samples = []
 
-samples = listdir(DIR)
+# Checking if loaded via multiprocessing
+if not samples:
+    samples = listdir(DIR)
+
 for sample in tqdm(samples):
     print("\n")
     print(sample)

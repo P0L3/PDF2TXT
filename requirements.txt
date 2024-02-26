@@ -3,3 +3,4 @@ beautifulsoup4==4.12.2
 tqdm==4.66.1
 pandas==2.0.3
 doi2bib==0.4.0
+nltk==3.8.1
