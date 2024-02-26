@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./RESULTS/MDPI/mdpi_full.pickle")
+df = pd.read_pickle("./PARS_OUT/test_jgra.pickle")
 ### General dataset info
 print("Number of rows: ", len(df))
 print("Columns: ")

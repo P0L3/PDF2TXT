@@ -27,7 +27,7 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/JGRA/"
+DIR = "./FULL_DATA/JGRA/"
 logging.basicConfig(
     format='%(asctime)s %(message)s',
     filename="_".join(DIR.split("/")),
@@ -234,11 +234,14 @@ for y in year_skip:
 if not samples:
     samples = listdir(DIR) 
     multi_flag = False
+    print("Not using multiprocessing capabilities!")
+else:
+    print("Using mulitprocessing.")
 
 # print(samples[2])
 # exit()
 # samples = ["JGR Atmospheres - 2020 - Guo - Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in.pdf"]
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
     # print(20*"-")
     print(sample)
@@ -249,7 +252,7 @@ for sample in tqdm(samples):
         continue
     
     # Parse to html
-    html = pdf2html(target=DIR+sample, all_texts=True)
+    html = pdf2html(target=DIR+sample)
     if not html:
         Faults += 1
         warning_message = f"HTML isn't parsed correctly -> Implies invalid pdf structure!"
@@ -381,7 +384,7 @@ for sample in tqdm(samples):
         content = get_content(soup, style["get_content"])
 
         # print("Content length: ", len(content))
-        char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
+        # char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
         # print(abstract)
 
         

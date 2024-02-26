@@ -8,7 +8,7 @@ from os import listdir
 DIR = "./FULL_DATA/JGRA"
 SCRIPT = "jgra_htmlpars.py"
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
-BATCH_SIZE = 100  # You can adjust this based on your requirements
+BATCH_SIZE = 1000  # You can adjust this based on your requirements
 CHECKPOINT = "none"
 
 
