@@ -5,7 +5,18 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./PARS_OUT/test_ijoc.pickle")
+df = pd.read_pickle("./RESULTS/MDPI/mdpi_full.pickle")
+### General dataset info
+print("Number of rows: ", len(df))
+print("Columns: ")
+print(df.keys())
+ecn = (df['Content'].str.len() <= 0).sum() # Empty content number
+print("Average content length:   ", round(df["Content"].str.len().mean(), 2))
+print("Number of empty contents: ", ecn, " / ", len(df), " => ", round(ecn/len(df), 4)*100, "%")
+
+print(df.info())
+print(df.head())
+
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
 # df = df[df["Title"] == "The Control of Plant and Soil Hydraulics on the Interannual Variability of Plant Carbon Uptake Over the Central US"]
@@ -15,7 +26,7 @@ df = pd.read_pickle("./PARS_OUT/test_ijoc.pickle")
     # print(df["".format(column)][0])
 # lengths = df["Content"].apply(lambda x: len(str(x)))
 # print(lengths)
-print(df.keys())
+
 
 # print("Journal:")
 # print(30*"-")
@@ -44,14 +55,14 @@ print(df.keys())
 #     print(doi)
 # print(30*"-")
 # print(30*"-")
-print("Authors:")
-print(30*"-")
-for author, title, doi in zip(df.Authors, df.Title, df.DOI):
-    print(author)
-    if len(author) < 2:
-        print(title)
-        print(doi)
-        print(20*"-")
+# print("Authors:")
+# print(30*"-")
+# for author, title, doi in zip(df.Authors, df.Title, df.DOI):
+#     print(author)
+#     if len(author) < 2:
+#         print(title)
+#         print(doi)
+#         print(20*"-")
 
         
 
@@ -82,13 +93,13 @@ for author, title, doi in zip(df.Authors, df.Title, df.DOI):
 # print("Content:")
 # print(30*"-")
 # for content, title, doi in zip(df.Content, df.Title, df.DOI):
-#     # print(len(content))
-#     if not char_number2words_pages(len(content), 4): #or len(content) > 60000:
-#         print(title)
-#         print(doi)
-#         # print(content)
-#         # exit()
-#     # print(content)
+#     print(len(content))
+    # if not char_number2words_pages(len(content), 4): #or len(content) > 60000:
+    #     print(title)
+    #     print(doi)
+        # print(content)
+        # exit()
+    # print(content)
 #     # exit()
 # print(30*"-")
 # print(30*"-")

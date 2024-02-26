@@ -2,13 +2,13 @@
 
 ## TODO
 - Solve fi problem -> [ligatures](PDF_TXT/ligatures_list.txt)
-- Parsers for journals: 1, 2, 6, 29, 30
+- Parsers for journals: 30
 - Test out diff for test3_jgra(_fi)
-- Test performance with fi cleaner
 - Add missing parsers: ARX
-- Test CLIMD, ECOAPP
+- Test CLIMD, ECOAPP, NPJCLIAC, NPJCLISCI, GCB, 
 - Solve Acknowledgement problem in [PNAS](/PDF_TXT/pnas_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/PNAS_test.md)
 - Solve Missing text problems in [IJOC](/PDF_TXT/ijoc_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/IJOC_test.md)
+- Check problems with JGRA
 
 ## Data structure
 

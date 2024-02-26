@@ -5,11 +5,11 @@ from tqdm import tqdm
 from os import listdir
 
 # Directory with files to process
-DIR = "./FULL_DATA/MDPI"
-SCRIPT = "mdpi_htmlpars.py"
+DIR = "./FULL_DATA/JGRA"
+SCRIPT = "jgra_htmlpars.py"
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
-BATCH_SIZE = 10000  # You can adjust this based on your requirements
-CHECKPOINT = "mdpi_output.txt"
+BATCH_SIZE = 100  # You can adjust this based on your requirements
+CHECKPOINT = "none"
 
 
 print(f"Working in parallel on {NUMBER_OF_TASKS} threads.")
@@ -18,7 +18,7 @@ print(f"Batch size: {BATCH_SIZE}")
 progress_bar = tqdm(total=NUMBER_OF_TASKS)
 samples = listdir(DIR)
 
-if len(CHECKPOINT) > 2:
+if len(CHECKPOINT) > 10:
     samples = listdir(DIR)
     with open(CHECKPOINT, 'r') as stream:
         samples_done = stream.readlines()
