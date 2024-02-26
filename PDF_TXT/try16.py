@@ -3,7 +3,7 @@ import pandas as pd
 from parser_pdf import char_number2words_pages
 import numpy as np
 
-df = pd.read_pickle("PARS_OUT/test_ijoc.pickle")
+df = pd.read_pickle("PARS_OUT/test_climd.pickle")
 
 i = np.random.randint(0, len(df))
 
