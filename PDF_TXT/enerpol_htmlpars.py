@@ -11,20 +11,21 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-# Multprocessing add-on
 import argparse
+from time import time
+from random import randint
+
+## Multprocessing add-on
 def list_of_strings(arg):
     return arg.split(',')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
 parser.add_argument("--str-list", type=list_of_strings)
-parser.add_argument("--str-list-n", type=number)
 args = parser.parse_args()
 samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
-from time import time
-from random import randint
+##
 
 
 DIR = "./SAMPLE/ENERPOL/"
@@ -280,7 +281,8 @@ print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
 
-t = round(time(), 1)
+##
+t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
@@ -288,3 +290,4 @@ if multi_flag:
 else:
     df.to_pickle("./PARS_OUT/test_enerpol.pickle")
 print(Faults)
+##

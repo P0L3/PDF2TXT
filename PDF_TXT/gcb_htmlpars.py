@@ -11,6 +11,22 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
+import argparse
+from time import time
+from random import randint
+
+## Multprocessing add-on
+def list_of_strings(arg):
+    return arg.split(',')
+def number(arg):
+    return arg
+parser = argparse.ArgumentParser()
+parser.add_argument("--str-list", type=list_of_strings)
+args = parser.parse_args()
+samples = args.str_list
+multi_flag = True # Flag to see if script is run on multiprocessing manner
+##
+
 DIR = "./SAMPLE/GCB/"
 
 doctype0_1 = {
@@ -348,6 +364,13 @@ for sample in tqdm(samples):
 print(Styleless_samples)
 print(Faulty_samples)
 # print(paper_data)
+##
+t = round(time(), 1) # Timestamp when multiprocessing
+n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
-df.to_pickle("./PARS_OUT/test_gcb.pickle")
+if multi_flag:
+    df.to_pickle(f"./PARS_OUT/test_gcb_({t})_({n}).pickle")
+else:
+    df.to_pickle("./PARS_OUT/test_gcb.pickle")
 print(Faults)
+##
