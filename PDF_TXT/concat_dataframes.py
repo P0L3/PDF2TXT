@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/MDPI"
+DIR = "./RESULTS/JGRA"
 
 files = listdir(DIR)
 

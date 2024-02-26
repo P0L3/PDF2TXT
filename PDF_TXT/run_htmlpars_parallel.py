@@ -8,8 +8,8 @@ from os import listdir
 DIR = "./FULL_DATA/JGRA"
 SCRIPT = "jgra_htmlpars.py"
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
-BATCH_SIZE = 1000  # You can adjust this based on your requirements
-CHECKPOINT = "none"
+BATCH_SIZE = NUMBER_OF_TASKS * 15  # You can adjust this based on your requirements
+CHECKPOINT = "jgra_output.txt"
 
 
 print(f"Working in parallel on {NUMBER_OF_TASKS} threads.")

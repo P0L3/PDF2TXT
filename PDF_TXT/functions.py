@@ -200,7 +200,10 @@ def fi_cleaner(text):
                     # print(20*"-")
                     # print(i, "\t", tokens[i-1], tokens[i], tokens[i+1], end="----")
                     count += 1
-                    tokens[i-1], tokens[i], tokens[i+1], f = likely_word(tokens[i-1], re.sub(pattern, lambda m: ligatures_conv.get(m.group(0)), tokens[i]), tokens[i+1])
+                    try:
+                        tokens[i-1], tokens[i], tokens[i+1], f = likely_word(tokens[i-1], re.sub(pattern, lambda m: ligatures_conv.get(m.group(0)), tokens[i]), tokens[i+1])
+                    except:
+                        continue
                     # if f == 0:
                     #     fi_counter_unsolved.append((temp, tokens[i]))
                     # else:

@@ -5,12 +5,12 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./PARS_OUT/test_jgra.pickle")
+df = pd.read_pickle("./RESULTS/JGRA/jgra_full.pickle")
 ### General dataset info
 print("Number of rows: ", len(df))
 print("Columns: ")
 print(df.keys())
-ecn = (df['Content'].str.len() <= 0).sum() # Empty content number
+ecn = (df['Content'].str.len() <= 10000).sum() # Empty content number
 print("Average content length:   ", round(df["Content"].str.len().mean(), 2))
 print("Number of empty contents: ", ecn, " / ", len(df), " => ", round(ecn/len(df), 4)*100, "%")
 
