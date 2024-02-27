@@ -27,7 +27,7 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./FULL_DATA/JGRA/"
+DIR = "./SAMPLE/JGRA/"
 logging.basicConfig(
     format='%(asctime)s %(message)s',
     filename="_".join(DIR.split("/")),
@@ -241,7 +241,7 @@ else:
 # print(samples[2])
 # exit()
 # samples = ["JGR Atmospheres - 2020 - Guo - Seasonal Variation of Vertical Heat and Energy Fluxes due to Dissipating Gravity Waves in.pdf"]
-for sample in samples:
+for sample in tqdm(samples):
     s = 0
     # print(20*"-")
     print(sample)
@@ -252,7 +252,7 @@ for sample in samples:
         continue
     
     # Parse to html
-    html = pdf2html(target=DIR+sample)
+    html = pdf2html(target=DIR+sample, all_texts=False)
     if not html:
         Faults += 1
         warning_message = f"HTML isn't parsed correctly -> Implies invalid pdf structure!"
@@ -439,6 +439,6 @@ df = pd.DataFrame(data_list)
 if multi_flag:
     df.to_pickle(f"./RESULTS/JGRA/jgra_({t})_({n}).pickle")
 else:
-    df.to_pickle("./PARS_OUT/test_jgra.pickle")
+    df.to_pickle("./PARS_OUT/test_jgra_2.pickle")
 print(Faults)
 ##

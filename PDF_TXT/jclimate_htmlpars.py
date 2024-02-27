@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('ž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -27,7 +27,15 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/JCLIMATE/"
+
+DIR = "./FULL_DATA/JCLIMATE/"
+##
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
+
 
 doctype0_1 = {
     "get_title": ["font-family: Times-Bold; font-size:12px"],
@@ -144,18 +152,19 @@ Styleless_samples = []
 skip_samples = ["masthead"]
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
-samples = listdir(DIR) 
-# print(samples[2])
+if not samples:
+    samples = listdir(DIR) 
+# # print(samples[2])
 # exit()
 # samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
     
     should_skip = any(True for skip in skip_samples if skip in sample)
     if should_skip:
-        print(f"Skipping {sample.split()[0]} pdf: {sample}")
+        # print(f"Skipping {sample.split()[0]} pdf: {sample}")
         continue
     
     # Parse to html
@@ -196,7 +205,7 @@ for sample in tqdm(samples):
 
         title = get_title(soup, style["get_title"])
 
-        print(title)
+        # print(title)
         if len(title[0]) == 0:
             warning_message = "Title isn't extracted correctly. -> Implies different paper structure! -> Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -223,7 +232,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi_regex(soup, style["get_doi_regex"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -238,7 +247,7 @@ for sample in tqdm(samples):
             for regex in style["get_doi_regex_r"]:
                 doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                 if doi[0] != "no_doi":
-                    print(doi)
+                    # print(doi)
                     break
 
     # Get data
@@ -253,7 +262,7 @@ for sample in tqdm(samples):
             keywords = get_keywords(soup, style["get_keywords"])
         # authors_and_affiliations, affiliations = get_authors_and_affiliations(soup, style["get_authors_and_affiliations_au"], style["get_authors_and_affiliations_nu"], style["get_authors_and_affiliations_af"])
         # authors_and_affiliations, affiliations = [], []
-        # print(affiliations)
+        # # print(affiliations)
         authors_and_affiliations = ["no_auth_and_affil"]
         affiliations = get_affiliations(soup, style["get_affiliations"])
         authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
@@ -266,21 +275,21 @@ for sample in tqdm(samples):
                 for regex in style["get_doi_regex_r"]:
                     doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                     if doi[0] != "no_doi":
-                        print(doi)
+                        # print(doi)
                         break
             if doi[0].endswith("."): # Hot fix if doi ends with . 
                 doi[0] = doi[0][:-1]
             authors, journal, date, subjects, abstract = get_from_doi2bibapi(doi[0]) # Sa meta/v2 je bilo moguće dohvatiti i disciplines
-        # print(authors)
-        # print(journal)
-        # print(date)
-        # print(subjects)
-        # print(abstract[:100])
+        # # print(authors)
+        # # print(journal)
+        # # print(date)
+        # # print(subjects)
+        # # print(abstract[:100])
         if "get_references_nonumber_title_r" in style.keys():
             references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"], style["get_references_nonumber_title_r"][0])
         else:
             references = get_references_nonumber(soup, style["get_references_nonumber_title"], style["get_references_nonumber_ref"])
-        # print(references[:5])
+        # # print(references[:5])
         if "get_abstract" in style.keys() and abstract == "no_abstract":
             abstract = get_abstract(soup, style["get_abstract"])
 
@@ -290,9 +299,9 @@ for sample in tqdm(samples):
         
         content = get_content(soup, style["get_content"])
 
-        print("Content length: ", len(content))
-        char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
-        # print(abstract)
+        # # print("Content length: ", len(content))
+        # char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
+        # # print(abstract)
 
         
         # Create a dictionary with the paper's data
@@ -335,9 +344,9 @@ for sample in tqdm(samples):
 
 
 # Create the DataFrame from the list of dictionaries
-print(Styleless_samples)
-print(Faulty_samples)
-# print(paper_data)
+# print(Styleless_samples)
+# print(Faulty_samples)
+# # print(paper_data)
 
 
 ##
@@ -345,8 +354,8 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_jclimate_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/JCLIMATE/test_jclimate_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_jclimate.pickle")
-print(Faults)
+# print(Faults)
 ##

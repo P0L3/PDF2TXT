@@ -121,4 +121,7 @@ paper_data = {
 
 #### [PNAS report](/PDF_TXT/REPORTS/PNAS_test.md)
 #### [IJOC report](/PDF_TXT/REPORTS/IJOC_test.md)
+#### [JCLIMATE report](/PDF_TXT/REPORTS/JCLIMATE_test.md)
+#### [CLIMD report](/PDF_TXT/REPORTS/CLIMD_test.md)
+#### [JGRA report](/PDF_TXT/REPORTS/JGRA_test.md)
 
