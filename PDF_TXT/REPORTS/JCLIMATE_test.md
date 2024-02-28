@@ -38,16 +38,22 @@
     - no abstract
     - Minor text distruptions:
     ```
-    The purpose of this paper is to demonstrate that anthropogenic aerosol cooling can be separated from the response to all other forcings using just their hydrolog[is demonstrated using] ical sensitivities.
+    The purpose of this paper is to demonstrate that anthropogenic aerosol cooling 
+    can be separated from the response to all other forcings using just their hydrolog
+    [is demonstrated using] ical sensitivities.
     ```
     - Wrong pargraph ordering du to equations:
     ```
     .
     .
     .
-    ... tendency for aerosols to increase droplet concentration and decrease droplet size, making clouds more reﬂective.
-    [characterized by a single time series a ( t ), called the response time series, temperature and precipitation would be modeled as follows:] -> Should be in right paragraph
-    Observational estimates of global precipitation were obtained from the Global Precipitation
+    ... tendency for aerosols to increase droplet concentration and decrease droplet 
+    size, making clouds more reﬂective.
+    [characterized by a single time series a ( t ), called the response time series, 
+    temperature and precipitation would be modeled as follows:] -> Should be in right 
+    paragraph
+    Observational estimates of global precipitation were obtained from the Global 
+    Precipitation
     ```
     - Wrong paragraph ordering as in 1 and 2
 5. Variability of the Cold Season Climate in Central Asia. Part I: Weather Types and Their Tropical and Extratropical Drivers (clim-jcli-d-17-0715.1_1_.pdf) (2018.)

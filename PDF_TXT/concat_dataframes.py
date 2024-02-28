@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/JCLIMATE"
+DIR = "./RESULTS/GCB"
 
 files = listdir(DIR)
 

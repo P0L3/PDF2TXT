@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./RESULTS/MDPI/mdpi_full.pickle")
+df = pd.read_pickle("./RESULTS/GCB/gcb_full.pickle")
 ### General dataset info
 length = 10000
 print("Number of rows: ", len(df))
@@ -14,7 +14,7 @@ zcn = (df['Content'].str.len() <= 0).sum() # Zero content number
 lcn = (df['Content'].str.len() <= length).sum() # Length content number
 print("Average content length:                ", round(df["Content"].str.len().mean(), 2))
 print("Number of empty contents:              ", zcn, " / ", len(df), " => ", round(zcn/len(df), 4)*100, "%")
-print("Number of <= {length} length contents: ", lcn, " / ", len(df), " => ", round(lcn/len(df), 4)*100, "%")
+print(f"Number of <= {length} length contents: ", lcn, " / ", len(df), " => ", round(lcn/len(df), 4)*100, "%")
 
 print(df.info())
 print(df.head())

@@ -36,8 +36,6 @@ None
 2  [Cloud Radiative Feedbacks and El Nio–Southern...      [no_auth_and_affil]  ...  no_keywords     1
 3  [Modulation of the Diurnal Cycle of Rainfall A...      [no_auth_and_affil]  ...  no_keywords     1
 4    [A Vector Autoregressive ENSO Prediction Model]      [no_auth_and_affil]  ...  no_keywords     1
-
-
 ```
 
 ## JGRA
@@ -115,4 +113,41 @@ None
 ```
 
 ## GCB
+
+``` shell
+Number of rows:  6869 / 7103
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 35338.06
+Number of empty contents:               68  /  6869  =>  0.9900000000000001 %
+Number of <= 10000 length contents:  252  /  6869  =>  3.6700000000000004 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 6869 entries, 0 to 13
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     6869 non-null   object
+ 1   Authors_and_Affiliations  6869 non-null   object
+ 2   Affiliations              6869 non-null   object
+ 3   DOI                       6869 non-null   object
+ 4   Authors                   6869 non-null   object
+ 5   Journal                   6869 non-null   object
+ 6   Date                      6869 non-null   object
+ 7   Subjects                  6869 non-null   object
+ 8   Abstract                  6869 non-null   object
+ 9   References                6869 non-null   object
+ 10  Content                   6869 non-null   object
+ 11  Keywords                  6869 non-null   object
+ 12  Style                     6869 non-null   int64 
+dtypes: int64(1), object(12)
+memory usage: 751.3+ KB
+None
+                                               Title  ... Style
+0  [Simple additive effects are rare: a quantitat...  ...     2
+1  [Neglecting acclimation of photosynthesis unde...  ...     5
+2  [Does nitrogen deposition affect soil microfun...  ...     0
+3  [An integrative synthesis to global amphibian ...  ...     5
+4  [Biochar application as a tool to decrease soi...  ...     5
+```
+
+## CLIMD
 

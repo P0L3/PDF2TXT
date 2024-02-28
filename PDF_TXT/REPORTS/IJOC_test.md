@@ -5,11 +5,13 @@
     - Missing text:
     ``` txt
     2.3.1 Typical Meteorological Year
-    A TMY consists of 12 concatenated months representing the typical climatological conditions for a particular area.
+    A TMY consists of 12 concatenated months representing the typical climatological 
+    conditions for a particular area.
     .
     .
     .
-    More information on the generation of TMY can be found in the work of Abreu et al. (2018).
+    More information on the generation of TMY can be found in the work of Abreu et 
+    al. (2018).
     ```
     - Correct ordering of text, correct authors
     - +-++
@@ -22,7 +24,8 @@
 4. Uncertainty in regional climate model outputs over the Czech Republic: the role of nested and driving models (2014.)
     - Missing text:
     ``` txt
-    To assess the uncertainties in both MMEs, the analysis of variance described by D´equ´e et al. (2007) was employed.
+    To assess the uncertainties in both MMEs, the analysis of variance described by 
+    D´equ´e et al. (2007) was employed.
     .
     .
     .

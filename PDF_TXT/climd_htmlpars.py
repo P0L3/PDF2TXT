@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('ž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -27,7 +27,7 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/CLIMD/"
+DIR = "./FULL_DATA/CLIMD/"
 logging.basicConfig(
     format='%(asctime)s %(message)s',
     filename="_".join(DIR.split("/")),
@@ -180,13 +180,15 @@ skip_samples = ["Issue Information"]
 
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
-samples = listdir(DIR) 
+if not samples:
+    samples = listdir(DIR) 
+    multi_flag = False
 # print(samples[2])
 # exit()
 # samples = ["s00382-018-4083-9.pdf"]
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
     
     should_skip = any(True for skip in skip_samples if skip in sample)
@@ -259,7 +261,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi_regex(soup, style["get_doi_regex"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -274,7 +276,7 @@ for sample in tqdm(samples):
             for regex in style["get_doi_regex_r"]:
                 doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                 if doi[0] != "no_doi":
-                    print(doi)
+                    # print(doi)
                     break
 
     # Get data
@@ -302,7 +304,7 @@ for sample in tqdm(samples):
                 for regex in style["get_doi_regex_r"]:
                     doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                     if doi[0] != "no_doi":
-                        print(doi)
+                        # print(doi)
                         break
             if doi[0].endswith("."): # Hot fix if doi ends with . 
                 doi[0] = doi[0][:-1]
@@ -326,8 +328,8 @@ for sample in tqdm(samples):
         
         content = get_content(soup, style["get_content"])
 
-        print("Content length: ", len(content))
-        char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
+        # print("Content length: ", len(content))
+        # char_number2words_pages(len(content), re.findall(r"font-size:(\d+)", style["get_content"][0])[0])
         # print(abstract)
 
         
@@ -380,7 +382,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_climd_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/CLIMD/climd_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_climd.pickle")
 print(Faults)
