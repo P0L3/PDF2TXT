@@ -5,8 +5,8 @@ from tqdm import tqdm
 from os import listdir
 
 # Directory with files to process
-DIR = "./FULL_DATA/JCLIMATE"
-SCRIPT = "jclimate_htmlpars.py"
+DIR = "./FULL_DATA/GCB"
+SCRIPT = "gcb_htmlpars.py"
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
 BATCH_SIZE = NUMBER_OF_TASKS * 15  # You can adjust this based on your requirements
 CHECKPOINT = ""

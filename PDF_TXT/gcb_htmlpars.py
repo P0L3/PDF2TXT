@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('ž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -27,7 +27,13 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/GCB/"
+DIR = "./FULL_DATA/GCB/"
+##
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 doctype0_1 = {
     "get_title": ["font-family: AdvPalB; font-size:17px", "font-family: AdvPalBI; font-size:17px", "font-family: AdvGreek_BI; font-size:17px"],
@@ -178,11 +184,13 @@ skip_samples = ["Corrigendum", "Author index"]
 year = [str(i) for i in range(2016, 2024)]
 
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
-samples = listdir(DIR) 
+if not samples:
+    samples = listdir(DIR) 
+    multi_flag = False
 # samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
     
     should_skip = any(True for skip in skip_samples if skip in sample)
@@ -192,7 +200,7 @@ for sample in tqdm(samples):
     
     # Parse to html
     if any(True for i in year if i in sample):
-        print("Year over 2016.")
+        # print("Year over 2016.")
         html = pdf2html(target=DIR+sample, line_margin=0.7) # Hot fix for newer PDFs
     else:
         html = pdf2html(target=DIR+sample)
@@ -253,7 +261,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi_regex(soup, style["get_doi_regex"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -268,7 +276,7 @@ for sample in tqdm(samples):
             for regex in style["get_doi_regex_r"]:
                 doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                 if doi[0] != "no_doi":
-                    print(doi)
+                    # print(doi)
                     break
 
     # Get data
@@ -317,8 +325,8 @@ for sample in tqdm(samples):
         
         content = get_content(soup, style["get_content"])
 
-        print("Content length: ", len(content))
-        char_number2words_pages(len(content))
+        # print("Content length: ", len(content))
+        # char_number2words_pages(len(content))
         # print(abstract)
 
         
@@ -369,7 +377,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_gcb_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/GCB/gcb_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_gcb.pickle")
 print(Faults)

@@ -154,6 +154,7 @@ skip_samples = ["masthead"]
 # samples = [a.replace(".html", ".pdf") for a in listdir(DIR.replace("SAMPLE", "TEST"))]
 if not samples:
     samples = listdir(DIR) 
+    multi_flag = False
 # # print(samples[2])
 # exit()
 # samples = ["Global Change Biology - 2001 - Hendrey - A free‐air enrichment system for exposing tall forest vegetation to elevated(2).pdf"]
@@ -354,7 +355,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./RESULTS/JCLIMATE/test_jclimate_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/JCLIMATE/jclimate_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_jclimate.pickle")
 # print(Faults)

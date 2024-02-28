@@ -4,7 +4,7 @@
 ## JCLIMATE
 
 ``` shell
-Number of rows:  13655
+Number of rows:  13655 / 15325
 Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
 Average content length:                 41498.14
 Number of empty contents:               95  /  13655  =>  0.7000000000000001 %
@@ -43,7 +43,7 @@ None
 ## JGRA
 
 ``` shell
-Number of rows:  11976
+Number of rows:  11976 / 14512
 Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
 Average content length:                 42485.31
 Number of empty contents:               172  /  11976  =>  1.44 %
@@ -80,7 +80,7 @@ None
 ## MDPI
 
 ``` shell
-Number of rows:  52195
+Number of rows:  52195 / 53755
 Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
 Average content length:                 37372.86
 Number of empty contents:               292  /  52195  =>  0.5599999999999999 %
@@ -113,3 +113,6 @@ None
 3  Factors that Influence Climate Change Mitigati...  ...  html
 4  A Holistic View of Soils in Delivering Ecosyst...  ...  html
 ```
+
+## GCB
+
