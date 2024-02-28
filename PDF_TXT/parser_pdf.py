@@ -8,6 +8,7 @@ import re
 import logging
 import subprocess
 from functions import *
+from api_keys import *
 
 
 # Works on 80% -> not open access papers
@@ -59,7 +60,7 @@ def get_from_springerapi(doi):
     Returns:
     tuple: A tuple containing author information, journal name, publication date, and subjects.
     """
-    api_url = "http://api.springernature.com/metadata/json/doi{}?api_key=559b3c54b224f61ceb4ba285528a1461".format(doi)
+    api_url = "http://api.springernature.com/metadata/json/doi{}?api_key={}".format(doi, api_key_springer)
 
     response = requests.get(api_url)
 

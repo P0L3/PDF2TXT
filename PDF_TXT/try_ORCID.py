@@ -1,13 +1,15 @@
 """ORCID tryout"""
 
+from api_keys import *
 import requests
 
 # Define the URL for token retrieval
 url = "https://sandbox.orcid.org/oauth/token"
 
 # Define your client ID and client secret
-client_id = "APP-1IXHDD9VQXV3XZ5Q"
-client_secret = "06f6d7d5-5b69-4e37-8f2c-3bae4f5070af"
+# In api_keys
+# client_id = ""
+# client_secret = ""
 
 # Define the data payload for the POST request
 data = {
