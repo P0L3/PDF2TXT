@@ -5,14 +5,16 @@ import re
 import pandas as pd 
 from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./RESULTS/JGRA/jgra_full.pickle")
+df = pd.read_pickle("./RESULTS/MDPI/mdpi_full.pickle")
 ### General dataset info
+length = 10000
 print("Number of rows: ", len(df))
-print("Columns: ")
-print(df.keys())
-ecn = (df['Content'].str.len() <= 10000).sum() # Empty content number
-print("Average content length:   ", round(df["Content"].str.len().mean(), 2))
-print("Number of empty contents: ", ecn, " / ", len(df), " => ", round(ecn/len(df), 4)*100, "%")
+print("Columns: ", ", ".join(df.keys().tolist()))
+zcn = (df['Content'].str.len() <= 0).sum() # Zero content number
+lcn = (df['Content'].str.len() <= length).sum() # Length content number
+print("Average content length:                ", round(df["Content"].str.len().mean(), 2))
+print("Number of empty contents:              ", zcn, " / ", len(df), " => ", round(zcn/len(df), 4)*100, "%")
+print("Number of <= {length} length contents: ", lcn, " / ", len(df), " => ", round(lcn/len(df), 4)*100, "%")
 
 print(df.info())
 print(df.head())

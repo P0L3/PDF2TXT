@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/JGRA"
+DIR = "./RESULTS/JCLIMATE"
 
 files = listdir(DIR)
 
@@ -10,8 +10,9 @@ files = listdir(DIR)
 print(f"Merging {len(files)} files.")
 dfs = []
 for f in files:
-    with open(DIR+"/"+f, 'rb') as file:
-        dfs.append(pickle.load(file))
+    # with open(DIR+"/"+f, 'rb') as file:
+    #     dfs.append(pickle.load(file))
+    dfs.append(pd.read_pickle(DIR+"/"+f))
 
 # Merge
 merged_df = pd.concat(dfs)
@@ -23,6 +24,6 @@ with open(output_file, 'wb') as f:
     pickle.dump(merged_df, f)
 
 # Output
-print(f"Merge complite! Located in \"{output_file}\"")
+print(f"Merge complete! Located in \"{output_file}\"")
 
 
