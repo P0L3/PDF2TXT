@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('ž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -27,18 +27,19 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-
-
-DIR = "./SAMPLE/PNAS/"
+DIR = "./FULL_DATA/PNAS/"
 
 data_list = []
 folders = listdir(DIR)
 faults = []
-skip_samples = ["In This Issue"]
+skip_samples = ["In This Issue", "Correction for"]
 
-samples = listdir(DIR)
-for sample in tqdm(samples):
-    print("\n")
+if not samples:
+    samples = listdir(DIR)
+    multi_flag = False
+    
+for sample in samples:
+    # print("\n")
     print(sample)
     # Read from html file
     with open(DIR + sample, "r") as f:
@@ -219,8 +220,8 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_pnas_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/PNAS/pnas_({t})_({n}).pickle")
 else:
-    df.to_pickle("./PARS_OUT/test_pnas.pickle")
+    df.to_pickle("./PARS_OUT/test_pnas2.pickle")
 print(faults)
 ##
