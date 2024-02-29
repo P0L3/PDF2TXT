@@ -50,7 +50,11 @@ for sample in samples:
     # print(soup)
     
     # Get Title
-    title = soup.find("h1", {'property': "name"}).get_text().strip()
+    try:
+        title = soup.find("h1", {'property': "name"}).get_text().strip()
+    except:
+        faults.append(f"EXC :: no_title: {sample} $$")
+        continue
     print("\n", title)
 
     # Skip samples
@@ -100,7 +104,11 @@ for sample in samples:
     # print("\n", references)
     
     # Get Authors and Affiliations
-    authors_div = soup.find("section", {"class": "core-authors"}).find_all("div", {"property": "author"})
+    try:
+        authors_div = soup.find("section", {"class": "core-authors"}).find_all("div", {"property": "author"})
+    except:
+        faults.append(f"EXC :: no_author_div: {sample} $$")
+        continue
     # print(authors_div)
 
     # For output
@@ -141,15 +149,17 @@ for sample in samples:
     #   </div>
     # </div>
     """
-    
-    for a in authors_div:
-        author = a.find("span", {"property": "givenName"}).get_text() + " " + a.find("span", {"property": "familyName"}).get_text()
-        affils = [affil.get_text() for affil in a.find_all("div", {"property": "affiliation"}) if affil.get_text() != author]
-        # print(author)
-        affils_list.extend(affils) # Get all affiliations per author
-        authors_affil_dict[author] = affils 
-        authors.append(author) # Add to authors
-    
+    try:
+        for a in authors_div:
+            author = a.find("span", {"property": "givenName"}).get_text() + " " + a.find("span", {"property": "familyName"}).get_text()
+            affils = [affil.get_text() for affil in a.find_all("div", {"property": "affiliation"}) if affil.get_text() != author]
+            # print(author)
+            affils_list.extend(affils) # Get all affiliations per author
+            authors_affil_dict[author] = affils 
+            authors.append(author) # Add to authors
+    except:
+        faults.append(f"EXC :: no_author: {sample} $$")
+        continue
     
     affils_list = list(set(affils_list)) # Clean duplicates
 

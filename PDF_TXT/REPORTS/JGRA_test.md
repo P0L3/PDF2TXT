@@ -68,6 +68,32 @@
     ```
     - No figure text interruptions
     - Full text good
+7. Characteristics of stratospheric warming events during Northern winter (JGR Atmospheres - 2016 - Maury - Characteristics of stratospheric warming events during Northern winter.pdf) (2016.)
+    - Fragmented abstract extracted, but also full version present in content
+    - Page footnote present, distrupting text between pages:
+    ```
+    ... that minor SSWs can also have a tropospheric signature, justifying the 
+    examination of minor SSWs [MAURY ET AL. STRATOSPHERIC WARMING EVENTS] as well. 
+    Moreover, Coughlin and Gray [2009] ...
+    ```
+    - Missing symbols denoting certain values in equations etc:
+    ```
+    Original:
+    This daily ﬁeld is noted T(td,y ), where T refers to the temperature and t to the 
+    time with the subscripts d and y denoting the day and the year, respectively.
+
+    Extracted:
+    This daily field is noted , where refers to the temperature and to the time with the subscripts and denoting the day and the year, respectively.
+    ```
+    - No problems with Figure texts
+    - No problem with paragraph ordering or missing text
+8. Global radiative forcing of coupled tropospheric ozone and aerosols in a unified general circulation model (Journal of Geophysical Research Atmospheres - 2004 - Liao - Global radiative forcing of coupled tropospheric ozone and.pdf) (2004.)
+    - abstract present in content but not extracted separatly
+    - Figure text present in content - distrupts paragraphs if they span on multiple pages
+    - Missing subscripts for molecule expressions (not a problem)
+    - Wrong ordering of some lines due to jusstification and large whitespaces
+    - Wrong odering of pararaphs
+    - Correct ordering of paragraphs despite tables/figures in upper left corner
 
 
 ## Conclusion

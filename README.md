@@ -8,7 +8,7 @@
 - Test CLIMD, ECOAPP, NPJCLIAC, NPJCLISCI, GCB, 
 - Solve Acknowledgement problem in [PNAS](/PDF_TXT/pnas_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/PNAS_test.md)
 - Solve Missing text problems in [IJOC](/PDF_TXT/ijoc_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/IJOC_test.md)
-
+- Add new PNAS sample to all devices 
 
 ## Data structure
 
