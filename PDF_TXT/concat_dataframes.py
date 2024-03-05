@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/ECOAPP"
+DIR = "./RESULTS/ED4RE"
 
 files = listdir(DIR)
 
@@ -15,9 +15,13 @@ for f in files:
     try:
         dfs.append(pd.read_pickle(DIR+"/"+f))
     except UnicodeDecodeError:
-        #with open(DIR+"/"+f, 'rb') as file:
-        print(f"Exception occured for {f}.")
-        #    dfs.append(pickle.load(file))
+        with open(DIR+"/"+f, 'rb') as file:
+            print(f"Exception occured for {f}.")
+            dfs.append(pickle.load(file))
+    except pickle.UnpicklingError:
+        with open(DIR+"/"+f, 'rb') as file:
+            print(f"Exception occured for {f}.")
+            dfs.append(pickle.load(file))
 
 # Merge
 merged_df = pd.concat(dfs)

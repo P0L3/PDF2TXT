@@ -1,7 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-file = "ehs_pos.pickle"
+file = "full_pos.pickle"
 df_pos = pd.read_pickle(file)
 
 # Explode the 'Nouns' column to have one row per noun

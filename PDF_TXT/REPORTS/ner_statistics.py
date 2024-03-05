@@ -8,30 +8,32 @@ import pandas as pd
 from parser_pdf import char_number2words_pages
 import matplotlib.pyplot as plt
 import seaborn as sns
+from os import listdir
+print(listdir())
 
-file = "test_ehs.pickle"
+file = "/PDF_TXT/RESULTS/ED4RE/full.pickle"
 df = pd.read_pickle(file)
 # for i, r in enumerate(df["References"][0]):
 #     print(i, "   ", r)
     
 
 lengths = df["Content"].apply(lambda x: len(str(x)))
-print(lengths)
-print(df.keys())
+# print(lengths)
+# print(df.keys())
 
-print("Title:")
-print(30*"-")
-for title in df.Title:
-    print(title)
-print(30*"-")
+# print("Title:")
+# print(30*"-")
+# for title in df.Title:
+#     print(title)
+# print(30*"-")
 
-print("Content:")
-print(30*"-")
-for content, title, doi in zip(df.Content, df.Title, df.DOI):
-    # print(content)
-    if not char_number2words_pages(len(content)):
-        print(title)
-        print(doi)
+# print("Content:")
+# print(30*"-")
+# for content, title, doi in zip(df.Content, df.Title, df.DOI):
+#     # print(content)
+#     if not char_number2words_pages(len(content)):
+#         print(title)
+#         print(doi)
 
 #
 average_content_length = df['Content'].apply(len).mean()
@@ -59,7 +61,7 @@ plt.title('Kernel Density Estimation of Content Length')
 
 # Show the plot
 plt.show()
-exit()
+# exit()
 ## 
 
 from flair.data import Sentence
@@ -103,7 +105,9 @@ for title, text in tqdm(zip(df.Title, df.Content)):
             data_list.append(row)
       
 df_ner = pd.DataFrame(data_list)
-df_ner.to_pickle("{}_ner.pickle".format(file.split("_")[1].split(".")[0]))          
-
+try:
+    df_ner.to_pickle("{}_ner.pickle".format(file.split("_")[1].split(".")[0]))          
+except:
+    df_ner.to_pickle("unnamed.pickle")
     # with open("{}.pickle".format(title[0].replace(" ", "_")), "wb") as f:
     #     pickle.dump(sentences, f)

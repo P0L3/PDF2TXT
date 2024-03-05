@@ -335,3 +335,41 @@ None
 3  HABITAT-SPECIFIC RECOVERY OF SHALLOW SUBTIDAL ...   [(Thomas A. Dean, 3, 1), (Stephen C. Jewett, 2)]  ...  [crabs, disturbance, eelgrass, epifauna, infau...  html
 4  EVALUATING TRIBUTARY RESTORATION POTENTIAL FOR...          [(Phaedra Budy, 2), (Howard Schaller, 1)]  ...  [conservation, habitat, population viability, ...  html
 ```
+
+## Full data - 5.3.2024.
+``` shell
+Number of rows:  180281
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 33620.14
+Number of empty contents:               664  /  180281  =>  0.37 %
+Number of <= 10000 length contents:  10884  /  180281  =>  6.04 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 180281 entries, 0 to 10
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count   Dtype 
+---  ------                    --------------   ----- 
+ 0   Title                     180281 non-null  object
+ 1   Authors_and_Affiliations  180281 non-null  object
+ 2   Affiliations              180281 non-null  object
+ 3   DOI                       180281 non-null  object
+ 4   Authors                   180281 non-null  object
+ 5   Journal                   180281 non-null  object
+ 6   Date                      180281 non-null  object
+ 7   Subjects                  180281 non-null  object
+ 8   Abstract                  180281 non-null  object
+ 9   References                180281 non-null  object
+ 10  Content                   180281 non-null  object
+ 11  Keywords                  180281 non-null  object
+ 12  Style                     180281 non-null  object
+dtypes: object(13)
+memory usage: 19.3+ MB
+None
+                                               Title                           Authors_and_Affiliations  ...                                           Keywords Style
+0  A synoptic climatology of the near-surface win...  [(David A. Rahn, 2, 1, 3), (René D. Garreaud, ...  ...  [coastal wind, eastern boundary upwelling syst...  html
+1  Summer night-time temperature trends on the Ib...  [(Arturo Sanchez-Lorenzo, 2, 4, 5), (Paulo Per...  ...  [atmospheric circulation patterns, canonical c...  html
+2  New hourly extreme precipitation regions and r...  [(Motasem M. Darwish, 3, 9, 1, 4, 2, 8), (Mari...  ...  [extreme precipitation regions, hourly precipi...  html
+3  Trends in daily precipitation on the northeast...  [(J. I. López-Moreno, 1, 3), (S. M. Vicente-Se...  ...  [daily precipitation, temporal trends, spatial...  html
+4  Impact of the air temperature and atmospheric ...  [(Joanna Wibig, 2, 5, 3, 1, 4), (Piotr Piotrow...  ...  [atmospheric circulation, Clausius–Clapeyron, ...  html
+
+[5 rows x 13 columns]
+```

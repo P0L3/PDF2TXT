@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 # from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./RESULTS/ECOAPP/ecoapp_full.pickle")
+df = pd.read_pickle("./RESULTS/ED4RE/full.pickle")
 ### General dataset info
 length = 10000
 print("Number of rows: ", len(df))

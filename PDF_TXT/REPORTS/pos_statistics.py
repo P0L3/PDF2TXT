@@ -18,7 +18,9 @@ from tqdm import tqdm
 pos_entity = ["CD", "DT", "FW", "HYPH", "JJ", "NN", "POS", "SYM"]
 pos_verb = ["VB", "TO", "RB", "MD"]
 
-df = pd.read_pickle("test_ehs.pickle")
+df = pd.read_pickle("/PDF_TXT/RESULTS/ED4RE/full_10ksample.pickle")
+# df = df.sample(1, random_state = 3005)
+# df_sample.to_pickle("/PDF_TXT/RESULTS/ED4RE/full_10ksample.pickle")
 
 data_list = []
 for title, text in tqdm(zip(df.Title, df.Content)):
@@ -85,4 +87,4 @@ for title, text in tqdm(zip(df.Title, df.Content)):
         data_list.append(row)
   
 df_pos = pd.DataFrame(data_list)
-df_pos.to_pickle("ehs_pos.pickle") 
+df_pos.to_pickle("full_poss.pickle") 
