@@ -151,3 +151,75 @@ None
 
 ## CLIMD
 
+``` shell
+Number of rows:  3695 / 3943
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 43357.66
+Number of empty contents:               25  /  3695  =>  0.6799999999999999 %
+Number of <= 10000 length contents:  94  /  3695  =>  2.54 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 3695 entries, 0 to 12
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     3695 non-null   object
+ 1   Authors_and_Affiliations  3695 non-null   object
+ 2   Affiliations              3695 non-null   object
+ 3   DOI                       3695 non-null   object
+ 4   Authors                   3695 non-null   object
+ 5   Journal                   3695 non-null   object
+ 6   Date                      3695 non-null   object
+ 7   Subjects                  3695 non-null   object
+ 8   Abstract                  3695 non-null   object
+ 9   References                3695 non-null   object
+ 10  Content                   3695 non-null   object
+ 11  Keywords                  3695 non-null   object
+ 12  Style                     3695 non-null   int64 
+dtypes: int64(1), object(12)
+memory usage: 404.1+ KB
+None
+                                               Title  ... Style
+0  [The impact of inter-annual variability of ann...  ...     7
+1  [Interdecadal change in the North Atlantic sto...  ...     1
+2  [Decadal changes in the central tropical Pacif...  ...     7
+3             [Predictability in a changing climate]  ...     7
+4  [Reconciling roles of sulphate aerosol forcing...  ...     1
+
+```
+
+
+## PNAS
+``` shell
+Number of rows:  83099 / 88534
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 28258.25
+Number of empty contents:               0  /  83099  =>  0.0 %
+Number of <= 10000 length contents:  6303  /  83099  =>  7.580000000000001 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 83099 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     83099 non-null  object
+ 1   Authors_and_Affiliations  83099 non-null  object
+ 2   Affiliations              83099 non-null  object
+ 3   DOI                       83099 non-null  object
+ 4   Authors                   83099 non-null  object
+ 5   Journal                   83099 non-null  object
+ 6   Date                      83099 non-null  object
+ 7   Subjects                  83099 non-null  object
+ 8   Abstract                  83099 non-null  object
+ 9   References                83099 non-null  object
+ 10  Content                   83099 non-null  object
+ 11  Keywords                  83099 non-null  object
+ 12  Style                     83099 non-null  object
+dtypes: object(13)
+memory usage: 8.9+ MB
+None
+                                               Title  ... Style
+0  Root gravitropism is regulated by a transient ...  ...  html
+1  Storage of cellular 5′ mRNA caps in P bodies f...  ...  html
+2  General design principle for scalable neural c...  ...  html
+3  Stimuli-responsive clustered nanoparticles for...  ...  html
+4  Cullin neddylation inhibitor attenuates hyperg...  ...  html
+```

@@ -5,7 +5,7 @@ import re
 import pandas as pd 
 # from parser_pdf import char_number2words_pages
 
-df = pd.read_pickle("./PARS_OUT/test_pnas2.pickle")
+df = pd.read_pickle("./RESULTS/CLIMD/climd_full.pickle")
 ### General dataset info
 length = 10000
 print("Number of rows: ", len(df))
@@ -35,10 +35,10 @@ print(df.head())
 # for journal in df.Journal:
 #     print(journal)
     
-print("Date:")
-print(30*"-")
-for date in df.Date:
-    print(date)
+# print("Date:")
+# print(30*"-")
+# for date in df.Date:
+#     print(date)
     
 # print("Subjects:")
 # print(30*"-")
