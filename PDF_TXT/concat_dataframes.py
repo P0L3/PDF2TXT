@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/CLIMD"
+DIR = "./RESULTS/ECOAPP"
 
 files = listdir(DIR)
 

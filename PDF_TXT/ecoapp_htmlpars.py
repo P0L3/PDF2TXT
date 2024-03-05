@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('žž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -28,10 +28,15 @@ multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
 
-DIR = "./SAMPLE/ECOAPP/"
+DIR = "./FULL_DATA/ECOAPP/"
+##
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 data_list = []
-folders = listdir(DIR)
 faults = []
 skip_samples = []
 
@@ -39,8 +44,8 @@ skip_samples = []
 if not samples:
     samples = listdir(DIR)
 
-for sample in tqdm(samples):
-    print("\n")
+for sample in samples:
+    # print("\n")
     print(sample)
     # Read from html file
     with open(DIR + sample, "r") as f:
@@ -52,7 +57,7 @@ for sample in tqdm(samples):
     
     # Get Title
     title = soup.find("h1", {'class': "citation__title"}).get_text().strip()
-    print("\n", title)
+    print(title)
 
     # Skip samples
     if any(skip in title for skip in skip_samples):
@@ -179,7 +184,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_ecoapp_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/ECOAPP/ecoapp_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_ecoapp.pickle")
 print(faults)

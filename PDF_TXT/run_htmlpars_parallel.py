@@ -5,8 +5,8 @@ from tqdm import tqdm
 from os import listdir
 
 # Directory with files to process
-DIR = "./FULL_DATA/PNAS"
-SCRIPT = "pnas_htmlpars.py"
+DIR = "./FULL_DATA/ECOAPP"
+SCRIPT = "ecoapp_htmlpars.py"
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
 BATCH_SIZE = NUMBER_OF_TASKS * 15  # You can adjust this based on your requirements
 CHECKPOINT = ""
@@ -106,7 +106,7 @@ for batch in tqdm(sample_batches):
         pool = mp.Pool(NUMBER_OF_TASKS)
 
         for n_s in n_samples:
-            str_list = "ž".join(n_s)
+            str_list = "žž".join(n_s)
             # print(str_list)
             pool.apply_async(work, (str_list,), callback=update_progress_bar)
 

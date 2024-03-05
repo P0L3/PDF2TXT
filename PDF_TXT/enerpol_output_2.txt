@@ -1,0 +1,214 @@
+Working in parallel on 12 threads.
+Batch size: 180
+Total samples:  1023
+Approx done samples:  6248
+Samples todo:  33
+Corrigendum-to--Solar-photovoltaic-self-consumption-in-the-UK-resi_2019_Ener.pdf
+Skipping Corrigendum-to--Solar-photovoltaic-self-consumption-in-the-UK-resi_2019_Ener.pdf pdf: Corrigendum-to--Solar-photovoltaic-self-consumption-in-the-UK-resi_2019_Ener.pdf
+Climate-change-policy-and-carbon-pricing_2022_Energy-Policy.pdf
+['']
+['Climate change policy and carbon pricing']
+['Georgina Santos']
+Cleaning ...
+Done ...
+[]
+[]
+1
+Mapping-and-understanding-the-drivers-of-fuel-poverty-in-emergi_2022_Energy-.pdf
+['']
+['Mapping and understanding the drivers of fuel poverty in emerging economies: The case of Egypt and Jordan']
+['Fateh Belaïd']
+Cleaning ...
+Done ...
+Peer-to-Peer-energy-trading--independence-aspirations-and-finan_2023_Energy-.pdf
+['']
+['Peer-to-Peer energy trading, independence aspirations and financial benefits among Nigerian households']
+['Ayooluwa Adewole', 'Michelle Shipworth', 'Xavier Lemaire', 'Danielle Sanderson']
+Cleaning ...
+Done ...
+[]
+[]
+2
+Let-it-grow--How-community-solar-policy-can-increase-PV-adop_2023_Energy-Pol.pdf
+['']
+['Let it grow: How community solar policy can increase PV adoption in cities']
+['Alejandro Nu', 'nez-Jimenez', 'Prakhar Mehta', 'Danielle Griego']
+Cleaning ...
+Done ...
+Economic-consequences-of-a-capacity-market-implementation--T_2020_Energy-Pol.pdf
+['']
+['Economic consequences of a capacity market implementation: The case of Poland']
+['Aleksandra Komorowska', 'Pablo Benalcazar  Przemys', 'aw Kaszy', 'nski  Jacek Kami', 'nski']
+Cleaning ...
+Done ...
+Climate-policy-accelerates-structural-changes-in-energy-emp_2021_Energy-Poli.pdf
+['']
+['Climate policy accelerates structural changes in energy employment']
+['Aman Malik', 'Christoph Bertram', 'Elmar Kriegler', 'Gunnar Luderer']
+Cleaning ...
+Done ...
+[]
+[]
+3
+Viability-of-power-distribution-in-India---Challenges-and-W_2020_Energy-Poli.pdf
+['']
+['Viability of power distribution in IndiaChallenges and Way Forward']
+['Soumya Deep Das', 'R. Srikanth']
+Cleaning ...
+Done ...
+Beyond-headcount-statistics--Exploring-the-utility-of-energy-p_2023_Energy-P.pdf
+['']
+['Beyond headcount statistics: Exploring the utility of energy poverty gap indices in policy design']
+['T.M. Croon', 'J.S.C.M. Hoekstra', 'M.G. Elsinga', 'F. Dalla Longa', 'P. Mulder']
+Cleaning ...
+Done ...
+Path-breaking-industrial-development-reduces-carbon-emissions--_2022_Energy-.pdf
+['']
+['Path-breaking industrial development reduces carbon emissions: Evidence from Chinese Provinces, 19992011']
+['Yingcheng Li']
+Cleaning ...
+Done ...
+[]
+[]
+3
+The-cost-effectiveness-of-new-reservoir-hydroelectricity--Brit_2022_Energy-P.pdf
+['']
+['The cost effectiveness of new reservoir hydroelectricity: British Columbia’s Site C project']
+['Brett Dolter', 'G. Kent Fellows', 'Nicholas Rivers']
+Cleaning ...
+Done ...
+Corrigendum-to--The-forecast-of-motor-vehicle--energy-demand-and-_2010_Energ.pdf
+Skipping Corrigendum-to--The-forecast-of-motor-vehicle--energy-demand-and-_2010_Energ.pdf pdf: Corrigendum-to--The-forecast-of-motor-vehicle--energy-demand-and-_2010_Energ.pdf
+Do-unemployment-benefits-and-economic-aids-to-pay-electricity-bill_2021_Ener.pdf
+['']
+['Do unemployment benefits and economic aids to pay electricity bills remove the energy poverty risk of Spanish family units during lockdown? A study of COVID-19-induced lockdown']
+['David Bienvenido-Huertas']
+Cleaning ...
+Done ...
+[]
+[]
+2
+Heat-demand-in-the-Swedish-residential-building-stock---pathways_2020_Energy.pdf
+['']
+['Heat demand in the Swedish residential building stock - pathways on demand reduction potential based on socio-technical analysis']
+['Georgia Savvidou', 'Bj', 'orn Nykvist']
+Cleaning ...
+Done ...
+Expanding-versus-greening--Long-term-energy-and-emission-tran_2019_Energy-Po.pdf
+['']
+['']
+['Expanding versus greening? Long-term energy and emission transitions in Mozambique']
+['Gilberto Mahumane', 'Peter Mulder']
+Cleaning ...
+Done ...
+[]
+[]
+3
+A-new-dawn-for--oil--incumbents-within-the-bioeconomy--Trade-_2020_Energy-Po.pdf
+['']
+['A new dawn for (oil) incumbents within the bioeconomy? Trade-offs and lessons for policy']
+['Hans Hellsmark', 'Teis Hansen']
+Cleaning ...
+Done ...
+Caught-in-the-middle--The-role-of-the-Facilities-Manager-in-o_2015_Energy-Po.pdf
+['']
+['']
+['']
+['Caught in the middle: The role of the Facilities Manager in organisational energy use']
+['Murray Goulden', 'Alexa Spence']
+Cleaning ...
+Done ...
+Sharing-vehicles-or-sharing-rides---Psychological-factors-influe_2022_Energy.pdf
+['']
+['Sharing vehicles or sharing rides - Psychological factors influencing the acceptance of carsharing and ridepooling in Germany']
+['Uta Burghard', 'Aline Scherrer']
+Cleaning ...
+Done ...
+[]
+[]
+5
+Transition-to-low-carbon-economy--Assessing-cumulative-impacts_2018_Energy-P.pdf
+['']
+['']
+['Transition to low-carbon economy: Assessing cumulative impacts of individual behavioral changes']
+['Leila Niamir', 'Tatiana Filatova', 'Alexey Voinov', 'Hans Bressers']
+Cleaning ...
+Done ...
+The-interface-between-support-schemes-for-renewable-energy-and-se_2023_Energ.pdf
+['']
+['The interface between support schemes for renewable energy and security of supply: Reviewing capacity mechanisms and support schemes for renewable energy in Europe']
+['Mariia Kozlova', 'Kaisa Huhta', 'Alena Lohrmann']
+Cleaning ...
+Done ...
+The-price-of-actor-diversity--Measuring-project-developers--wil_2022_Energy-.pdf
+['']
+['The price of actor diversity: Measuring project developerswillingness to accept risks in renewable energy auctions']
+['Elizabeth C', 'ot', 'e', 'Mak', 'ukan', 'Cristian Pons-Seres de Brauwer', 'Rolf Wüstenhagen']
+Cleaning ...
+Done ...
+[]
+[]
+4
+What-can-the-EU-do-to-address-the-high-natural-gas-prices-_2023_Energy-Polic.pdf
+['']
+['What can the EU do to address the high natural gas prices?']
+['P', 'eter Kotek', 'Adrienn Selei', 'Borb', 'ala Tak', 'acsn', 'e T', 'oth', 'Bal', 'azs Felsmann']
+Cleaning ...
+Done ...
+Learning-from-electricity-markets--How-to-design-a-resilienc_2022_Energy-Pol.pdf
+['']
+['Learning from electricity markets: How to design a resilience strategy']
+['Natalia Fabra', 'Massimo Motta', 'Martin Peitz']
+Cleaning ...
+Done ...
+How-to-conceptualise-energy-law-and-policy-for-an-interdiscipli_2019_Energy-.pdf
+['']
+['']
+['How to conceptualise energy law and policy for an interdisciplinary audience: The case of post-Brexit UK']
+['Paul Cairney', 'Aileen McHarg', 'Nicola McEwen', 'Karen Turner']
+Cleaning ...
+Done ...
+[]
+[]
+4
+Are-we-moving-fast-enough--The-energy-renovation-rate-of-the-Dut_2017_Energy.pdf
+['Are we moving fast enough? The energy renovation rate of the Dutch non- prot housing using the national energy labelling database']
+['Faidra Filippidou', 'Nico Nieboer Henk Visscher']
+Cleaning ...
+Done ...
+Accountability-feedback-assessments-for-improving-efficiency-o_2016_Energy-P.pdf
+['']
+['']
+['']
+['Accountability feedback assessments for improving efciency of nuclear regulatory institutions']
+['Jean Lavarenne', 'Eugene Shwageraus Michael Weightman']
+Cleaning ...
+Done ...
+Long-term-ecological-successions-of-vegetation-around_2023_Palaeogeography--.pdf
+['']
+['Long-term ecological successions of vegetation around Lake Victoria (East Africa) in response to latest Pleistocene and Early Holocene climatic changes']
+['Yunu', 'en Temoltzin-Loranca', 'Erika Gobet', 'Boris Vanni', 'ere', 'Jacqueline F.N. van Leeuwen', 'Giulia Wienhues', 'Colin Courtney-Mustaphi', 'Mary Kishe', 'Moritz Muschick', 'Leighton King', 'Pavani Misra', 'Nare Ngoepe', 'Blake Matthews', 'Hendrik Vogel', 'Oliver Heiri', 'Ole Seehausen', 'Martin Grosjean', 'Willy Tinner']
+Cleaning ...
+Done ...
+[]
+[]
+4
+Corrigendum-to--Impact-assessment-of-emissions-stabilization-scen_2008_Energ.pdf
+Skipping Corrigendum-to--Impact-assessment-of-emissions-stabilization-scen_2008_Energ.pdf pdf: Corrigendum-to--Impact-assessment-of-emissions-stabilization-scen_2008_Energ.pdf
+A-blessing-or-a-burden--Assessing-the-impact-of-Climate-Change-M_2023_Energy.pdf
+['']
+['A blessing or a burden? Assessing the impact of Climate Change Mitigation efforts in Europe using Quantile Regression Models']
+['Nabila Abid', 'Fayyaz Ahmad', 'Junaid Aftab', 'Asif Razzaq']
+Cleaning ...
+Done ...
+Cross-border-electricity-market-effects-due-to-price-caps-in-an_2014_Energy-.pdf
+['']
+['']
+['']
+['Cross-border electricity market effects due to price caps in an emission trading system: An agent-based approach']
+['Jörn C. Richstein', 'Emile J.L. Chappin Laurens J. de Vries']
+Cleaning ...
+Done ...
+[]
+[]
+4

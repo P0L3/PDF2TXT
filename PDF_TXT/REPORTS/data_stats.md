@@ -223,3 +223,115 @@ None
 3  Stimuli-responsive clustered nanoparticles for...  ...  html
 4  Cullin neddylation inhibitor attenuates hyperg...  ...  html
 ```
+
+## IJOC
+
+``` shell
+Number of rows:  3712 / 3825
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 22789.19
+Number of empty contents:               0  /  3712  =>  0.0 %
+Number of <= 10000 length contents:  1362  /  3712  =>  36.69 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 3712 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     3712 non-null   object
+ 1   Authors_and_Affiliations  3712 non-null   object
+ 2   Affiliations              3712 non-null   object
+ 3   DOI                       3712 non-null   object
+ 4   Authors                   3712 non-null   object
+ 5   Journal                   3712 non-null   object
+ 6   Date                      3712 non-null   object
+ 7   Subjects                  3712 non-null   object
+ 8   Abstract                  3712 non-null   object
+ 9   References                3712 non-null   object
+ 10  Content                   3712 non-null   object
+ 11  Keywords                  3712 non-null   object
+ 12  Style                     3712 non-null   object
+dtypes: object(13)
+memory usage: 406.0+ KB
+None
+                                               Title  ... Style
+0  A synoptic climatology of the near-surface win...  ...  html
+1  Summer night-time temperature trends on the Ib...  ...  html
+2  New hourly extreme precipitation regions and r...  ...  html
+3  Trends in daily precipitation on the northeast...  ...  html
+4  Impact of the air temperature and atmospheric ...  ...  html
+```
+
+## ENERPOL
+
+``` shell
+Number of rows:  866 / 1023
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 51407.07
+Number of empty contents:               12  /  866  =>  1.39 %
+Number of <= 10000 length contents:  31  /  866  =>  3.58 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 866 entries, 0 to 10
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     866 non-null    object
+ 1   Authors_and_Affiliations  866 non-null    object
+ 2   Affiliations              866 non-null    object
+ 3   DOI                       866 non-null    object
+ 4   Authors                   866 non-null    object
+ 5   Journal                   866 non-null    object
+ 6   Date                      866 non-null    object
+ 7   Subjects                  866 non-null    object
+ 8   Abstract                  866 non-null    object
+ 9   References                866 non-null    object
+ 10  Content                   866 non-null    object
+ 11  Keywords                  866 non-null    object
+ 12  Style                     866 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 94.7+ KB
+None
+                                               Title                           Authors_and_Affiliations  ...                                           Keywords Style
+0  [Comparing electricity transitions: A historic...  [(Aleh Cherp, [a,b, ⁎ ,]), (Vadim Vinichenko, ...  ...  [Germany, Japan, Renewable electricity, Nuclea...     0
+1  [Inequalities across cooling and heating in ho...  [(Luling Huang, [a , b , * ,]), (Destenie Nock...  ...  [Energy poverty , Residential energy consumpti...     1
+2  [The search for the perfect match: Aligning po...  [(Gilbert Fridgen, [a , b ,]), (Anne Michaelis...  ...  [Energy transition , Flexibility market tradin...     1
+3  [Opportunities for installed combined heat and...  [(Hyeunguk Ahn, [no_affiliation]), (William Mi...  ...  [Capacity factor , Ramping capability , Prime ...     1
+4  [Reduced grid operating costs and renewable en...  [(Julia K. Szinai, [a , b , * ,]), (Colin J.R....  ...  [Plug-in electric vehicles , Mobility model , ...     1
+
+```
+
+## ECOAPP
+
+``` shell
+Number of rows:  4214 / 4469
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 36698.35
+Number of empty contents:               0  /  4214  =>  0.0 %
+Number of <= 10000 length contents:  553  /  4214  =>  13.120000000000001 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 4214 entries, 0 to 11
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     4214 non-null   object
+ 1   Authors_and_Affiliations  4214 non-null   object
+ 2   Affiliations              4214 non-null   object
+ 3   DOI                       4214 non-null   object
+ 4   Authors                   4214 non-null   object
+ 5   Journal                   4214 non-null   object
+ 6   Date                      4214 non-null   object
+ 7   Subjects                  4214 non-null   object
+ 8   Abstract                  4214 non-null   object
+ 9   References                4214 non-null   object
+ 10  Content                   4214 non-null   object
+ 11  Keywords                  4214 non-null   object
+ 12  Style                     4214 non-null   object
+dtypes: object(13)
+memory usage: 460.9+ KB
+None
+                                               Title                           Authors_and_Affiliations  ...                                           Keywords Style
+0  Linking marine ecosystems with the services th...  [(Fiona E. Culhane, 4, 3), (Christoper L. J. F...  ...  [biodiversity, conservation, ecological connec...  html
+1  OVERSTORY-IMPOSED HETEROGENEITY IN SOLAR RADIA...  [(David D. Breshears, 2), (Paul M. Rich, 1), (...  ...  [Bouteloua gracilis, canopy and intercanopy ga...  html
+2  Trait-mediated responses of caterpillar commun...  [(Benjamin M. L. Leroy, 11, 10, 9, 1), (Domini...  ...  [defoliation, DNA barcoding, Lepidoptera, Lyma...  html
+3  HABITAT-SPECIFIC RECOVERY OF SHALLOW SUBTIDAL ...   [(Thomas A. Dean, 3, 1), (Stephen C. Jewett, 2)]  ...  [crabs, disturbance, eelgrass, epifauna, infau...  html
+4  EVALUATING TRIBUTARY RESTORATION POTENTIAL FOR...          [(Phaedra Budy, 2), (Howard Schaller, 1)]  ...  [conservation, habitat, population viability, ...  html
+```

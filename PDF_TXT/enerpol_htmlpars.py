@@ -1,5 +1,5 @@
 """
-Science (ehs) html parsing
+Enerpol html parsing
 """
 
 from bs4 import BeautifulSoup
@@ -17,7 +17,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('žž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -28,7 +28,12 @@ multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
 
-DIR = "./SAMPLE/ENERPOL/"
+DIR = "./FULL_DATA/ENERPOL/"
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 doctype0_1 = {
     "get_title": ["font-family: AdvOT987ad488; font-size:13px"],
@@ -138,9 +143,9 @@ if not samples:
     multi_flag = False
 
 # samples = ["An-analysis-of-a-forward-capacity-market-with-long-term-con_2017_Energy-Poli.pdf"]
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
     
     should_skip = any(sample.startswith(skip) for skip in skip_samples)
@@ -203,7 +208,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi_regex(soup, style["get_doi_regex"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -218,7 +223,7 @@ for sample in tqdm(samples):
             for regex in style["get_doi_regex_r"]:
                 doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                 if doi[0] != "no_doi":
-                    print(doi)
+                    # print(doi)
                     break
 
     # Get data
@@ -286,7 +291,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_enerpol_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/ENERPOL/enerpol_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_enerpol.pickle")
 print(Faults)
