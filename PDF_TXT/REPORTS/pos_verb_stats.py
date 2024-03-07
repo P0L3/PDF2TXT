@@ -1,7 +1,9 @@
+"""Script to see statistics regarding verbs and pos"""
+
 import pandas as pd
 from matplotlib import pyplot as plt
 
-file = "ehs_pos.pickle"
+file = "full_poss.pickle"
 df_pos = pd.read_pickle(file)
 
 # Explode the 'Verbs' column to have one row per verb

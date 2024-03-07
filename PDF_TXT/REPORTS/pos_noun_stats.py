@@ -1,3 +1,5 @@
+"""Script to see statistics regarding nouns and pos"""
+
 import pandas as pd
 from matplotlib import pyplot as plt
 

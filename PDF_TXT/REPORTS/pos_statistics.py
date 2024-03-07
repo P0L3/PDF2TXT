@@ -87,4 +87,4 @@ for title, text in tqdm(zip(df.Title, df.Content)):
         data_list.append(row)
   
 df_pos = pd.DataFrame(data_list)
-df_pos.to_pickle("full_poss.pickle") 
+df_pos.to_pickle("full_pos.pickle") 

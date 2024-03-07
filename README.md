@@ -126,3 +126,5 @@ paper_data = {
 #### [JGRA report](/PDF_TXT/REPORTS/JGRA_test.md)
 
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
+
+## [POS and NER reports](/PDF_TXT/REPORTS/pos_ner.md)
