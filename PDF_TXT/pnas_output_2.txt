@@ -1,0 +1,703 @@
+Working in parallel on 6 threads.
+Batch size: 90
+doi_10.1073_cozzarelli.2005.html
+
+ 2005 Cozzarelli Prize recipient
+doi_10.1073_pnas.1910745116.html
+
+ Shockley–Queisser triangle predicts the thermodynamic efficiency limits of arbitrarily complex multijunction bifacial solar cells
+doi_10.1073_pnas.1910749116.html
+
+ Parallel transcriptomic changes in the origins of divergent monogamous vertebrates?
+doi_10.1073_pnas.1910760117.html
+
+ Ocean mixing and heat transport processes observed under the Ross Ice Shelf control its basal melting
+doi_10.1073_pnas.1910765117.html
+
+ Hepatic neddylation targets and stabilizes electron transfer flavoproteins to facilitate fatty acid β-oxidation
+doi_10.1073_pnas.1910771116.html
+
+ Clustering and dynamics of crowded proteins near membranes and their influence on membrane bending
+doi_10.1073_pnas.1910787117.html
+
+ Rescue of tomato spotted wilt virus entirely from complementary DNA clones
+doi_10.1073_pnas.1910793116.html
+
+ Revealing the metabolic capacity of Streblomastix strix and its bacterial symbionts using single-cell metagenomics
+doi_10.1073_pnas.1910807116.html
+
+ Horsefly object-directed polarotaxis is mediated by a stochastically distributed ommatidial subtype in the ventral retina
+doi_10.1073_pnas.1910824116.html
+
+ Improving breast cancer sensitivity to paclitaxel by increasing aneuploidy
+doi_10.1073_cozzarelli.2021.html
+
+ 2021 Cozzarelli Prize recipients
+doi_10.1073_pnas.0807841105.html
+
+ BLyS inhibition eliminates primary B cells but leaves natural and acquired humoral immunity intact
+doi_10.1073_pnas.0807842106.html
+
+ Rapid determination of hydrogen positions and protonation states of diisopropyl fluorophosphatase by joint neutron and X-ray diffraction refinement
+doi_10.1073_pnas.0807848105.html
+
+ Crystal structure of CD155 and electron microscopic studies of its complexes with polioviruses
+doi_10.1073_pnas.0807850105.html
+
+ Is getting older all that rewarding?
+doi_10.1073_pnas.0807853105.html
+
+ Correction for Eitas et al., Arabidopsis TAO1 is a TIR-NB-LRR protein that contributes to disease resistance induced by the Pseudomonas syringae effector AvrB
+doi_10.1073_pnas.0807854106.html
+
+ Structure of the Ebola VP35 interferon inhibitory domain
+doi_10.1073_pnas.0807859105.html
+
+ The Dam1 ring binds microtubules strongly enough to be a processive as well as energy-efficient coupler for chromosome motion
+doi_10.1073_pnas.0807860105.html
+
+ DNA variation and symbiotic associations in phenotypically diverse sea urchin Strongylocentrotus intermedius
+doi_10.1073_pnas.0807861105.html
+
+ Circadian glucose homeostasis requires compensatory interference between brain and liver clocks
+doi_10.1073_pnas.1910718116.html
+
+ Effect of alder on soil bacteria offers an alternative explanation to the role played by alder in rock weathering
+doi_10.1073_pnas.1910719117.html
+
+ Rainfall anomalies are a significant driver of cropland expansion
+doi_10.1073_pnas.1910722117.html
+
+ Single-cell tracking demonstrates copper chaperone Atox1 to be required for breast cancer cell migration
+doi_10.1073_pnas.1910724116.html
+
+ Computationally generated maps of surface structures and catalytic activities for alloy phase diagrams
+doi_10.1073_pnas.1910731117.html
+
+ Sensitivity of self-reported noncognitive skills to survey administration conditions
+doi_10.1073_pnas.1910733116.html
+
+ Mammalian germ cells are determined after PGC colonization of the nascent gonad
+['EXC :: no_abstract: Is getting older all that rewarding?', 'EXC :: no_keywords: Is getting older all that rewarding?', 'EXC :: no_abstract: Circadian glucose homeostasis requires compensatory interference between brain and liver clocks', 'EXC :: no_keywords: Circadian glucose homeostasis requires compensatory interference between brain and liver clocks', 'EXC :: no_abstract: Effect of alder on soil bacteria offers an alternative explanation to the role played by alder in rock weathering', 'EXC :: no_keywords: Effect of alder on soil bacteria offers an alternative explanation to the role played by alder in rock weathering']
+doi_10.1073_pnas.1205838109.html
+
+ Distinct roles of metabotropic glutamate receptor dimerization in agonist activation and G-protein coupling
+doi_10.1073_pnas.1205847109.html
+
+ Oral advanced glycation endproducts (AGEs) promote insulin resistance and diabetes by depleting the antioxidant defenses AGE receptor-1 and sirtuin 1
+doi_10.1073_pnas.1205848109.html
+
+ Control of bone resorption in mice by Schnurri-3
+doi_10.1073_pnas.1205850109.html
+
+ Immortalized clones of fibroblastic reticular cells activate virus-specific T cells during virus infection
+doi_10.1073_pnas.1205853109.html
+
+ Dynamic flexibility of the ATPase p97 is important for its interprotomer motion transmission
+doi_10.1073_pnas.1205854109.html
+
+ Soluble guanylyl cyclase requires heat shock protein 90 for heme insertion during maturation of the NO-active enzyme
+doi_10.1073_pnas.1205856110.html
+
+ Widespread horizontal transfer of retrotransposons
+doi_10.1073_pnas.1205858109.html
+
+ Brain conditioning is instrumental for successful microglia reconstitution following hematopoietic stem cell transplantation
+doi_10.1073_pnas.0807821105.html
+
+ Submergence tolerance conferred by Sub1A is mediated by SLR1 and SLRL1 restriction of gibberellin responses in rice
+doi_10.1073_pnas.0807826105.html
+
+ Structure of membrane-bound α-synuclein from site-directed spin labeling and computational refinement
+doi_10.1073_pnas.0807830106.html
+
+ Signals in bacterial β-barrel proteins are functional in eukaryotic cells for targeting to and assembly in mitochondria
+doi_10.1073_pnas.0807833105.html
+
+ A Drosophila orphan G protein-coupled receptor BOSS functions as a glucose-responding receptor: Loss of boss causes abnormal energy metabolism
+doi_10.1073_pnas.0807837105.html
+
+ An oligosaccharide-based HIV-1 2G12 mimotope vaccine induces carbohydrate-specific antibodies that fail to neutralize HIV-1 virions
+doi_10.1073_pnas.0807839105.html
+
+ Reply to Stradner et al.: Equilibrium clusters are absent in concentrated lysozyme solutions
+doi_10.1073_pnas.0807840105.html
+
+ A farnesyltransferase inhibitor prevents both the onset and late progression of cardiovascular disease in a progeria mouse model
+['EXC :: no_keywords: Brain conditioning is instrumental for successful microglia reconstitution following hematopoietic stem cell transplantation', 'EXC :: no_abstract: Reply to Stradner et al.: Equilibrium clusters are absent in concentrated lysozyme solutions', 'EXC :: no_keywords: Reply to Stradner et al.: Equilibrium clusters are absent in concentrated lysozyme solutions']
+doi_10.1073_iti0611108.html
+
+ In This Issue
+doi_10.1073_iti0711108.html
+
+ In This Issue
+doi_10.1073_iti0815112.html
+
+ In This Issue
+doi_10.1073_iti0920117.html
+
+ In This Issue
+doi_10.1073_iti1106103.html
+
+ In This Issue
+doi_10.1073_iti1212109.html
+
+ In This Issue
+doi_10.1073_iti1323120.html
+
+ In This Issue
+doi_10.1073_iti1514111.html
+
+ In This Issue
+doi_10.1073_iti1617114.html
+
+ In This Issue
+doi_10.1073_iti1719116.html
+
+ In This Issue
+doi_10.1073_iti1817114.html
+
+ In This Issue
+doi_10.1073_pnas.1600406113.html
+
+ Nanospherical arabinogalactan proteins are a key component of the high-strength adhesive secreted by English ivy
+doi_10.1073_pnas.1600418113.html
+
+ Pathophysiological implication of CaV3.1 T-type Ca2+ channels in trigeminal neuropathic pain
+doi_10.1073_pnas.160041997.html
+
+ Influenza virus inhibits amiloride-sensitive Na+ channels in respiratory epithelia
+doi_10.1073_pnas.1600420113.html
+
+ Resistance to docetaxel in prostate cancer is associated with androgen receptor activation and loss of KDM5D expression
+[]
+doi_10.1073_pnas.1205789109.html
+
+ High genetic load in an old isolated butterfly population
+doi_10.1073_pnas.1205797109.html
+
+ Tetradian oscillation of estrogen receptor α is necessary to prevent liver lipid deposition
+doi_10.1073_pnas.1205798110.html
+
+ Single-molecule analysis of fluorescently labeled G-protein–coupled receptors reveals complexes with distinct dynamics and organization
+doi_10.1073_pnas.1205806109.html
+
+ Correction for Barrington et al., Game-powered machine learning
+doi_10.1073_pnas.1205809109.html
+
+ The Monod-Wyman-Changeux allosteric model accounts for the quaternary transition dynamics in wild type and a recombinant mutant human hemoglobin
+doi_10.1073_pnas.1205810109.html
+
+ Surgical removal of the parametrial fat pads stimulates apoptosis and inhibits UVB-induced carcinogenesis in mice fed a high-fat diet
+doi_10.1073_pnas.1205811109.html
+
+ Hydration repulsion between biomembranes results from an interplay of dehydration and depolarization
+doi_10.1073_pnas.1205816109.html
+
+ Cellular complexity captured in durable silica biocomposites
+doi_10.1073_pnas.1205818109.html
+
+ Phylogenomics and a posteriori data partitioning resolve the Cretaceous angiosperm radiation Malpighiales
+doi_10.1073_pnas.1205820109.html
+
+ Ammonia clathrate hydrates as new solid phases for Titan, Enceladus, and other planetary systems
+doi_10.1073_pnas.1205822109.html
+
+ Canonical Wnt signaling regulates Slug activity and links epithelial–mesenchymal transition with epigenetic Breast Cancer 1, Early Onset (BRCA1) repression
+doi_10.1073_pnas.1205828109.html
+
+ Selectively altering belief formation in the human brain
+doi_10.1073_pnas.1205829109.html
+
+ Compartmentalization of superoxide dismutase 1 (SOD1G93A) aggregates determines their toxicity
+doi_10.1073_pnas.1205834109.html
+
+ Transcription factor IRF4 determines germinal center formation through follicular T-helper cell differentiation
+doi_10.1073_pnas.1205836109.html
+
+ Correction for Kirk et al., Domain expertise insulates against judgment bias by monetary favors through a modulation of ventromedial prefrontal cortex
+['EXC :: no_keywords: Phylogenomics and a posteriori data partitioning resolve the Cretaceous angiosperm radiation Malpighiales']
+doi_10.1073_pnas.2121653119.html
+
+ Distinct roles of the Na+ binding sites in the allosteric coupling mechanism of the glutamate transporter homolog, GltPh
+doi_10.1073_pnas.2121654119.html
+
+ Climate drives coupled regime shifts across subtropical estuarine ecosystems
+doi_10.1073_pnas.2121655119.html
+
+ Functional network topography of the medial entorhinal cortex
+doi_10.1073_pnas.2121660119.html
+
+ Complementary feedback control enables effective gaze stabilization in animals
+doi_10.1073_pnas.2121661119.html
+
+ Casting a bright light on Ostwald’s rule of stages
+doi_10.1073_pnas.2121663119.html
+
+ Natural disaster and immunological aging in a nonhuman primate
+doi_10.1073_pnas.0602135103.html
+
+ Conformational suppression of inter-receptor signaling defects
+doi_10.1073_pnas.0602136103.html
+
+ Mechanisms of uropathogenic Escherichia coli persistence and eradication from the urinary tract
+doi_10.1073_pnas.0602138103.html
+
+ Genetic adaptation by Pseudomonas aeruginosa to the airways of cystic fibrosis patients
+doi_10.1073_pnas.0602142103.html
+
+ Solution structure of the complex between poxvirus-encoded CC chemokine inhibitor vCCI and human MIP-1β
+doi_10.1073_pnas.0602148103.html
+
+ Attachment of capsular polysaccharide to the cell wall of Streptococcus pneumoniae type 2 is required for invasive disease
+doi_10.1073_pnas.0602152103.html
+
+ Expression profiling the developing mammalian enteric nervous system identifies marker and candidate Hirschsprung disease genes
+doi_10.1073_pnas.0602171103.html
+
+ Reducing the fitness cost of antibiotic resistance by amplification of initiator tRNA genes
+doi_10.1073_pnas.0602173103.html
+
+ Phonological typicality influences on-line sentence comprehension
+doi_10.1073_pnas.0602176103.html
+
+ Renal cortical cyclooxygenase 2 expression is differentially regulated by angiotensin II AT1 and AT2 receptors
+doi_10.1073_pnas.0602178103.html
+
+ A genetic variant at the fatty acid-binding protein aP2 locus reduces the risk for hypertriglyceridemia, type 2 diabetes, and cardiovascular disease
+doi_10.1073_pnas.0602180103.html
+
+ Correction for See et al., Gene evolution at the ends of wheat chromosomes
+doi_10.1073_pnas.2121586119.html
+
+ Phenol-soluble modulins PSMα3 and PSMβ2 form nanotubes that are cross-α amyloids
+doi_10.1073_pnas.2121609119.html
+
+ Small molecule C381 targets the lysosome to reduce inflammation and ameliorate disease in models of neurodegeneration
+doi_10.1073_pnas.2121641119.html
+
+ Connection between water’s dynamical and structural properties: Insights from ab initio simulations
+doi_10.1073_pnas.2121644119.html
+
+ Multiple spillovers from humans and onward transmission of SARS-CoV-2 in white-tailed deer
+['EXC :: no_keywords: Phonological typicality influences on-line sentence comprehension']
+doi_10.1073_pnas.1410552111.html
+
+ A unique PDZ domain and arrestin-like fold interaction reveals mechanistic details of endocytic recycling by SNX27-retromer
+doi_10.1073_pnas.1410555111.html
+
+ Targeted gene knockout in chickens mediated by TALENs
+doi_10.1073_pnas.1410569111.html
+
+ Protein−DNA binding in the absence of specific base-pair recognition
+doi_10.1073_pnas.0500619102.html
+
+ Effect of centrally administered C75, a fatty acid synthase inhibitor, on ghrelin secretion and its downstream effects
+doi_10.1073_pnas.0500630102.html
+
+ Bifurcated converging pathways for high Ca2+- and TGFβ-induced inhibition of growth of normal human keratinocytes
+doi_10.1073_pnas.0500634102.html
+
+ Inactivation of liver X receptor β leads to adult-onset motor neuron degeneration in male mice
+doi_10.1073_pnas.0500641102.html
+
+ Preventing local regeneration of glucocorticoids by 11β-hydroxysteroid dehydrogenase type 1 enhances angiogenesis
+doi_10.1073_pnas.0500646102.html
+
+ Identifying photoreceptors in blind eyes caused by RPE65 mutations: Prerequisite for human gene therapy success
+doi_10.1073_pnas.0500648102.html
+
+ Biography of George W. Flynn
+doi_10.1073_pnas.0500649102.html
+
+ A mouse model for study of systemic HIV-1 infection, antiviral immune responses, and neuroinvasiveness
+doi_10.1073_pnas.0500656102.html
+
+ Atmospheric brown clouds: Impacts on South Asian climate and hydrological cycle
+doi_10.1073_pnas.0500658102.html
+
+ Synthetic analogues of migrastatin that inhibit mammary tumor metastasis in mice
+doi_10.1073_pnas.0500660102.html
+
+ Liver-specific inactivation of the Nrf1 gene in adult mouse leads to nonalcoholic steatohepatitis and hepatic neoplasia
+doi_10.1073_pnas.0500661102.html
+
+ Multiple subsets of side-chain packing in partially folded states of α-lactalbumins
+doi_10.1073_pnas.0500663102.html
+
+ Diacylglycerol kinase ι regulates Ras guanyl-releasing protein 3 and inhibits Rap1 signaling
+['EXC :: no_abstract: Biography of George W. Flynn', 'EXC :: no_keywords: Biography of George W. Flynn', 'EXC :: no_keywords: Diacylglycerol kinase ι regulates Ras guanyl-releasing protein 3 and inhibits Rap1 signaling']
+doi_10.1073_pnas.1600421113.html
+
+ Iontophoretic device delivery for the localized treatment of pancreatic ductal adenocarcinoma
+doi_10.1073_pnas.1600422113.html
+
+ Flexible, solid-state, ion-conducting membrane with 3D garnet nanofiber networks for lithium batteries
+doi_10.1073_pnas.1600424113.html
+
+ The Pseudomonas aeruginosa efflux pump MexGHI-OpmD transports a natural phenazine that controls gene expression and biofilm development
+doi_10.1073_pnas.1600428113.html
+
+ VgrG C terminus confers the type VI effector transport specificity and is required for binding with PAAR and adaptor–effector complex
+doi_10.1073_pnas.1600459113.html
+
+ Artemisinin activity-based probes identify multiple molecular targets within the asexual stage of the malaria parasites Plasmodium falciparum 3D7
+doi_10.1073_pnas.1600472113.html
+
+ Gold surfaces and nanoparticles are protected by Au(0)–thiyl species and are destroyed when Au(I)–thiolates form
+doi_10.1073_pnas.1600474113.html
+
+ Vitamin A-aldehyde adducts: AMD risk and targeted therapeutics
+doi_10.1073_pnas.1600476113.html
+
+ Apicomplexa-specific tRip facilitates import of exogenous tRNAs into malaria parasites
+doi_10.1073_pnas.1600483113.html
+
+ Budgerigars and zebra finches differ in how they generalize in an artificial grammar learning experiment
+doi_10.1073_pnas.1600485113.html
+
+ HIV-1 Vpr degrades the HLTF DNA translocase in T cells and macrophages
+doi_10.1073_pnas.1600486113.html
+
+ Nickel-pincer cofactor biosynthesis involves LarB-catalyzed pyridinium carboxylation and LarE-dependent sacrificial sulfur insertion
+doi_10.1073_pnas.1600488113.html
+
+ Broadly neutralizing epitopes in the Plasmodium vivax vaccine candidate Duffy Binding Protein
+doi_10.1073_pnas.1600489113.html
+
+ Tiny individuals attached to a new Silurian arthropod suggest a unique mode of brood care
+doi_10.1073_pnas.1101459108.html
+
+ Electronic properties of the highly ruffled heme bound to the heme degrading enzyme IsdI
+doi_10.1073_pnas.110145997.html
+
+ The ryanodine receptor is essential for larval development in Drosophila melanogaster
+['EXC :: no_keywords: The ryanodine receptor is essential for larval development in Drosophila melanogaster']
+doi_10.1073_pnas.1410434111.html
+
+ Reply to Brunet and Doolittle: Both selected effect and causal role elements can influence human biology and disease
+doi_10.1073_pnas.1410440111.html
+
+ Massive isotopic effect in vacuum UV photodissociation of N2 and implications for meteorite data
+doi_10.1073_pnas.1410442111.html
+
+ Evolution of a morphological novelty occurred before genome compaction in a lineage of extreme parasites
+doi_10.1073_pnas.1410443111.html
+
+ Fire responses to postglacial climate change and human impact in northern Patagonia (41–43°S)
+doi_10.1073_pnas.1410465111.html
+
+ Human population reduction is not a quick fix for environmental problems
+doi_10.1073_pnas.1410480111.html
+
+ Climate change decouples oceanic primary and export productivity and organic carbon burial
+doi_10.1073_pnas.1410488111.html
+
+ Sexual transfer of the steroid hormone 20E induces the postmating switch in Anopheles gambiae
+doi_10.1073_pnas.1410494111.html
+
+ Adaptive optoelectronic camouflage systems with designs inspired by cephalopod skins
+doi_10.1073_pnas.1410509112.html
+
+ Stochastic transitions into silence cause noise correlations in cortical circuits
+doi_10.1073_pnas.1410527111.html
+
+ Roboclam
+doi_10.1073_pnas.1410529111.html
+
+ Predictive energy landscapes for folding α-helical transmembrane proteins
+doi_10.1073_pnas.1410530111.html
+
+ Catecholamine-induced lipolysis causes mTOR complex dissociation and inhibits glucose uptake in adipocytes
+doi_10.1073_pnas.1410533111.html
+
+ Microtubules stabilize cell polarity by localizing rear signals
+doi_10.1073_pnas.1410534111.html
+
+ siRNAs from an X-linked satellite repeat promote X-chromosome recognition in Drosophila melanogaster
+doi_10.1073_pnas.1410551111.html
+
+ Shewanella oneidensis MR-1 nanowires are outer membrane and periplasmic extensions of the extracellular electron transport components
+['EXC :: no_abstract: Reply to Brunet and Doolittle: Both selected effect and causal role elements can influence human biology and disease', 'EXC :: no_keywords: Reply to Brunet and Doolittle: Both selected effect and causal role elements can influence human biology and disease', 'EXC :: no_abstract: Roboclam', 'EXC :: no_keywords: Roboclam']
+doi_10.1073_pnas.110146697.html
+
+ A sensitized genetic system for the analysis of murine B lymphocyte signal transduction pathways dependent on Bruton's tyrosine kinase
+doi_10.1073_pnas.1101469108.html
+
+ Observing Majorana bound states of Josephson vortices in topological superconductors
+doi_10.1073_pnas.110147097.html
+
+ Decoupled evolution of coding region and mRNA expression patterns after gene duplication: Implications for the neutralist-selectionist debate
+doi_10.1073_pnas.110147297.html
+
+ Operons in Escherichia coli: Genomic analyses and predictions
+doi_10.1073_pnas.1101478108.html
+
+ A yeast-based assay identifies drugs active against human mitochondrial disorders
+doi_10.1073_pnas.110148297.html
+
+ The silencing protein SIR2 and its homologs are NAD-dependent protein deacetylases
+doi_10.1073_pnas.1101488108.html
+
+ Postsynaptic P/Q-type Ca2+ channel in Purkinje cell mediates synaptic competition and elimination in developing cerebellum
+doi_10.1073_pnas.110149297.html
+
+ A bacterial two-hybrid selection system for studying protein–DNA and protein–protein interactions
+doi_10.1073_pnas.1101494108.html
+
+ Survival of starving yeast is correlated with oxidative stress response and nonrespiratory mitochondrial function
+doi_10.1073_pnas.110149597.html
+
+ Use of double-stranded RNA interference in Drosophila cell lines to dissect signal transduction pathways
+doi_10.1073_pnas.110149697.html
+
+ A confederacy of bunches: Fundamentals and applications of a self-associating protein
+doi_10.1073_pnas.1101497108.html
+
+ Breaking the regioselectivity rule for acrylate insertion in the Mizoroki–Heck reaction
+doi_10.1073_pnas.0602131103.html
+
+ Drusen, choroidal neovascularization, and retinal pigment epithelium dysfunction in SOD1-deficient mice: A model of age-related macular degeneration
+doi_10.1073_pnas.0602132103.html
+
+ Inner-sphere two-electron reduction leads to cleavage and functionalization of coordinated dinitrogen
+doi_10.1073_pnas.0602133103.html
+
+ Stabilization of cardiac ryanodine receptor prevents intracellular calcium leak and arrhythmias
+["EXC :: no_keywords: A sensitized genetic system for the analysis of murine B lymphocyte signal transduction pathways dependent on Bruton's tyrosine kinase", 'EXC :: no_keywords: Decoupled evolution of coding region and mRNA expression patterns after gene duplication: Implications for the neutralist-selectionist debate', 'EXC :: no_keywords: Operons in Escherichia coli: Genomic analyses and predictions', 'EXC :: no_keywords: The silencing protein SIR2 and its homologs are NAD-dependent protein deacetylases', 'EXC :: no_keywords: A bacterial two-hybrid selection system for studying protein–DNA and protein–protein interactions', 'EXC :: no_keywords: Use of double-stranded RNA interference in Drosophila cell lines to dissect signal transduction pathways', 'EXC :: no_abstract: A confederacy of bunches: Fundamentals and applications of a self-associating protein', 'EXC :: no_keywords: A confederacy of bunches: Fundamentals and applications of a self-associating protein']
+doi_10.1073_pnas.2017225118.html
+
+ Hydrogen sulfide is neuroprotective in Alzheimer’s disease by sulfhydrating GSK3β and inhibiting Tau hyperphosphorylation
+doi_10.1073_pnas.2017228118.html
+
+ Protein sequence design by conformational landscape optimization
+doi_10.1073_pnas.0708930105.html
+
+ Pharmacological disruption of calcium channel trafficking by the α2δ ligand gabapentin
+doi_10.1073_pnas.0708931105.html
+
+ Asymmetric segregation of protein aggregates is associated with cellular aging and rejuvenation
+doi_10.1073_pnas.0708940105.html
+
+ Anemia and splenomegaly in cGKI-deficient mice
+doi_10.1073_pnas.0708946104.html
+
+ The P2 capsid protein of the nonenveloped rice dwarf phytoreovirus induces membrane fusion in insect host cells
+doi_10.1073_pnas.0708947105.html
+
+ Respiratory metabolism of illuminated leaves depends on CO2 and O2 conditions
+doi_10.1073_pnas.0708950104.html
+
+ Correction for Bauer et al., A structural gap in Dpo4 supports mutagenic bypass of a major benzo[a]pyrene dG adduct in DNA through template misalignment
+doi_10.1073_pnas.0708951105.html
+
+ Cdx gene deficiency compromises embryonic hematopoiesis in the mouse
+doi_10.1073_pnas.0708957105.html
+
+ Investigations of valanimycin biosynthesis: Elucidation of the role of seryl-tRNA
+doi_10.1073_pnas.0708958105.html
+
+ A protein from the salivary glands of the pea aphid, Acyrthosiphon pisum, is essential in feeding on a host plant
+doi_10.1073_pnas.0708959104.html
+
+ Targeted polyphosphatase expression alters mitochondrial metabolism and inhibits calcium-dependent cell death
+doi_10.1073_pnas.0708960105.html
+
+ Reduction of IgG in nonhuman primates by a peptide antagonist of the neonatal Fc receptor FcRn
+doi_10.1073_pnas.0708963104.html
+
+ The discovery of kelp forests in deep-water habitats of tropical regions
+doi_10.1073_pnas.0708964104.html
+
+ A neurobiological basis for nicotine withdrawal
+doi_10.1073_pnas.0708965105.html
+
+ Prediction of human errors by maladaptive changes in event-related brain networks
+doi_10.1073_pnas.0708966105.html
+
+ Covalent capture of kinase-specific phosphopeptides reveals Cdk1-cyclin B substrates
+['EXC :: no_keywords: Pharmacological disruption of calcium channel trafficking by the α2δ ligand gabapentin', 'EXC :: no_abstract: The discovery of kelp forests in deep-water habitats of tropical regions', 'EXC :: no_keywords: The discovery of kelp forests in deep-water habitats of tropical regions', 'EXC :: no_abstract: A neurobiological basis for nicotine withdrawal', 'EXC :: no_keywords: A neurobiological basis for nicotine withdrawal']
+doi_10.1073_pnas.0912730107.html
+
+ TRPM1 is a component of the retinal ON bipolar cell transduction channel in the mGluR6 cascade
+doi_10.1073_pnas.0912734107.html
+
+ Scaling of morphogen gradients by an expansion-repression integral feedback control
+doi_10.1073_pnas.0912737107.html
+
+ Vaccinia-like cytoplasmic replication of the giant Mimivirus
+doi_10.1073_pnas.0912739107.html
+
+ A mechanical model of actin stress fiber formation and substrate elasticity sensing in adherent cells
+doi_10.1073_pnas.0912742107.html
+
+ Activation of mitochondrial ERK protects cancer cells from death through inhibition of the permeability transition
+doi_10.1073_pnas.0912748107.html
+
+ Phenotypic plasticity facilitates recurrent rapid adaptation to introduced predators
+doi_10.1073_pnas.0912765107.html
+
+ Dormancy contributes to the maintenance of microbial diversity
+doi_10.1073_pnas.0912766107.html
+
+ Loss of myeloid cell-derived vascular endothelial growth factor accelerates fibrosis
+doi_10.1073_pnas.0912769107.html
+
+ Autocatalysis and organocatalysis with synthetic structures
+doi_10.1073_pnas.0912771107.html
+
+ Ecosystem-based fisheries management requires a change to the selective fishing philosophy
+doi_10.1073_pnas.0708910104.html
+
+ PAX3-FOXO1 controls expression of the p57Kip2 cell-cycle regulator through degradation of EGR1
+doi_10.1073_pnas.0708916105.html
+
+ Melanocortin-2 receptor accessory protein MRAP forms antiparallel homodimers
+doi_10.1073_pnas.0708917105.html
+
+ Temporal activation of p53 by a specific MDM2 inhibitor is selectively toxic to tumors and leads to complete tumor growth inhibition
+doi_10.1073_pnas.0708921105.html
+
+ A rapid upward shift of a forest ecotone during 40 years of warming in the Green Mountains of Vermont
+doi_10.1073_pnas.0708927105.html
+
+ Internal body state influences topographical plasticity of sensory representations in the rat gustatory cortex
+[]
+doi_10.1073_pnas.0500664102.html
+
+ Giant-block twist grain boundary smectic phases
+doi_10.1073_pnas.0500670102.html
+
+ Quantitative kinetic analysis of the bacteriophage λ genetic network
+doi_10.1073_pnas.0500676102.html
+
+ Dual targeting of the protein disulfide isomerase RB60 to the chloroplast and the endoplasmic reticulum
+doi_10.1073_pnas.0500678102.html
+
+ Structure of human carboxypeptidase A4 with its endogenous protein inhibitor, latexin
+doi_10.1073_pnas.1804639115.html
+
+ Cultural impediments to learning to cooperate: An experimental study of high- and low-caste men in rural India
+doi_10.1073_pnas.1804641115.html
+
+ Dedifferentiation of caudate functional connectivity and striatal dopamine transporter density predict memory change in normal aging
+doi_10.1073_pnas.1804642115.html
+
+ Multiproxy evidence for leaf-browsing and closed habitats in extinct proboscideans (Mammalia, Proboscidea) from Central Chile
+doi_10.1073_pnas.1804643115.html
+
+ Distinct roles of prefrontal and parietal areas in the encoding of attentional priority
+doi_10.1073_pnas.1804649115.html
+
+ Consistent and powerful non-Euclidean graph-based change-point test with applications to segmenting random interfered video data
+doi_10.1073_pnas.1804651115.html
+
+ Correction for Ramus et al,. An invasive foundation species enhances multifunctionality in a coastal ecosystem
+doi_10.1073_pnas.1804655115.html
+
+ US nuclear power: The vanishing low-carbon wedge
+doi_10.1073_pnas.1804657115.html
+
+ Animal cognition research offers outreach opportunity
+doi_10.1073_pnas.1804659115.html
+
+ Profile of Alexander Y. Rudensky, winner of the 2018 Vilcek Prize in Biomedical Science
+doi_10.1073_pnas.1804663115.html
+
+ Positional specificity of different transcription factor classes within enhancers
+doi_10.1073_pnas.1804667115.html
+
+ Climate change and residential electricity consumption in the Yangtze River Delta, China
+['EXC :: no_abstract: Animal cognition research offers outreach opportunity', 'EXC :: no_keywords: Animal cognition research offers outreach opportunity', 'EXC :: no_abstract: Profile of Alexander Y. Rudensky, winner of the 2018 Vilcek Prize in Biomedical Science', 'EXC :: no_keywords: Profile of Alexander Y. Rudensky, winner of the 2018 Vilcek Prize in Biomedical Science']
+doi_10.1073_pnas.1804668115.html
+
+ ABC transporter content diversity in Streptococcus pneumoniae impacts competence regulation and bacteriocin production
+doi_10.1073_pnas.1804670115.html
+
+ Cell-based screen for discovering lipopolysaccharide biogenesis inhibitors
+doi_10.1073_pnas.1804671115.html
+
+ Synergistic O3 + OH oxidation pathway to extremely low-volatility dimers revealed in β-pinene secondary organic aerosol
+doi_10.1073_pnas.1804672115.html
+
+ Seroprevalence, risk factor, and spatial analyses of Zika virus infection after the 2016 epidemic in Managua, Nicaragua
+doi_10.1073_pnas.1804674115.html
+
+ Lymphocytic choriomeningitis virus Clone 13 infection causes either persistence or acute death dependent on IFN-1, cytotoxic T lymphocytes (CTLs), and host genetics
+doi_10.1073_pnas.1804698115.html
+
+ Diverse segments of the US public underestimate the environmental concerns of minority and low-income Americans
+doi_10.1073_pnas.0912678107.html
+
+ Epithelial-derived IL-33 and its receptor ST2 are dysregulated in ulcerative colitis and in experimental Th1/Th2 driven enteritis
+doi_10.1073_pnas.0912690107.html
+
+ Reversal of hippocampal neuronal maturation by serotonergic antidepressants
+doi_10.1073_pnas.0912701107.html
+
+ Identification of a microRNA signature of renal ischemia reperfusion injury
+doi_10.1073_pnas.0912704107.html
+
+ Progression from a stem cell–like state to early differentiation in the C. elegans germ line
+doi_10.1073_pnas.0912708107.html
+
+ A pathway-based classification of human breast cancer
+doi_10.1073_pnas.0912710107.html
+
+ HOXB9, a gene overexpressed in breast cancer, promotes tumorigenicity and lung metastasis
+doi_10.1073_pnas.0912716107.html
+
+ Energy levels of few-electron quantum dots imaged and characterized by atomic force microscopy
+doi_10.1073_pnas.0912717107.html
+
+ Neutrophil spontaneous death is mediated by down-regulation of autocrine signaling through GPCR, PI3Kγ, ROS, and actin
+doi_10.1073_pnas.0912718107.html
+
+ No difference in kinetics of tau or histone phosphorylation by CDK5/p25 versus CDK5/p35 in vitro
+[]
+doi_10.1073_pnas.0708967105.html
+
+ Probing concerted proton–electron transfer in phenol–imidazoles
+doi_10.1073_pnas.0708968104.html
+
+ Blockade of NKG2D on NKT cells prevents hepatitis and the acute immune response to hepatitis B virus
+doi_10.1073_pnas.0708970104.html
+
+ AMPA receptors and stargazin-like transmembrane AMPA receptor-regulatory proteins mediate hippocampal kainate neurotoxicity
+doi_10.1073_pnas.0708974105.html
+
+ Laminopathic mutations interfere with the assembly, localization, and dynamics of nuclear lamins
+doi_10.1073_pnas.2017184118.html
+
+ Ligand effects on phase separation of multivalent macromolecules
+doi_10.1073_pnas.2017185118.html
+
+ The evolution of developmental thresholds and reaction norms for age and size at maturity
+doi_10.1073_pnas.2017197117.html
+
+ Reply to Patella et al. and Lindestam Arlehamn et al.: Complex pandemic dynamics and effect of bacillus Calmette–Guérin (BCG) vaccination on COVID-19 prevalence and mortality
+doi_10.1073_pnas.2017201118.html
+
+ β2-adrenoceptor ligand efficacy is tuned by a two-stage interaction with the Gαs C terminus
+doi_10.1073_pnas.2017202117.html
+
+ Correction for Cauchois et al., Early IL-1 receptor blockade in severe inflammatory respiratory failure complicating COVID-19
+doi_10.1073_pnas.2017204117.html
+
+ Reply to Wang et al.: Tocilizumab treatment should be used in a timely manner, at suitable dose, and in suitable patients
+doi_10.1073_pnas.2017205118.html
+
+ Seipin accumulates and traps diacylglycerols and triglycerides in its ring-like structure
+doi_10.1073_pnas.2017213118.html
+
+ Astrocytes lure CXCR2-expressing CD4+ T cells to gray matter via TAK1-mediated chemokine production in a mouse model of multiple sclerosis
+doi_10.1073_pnas.2017214117.html
+
+ Absolute ion hydration free energy scale and the surface potential of water via quantum simulation
+doi_10.1073_pnas.2017221117.html
+
+ Neonicotinoids pose undocumented threats to food webs
+doi_10.1073_pnas.2017224118.html
+
+ Discrimination and anxiety: Using multiple polygenic scores to control for genetic liability
+['EXC :: no_keywords: Blockade of NKG2D on NKT cells prevents hepatitis and the acute immune response to hepatitis B virus', 'EXC :: no_abstract: Reply to Patella et al. and Lindestam Arlehamn et al.: Complex pandemic dynamics and effect of bacillus Calmette–Guérin (BCG) vaccination on COVID-19 prevalence and mortality', 'EXC :: no_keywords: Reply to Patella et al. and Lindestam Arlehamn et al.: Complex pandemic dynamics and effect of bacillus Calmette–Guérin (BCG) vaccination on COVID-19 prevalence and mortality', 'EXC :: no_abstract: Reply to Wang et al.: Tocilizumab treatment should be used in a timely manner, at suitable dose, and in suitable patients', 'EXC :: no_keywords: Reply to Wang et al.: Tocilizumab treatment should be used in a timely manner, at suitable dose, and in suitable patients', 'EXC :: no_abstract: Neonicotinoids pose undocumented threats to food webs', 'EXC :: no_keywords: Neonicotinoids pose undocumented threats to food webs']

@@ -2,10 +2,11 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-file = "unnamed.pickle"
+file = "ehs_ner.pickle"
 df_ner = pd.read_pickle(file)
 
 print(df_ner.keys())
+
 entity_tag_counts = df_ner.groupby(['Entity', 'Tag']).size().reset_index(name='Count')
 print(entity_tag_counts)
 entity_tag_counts.to_pickle("{}_entity_tag_counts.pickle".format(file.split("_")[0]))

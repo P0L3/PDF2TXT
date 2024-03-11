@@ -2,7 +2,7 @@ import pandas as pd
 from os import listdir
 from tqdm import tqdm
 
-j = "unnamed"
+j = "full"
 
 files = [f for f in listdir() if f.startswith(j)]
 print(files)
