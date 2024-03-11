@@ -1,0 +1,15 @@
+Total number of sentences:  2406799
+                                              Sentence  ...                                               Tail
+0    Edited by I. M. Singer, Massachusetts Institut...  ...                                    August 22, 2006
+1    Edited by I. M. Singer, Massachusetts Institut...  ...                                                  X
+2    Edited by I. M. Singer, Massachusetts Institut...  ...  a Spinℂ manifold with boundary, such that the ...
+3    Edited by I. M. Singer, Massachusetts Institut...  ...                            near the boundary by an
+4    Edited by I. M. Singer, Massachusetts Institut...  ...                           complex structure, which
+..                                                 ...  ...                                                ...
+292  To proceed we consider the comparison operator...  ...                                               this
+293  To proceed we consider the comparison operator...  ...                                                 us
+294  To proceed we consider the comparison operator...  ...                           the projectors ℛ±eo that
+295  To proceed we consider the comparison operator...  ...                                                the
+296  To proceed we consider the comparison operator...  ...  ∂̄–Neumann boundary conditions with the Calder...
+
+[297 rows x 4 columns]
