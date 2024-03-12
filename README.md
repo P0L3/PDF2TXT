@@ -127,4 +127,5 @@ paper_data = {
 
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
 
-## [POS and NER reports](/PDF_TXT/REPORTS/pos_ner.md)
+## [POS and NER reports](/PDF_TXT/REPORTS/10ksample_report.md)
+

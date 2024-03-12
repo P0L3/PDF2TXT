@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv("triples_full.csv", nrows=1000000)
+df = pd.read_csv("triples_full.csv", nrows=10000000)
 
 # def to_lower
 
@@ -28,7 +28,8 @@ for i in (10**p for p in range(1, 8)):
 # plt.xlim([0, maxi])
 
 # plt.show()
-    
+
+print("Growth of unique relations (verbs): ", t2rr)
 
 plt.title("Number of unique relations vs number of triples")
 plt.xlabel("X Axis Label")
@@ -38,28 +39,3 @@ plt.plot(range(len(t2rr)), [i[1] for i in t2rr])
 plt.tick_params(axis='both', which='major', labelbottom=False)
 plt.show()
     
-# Extract x and y data for bar plot
-# x = [i[0] for i in t2rr]
-# y1 = [i[0] for i in t2rr]
-# y2 = [i[1] for i in t2rr]
-
-# # Width of each bar
-# bar_width = 0.35
-
-# # Set the positions of the bars on the x-axis
-# r1 = np.arange(len(x))
-# r2 = [x + bar_width for x in r1]
-
-# plt.figure(figsize=(10, 6))
-# plt.bar(r1, y1, color='skyblue', width=bar_width, edgecolor='grey', label='Number of Triples')
-# plt.bar(r2, y2, color='orange', width=bar_width, edgecolor='grey', label='Number of Unique Relations')
-
-# # Add xticks on the middle of the group bars
-# plt.xlabel('Number of Triples', fontweight='bold')
-# plt.ylabel('Count', fontweight='bold')
-# plt.xticks([r + bar_width/2 for r in range(len(x))], x)
-
-# # Create legend & Show graphic
-# plt.legend()
-# plt.title('Number of unique relations vs number of triples')
-# plt.show()

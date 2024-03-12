@@ -10,3 +10,5 @@ PDF_TXT/REPORTS/*.pickle
 PDF_TXT/REPORTS/*.csv
 !PDF_TXT/REPORTS/*_ner.pickle
 !PDF_TXT/REPORTS/*_pos.pickle
+*.csv
+PDF_TXT/REPORTS/OLD/

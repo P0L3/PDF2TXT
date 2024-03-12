@@ -26,10 +26,16 @@ df = pd.read_pickle("/PDF_TXT/RESULTS/ED4RE/full_title_content.pickle")
 
 splitter = SegtokSentenceSplitter()
 def number_of_sentences(content):
-    sentences = splitter.split(content)
-    return len(sentences)
-# tqdm.pandas()
+    if len(content) < 100:
+        return 0
+    else:
+        try:
+            sentences = splitter.split(content)
+            return len(sentences)
+        except:
+            return -1
+tqdm.pandas()
 # df["Content"].progress_apply(number_of_sentences)
-df["N_sentences"] = SeriesParallel(df["Content"], n_cores=10).apply(number_of_sentences)
+df["N_sentences"] = df["Content"].progress_apply(number_of_sentences)
 
 df[["Title", "N_sentences"]].to_pickle("/PDF_TXT/RESULTS/ED4RE/full_sentence_number.pickle")
