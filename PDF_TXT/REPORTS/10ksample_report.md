@@ -25,5 +25,11 @@ Average number of nouns per NER sentence:     8.708636613266563
 Average number of entites per sentence:       2.0446005610607405
 Average number of entites per all sentences:  0.744035958133604
 Average number of verbs per sentence:         2.465909699979101
+Total number of noun phrases:                 16209808
+Total number of unique noun phrases:          3727803
+Total number of verb phrases:                 5934949
+Total number of unique verb phrases:          486632
+Total number of triples:                      5529110
+Total number of unique triples:               5333279
 ```
 
