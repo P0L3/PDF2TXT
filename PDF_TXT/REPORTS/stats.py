@@ -6,14 +6,14 @@ import pandas as pd
 from tqdm import tqdm
 
 ### NER
-unnamed = pd.read_pickle("unnamed.pickle")
+# unnamed = pd.read_pickle("unnamed.pickle")
 
-# Total number of sentences by NER
-total_number_sentences_ner = len(set(unnamed['Sentence']))
-total_entites = len(unnamed['Sentence'])
-unique_sentences_ner = list(dict.fromkeys(unnamed['Sentence']))
+# # Total number of sentences by NER
+# total_number_sentences_ner = len(set(unnamed['Sentence']))
+# total_entites = len(unnamed['Sentence'])
+# unique_sentences_ner = list(dict.fromkeys(unnamed['Sentence']))
 
-del unnamed
+# del unnamed
 
 ### POS
 ## Assesing total number of sentences and number of papers
@@ -30,9 +30,9 @@ for nouns, verbs, sentence in tqdm(zip(poss_full['Nouns'], poss_full['Verbs'], p
     total_nouns += len(nouns)
     total_verbs += len(verbs)
 
-    if sentence in unique_sentences_ner:
-        total_nouns_ner += len(nouns)
-        unique_sentences_ner.pop(0)
+    # if sentence in unique_sentences_ner:
+    #     total_nouns_ner += len(nouns)
+    #     unique_sentences_ner.pop(0)
 
 # Calculate the average number of nouns and verbs per sentence
 average_nouns_per_sentence_pos = total_nouns / total_number_sentences_pos
@@ -43,17 +43,17 @@ del poss_full
 
 ### NER
 # Calculate the average number
-average_number_per_sentence_ner = total_entites / total_number_sentences_ner
-average_number_per_allsentence_ner = total_entites / total_number_sentences_pos
+# average_number_per_sentence_ner = total_entites / total_number_sentences_ner
+# average_number_per_allsentence_ner = total_entites / total_number_sentences_pos
 
 ### NER/POS
-average_number_per_sentence_posner = total_nouns_ner / total_number_sentences_ner
+# average_number_per_sentence_posner = total_nouns_ner / total_number_sentences_ner
 
 # Print the results
 print("Total number of sentences pos tagged:        ", total_number_sentences_pos)
-print("Total number of sentences ner tagged:        ", total_number_sentences_ner)
+# print("Total number of sentences ner tagged:        ", total_number_sentences_ner)
 print("Average number of nouns per sentence:        ", average_nouns_per_sentence_pos)
-print("Average number of nouns per NER sentence:    ", average_number_per_sentence_posner)
-print("Average number of entites per sentence:      ", average_number_per_sentence_ner)
-print("Average number of entites per all sentences: ", average_number_per_allsentence_ner)
+# print("Average number of nouns per NER sentence:    ", average_number_per_sentence_posner)
+# print("Average number of entites per sentence:      ", average_number_per_sentence_ner)
+# print("Average number of entites per all sentences: ", average_number_per_allsentence_ner)
 print("Average number of verbs per sentence:        ", average_verbs_per_sentence_pos)

@@ -1,0 +1,182 @@
+is & 267091 \\
+are & 108651 \\
+was & 60415 \\
+using & 55880 \\
+However & 44916 \\
+were & 40851 \\
+respectively & 33864 \\
+used & 29373 \\
+compared & 27206 \\
+shows & 27169 \\
+has & 24792 \\
+observed & 24034 \\
+including & 23473 \\
+based & 23387 \\
+showed & 22703 \\
+’s & 22429 \\
+show & 21578 \\
+have & 20772 \\
+found & 20300 \\
+increased & 20021 \\
+only & 18925 \\
+
+
+as well & 19978 \\
+is not & 9361 \\
+may be & 8727 \\
+was supported & 8307 \\
+are shown & 7242 \\
+not shown & 6552 \\
+was used & 6541 \\
+is also & 5826 \\
+were used & 5801 \\
+was observed & 5446 \\
+is shown & 5363 \\
+to be & 5252 \\
+were obtained & 4836 \\
+was performed & 4819 \\
+to determine & 4504 \\
+is more & 4167 \\
+were performed & 4121 \\
+are not & 4047 \\
+would be & 3923 \\
+have shown & 3780 \\
+were collected & 3737 \\
+
+
+can be seen & 3294 \\
+should be addressed & 2764 \\
+can be found & 2396 \\
+can be used & 1671 \\
+should be noted & 1609 \\
+may be addressed & 1585 \\
+have been deposited & 1463 \\
+can be obtained & 1139 \\
+appears to be & 1097 \\
+was performed using & 1024 \\
+can be explained & 970 \\
+may not be & 968 \\
+can be expressed & 887 \\
+can be observed & 877 \\
+has been reported & 874 \\
+has been shown & 802 \\
+can be calculated & 790 \\
+did not affect & 790 \\
+have been identified & 779 \\
+can be attributed & 740 \\
+were performed using & 732 \\
+
+
+was found to be & 704 \\
+would like to thank & 508 \\
+were found to be & 427 \\
+was used to determine & 415 \\
+is assumed to be & 387 \\
+is considered to be & 313 \\
+was used to calculate & 311 \\
+has been widely used & 259 \\
+is expected to be & 246 \\
+was estimated to be & 241 \\
+were used to calculate & 231 \\
+was used to measure & 230 \\
+was assumed to be & 224 \\
+were used to determine & 217 \\
+is estimated to be & 212 \\
+is found to be & 207 \\
+is thought to be & 207 \\
+are considered to be & 206 \\
+was used to analyze & 203 \\
+are assumed to be & 181 \\
+was used to estimate & 180 \\
+
+
+has been shown to be & 275 \\
+have been shown to be & 142 \\
+can be used to estimate & 125 \\
+would also like to thank & 109 \\
+can be used to predict & 91 \\
+can be used to identify & 82 \\
+has been found to be & 80 \\
+does not appear to be & 68 \\
+can be used to calculate & 68 \\
+can be used to determine & 68 \\
+could have appeared to influence & 65 \\
+can be used to evaluate & 64 \\
+has been shown to have & 62 \\
+can be used to study & 62 \\
+can be used to assess & 59 \\
+does not seem to be & 59 \\
+have been shown to have & 57 \\
+have been found to be & 55 \\
+has been shown to increase & 52 \\
+have been proposed to explain & 50 \\
+can be considered to be & 46 \\
+
+
+has been shown to be involved & 19 \\
+should not be taken too literally & 13 \\
+has also been shown to be & 13 \\
+has been reported to be involved & 12 \\
+have been shown to be involved & 12 \\
+has been widely used to study & 10 \\
+has been shown to be required & 10 \\
+has been shown to be associated & 10 \\
+have been shown to be associated & 9 \\
+have been shown to be more & 8 \\
+has been shown to be highly & 8 \\
+has recently been shown to be & 7 \\
+has been widely used to identify & 7 \\
+has also been found to be & 7 \\
+have been widely used to assess & 7 \\
+was found to be positively correlated & 7 \\
+has been suggested to be involved & 6 \\
+have been shown to be related & 6 \\
+has been shown to be regulated & 6 \\
+have been found to be more & 6 \\
+have also been shown to be & 6 \\
+
+
+has been shown to be positively correlated & 3 \\
+has also been shown to be involved & 3 \\
+mentioned above can then be understood simply & 3 \\
+to be drawn are believed to be & 3 \\
+have been shown to be strongly associated & 3 \\
+has also been reported to be involved & 3 \\
+was found to be significantly positively related & 3 \\
+should be actively contacted to obtain more & 2 \\
+need to be trained to train lay & 2 \\
+has also previously been used to study & 2 \\
+may not be fast enough to keep & 2 \\
+did not appear to be significantly affected & 2 \\
+were reproduced almost exactly can be explained & 2 \\
+needs to be met is gradually deforming & 2 \\
+will be used not only to calculate & 2 \\
+may be considered to represent strongly descending & 2 \\
+does not appear to have been affected & 2 \\
+has been shown to more strongly represent & 2 \\
+were not always recorded accurately — tabulated & 2 \\
+are going to be used to obtain & 2 \\
+has been found to be closely related & 2 \\
+
+
+truly would have been significantly declining is extremely & 2 \\
+has to be carefully managed to avoid worsening & 1 \\
+could then be applied elsewhere to identify emerging & 1 \\
+is expected to continue to depend more strongly & 1 \\
+was previously noted to be emitted more strongly & 1 \\
+seems more predisposed to be used to detect & 1 \\
+are additionally screened to remove potentially cloud contaminated & 1 \\
+cheat more seem to be driven more strongly & 1 \\
+have been measured so far are not as & 1 \\
+have not yet been shown to be required & 1 \\
+have not been exclusively addressed so far using & 1 \\
+occurring concurrently have yet to be probed unambiguously & 1 \\
+is supposed to be extracted to temporally alleviate & 1 \\
+have been used extensively to successfully recover highly & 1 \\
+have also recently been used to phenotypically correct & 1 \\
+can no longer be considered solely to be & 1 \\
+is designed not only to actively eradicate existing & 1 \\
+have been put forward here are even more & 1 \\
+have been presented before can be included here & 1 \\
+to be compensated will have to be based & 1 \\
+are widely shared have tended to be more & 1 \\

@@ -1,0 +1,625 @@
+
+Top 50 noun phrases with (1 words):
+the	205,685
+a	78,714
+this	51,495
+1	37,595
+2	29,195
+data	24,962
+that	23,472
+those	22,015
+such	21,800
+addition	20,902
+i.e.	20,685
+3	19,837
+one	19,375
+consistent	18,599
+c	18,403
+p	18,101
+t	17,330
+cells	16,998
+results	16,290
+similar	16,193
+4	15,813
+changes	15,666
+e.g.	15,456
+precipitation	15,163
+5	15,128
+example	14,729
+contrast	14,082
+water	13,820
+b	13,182
+time	12,893
+all	12,862
+an	12,700
+10	12,210
+temperature	11,869
+s	11,636
+n	11,592
+higher	11,543
+6	11,505
+important	11,438
+available	11,426
+d	10,946
+more	10,803
+r	10,609
+7	10,293
+8	10,187
+order	10,108
+likely	10,021
+these	9,809
+china	9,753
+each	9,654
+
+Top 50 noun phrases with (2 words):
+this study	28,914
+si appendix	23,542
+the results	20,506
+the number	16,034
+the model	15,671
+the presence	14,187
+table 1	13,144
+this work	11,452
+the data	10,638
+the authors	10,144
+the effect	9,741
+these results	9,237
+this paper	9,146
+table 2	8,146
+the case	7,776
+the effects	7,701
+climate change	7,632
+an increase	7,187
+the absence	6,923
+the use	6,823
+the difference	6,800
+fig. 1	6,747
+the study	6,624
+a result	6,581
+figure 1	6,571
+the surface	6,556
+the impact	6,316
+the analysis	6,084
+figure 2	5,886
+the region	5,876
+the development	5,714
+the increase	5,682
+figure 3	5,679
+fig. 2	5,639
+the atmosphere	5,568
+previous studies	5,548
+the relationship	5,534
+the influence	5,394
+table 3	5,352
+figure 4	5,266
+the amount	5,210
+the role	5,161
+no conflict	5,159
+the fact	5,102
+fig. 3	5,068
+the area	4,979
+the manuscript	4,975
+the range	4,966
+the formation	4,925
+the distribution	4,916
+
+Top 50 noun phrases with (3 words):
+the other hand	5,417
+the study area	4,049
+the present study	3,789
+37 ° c	2,564
+4 ° c	2,540
+the same time	2,441
+an important role	2,336
+the united states	2,065
+the time series	2,056
+p < 0.001	1,982
+the total number	1,847
+a wide range	1,745
+the national academy	1,646
+the north atlantic	1,629
+the spatial distribution	1,603
+p < 0.05	1,553
+a large number	1,376
+the standard deviation	1,277
+the northern hemisphere	1,249
+the indian ocean	1,095
+the study period	1,091
+p < 0.01	1,070
+25 ° c	1,011
+the north pacific	985
+the current study	979
+wang et al	977
+30 ° c	939
+the plasma membrane	905
+the boundary layer	902
+20 ° c	897
+the upper troposphere	892
+fig. 2 a	881
+the southern hemisphere	876
+the dry season	827
+the southern ocean	823
+the lower troposphere	819
+a significant increase	813
+the national institutes	807
+zhang et al	798
+fig. 3 a	785
+vol / vol	778
+no significant difference	777
+the correlation coefficient	757
+the annual cycle	751
+the diurnal cycle	745
+fig. 1 a	741
+the tropical pacific	725
+1 – 3	716
+the active site	708
+the interannual variability	703
+
+Top 50 noun phrases with (4 words):
+the pnas web site	1,235
+— original draft preparation	768
+the national science foundation	550
+h tt p s	473
+this open access article	462
+the protein data bank	428
+c o m /	336
+the south china sea	305
+a pnas direct submission	287
+the western north pacific	284
+the western united states	264
+national natural science foundation	259
+the north atlantic oscillation	216
+the eastern united states	212
+the eastern equatorial pacific	211
+the manufacturer 's instructions	210
+95 % confidence intervals	209
+root mean square error	204
+the yangtze river basin	189
+the latent heat flux	188
+the institutional animal care	187
+the online supplemental material	184
+the atmospheric boundary layer	180
+the tropical indian ocean	176
+the central nervous system	171
+the southeastern united states	170
+protein – protein interactions	170
+a significant positive correlation	167
+the intertropical convergence zone	167
+the 5 % level	165
+this direct submission article	165
+the national key research	155
+c57bl / 6 mice	152
+the sensible heat flux	151
+the last two decades	150
+the north atlantic ocean	150
+air – sea coupling	149
+the advanced photon source	149
+the soil moisture content	148
+the yellow river basin	146
+s l i ce	146
+the past few decades	144
+the sea surface temperature	143
+the 95 % level	142
+the last few decades	141
+the southwestern united states	138
+the national cancer institute	135
+the intramural research program	134
+the eastern tropical pacific	133
+biological sciences research council	132
+
+Top 50 noun phrases with (5 words):
+the national natural science foundation	763
+the pnas open access option	604
+creative commons attribution-noncommercial-noderivatives license 4.0	508
+the howard hughes medical institute	313
+the 95 % confidence level	296
+new reagents / analytic tools	222
+copyright © 2022 the author	180
+creative commons attribution license 4.0	160
+copyright © 2023 the author	160
+the coupled model intercomparison project	157
+the 95 % confidence interval	153
+the root mean square error	148
+the b ‐ j region	129
+the ncep – ncar reanalysis	119
+the swiss national science foundation	108
+5 s – 5 n	108
+fig. 3 a – c	102
+the 99 % confidence level	101
+fig. 2 a – c	101
+the 90 % confidence level	99
+the madden – julian oscillation	98
+fig. 4 a – c	93
+the moderate resolution imaging spectroradiometer	84
+the tropical rainfall measuring mission	82
+the 95 % confidence intervals	79
+fig. 1 a – c	79
+the c / n ratio	76
+− 1 year − 1	76
+the global precipitation climatology project	75
+fig. 5 a – c	74
+the net surface heat flux	74
+fig. 2 a – d	74
+copyright © 2021 the author	73
+the world climate research programme	73
+the qinghai – tibet plateau	73
+copyright © 2019 the author	71
+a 95 % confidence interval	71
+copyright © 2018 the author	69
+the western pacific warm pool	67
+the east asian summer monsoon	67
+the strategic priority research program	66
+the normalized difference vegetation index	65
+the european synchrotron radiation facility	65
+10 s – 10 n	64
+a 95 % confidence level	63
+the water – energy nexus	63
+fig. 2 b – d	58
+the u.s. environmental protection agency	54
+the zonal mean zonal wind	53
+fig. 3 b – d	53
+
+Top 50 noun phrases with (6 words):
+f r ij e k a	425
+the gene expression omnibus ( geo	148
+[ 01 / 11 / 2023	115
+[ 26 / 10 / 2023	96
+[ 30 / 10 / 2023	69
+centre national de la recherche scientifique	57
+[ 31 / 10 / 2023	53
+el ni o – southern oscillation	52
+the international satellite cloud climatology project	50
+[ 27 / 10 / 2023	50
+f d q 0 g /	41
+10 % ( vol / vol	39
+the meis1 / 2 cko retina	38
+the sand – attapulgite cut-off wall	37
+[ 02 / 11 / 2023	37
+h o + 2 * ch	36
+the a3 −/− a8 −/− mice	36
+the tropical western north pacific ocean	35
+the replacement block – stone subgrade	31
+the ncep – ncar reanalysis data	31
+the late 1940s / early 1950s	29
+the land – sea thermal contrast	29
+the yangtze river delta urban agglomeration	28
+a 12-h light / dark cycle	28
+4 % ( wt / vol	28
+the united states environmental protection agency	26
+the agence nationale de la recherche	25
+the 150 – 90 w domain	25
+[ 29 / 10 / 2023	25
+severe acute respiratory syndrome coronavirus 2	25
+the intrastrial fluid – blood barrier	24
+[ 03 / 11 / 2023	24
+the european union seventh framework programme	23
+the small signal stability region boundary	23
+the 2015 – 2016 el niño	22
+reagents / materials / analysis tools	22
+the eunice kennedy shriver national institute	22
+1029 / 2022 j d 037276	22
+lcz 1 / 2 / 3	22
+crespc / hoil-1lfl / fl mice	21
+10 − 3 s − 1	21
+1029 / 2023 j d 039115	21
+the median age – depth model	20
+the wnt / β-catenin signaling pathway	20
+the second tibetan plateau scientific expedition	20
+o l u e n e	20
+the fondation pour la recherche médicale	20
+the defense advanced research projects agency	20
+5 % ( vol / vol	19
+10 − 4 s − 1	19
+
+Top 50 noun phrases with (7 words):
+u n i v e r s	469
+5 ° s – 5 ° n	78
+the centre national de la recherche scientifique	76
+the european union ’s horizon 2020 research	55
+the coupled model intercomparison project phase 5	50
+m − 2 · s − 1	28
+5 ° n – 5 ° s	27
+the beijing – tianjin – hebei region	27
+the national energy research scientific computing center	25
+a national science foundation graduate research fellowship	25
+m − 2 · y − 1	24
+10 ° s – 10 ° n	24
+the noaa / oar / esrl psd	23
+conselho nacional de desenvolvimento científico e tecnológico	23
+/ psd / data / gridded /	22
+95 % o2 / 5 % co2	21
+the norway – guyana redd + program	20
+cm − 2 · s − 1	20
+1.5 ° c – 4 ° c	19
+water salinity desalination polymer quality control check	18
+a v e r a g e	18
+30 ° s – 30 ° n	17
+the european community ’s seventh framework programme	17
+the gt _ ats _ 2p product	17
+the coupled model intercomparison project phase 6	17
+c o s t s a v	17
+m − 2 · h − 1	16
+m − 2 ⋅ s − 1	16
+10,000 m2 · ha − 1 )	16
+15 ° s – 15 ° n	15
+the small signal stability region boundary model	15
+t e s t s e t	14
+the initial impervious area + 20 %	14
+0 0 0 0 0 0 0	14
+associazione italiana per la ricerca sul cancro	14
+a p p u t i l	13
+ill tg8015 / prnp0 / 0 mice	13
+the slow5 fsd dmn / smn ratio	13
+the ac system backup protection setting calculation	12
+m − 2 · d − 1	12
+lasv 0043 / lv / 14 infection	12
+2 mg · l − 1 2	12
+20 ° s – 50 ° n	12
+the met office hadley centre sea ice	11
+a 12-h light / 12-h dark cycle	11
+the replacement block – stone subgrade structure	11
+fundação para a ciência e a tecnologia	11
+the debian gnu / linux operating system	11
+the hybrid lfp / graphite-20 % electrode	11
+the 27 june 1995 rapidan river basin	11
+
+Top 50 noun phrases with (8 words):
+li n e li b r a r	934
+l o a d e d fr o	44
+the cu – ce @ az ozone catalyst	24
+t r a i n s e t	14
+the association pour la recherche sur le cancer	14
+k a t t g e et al	13
+10 − 3 m2 · kg − 1	13
+− 1 h − 1 year − 1	12
+/ products / precip / cwlink / daily	11
+coordenação de aperfeiçoamento de pessoal de nível superior	10
+the national science foundation graduate research fellowship program	10
+the 90 ( 95 ) % confidence level	9
+i690c / g743c meth ( 649 – 1227	9
+p o t t e r et al	9
+va n w i j k et al	8
+the hybrid material l.c + 4 % zn2	8
+f l e s s a et al	7
+the zhouqu “ 8.8 ” debris flow dam	7
+b e l n a p et al	7
+the cd4 + cd25 + t cell population	7
+1012 pa · s · m − 3	7
+ministero dell'universitá e della ricerca scientifica e tecnologica	6
+g e r t e n et al	6
+v e r t i c a l	6
+− 1 h − 1 month − 1	6
+h a r d e n et al	6
+w a h r e n et al	6
+u n g a u g e d	6
+/ forecasts / datasets / reanalysis-datasets / era5	6
+l e n o i r et al	6
+matrix-assisted laser desorption / ionization time-of-flight mass spectrometry	6
+1 n t 2 2 1 « t	6
+5 n t 2 2 1 « t	6
+cl − = 22.11 g l − 1	6
+o l e f e l d t	6
+the period april – november 1958 – 2002	6
+the local asymmetric o – h bond coordinate	6
+f i s h e r et al	6
+the summer north atlantic dipole sst anomaly pattern	5
+cl − = 21.11 g l − 1	5
+the day 3.5 cd326 − cd56 + population	5
+a superdex 200 10 / 300 gl column	5
+i r v i n e et al	5
+s c h e r r e r	5
+1 μci ( 1 ci = 37 gbq	5
+h o b b i e et al	5
+f h 2 f d v 0 g	5
+r o b i n s o n	5
+/ database / metacat / bikf.10018.1 / bikf	5
+g e i d e r et al.	5
+
+Top 50 noun phrases with (9 words):
+c · m − 2 · y − 1	20
+c u m u e r r o r	20
+the coupled model intercomparison project phase 5 ( cmip5	13
+o d e l - a s s i	13
+on li n e li b r a r	12
+b o n d e a u et al	12
+s c h w a l m et al	12
+institut de génétique et de biologie moléculaire et cellulaire	11
+m l a u g h l i n	10
+the coordenação de aperfeiçoamento de pessoal de nível superior	10
+p r e d i c t e d	8
+n l o a d e d fr o	7
+p. f r e i e r et al	7
+s t r u c t u r e	6
+a ruth l. kirschstein national research service award fellowship	6
+k e i s t e r et al	6
+vi − vstep / 2 ≤ vw2k < vi	6
+l a n g n e r et al	5
+the water framework directive 2000 / 60 / ec	5
+the saint paul — ramsey health center monitoring site	5
+the h o + 2 * ch time series	5
+2 mm mes / koh buffer ( ph 6.2	5
+the region 16 < x / b < 23	5
+4940 j · kg − 1 ) = 4.94	5
+d a h 2 f d v 0 g	5
+u c c e s s e s i	5
+v e r b u r g et al	5
+k o k f e l t et al	5
+the 1997 / 98 el nin ˜ o event	5
+n e p s t a d et al	5
+the pka-c / amp-pnp / pki5 – 24 complex	5
+1 r )[ 1 3 r ( 1 r	5
+the 3 g · kg − 1 cao treatment	5
+m m i l l a n et al	5
+s / l ratio 1 mg / 10 ml	4
+the fonds de la recherche en santé du québec	4
+o r e c a s t e d	4
+a 7 %– 21 %– 7 % o2 stimulus	4
+p i 2 f h 2 u ( cid	4
+d f h 2 f d v 0 g	4
+b3lyp / 6 – 31 + g ( d,p	4
+a 2 b v 3 c v ) v	4
+0.86 g c m − 2 d − 1	4
+the umuc / dinb / rev1 / rad30 family	4
+= 1 ( 0 – 10 μg / l	4
+the ministère de l'enseignement supérieur et de la recherche	4
+the nesterov gradient descent jaccardized deep multilayer perceptive classifier	4
+p r e c i s i o n	4
+the li – wu – luo method ( 34	4
+a 4:1 h o / ch random error ratio	4
+
+Top 50 noun phrases with (10 words):
+s l i ce n s e page 8 journal	35
+s l i ce n s e page 11 journal	28
+s l i ce n s e page 7 journal	27
+s l i ce n s e page 12 journal	24
+s l i ce n s e page 9 journal	24
+institut national de la santé et de la recherche médicale	24
+n l o a d e d fr o m	24
+s l i ce n s e page 13 journal	23
+s l i ce n s e page 14 journal	18
+10 − 12 cm3 molecules − 1 s − 1	17
+s l i ce n s e page 15 journal	16
+s l i ce n s e page 6 journal	16
+s l i ce n s e page 16 journal	14
+s l i ce n s e page 17 journal	14
+10 − 17 cm3 molecules − 1 s − 1	10
+s l i ce n s e page 5 journal	9
+s c h a ¨ f e r et al	9
+− 2 · h − 1 · a − 1	9
+s l i ce n s e page 10 journal	7
+m o l i n e r o et al	7
+r o d e g h i e r o	7
+b e a u l i e u et al	7
+s l i ce n s e page 18 journal	6
+/ en / forecasts / datasets / reanalysis-datasets / era5	6
+10 12 atoms c cm − 2 s − 1	6
+b u y a n o v s k y	6
+g a l b a l l y et al	6
+) 1 / 3 / 𝑈10q0d1 / 3 / u10	6
+1 mg · l − 1 naa + 0.25 mg	5
+j o ¨ n s s o n et al	5
+10 − 15 pa − 1 s − 1 m3	5
+k a a k i n e n et al	5
+p r i v e t t e et al	5
+a b s o r p t i o n	5
+g r o g a n a n d s	5
+g r o f f m a n et al	5
+s l i ce n s e page 19 journal	5
+10 − 11 cm3 molecules − 1 s − 1	4
+fl. yr − 1 km − 2 grid _ box	4
+80 km / h ≤ uavg ≤ 100km / h	4
+b a u e r f e i n d	4
+10 11 atoms c cm − 2 s − 1	4
+g e t p r e d i c t	4
+109 j · m − 2 · yr − 1	4
+the flexible global ocean – atmosphere – land system model	4
+f i c e t o l a et al	4
+10 mg · kg − 1 · d − 1	3
+/ en / forecasts / datasets / reanalysis-datasets / era-interim	3
+10 % serum / 1 % triton x-100 / pbs	3
+j a n s s e n s et al	3
+
+Top 50 noun phrases with (11 words):
+the institut national de la santé et de la recherche médicale	19
+p r i t c h a r d et al	10
+5 mg · kg − 1 · d − 1 gsi	8
+9 g n m − 2 y − 1 ( n9	6
+6 g n m − 2 y − 1 ( n6	6
+3 g n m − 2 y − 1 ( n3	6
+40 mg · kg − 1 · d − 1 qa	6
+a n t o n i n k a et al	6
+a g r i c u l t u r e	6
+m e e r s m a n s et al	6
+0 g n m − 2 y − 1 ( n0	5
+a r a n j u e l o et al	5
+s i z e ∗ h i d d e n	4
+the ministère de la culture et de la communication de france	4
+p i 2 f h 2 f d v 0 g	4
+mj /( m2 · d ) mj /( m2 · d	4
+m a c d o n a l d et al	4
+s t e i n a k e r et al	4
+1 / 3 )(− ik10 ) 4 / 3 ( i	4
+unité mixte de recherche centre national de la recherche scientifique 5005	4
+ic50,t = 30 min = 8.1 ± 0.02 μg / ml	4
+cz.02.1.01 / 0.0 / 0.0 / 16 _ 019 / 0000797	4
+the gh / gl / pul128 / pul130 / pul131 complex	4
+10 − 12 cm3 molecules − 1 s − 1 )	3
+10 mg · kg − 1 · d − 1 gsi	3
+legk7 ( 11 – 530 )– mob1a ( 33 – 216	3
+t e m p e r a t u r e	3
+0.16 mw m − 2 sr − 1 nm − 1	3
+the joint decc / defra met office hadley centre climate programme	3
+300 · kg · m − 1 · s − 1	3
+0.52 – 0.81 mmol c m − 2 d − 1	3
+expand high fidelity pcr system pow / taq dna polymerase mix	3
+10 fl. yr − 1 km − 2 grid _ box	3
+p a r n i k o z a et al	3
+w = 0.05 / 0.1 / 0.15 / 0.2 m s	3
+n l o a d e d fr o m h	3
+the tropical ocean global atmosphere coupled ocean – atmosphere response experiment	3
+soil loss ≥ 15.0 t ha − 1 y − 1	3
+t p + t n + f p + f n	3
+/ entsoc / nch 99 / prog / abs / d81.html	3
+0.51 ± 0.40 mg c ha − 1 y − 1	3
+t1 − 1 + t − 1 | t1 − 1	3
+the human frontier science program young investigator grant rgy0077 / 2016	2
+cancer – prostate cancer foundation prostate dream team translational research grant	2
+institut national de la santé et de la recherche médicale u665	2
+natural environment research council standard grant ne / i027630 / 1	2
+x ^ i = x ^ i − 1 + ki	2
+500 µmol photons · m − 2 · s − 1	2
+0.04 mol l − 1 hydroxylamine + 25 % acetic acid	2
+biotechnology grants bt / 548 / ne / u-excel / 2014	2
+
+Top 50 noun phrases with (12 words):
+o n li n e l i b r a r y	472
+w il e y o n li n e l i b	418
+the fonds québécois de la recherche sur la nature et les technologies	6
+y. h o l l i n g e r et al	6
+s t r i c k l a n d et al	5
+x ( log log x ) 2 /( log x ) 3	5
+n t 5 0 : 3 n t 2 1 2 0	4
+d o w n l o a d e d fr o	4
+the fonds pour la formation de chercheurs et l'aide à la recherche	4
+m / s ) 20 − 20 − 20 0 zonal wind	4
+/ web / home / research / researchprograms / water / hwsd.html	3
+e f f i c i e n c y / 100	3
+fct pluriannual funding 2020 – 2023 ( uidb / 50009 / 2020	3
+a g y w l h j w the planetary boundary layer	3
+the highest 0.00068 ± 0.00019 μg m − 2 s − 1	3
+the lowest 0.00046 ± 0.00011 μg m − 2 s − 1	3
+/ sites / default / files / pdata / kaston-leung / leung-et-al-supplementary-dataset-1.zip	2
+/ sites / default / files / pdata / kaston-leung / leung-et-al-supplementary-dataset-2.zip	2
+/ sites / default / files / pdata / kaston-leung / leung-et-al-supplementary-dataset-4.zip	2
+/ sites / default / files / pdata / kaston-leung / leung-et-al-supplementary-dataset-3.zip	2
+programa de biociencias medicina individualizada translacional en inflamación y cáncer-comunidad de madrid	2
+/ kull-centre / papers / tree / main / 2021 / cg-idps-tesei-et-al	2
+a 0.04 mol l − 1 hydroxylamine + 25 % acetic acid	2
+direction générale de l’armement - mission pour la recherche et l’innovation scientifique	2
+/ datasets / trmm _ 3b42 _ daily _ 7 / summary	2
+90 mm tris / 64.6 mm boric acid / 2.5 mm edta	2
+the metric coordinate system wgs 84 / utm zone 32n ( epsg	2
+the brazilian funding agencies coordenação de aperfeicoamento de pessoal de nível superior	2
+the hong kong research grants council theme-based research scheme t12-403 / 15	2
+ki − 1 | 2 ≤ i ≤ n − 1,and ki	2
+a 2 ( 1 ) a 2 b 2 ( a b	2
+a daily 1 – 2 – 3 – 2 – 1 filter	2
+a consejo superior de investigaciones científicas-junta para la ampliación de estudios grant	2
+a maldi-tof ms — matrix-assisted laser desorption / ionization time-of-flight mass spectrometry	2
+centre national de la recherche scientifique / ecole normale supérieure de lyon	2
+p i d f e d f h 2 u ( cid	2
+biological sciences research council strategic programme grant bb / j004227 / 1	2
+the european community 's seventh framework programme fp7 / 2007 – 2013	2
+région grand est fond regional de cooperation pour la recherche grant epiarn	2
+the ministère de l’enseignement supérieur de la recherche et de l’innovation (“	2
+a 5 0 : 01 n m 2 2 k 2 1	2
+the woods hole oceanographic institution national ocean sciences accelerator mass spectrometry facility	2
+/ project / 118281 / version / v5 / view ( 60	2
+the united nations development programme / world bank / world health organization	2
+a weill medical college – the methodist hospital research institute collaboration grant	2
+the european commission marie sklodowska-curie fellowship h2020-msca-if - 2015 grant # 701467	2
+alzheimer ’s drug discovery foundation / elan drug discovery award 271214 elan	2
+0.12 – 0.16 kg · m − 1 · s − 1	2
+the programme national de planetologie de l’institut national des sciences de l’univers	2
+cd4 −/ cd8 −/ gr1 −/ mac1 −/ b220 +/ cd19 +	2
+

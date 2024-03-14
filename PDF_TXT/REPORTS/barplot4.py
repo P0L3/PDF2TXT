@@ -14,8 +14,8 @@ colors = [
 ]
 
 data = [
-    [16209808, 875841],
-    [3727803, 475841],
+    [15238265, 1790745],
+    [3725121, 313315],
     [5529110, 5934949],
     [5333279, 486632],
 
@@ -41,7 +41,7 @@ titles = [
 
 
 # Creating the subplots
-fig, axs = plt.subplots(1, 2, figsize=(10, 8), dpi=1000)
+fig, axs = plt.subplots(1, 2, figsize=(10, 8))#, dpi=1000)
 
 # Flatten the axs array to loop over the subplots
 axs = axs.flatten()
@@ -66,7 +66,7 @@ for i, ax in enumerate(axs):
         ax.set_title(titles[i])
         # ax.set_ylim(1.7)
         # ax.set_yticks(np.linspace(0, max(data[i][0], data[i][1]), 10))
-        ax.set_ylim(0, 17000000)
+        ax.set_ylim(0, 16500000)
         
         for bar in bars:
             height = bar.get_height()
@@ -101,7 +101,7 @@ for i, ax in enumerate(axs):
         
         ax.set_xticks(x)
         ax.set_xticklabels(labels[i])
-        ax.set_ylim(0, 17000000)
+        ax.set_ylim(0, 16500000)
         ax.set_title(titles[i])
         # ax.set_yticks(np.linspace(0, max(data[i][0], data[i][1]), 10))
 
@@ -131,5 +131,5 @@ for i, ax in enumerate(axs):
     
 plt.tight_layout()
 plt.savefig('./IMAGES/10ksample_stats_4.png', dpi=300)
-# plt.show()
+plt.show()
 

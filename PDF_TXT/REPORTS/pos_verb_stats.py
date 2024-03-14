@@ -8,7 +8,7 @@ df_pos = pd.read_pickle(file)
 
 # Explode the 'Verbs' column to have one row per verb
 exploded_df = df_pos.explode('Verbs')
-
+exploded_df['Verbs'] = exploded_df['Verbs'].apply(lambda x: x.lower() if isinstance(x, str) else x)
 # Calculate the overall count of each verb
 overall_verb_counts = exploded_df['Verbs'].value_counts()
 
@@ -70,7 +70,7 @@ print(overall_verb_counts_df)
 
 #### PLOT HERE
 
-top_n_per_wordcount = 20
+top_n_per_wordcount = 30
 unique_word_counts = overall_verb_counts_df['NumWords'].unique()
 
 for word_count in unique_word_counts:
@@ -78,11 +78,16 @@ for word_count in unique_word_counts:
         continue
     top_n_verbs = overall_verb_counts_df[overall_verb_counts_df['NumWords'] == word_count][:top_n_per_wordcount]
     
-    plt.figure(figsize=(10, 6))
-    plt.bar(top_n_verbs['Verb'], top_n_verbs['Count'])
-    plt.title(f'Top {top_n_per_wordcount} Verbs ({word_count} words)')
-    plt.xlabel('Verb')
-    plt.ylabel('Count')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    plt.show()
+    print(f"Top {top_n_per_wordcount} noun phrases with ({word_count} words):")
+    for index, row in top_n_verbs.iterrows():
+        print(f"{row['Verb']} \t {row['Count']} ")
+    print()
+
+    # plt.figure(figsize=(10, 6))
+    # plt.bar(top_n_verbs['Verb'], top_n_verbs['Count'])
+    # plt.title(f'Top {top_n_per_wordcount} Verbs ({word_count} words)')
+    # plt.xlabel('Verb')
+    # plt.ylabel('Count')
+    # plt.xticks(rotation=45, ha='right')
+    # plt.tight_layout()
+    # plt.show()

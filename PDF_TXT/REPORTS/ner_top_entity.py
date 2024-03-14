@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-file = "ehs_ner.pickle"
+file = "10ksample_ner.pickle"
 df_ner = pd.read_pickle(file)
 
 print(df_ner.keys())

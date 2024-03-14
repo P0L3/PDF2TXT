@@ -1,0 +1,335 @@
+                              Verb   Count
+0                               is  267521
+1                              are  108928
+2                            using   61697
+3                              was   60454
+4                          however   58755
+...                            ...     ...
+255453       are required to do so       1
+255452                 too reveals       1
+255451              not to protect       1
+255450  could have been considered       1
+486631          are deeply touched       1
+
+[486632 rows x 2 columns]
+   NumWords    Count
+0         1  3741646
+1         2  1497855
+2         3   485282
+3         4   153041
+4         5    44441
+5         6    10522
+6         7     1833
+7         8      279
+8         9       44
+9        10        6
+                                                     Verb   Count  NumWords
+0                                                      is  267521         1
+1                                                     are  108928         1
+2                                                   using   61697         1
+3                                                     was   60454         1
+4                                                 however   58755         1
+...                                                   ...     ...       ...
+449143  described here now need to be systematically s...       1        10
+420207  expected to be better adapted do not continue ...       1        10
+272700  will probably have to step in more often to as...       1        10
+227137  yet to be identified may be required to furthe...       1        10
+236617  have been encountered frequently enough to hav...       1        10
+
+[486632 rows x 3 columns]
+Top 30 noun phrases with (1 words):
+is 	 267521 
+are 	 108928 
+using 	 61697 
+was 	 60454 
+however 	 58755 
+were 	 40883 
+respectively 	 33872 
+compared 	 29998 
+based 	 29822 
+used 	 29393 
+shows 	 27179 
+has 	 24828 
+thus 	 24575 
+observed 	 24346 
+including 	 23660 
+therefore 	 23036 
+showed 	 22703 
+’s 	 22429 
+show 	 21582 
+only 	 21147 
+have 	 20796 
+increased 	 20556 
+found 	 20306 
+more 	 19132 
+following 	 18966 
+to 	 18603 
+see 	 17771 
+most 	 17398 
+associated 	 16963 
+had 	 16785 
+
+Top 30 noun phrases with (2 words):
+as well 	 20097 
+is not 	 9363 
+may be 	 8727 
+was supported 	 8307 
+are shown 	 7242 
+to determine 	 7061 
+not shown 	 6555 
+was used 	 6541 
+is also 	 5826 
+were used 	 5801 
+was observed 	 5446 
+to be 	 5444 
+is shown 	 5364 
+were obtained 	 4836 
+was performed 	 4819 
+to identify 	 4339 
+to assess 	 4210 
+is more 	 4167 
+were performed 	 4122 
+are not 	 4053 
+to test 	 3991 
+would be 	 3923 
+have shown 	 3780 
+were collected 	 3737 
+can be 	 3698 
+could be 	 3630 
+to obtain 	 3561 
+is based 	 3551 
+will be 	 3540 
+that is 	 3495 
+
+Top 30 noun phrases with (3 words):
+can be seen 	 3294 
+should be addressed 	 2764 
+can be found 	 2396 
+can be used 	 1672 
+should be noted 	 1609 
+may be addressed 	 1585 
+have been deposited 	 1463 
+can be obtained 	 1139 
+appears to be 	 1097 
+was performed using 	 1024 
+can be explained 	 970 
+may not be 	 968 
+can be expressed 	 887 
+can be observed 	 877 
+has been reported 	 874 
+has been shown 	 802 
+did not affect 	 790 
+can be calculated 	 790 
+have been identified 	 779 
+can be attributed 	 740 
+were performed using 	 732 
+can be considered 	 721 
+have been reported 	 674 
+to better understand 	 671 
+seems to be 	 665 
+did not show 	 634 
+has been observed 	 606 
+should be considered 	 594 
+has been used 	 568 
+has been suggested 	 566 
+
+Top 30 noun phrases with (4 words):
+was found to be 	 704 
+would like to thank 	 508 
+were found to be 	 427 
+was used to determine 	 415 
+is assumed to be 	 387 
+is considered to be 	 313 
+was used to calculate 	 311 
+has been widely used 	 259 
+is expected to be 	 246 
+was estimated to be 	 241 
+were used to calculate 	 231 
+was used to measure 	 230 
+was assumed to be 	 224 
+were used to determine 	 217 
+is estimated to be 	 212 
+is found to be 	 207 
+is thought to be 	 207 
+are considered to be 	 206 
+was used to analyze 	 203 
+are assumed to be 	 181 
+was used to estimate 	 180 
+is known to be 	 177 
+remains to be determined 	 170 
+did not differ significantly 	 169 
+is expected to increase 	 166 
+can also be seen 	 165 
+is used to calculate 	 164 
+was used to assess 	 160 
+are expected to be 	 159 
+was shown to be 	 158 
+
+Top 30 noun phrases with (5 words):
+has been shown to be 	 275 
+have been shown to be 	 142 
+can be used to estimate 	 125 
+would also like to thank 	 109 
+can be used to predict 	 91 
+can be used to identify 	 82 
+has been found to be 	 80 
+can be used to determine 	 68 
+does not appear to be 	 68 
+can be used to calculate 	 68 
+could have appeared to influence 	 65 
+can be used to evaluate 	 64 
+has been shown to have 	 62 
+can be used to study 	 62 
+can be used to assess 	 59 
+does not seem to be 	 59 
+have been shown to have 	 57 
+have been found to be 	 55 
+has been shown to increase 	 52 
+have been proposed to explain 	 50 
+can be considered to be 	 46 
+have been used to study 	 41 
+has been shown to play 	 41 
+has been reported to be 	 41 
+can be used to infer 	 40 
+can be used to obtain 	 38 
+can be used to analyze 	 37 
+can be used to quantify 	 36 
+can be assumed to be 	 36 
+has been suggested to be 	 36 
+
+Top 30 noun phrases with (6 words):
+has been shown to be involved 	 19 
+has also been shown to be 	 13 
+should not be taken too literally 	 13 
+have been shown to be involved 	 12 
+has been reported to be involved 	 12 
+has been widely used to study 	 10 
+has been shown to be required 	 10 
+has been shown to be associated 	 10 
+have been shown to be associated 	 9 
+have been shown to be more 	 8 
+has been shown to be highly 	 8 
+have been widely used to assess 	 7 
+has also been found to be 	 7 
+has been widely used to identify 	 7 
+was found to be positively correlated 	 7 
+has recently been shown to be 	 7 
+has been suggested to be involved 	 6 
+should not be taken to imply 	 6 
+has previously been shown to be 	 6 
+has been shown to be induced 	 6 
+has been used extensively to study 	 6 
+can also be used to calculate 	 6 
+would be expected to be more 	 6 
+have also been shown to be 	 6 
+have been shown to be required 	 6 
+has been shown to be activated 	 6 
+can also be used to detect 	 6 
+have been shown to be related 	 6 
+has been shown to be regulated 	 6 
+have been found to be more 	 6 
+
+Top 30 noun phrases with (7 words):
+to be drawn are believed to be 	 3 
+has also been reported to be involved 	 3 
+was found to be significantly positively related 	 3 
+mentioned above can then be understood simply 	 3 
+has been shown to be positively correlated 	 3 
+have been shown to be strongly associated 	 3 
+has also been shown to be involved 	 3 
+need to be trained to train lay 	 2 
+were not always recorded accurately — tabulated 	 2 
+has been shown to more strongly represent 	 2 
+do not appear to be strongly influenced 	 2 
+did not appear to be significantly affected 	 2 
+were reproduced almost exactly can be explained 	 2 
+were considered to be significantly differentially expressed 	 2 
+has been shown to be highly correlated 	 2 
+is advised to design properly not only 	 2 
+have been shown to be significantly related 	 2 
+does not appear to have been affected 	 2 
+needs to be met is gradually deforming 	 2 
+will be used not only to calculate 	 2 
+has also previously been used to study 	 2 
+were found to be generally well reproduced 	 2 
+were subsequently found to be qualitatively well 	 2 
+may be considered to represent strongly descending 	 2 
+have been successfully used to describe polymer-induced 	 2 
+has been found to be closely related 	 2 
+has been shown to be directly regulated 	 2 
+can be expected to be strongly influenced 	 2 
+were found to be motivated to improve 	 2 
+may not be fast enough to keep 	 2 
+
+Top 30 noun phrases with (8 words):
+truly would have been significantly declining is extremely 	 2 
+has to be carefully managed to avoid worsening 	 1 
+could then be applied elsewhere to identify emerging 	 1 
+is expected to continue to depend more strongly 	 1 
+was previously noted to be emitted more strongly 	 1 
+cheat more seem to be driven more strongly 	 1 
+seems more predisposed to be used to detect 	 1 
+are additionally screened to remove potentially cloud contaminated 	 1 
+have been measured so far are not as 	 1 
+have not yet been shown to be required 	 1 
+have not been exclusively addressed so far using 	 1 
+occurring concurrently have yet to be probed unambiguously 	 1 
+is supposed to be extracted to temporally alleviate 	 1 
+have been used extensively to successfully recover highly 	 1 
+is designed not only to actively eradicate existing 	 1 
+can no longer be considered solely to be 	 1 
+have also recently been used to phenotypically correct 	 1 
+have been presented before can be included here 	 1 
+have been put forward here are even more 	 1 
+to be compensated will have to be based 	 1 
+are widely shared have tended to be more 	 1 
+have been found to be only transiently more 	 1 
+are not frequently activated together do not retain 	 1 
+would have had to have occurred no earlier 	 1 
+have been found to be more strongly activated 	 1 
+will need to be designed carefully to limit 	 1 
+have therefore to be slightly adjusted to match 	 1 
+are no longer assumed to be identically distributed 	 1 
+are now routinely prescribed to treat not just 	 1 
+will more likely be forced to be constructed 	 1 
+
+Top 30 noun phrases with (9 words):
+has long been recognized to be more directly related 	 3 
+are just far enough south to be minimally affected 	 2 
+is to be designed are yet to be revealed 	 2 
+need to be quantified more completely to better inform 	 1 
+also need to be explored to more accurately assess 	 1 
+should not be simply assumed to be positively correlated 	 1 
+has been shown to be highly phosphorylated to release 	 1 
+might be expected to vary should be considered carefully 	 1 
+are found to change too rapidly are not used 	 1 
+would need to be included to more accurately describe 	 1 
+cannot reliably be assumed to be more closely related 	 1 
+is currently being used has only been lined underneath 	 1 
+may be needed to avoid could help to gauge 	 1 
+likely would not have been known to have attained 	 1 
+to not do so would be to risk searching 	 1 
+worldwide has been projected to continue to rise dramatically 	 1 
+programmed to escape directly away were approached more rapidly 	 1 
+is spatially coordinated is only beginning to be understood 	 1 
+do not respire at all are almost completely protected 	 1 
+must be taken to not over interpret objectively defined 	 1 
+were shown to be stably formed to efficiently interact 	 1 
+has been artificially excluded has been shown to have 	 1 
+have been demonstrated have not yet been linked directly 	 1 
+would have to have been photosynthetically fixed to release 	 1 
+studied thus far do not appear to be induced 	 1 
+will be discussed later on will help to clarify 	 1 
+can not only be used to select physically based 	 1 
+does not appear to have previously been documented empirically 	 1 
+may have struggled to establish appears to have led 	 1 
+have deployed will need to be used to address 	 1 
+
+Top 30 noun phrases with (10 words):
+obtained so far is still not sufficiently detailed to examine 	 1 
+described here now need to be systematically studied to provide 	 1 
+expected to be better adapted do not continue to promote 	 1 
+will probably have to step in more often to assist 	 1 
+yet to be identified may be required to further accelerate 	 1 
+have been encountered frequently enough to have been tested experimentally 	 1 
+
