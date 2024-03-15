@@ -1,0 +1,132 @@
+Error 	 13 	 Error
+
+loc
+China 	 11686 	 
+Pacific 	 9480 	 
+Europe 	 4213 	 
+United States 	 4145 	 
+Atlantic 	 3653 	 
+USA 	 3459 	 
+North Atlantic 	 3341 	 
+Indian Ocean 	 2767 	 
+North America 	 2747 	 
+Africa 	 2665 	 
+CA 	 2581 	 
+Australia 	 2472 	 
+Japan 	 2345 	 
+US 	 2255 	 
+Germany 	 2223 	 
+North Pacific 	 2098 	 
+Asia 	 1987 	 
+India 	 1895 	 
+Canada 	 1821 	 
+Northern Hemisphere 	 1810 	 
+South America 	 1692 	 
+U.S. 	 1663 	 
+California 	 1409 	 
+Beijing 	 1382 	 
+Greenland 	 1290 	 
+MA 	 1229 	 
+UK 	 1228 	 
+Southern Hemisphere 	 1212 	 
+Eurasia 	 1208 	 
+Southern Ocean 	 1196 	 
+
+
+misc
+DNA 	 6599 	 
+Arctic 	 4182 	 
+SI Appendix 	 3563 	 
+F 	 2786 	 
+European 	 2684 	 
+Equation 	 2603 	 
+C 	 2289 	 
+Western 	 1932 	 
+Asian 	 1930 	 
+Chinese 	 1704 	 
+SST 	 1654 	 
+Indian 	 1338 	 
+Mediterranean 	 1308 	 
+CMIP5 	 1301 	 
+Arabidopsis 	 1246 	 
+MJO 	 1238 	 
+UTC 	 1193 	 
+Gaussian 	 1156 	 
+African 	 1148 	 
+Bayesian 	 1089 	 
+North American 	 973 	 
+RNA 	 925 	 
+CT 	 912 	 
+GCM 	 907 	 
+III 	 893 	 
+ROS 	 870 	 
+BC 	 820 	 
+Eurasian 	 814 	 
+DEM 	 768 	 
+PDO 	 766 	 
+
+
+org
+ENSO 	 6616 	 
+PNAS 	 3289 	 
+EC 	 2822 	 
+SST 	 2775 	 
+TC 	 2358 	 
+NAO 	 2011 	 
+ATP 	 1939 	 
+National Institutes of Health 	 1934 	 
+El Niño 	 1617 	 
+IPCC 	 1487 	 
+NCEP 	 1457 	 
+MDPI 	 1440 	 
+EU 	 1396 	 
+MJO 	 1326 	 
+National Science Foundation 	 1236 	 
+SLP 	 1227 	 
+WRF 	 1184 	 
+NCAR 	 1181 	 
+NOAA 	 1128 	 
+NIH 	 1074 	 
+TP 	 1040 	 
+PBL 	 1010 	 
+PCR 	 1008 	 
+University of California 	 979 	 
+The National Academy of Sciences 	 963 	 
+ITCZ 	 941 	 
+PCA 	 907 	 
+National Natural Science Foundation of China 	 905 	 
+RMSE 	 896 	 
+WNP 	 872 	 
+
+
+per
+Wang 	 2550 	 
+Zhang 	 1670 	 
+Liu 	 1068 	 
+Li 	 1038 	 
+Chen 	 1004 	 
+Yang 	 668 	 
+Wu 	 610 	 
+Lee 	 566 	 
+Thompson 	 543 	 
+Huang 	 540 	 
+Smith 	 500 	 
+Johnson 	 498 	 
+Jones 	 495 	 
+Zhou 	 458 	 
+Wallace 	 439 	 
+Zhao 	 429 	 
+Trenberth 	 398 	 
+Anderson 	 382 	 
+Brown 	 370 	 
+Chang 	 368 	 
+Xie 	 364 	 
+Kim 	 352 	 
+Drs 	 346 	 
+Lin 	 334 	 
+Taylor 	 320 	 
+Hansen 	 316 	 
+Emanuel 	 312 	 
+Williams 	 286 	 
+Kumar 	 285 	 
+Hoskins 	 274 	 

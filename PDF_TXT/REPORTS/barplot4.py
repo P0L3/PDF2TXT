@@ -25,16 +25,16 @@ data = [
 ]
 
 labels = [
-    ["Detected noun phrases", "Detected named entities"],
+    ["(a) Detected noun phrases", "(b) Detected named entities"],
     ["Noun phrases / \nEntities\n(P)", "Noun phrases / \nEntities\n(E)", "Verbs\n(P)"],
-    ["Possible triples", "Detected verb phrases"],
+    ["(a) Possible triples", "(b) Detected verb phrases"],
     ["Number of triples", "Number of unique verbs"]
 ]
 
 titles = [
-    "Number of noun phrases vs number of entites", 
+    "(1) Number of noun phrases & entites", 
     "Average occurance per sentence\nAveraged by (P/E)", 
-    "Number of triples vs number of verb phrases",
+    "(2) Number of triples & verb phrases",
     "Number of possible triples & \nnumber of unique verbs"
 ]
 
