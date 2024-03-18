@@ -34,7 +34,7 @@ from tokenizers.trainers import WordPieceTrainer
 trainer = WordPieceTrainer(
     vocab_size=30522, special_tokens=["[UNK]", "[CLS]", "[SEP]", "[PAD]", "[MASK]"]
 )
-files = [f"RESULTS/SETS/full_10ksample/{split}.raw" for split in ["test", "train", "val"]]
+files = [f"RESULTS/SETS/full/{split}.raw" for split in ["test", "train", "val"]]
 bert_tokenizer.train(files, trainer)
 
-bert_tokenizer.save("RESULTS/VOCABS/sciclimbert_v1.json")
+bert_tokenizer.save("RESULTS/VOCABS/sciclimbert_full8gb.json")

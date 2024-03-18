@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from os import mkdir
 
-DF = "./RESULTS/ED4RE/full_10ksample.pickle"
+DF = "./RESULTS/ED4RE/full.pickle"
 df = pd.read_pickle(DF)
 
 texts = df["Content"]
