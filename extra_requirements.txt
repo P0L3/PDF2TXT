@@ -3,3 +3,4 @@ flair==0.13.1
 fastparquet==2024.2.0
 pyarrow==15.0.1
 seaborn==0.13.1
+supervenn==0.4.2
