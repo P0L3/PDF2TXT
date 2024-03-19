@@ -83,9 +83,9 @@ for comb in index_combinations:
         labels_temp = itemgetter(*comb)(labels)
         vocab_list_temp = itemgetter(*comb)(list_of_vocabs)
 
-        if len(comb) > 2:
+        if len(comb) > 2 and len(comb) <= 4:
             supervenn(vocab_list_temp, labels_temp, widths_minmax_ratio=0.1)
-        if len(comb) > 4: 
+        elif len(comb) > 4: 
             supervenn(vocab_list_temp, labels_temp, widths_minmax_ratio=0.1, rotate_col_annotations=True, col_annotations_area_height=1.2)
         else:
             supervenn(vocab_list_temp, labels_temp)
