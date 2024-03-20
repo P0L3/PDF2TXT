@@ -1,6 +1,8 @@
 # BERTs
 
-| Model       | Data used   | Training time | GPUs      |
-| ----------- | ----------- | ----------- | ----------- |
-| Header      | Title       |||
-| Paragraph   | Text        |||
+| Model     | Data used |Training time|GPUs     |
+|-----------|-----------|-----------|-----------|
+| BERT      ||||
+| SciBERT   ||||
+| SciCliBERT||||
+
