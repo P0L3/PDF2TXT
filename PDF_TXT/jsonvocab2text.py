@@ -2,7 +2,7 @@
 
 import json
 
-DIR = "./RESULTS/VOCABS/clivocab_climateroberta.json"
+DIR = "./RESULTS/VOCABS/CliSciRoBERTa.json"
 
 with open(DIR, 'r') as f:
     json = json.load(f)

@@ -93,6 +93,8 @@ for comb in index_combinations:
         filename = "_".join(labels_temp)
         # plt.title("Supervenn: {}".format(labels_temp))
         plt.tight_layout()
+        figure = plt.gcf() # get current figure
+        figure.set_size_inches(16, 9)
         plt.savefig(f"./REPORTS/IMAGES/VENN/{filename}", dpi=500)
         plt.clf()
 
