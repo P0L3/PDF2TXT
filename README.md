@@ -129,3 +129,4 @@ paper_data = {
 
 ## [POS and NER reports](/PDF_TXT/REPORTS/10ksample_report.md)
 
+## [BERT_PRETRAINING](https://github.com/P0L3/bert_pretraining.git)
