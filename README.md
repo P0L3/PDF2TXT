@@ -126,8 +126,8 @@ paper_data = {
 #### [JGRA report](/PDF_TXT/REPORTS/JGRA_test.md)
 
 ## Dataset preparation and vocab construction
-1. Processing with [run_htmlpars_parallel.py](./run_htmlpars_parallel.py) and desired [*_htmlpars.py](# Journals) -> OUTPUT: Fragmented pickled pandas files with defined [data structure](# Data structure)
-2. Concatenation of the fragmented dataframes with [concat_dataframes.py](./oncat_dataframes.py) -> OUTPUT: Full dataset 
+1. Processing with [run_htmlpars_parallel.py](./run_htmlpars_parallel.py) and desired [*_htmlpars.py](#Journals) -> OUTPUT: Fragmented pickled pandas files with defined [data structure](#Data_structure)
+2. Concatenation of the fragmented dataframes with [concat_dataframes.py](./concat_dataframes.py) -> OUTPUT: Full dataset 
 
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
 
