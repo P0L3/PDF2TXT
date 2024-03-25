@@ -24,7 +24,7 @@ for df_name in dfs:
     nrows = len(df)
 
    
-    duplicate_rows = df[df.duplicated(subset=["Title", "Content_length"])]
+    duplicate_rows = df[df.duplicated(subset=["Title", "Content_length", "Content"])]
     # print("Columns: ", ", ".join(df.keys().tolist()))
     try:
         df = df.drop_duplicates(subset=["Title", "Content_length"])
@@ -38,5 +38,8 @@ for df_name in dfs:
     print("Number of duplicates:      ", nrows-nrows_d)
     print("Real number of duplicates: ", nrows_d_clean)
     print(duplicate_rows[duplicate_rows["Content"].str.len() > 10]["Title"])
+    
+    if nrows_d_clean/nrows > 0.1:
+        duplicate_rows[duplicate_rows["Content"].str.len() > 10][["Title", "Content"]].to_csv(DIR+df_name.split(".")[0]+"_duplicate.csv")
 
 
