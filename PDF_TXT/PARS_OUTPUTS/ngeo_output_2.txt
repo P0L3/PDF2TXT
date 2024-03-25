@@ -1,0 +1,90 @@
+Working in parallel on 12 threads.
+Batch size: 180
+Total samples:  560
+Approx done samples:  1427
+Samples todo:  184
+s41561-020-0591-4_Reply_To_Multiple_Drivers_Of_Miocene_C4_Ecosystem_Expansions_.pdf
+['Reply to: Multiple drivers of Miocene Cecosystem expansions']
+['https://doi.org/10.1038/s41561-020-0591-4']
+s41561-020-0598-x_Geomorphological_Evidence_For_A_Dry_Dust_Avalanche_Origin_Of_Slope_Streaks_On_Mars_.pdf
+['Geomorphological evidence for a dry dust avalanche origin of slope streaks on Mars']
+['https://doi.org/10.1038/s41561-020-0598-x']
+s41561-019-0451-2_Extensive_Crustal_Extraction_In_Earth_S_Early_History_Inferred_From_Molybdenum_Isotopes_.pdf
+['Extensive crustal extraction in Earth’s early history inferred from molybdenum isotopes']
+['https://doi.org/10.1038/s41561-019-0451-2']
+s41561-022-00996-1_Early_Silicic_Magmatism_On_A_Differentiated_Asteroid_.pdf
+s41561-022-00935-0_Shifts_In_Regional_Water_Availability_Due_To_Global_Tree_Restoration_.pdf
+['Shifts in regional water availability due to global tree restoration']
+['https://doi.org/10.1038/s41561-022-00935-0', '1']
+s41561-023-01235-x_Late_Pleistocene_100-Kyr_Glacial_Cycles_Paced_By_Precession_Forcing_Of_Summer_Insolation_.pdf
+['']
+['Late Pleistocene 100-kyr glacial cycles paced by precession forcing of summer insolation']
+['https://doi.org/10.1038/s41561-023-01235-x', 'Received: 1 November 2022', 'Accepted: 26 June 2023', 'Check for updates', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience | Volume 16 | August 2023 | 717–722', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x', 'Nature Geoscience', 'https://doi.org/10.1038/s41561-023-01235-x']
+s41561-019-0470-z_Fluid_Overpressure_From_Chemical_Reactions_In_Serpentinite_Within_The_Source_Region_Of_Deep_Episodic_Tremor_.pdf
+['Fluid overpressure from chemical reactions in serpentinite within the source region of deep episodic tremor']
+['https://doi.org/10.1038/s41561-019-0470-z']
+s41561-020-0562-9_Subduction_Megathrust_Heterogeneity_Characterized_From_3D_Seismic_Data_.pdf
+['Subduction megathrust heterogeneity characterized from 3D seismic data']
+['https://doi.org/10.1038/s41561-020-0562-9']
+s41561-023-01274-4_Global_Increase_In_Biomass_Carbon_Stock_Dominated_By_Growth_Of_Northern_Young_Forests_Over_Past_Decade_.pdf
+s41561-021-00805-1_Temperature_Control_On_Co2_Emissions_From_The_Weathering_Of_Sedimentary_Rocks_.pdf
+['Temperature control on COemissions from the weathering of sedimentary rocks']
+['https://doi.org/10.1038/s41561-021-00805-1']
+s41561-021-00719-y_Arctic_Sea-Ice_Loss_Fuels_Extreme_European_Snowfall_.pdf
+['Arctic sea-ice loss fuels extreme European snowfall']
+['https://doi.org/10.1038/s41561-021-00719-y']
+s41561-021-00838-6_Sulfur_Isotopic_Signature_Of_Earth_Established_By_Planetesimal_Volatile_Evaporation_.pdf
+['Sulfur isotopic signature of Earth established by planetesimal volatile evaporation']
+['https://doi.org/10.1038/s41561-021-00838-6']
+s41561-020-00662-4_Carbon_And_Nitrogen_Cycling_In_Yedoma_Permafrost_Controlled_By_Microbial_Functional_Limitations_.pdf
+['Carbon and nitrogen cycling in Yedoma permafrost controlled by microbial functional limitations']
+['https://doi.org/10.1038/s41561-020-00662-4']
+s41561-021-00781-6_The_Number_And_Location_Of_Jupiter_S_Circumpolar_Cyclones_Explained_By_Vorticity_Dynamics_.pdf
+['The number and location of Jupiter’s circumpolar cyclones explained by vorticity dynamics']
+['https://doi.org/10.1038/s41561-021-00781-6']
+
+[]
+['']
+1
+
+[]
+['']
+1
+s41561-022-00931-4_Contrasting_Effects_Of_Aridity_And_Seasonality_On_Global_Salinization_.pdf
+[]
+['s41561-022-00931-4_Contrasting_Effects_Of_Aridity_And_Seasonality_On_Global_Salinization_.pdf']
+1
+
+[]
+['']
+1
+
+[]
+['']
+1
+
+[]
+['']
+1
+
+[]
+['']
+1
+
+[]
+['']
+1
+
+[]
+['']
+1
+s41561-023-01232-0_Soil_Carbon_In_Tropical_Savannas_Mostly_Derived_From_Grasses_.pdf
+[]
+['s41561-023-01232-0_Soil_Carbon_In_Tropical_Savannas_Mostly_Derived_From_Grasses_.pdf']
+1
+s41561-019-0484-6_Soil_Carbon_Storage_Informed_By_Particulate_And_Mineral-Associated_Organic_Matter_.pdf
+['Soil carbon storage informed by particulate and mineral-associated organic matter']
+['https://doi.org/10.1038/s41561-019-0484-6']
+s41561-021-00741-0_Physical_Conditions_And_Frictional_Properties_In_The_Source_Region_Of_A_Slow-Slip_Event_.pdf
+['Physical conditions and frictional properties in the source region of a slow-slip event']
+['https://doi.org/10.1038/s41561-021-00741-0']

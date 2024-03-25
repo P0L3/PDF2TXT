@@ -125,8 +125,15 @@ paper_data = {
 #### [CLIMD report](/PDF_TXT/REPORTS/CLIMD_test.md)
 #### [JGRA report](/PDF_TXT/REPORTS/JGRA_test.md)
 
+## Dataset preparation and vocab construction
+1. Processing with [run_htmlpars_parallel.py](./run_htmlpars_parallel.py) and desired [*_htmlpars.py](# Journals) -> OUTPUT: Fragmented pickled pandas files with defined [data structure](# Data structure)
+2. Concatenation of the fragmented dataframes with [concat_dataframes.py](./oncat_dataframes.py) -> OUTPUT: Full dataset 
+
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
 
 ## [POS and NER reports](/PDF_TXT/REPORTS/10ksample_report.md)
 
 ## [BERT_PRETRAINING](https://github.com/P0L3/bert_pretraining.git)
+
+## [Vocabulary reports](./REPORTS/IMAGES/VENN/)
+- Made with [vocab_compare.py](./vocab_compare.py)

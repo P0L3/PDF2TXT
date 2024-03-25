@@ -10,14 +10,13 @@ import pandas as pd
 from tqdm import tqdm
 import logging
 
-
 import argparse
 from time import time
 from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('žž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -27,7 +26,14 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/NPJCLIMATEACTION/"
+DIR = "./FULL_DATA/NPJCLIAC/"
+
+##
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 doctype1_1 = {
     "get_title": ["font-family: AdvOTa20b42a7; font-size:19px"],
@@ -76,11 +82,14 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = ["s44168-023-00063-4_Corporate_Motivations_And_Co-Benefit_Valuation_In_Private_Climate_Finance_Investments_Through_Voluntary_Carbon_Markets_.pdf"]
+if not samples:
+    samples = listdir(DIR) 
+    multi_flag = False
+# samples = ["s44168-023-00063-4_Corporate_Motivations_And_Co-Benefit_Valuation_In_Private_Climate_Finance_Investments_Through_Voluntary_Carbon_Markets_.pdf"]
 # samples = listdir(DIR)
-for sample in tqdm(samples):
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
 
     # Parse to html
@@ -141,7 +150,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi_regex(soup, style["get_doi_regex"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -156,7 +165,7 @@ for sample in tqdm(samples):
             for regex in style["get_doi_regex_r"]:
                 doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                 if doi[0] != "no_doi":
-                    print(doi)
+                    # print(doi)
                     break
     
     if s >= 0 and s < len(styles):
@@ -172,7 +181,7 @@ for sample in tqdm(samples):
                 for regex in style["get_doi_regex_r"]:
                     doi = get_doi_regex(soup, style["get_doi_regex"], regex)
                     if doi[0] != "no_doi":
-                        print(doi)
+                        # print(doi)
                         break
             if doi[0].endswith("."): # Hot fix if doi ends with . 
                 doi[0] = doi[0][:-1]
@@ -186,7 +195,7 @@ for sample in tqdm(samples):
         # print(references[:5])
         content = get_content(soup, style["get_content"])
         # print(content[:100])
-        print(content)
+        # print(content)
 
         # Create a dictionary with the paper's data
         paper_data = {
@@ -236,7 +245,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_npjcliac_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/NPJCLIAC/npjcliac_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_npjcliac.pickle")
 print(Faults)

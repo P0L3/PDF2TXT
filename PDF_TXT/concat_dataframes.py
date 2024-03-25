@@ -1,8 +1,9 @@
+""" Script for concatenation of the dataframes """
 import pandas as pd
 import pickle
 from os import listdir
 
-DIR = "./RESULTS/ED4RE"
+DIR = "./RESULTS/ED4RE" # Change directory to where the pickled dataframes are
 
 files = listdir(DIR)
 

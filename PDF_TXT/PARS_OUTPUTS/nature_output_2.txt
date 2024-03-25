@@ -1,0 +1,5 @@
+Working in parallel on 12 threads.
+Batch size: 180
+Total samples:  387
+Approx done samples:  1577
+Samples todo:  0

@@ -63,15 +63,17 @@ def get_from_springerapi(doi):
     api_url = "http://api.springernature.com/metadata/json/doi{}?api_key={}".format(doi, api_key_springer)
 
     response = requests.get(api_url)
-
-    json = response.json()
-
+    try: 
+        json = response.json()
+    except ValueError:
+        print("Not succesfully fetched ...")
+        json = {'records': None}
     # print(json["records"][0].keys())
     # title = json["records"][0]["title"]
     if not json["records"]:
         warning_message = f"Unable to fetch any information from given doi: '{doi}' -> Implies problems with API or DOI ..."
         logging.warning(warning_message)
-        authors, journal, date, subjects, abstract = ["no_info"]
+        authors, journal, date, subjects, abstract = ["no_info"]*5
     else:
         authors = json["records"][0]["creators"]
         journal = json["records"][0]["publicationName"]

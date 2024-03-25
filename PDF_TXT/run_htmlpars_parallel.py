@@ -1,3 +1,6 @@
+"""
+Script for data parallel processing of PDF documents
+"""
 import multiprocessing
 import subprocess
 import multiprocessing as mp
@@ -5,11 +8,11 @@ from tqdm import tqdm
 from os import listdir
 
 # Directory with files to process
-DIR = "./FULL_DATA/SCIENCE"
-SCRIPT = "ehs_htmlpars.py"
+DIR = "./FULL_DATA/NPJCLIATSCIOCSUS" # Fix accrodingly
+SCRIPT = "npjclisci_htmlpars.py" # Choose a script to parallelise on data
 NUMBER_OF_TASKS = multiprocessing.cpu_count() - round(0.25 * multiprocessing.cpu_count())
 BATCH_SIZE = NUMBER_OF_TASKS * 15  # You can adjust this based on your requirements
-CHECKPOINT = "science_output.txt"
+CHECKPOINT = ""
 
 
 print(f"Working in parallel on {NUMBER_OF_TASKS} threads.")

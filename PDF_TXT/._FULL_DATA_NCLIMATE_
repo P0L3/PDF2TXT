@@ -1,0 +1,4 @@
+2024-03-25 09:55:22,041 Unable to convert 'NaTure' to an integer. Skipping... -> Implies problems with affiliations ...
+2024-03-25 09:55:52,932 Title isn't extracted correctly. -> Implies different paper structure! -> Trying style number: 1
+2024-03-25 09:56:05,351 Title isn't extracted correctly. -> Implies different paper structure! -> Trying style number: 1
+valid pdf structure!

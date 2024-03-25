@@ -16,7 +16,7 @@ from random import randint
 
 ## Multprocessing add-on
 def list_of_strings(arg):
-    return arg.split(',')
+    return arg.split('žž')
 def number(arg):
     return arg
 parser = argparse.ArgumentParser()
@@ -26,7 +26,13 @@ samples = args.str_list
 multi_flag = True # Flag to see if script is run on multiprocessing manner
 ##
 
-DIR = "./SAMPLE/NCLIMATE/"
+DIR = "./FULL_DATA/NCLIMATE/"
+##
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    filename="_".join(DIR.split("/")),
+    filemode='w',
+    ) # Adds time to warning output
 
 doctype1_1 = {
     "get_title": ["font-size:24px"],
@@ -61,10 +67,13 @@ Faults = 0
 Faulty_samples = []
 Styleless_samples = []
 
-samples = listdir(DIR)
-for sample in tqdm(samples):
+if not samples:
+    samples = listdir(DIR) 
+    multi_flag = False
+
+for sample in samples:
     s = 0
-    print(20*"-")
+    # print(20*"-")
     print(sample)
 
     # Parse to html
@@ -124,7 +133,7 @@ for sample in tqdm(samples):
             break
 
         doi = get_doi(soup, style["get_doi"])
-        print(doi)
+        # print(doi)
         if len(doi) == 0:
             warning_message = "DOI isn't extracted correctly. -> Implies different paper structure! Skipping paper! Trying style number: {}".format(s+1)
             logging.warning(warning_message)
@@ -195,7 +204,7 @@ t = round(time(), 1) # Timestamp when multiprocessing
 n = randint(1, 10) # For fragments of dataframes
 df = pd.DataFrame(data_list)
 if multi_flag:
-    df.to_pickle(f"./PARS_OUT/test_nature_({t})_({n}).pickle")
+    df.to_pickle(f"./RESULTS/NCLIMATE/nature_({t})_({n}).pickle")
 else:
     df.to_pickle("./PARS_OUT/test_nature.pickle")
 print(Faults)
