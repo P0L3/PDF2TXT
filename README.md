@@ -135,5 +135,5 @@ paper_data = {
 
 ## [BERT_PRETRAINING](https://github.com/P0L3/bert_pretraining.git)
 
-## [Vocabulary reports](./REPORTS/IMAGES/VENN/)
+## [Vocabulary reports](/PDF_TXT/REPORTS/IMAGES/VENN/)
 - Made with [vocab_compare.py](/PDF_TXT/vocab_compare.py)
