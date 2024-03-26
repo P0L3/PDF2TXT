@@ -2,8 +2,9 @@
 import pandas as pd
 import pickle
 from os import listdir
+from time import time
 
-DIR = "./RESULTS/SCIENCE" # Change directory to where the pickled dataframes are
+DIR = "./RESULTS/ED4RE_2503/DEDUPLICATED" # Change directory to where the pickled dataframes are
 
 files = listdir(DIR)
 
@@ -28,7 +29,7 @@ for f in files:
 merged_df = pd.concat(dfs)
 
 # Save
-output_file = DIR+"/"+files[0].split("_")[0]+"_full.pickle"
+output_file = DIR+"/"+files[0].split("_")[0]+"_full_{}.pickle".format(time())
 
 with open(output_file, 'wb') as f:
     pickle.dump(merged_df, f)

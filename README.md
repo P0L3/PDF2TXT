@@ -125,9 +125,12 @@ paper_data = {
 #### [CLIMD report](/PDF_TXT/REPORTS/CLIMD_test.md)
 #### [JGRA report](/PDF_TXT/REPORTS/JGRA_test.md)
 
-## Dataset preparation and vocab construction
+## Dataset preparation 
 1. Processing with [run_htmlpars_parallel.py](/PDF_TXT/run_htmlpars_parallel.py) and desired [*_htmlpars.py](#Journals) -> OUTPUT: Fragmented pickled pandas files with defined [data structure](#Data_structure)
-2. Concatenation of the fragmented dataframes with [concat_dataframes.py](/PDF_TXT/concat_dataframes.py) -> OUTPUT: Full dataset 
+2. Concatenation of the fragmented dataframes with [concat_dataframes.py](/PDF_TXT/concat_dataframes.py) -> OUTPUT: Dataframes concatenated per journal
+3. Deduplication of the papers per journal with [check_for_duplicates.py](/PDF_TXT/check_for_duplicates.py) -> OUTPUT: Deduplicated dataframes
+4. Concatenation into a single file with [check_for_duplicates.py](/PDF_TXT/check_for_duplicates.py) -> OUTPUT: Dataframe containing all journals
+5. Saving in multiple formats for different tasks ([p2csv_tc.py](/PDF_TXT/p2csv_tc.py)) -> OUTPUT: CSV dataset, CSV with Title-Content pairs, and pickle with Title-Content pairs
 
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
 

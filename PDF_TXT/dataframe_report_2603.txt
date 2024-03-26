@@ -1,0 +1,714 @@
+Folder "DEDUPLICATED" already exists ...
+--------------------
+Dataframe name:  ijoc_full.pickle
+Number of rows:             3712
+Number of duplicates:       0
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  3712
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 22789.19
+Number of empty contents:               0  /  3712  =>  0.0 %
+Number of <= 10000 length contents:  1362  /  3712  =>  36.69 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 3712 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     3712 non-null   object
+ 1   Authors_and_Affiliations  3712 non-null   object
+ 2   Affiliations              3712 non-null   object
+ 3   DOI                       3712 non-null   object
+ 4   Authors                   3712 non-null   object
+ 5   Journal                   3712 non-null   object
+ 6   Date                      3712 non-null   object
+ 7   Subjects                  3712 non-null   object
+ 8   Abstract                  3712 non-null   object
+ 9   References                3712 non-null   object
+ 10  Content                   3712 non-null   object
+ 11  Keywords                  3712 non-null   object
+ 12  Style                     3712 non-null   object
+dtypes: object(13)
+memory usage: 406.0+ KB
+None
+                                               Title  ... Style
+0  A   s y n o p t i c   c l i m a t o l o g y   ...  ...  html
+1  S u m m e r   n i g h t - t i m e   t e m p e ...  ...  html
+2  N e w   h o u r l y   e x t r e m e   p r e c ...  ...  html
+3  T r e n d s   i n   d a i l y   p r e c i p i ...  ...  html
+4  I m p a c t   o f   t h e   a i r   t e m p e ...  ...  html
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  mdpi_full.pickle
+Number of rows:             52195
+Number of duplicates:       134
+Real number of duplicates:  134
+2     T h e   D e p t h   o f   W a t e r   T a k e ...
+15    B i o d i s m a n t l i n g ,   a   N o v e l ...
+16    E v a l u a t i o n   o f   F u t u r e   S i ...
+0     R o o t - P l a t e   C h a r a c t e r i s t ...
+69    C h a r g e   a n d   D i s c h a r g e   A n ...
+                            ...                        
+0     K e y   E l e m e n t s   o f   t h e   W h i ...
+72    D i f f e r e n c e s   i n   t h e   G r o w ...
+0     A n a l y s i s   o f   a   H y b r i d   S o ...
+0     A s s e s s i n g   t h e   L o n g - T e r m ...
+66    A   M o d e l   P r e d i c t i v e   C o n t ...
+Name: Title, Length: 134, dtype: object
+General info:  
+ --------------------
+Number of rows:  52061
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 37373.16
+Number of empty contents:               292  /  52061  =>  0.5599999999999999 %
+Number of <= 10000 length contents:  851  /  52061  =>  1.63 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 52061 entries, 0 to 830
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     52061 non-null  object
+ 1   Authors_and_Affiliations  52061 non-null  object
+ 2   Affiliations              52061 non-null  object
+ 3   DOI                       52061 non-null  object
+ 4   Authors                   52061 non-null  object
+ 5   Journal                   52061 non-null  object
+ 6   Date                      52061 non-null  object
+ 7   Subjects                  52061 non-null  object
+ 8   Abstract                  52061 non-null  object
+ 9   References                52061 non-null  object
+ 10  Content                   52061 non-null  object
+ 11  Keywords                  52061 non-null  object
+ 12  Style                     52061 non-null  object
+dtypes: object(13)
+memory usage: 5.6+ MB
+None
+                                               Title  ... Style
+0  T h e   D e p t h   o f   W a t e r   T a k e ...  ...  html
+1  T h r e a t   D e g r e e   C l a s s i f i c ...  ...  html
+2  T h e   I m p a c t s   o f   V e g e t a t i ...  ...  html
+3  F a c t o r s   t h a t   I n f l u e n c e   ...  ...  html
+4  A   H o l i s t i c   V i e w   o f   S o i l ...  ...  html
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  npjclisci_full.pickle
+Number of rows:             367
+Number of duplicates:       0
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  367
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 29169.13
+Number of empty contents:               0  /  367  =>  0.0 %
+Number of <= 10000 length contents:  4  /  367  =>  1.09 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 367 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     367 non-null    object
+ 1   Authors_and_Affiliations  367 non-null    object
+ 2   Affiliations              367 non-null    object
+ 3   DOI                       367 non-null    object
+ 4   Authors                   367 non-null    object
+ 5   Journal                   367 non-null    object
+ 6   Date                      367 non-null    object
+ 7   Subjects                  367 non-null    object
+ 8   Abstract                  367 non-null    object
+ 9   References                367 non-null    object
+ 10  Content                   367 non-null    object
+ 11  Keywords                  367 non-null    object
+ 12  Style                     367 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 40.1+ KB
+None
+                                               Title  ... Style
+0  Using particle swarm optimization to improve v...  ...     0
+1  Predictability of Indian Ocean precipitation a...  ...     0
+2  Seasonal and long-term dynamics in forest micr...  ...     0
+3  The precipitation distribution set by eddyuxes...  ...     0
+4  Distinct decadal modulation of Atlantic-Niño i...  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  jclimate_full.pickle
+Number of rows:             13655
+Number of duplicates:       6311
+Real number of duplicates:  6219
+2     The Physical Mechanisms by Which the Leading P...
+8     Detectability of Changes in the Walker Circula...
+1     Impact of Tropical Paciﬁc Precipitation Anomal...
+3     Dominant Modes of Wintertime Upper-Tropospheri...
+1     Reconciling Past and Future Rainfall Trends ov...
+                            ...                        
+7     Two Tropical Routes for the Remote Inﬂuence of...
+8     Historical Evaluation and Future Prediction of...
+9     Projected Midlatitude Continental Summer Dryin...
+10    Impacts of Intraseasonal SST Anomalies on Prec...
+11    Origins of the Decadal Predictability of East ...
+Name: Title, Length: 6219, dtype: object
+Dataframe containes:        45.54375686561699 \% duplicates
+General info:  
+ --------------------
+Number of rows:  7344
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 42009.13
+Number of empty contents:               3  /  7344  =>  0.04 %
+Number of <= 10000 length contents:  100  /  7344  =>  1.3599999999999999 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 7344 entries, 0 to 12
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     7344 non-null   object
+ 1   Authors_and_Affiliations  7344 non-null   object
+ 2   Affiliations              7344 non-null   object
+ 3   DOI                       7344 non-null   object
+ 4   Authors                   7344 non-null   object
+ 5   Journal                   7344 non-null   object
+ 6   Date                      7344 non-null   object
+ 7   Subjects                  7344 non-null   object
+ 8   Abstract                  7344 non-null   object
+ 9   References                7344 non-null   object
+ 10  Content                   7344 non-null   object
+ 11  Keywords                  7344 non-null   object
+ 12  Style                     7344 non-null   int64 
+dtypes: int64(1), object(12)
+memory usage: 803.2+ KB
+None
+                                               Title  ... Style
+0  Projected Changes in Climate Extremes over the...  ...     1
+1  A Comparison of CCM2–BATS Skin Temperature and...  ...     0
+2  Cloud Radiative Feedbacks and El Nio–Southern ...  ...     1
+3  Modulation of the Diurnal Cycle of Rainfall As...  ...     1
+4      A Vector Autoregressive ENSO Prediction Model  ...     1
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  ecoapp_full.pickle
+Number of rows:             4214
+Number of duplicates:       26
+Real number of duplicates:  15
+8     B r a z i l ' s   w o r s t   m i n i n g   d ...
+0     D i s e n t a n g l i n g   d i r e c t   a n ...
+14    D i s e n t a n g l i n g   t h e   e f f e c ...
+13    A   F U T U R E   P E R S P E C T I V E   O N ...
+1     A   m u l t i - s c a l e ,   l a n d s c a p ...
+13    D I D   T R A W L I N G   O N   T H E   B R O ...
+6     A n a l y s i s   o f   l a n d s c a p e - s ...
+13    C H A N G E S   I N   V I L L A G E - S C A L ...
+13    D e n s i t y   e s t i m a t i o n   o f   s ...
+11    D i s p e r s a l   a n d   e x t r a p o l a ...
+5     C h a n g e s   i n   h o r n   s i z e   o f ...
+13    B I O G E O C H E M I C A L   I M P A C T   O ...
+5     B I R D   G U I L D S   A S   I N D I C A T O ...
+10    C l i m a t e   c h a n g e   m i t i g a t i ...
+5     A   C A R E E R I S T ' S   P E R S P E C T I ...
+Name: Title, dtype: object
+General info:  
+ --------------------
+Number of rows:  4188
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 36783.11
+Number of empty contents:               0  /  4188  =>  0.0 %
+Number of <= 10000 length contents:  541  /  4188  =>  12.920000000000002 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 4188 entries, 0 to 11
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     4188 non-null   object
+ 1   Authors_and_Affiliations  4188 non-null   object
+ 2   Affiliations              4188 non-null   object
+ 3   DOI                       4188 non-null   object
+ 4   Authors                   4188 non-null   object
+ 5   Journal                   4188 non-null   object
+ 6   Date                      4188 non-null   object
+ 7   Subjects                  4188 non-null   object
+ 8   Abstract                  4188 non-null   object
+ 9   References                4188 non-null   object
+ 10  Content                   4188 non-null   object
+ 11  Keywords                  4188 non-null   object
+ 12  Style                     4188 non-null   object
+dtypes: object(13)
+memory usage: 458.1+ KB
+None
+                                               Title  ... Style
+0  L i n k i n g   m a r i n e   e c o s y s t e ...  ...  html
+1  O V E R S T O R Y - I M P O S E D   H E T E R ...  ...  html
+2  T r a i t - m e d i a t e d   r e s p o n s e ...  ...  html
+3  H A B I T A T - S P E C I F I C   R E C O V E ...  ...  html
+4  E V A L U A T I N G   T R I B U T A R Y   R E ...  ...  html
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  gcb_full.pickle
+Number of rows:             6869
+Number of duplicates:       2038
+Real number of duplicates:  1970
+8     Fish and macroinvertebrate assemblages reveal ...
+6     Marine-terminating glaciers sustain high produ...
+0     The inﬂuence of elevated Oand COconcentrations...
+2     Russian Arctic warming and ‘greening’ are clos...
+8                                              no_title
+                            ...                        
+13    Carbon isotope composition of fossil charcoal ...
+0     Canopy photosynthetic capacity drives contrast...
+3     Changes in species interactions across a 2.5 k...
+10    Mountain landscapes offer few opportunities fo...
+11    Larvae of the coral eating crown-of-thorns sta...
+Name: Title, Length: 1970, dtype: object
+Dataframe containes:        28.67957490173242 \% duplicates
+General info:  
+ --------------------
+Number of rows:  4831
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 35675.22
+Number of empty contents:               3  /  4831  =>  0.06 %
+Number of <= 10000 length contents:  121  /  4831  =>  2.5 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 4831 entries, 0 to 13
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     4831 non-null   object
+ 1   Authors_and_Affiliations  4831 non-null   object
+ 2   Affiliations              4831 non-null   object
+ 3   DOI                       4831 non-null   object
+ 4   Authors                   4831 non-null   object
+ 5   Journal                   4831 non-null   object
+ 6   Date                      4831 non-null   object
+ 7   Subjects                  4831 non-null   object
+ 8   Abstract                  4831 non-null   object
+ 9   References                4831 non-null   object
+ 10  Content                   4831 non-null   object
+ 11  Keywords                  4831 non-null   object
+ 12  Style                     4831 non-null   int64 
+dtypes: int64(1), object(12)
+memory usage: 528.4+ KB
+None
+                                               Title  ... Style
+0  Simple additive effects are rare: a quantitati...  ...     2
+1  Neglecting acclimation of photosynthesis under...  ...     5
+2  Does nitrogen deposition affect soil microfung...  ...     0
+3  An integrative synthesis to global amphibian c...  ...     5
+4  Biochar application as a tool to decrease soil...  ...     5
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  ngeo_full.pickle
+Number of rows:             321
+Number of duplicates:       0
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  321
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 18265.8
+Number of empty contents:               3  /  321  =>  0.9299999999999999 %
+Number of <= 10000 length contents:  18  /  321  =>  5.609999999999999 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 321 entries, 0 to 8
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     321 non-null    object
+ 1   Authors_and_Affiliations  321 non-null    object
+ 2   Affiliations              321 non-null    object
+ 3   DOI                       321 non-null    object
+ 4   Authors                   321 non-null    object
+ 5   Journal                   321 non-null    object
+ 6   Date                      321 non-null    object
+ 7   Subjects                  321 non-null    object
+ 8   Abstract                  321 non-null    object
+ 9   References                321 non-null    object
+ 10  Content                   321 non-null    object
+ 11  Keywords                  321 non-null    object
+ 12  Style                     321 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 35.1+ KB
+None
+                                               Title  ... Style
+0  Experimental evidence for lava-like mud flows ...  ...     0
+1  Large-scale flow of Indian Ocean asthenosphere...  ...     0
+2  Iron isotope fractionation at the core–mantle ...  ...     0
+3  Significant methane ebullition from alpine per...  ...     0
+4  Larger tsunamis from megathrust earthquakes wh...  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  npjcliac_full.pickle
+Number of rows:             39
+Number of duplicates:       0
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  39
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 43415.69
+Number of empty contents:               0  /  39  =>  0.0 %
+Number of <= 10000 length contents:  0  /  39  =>  0.0 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 39 entries, 0 to 2
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     39 non-null     object
+ 1   Authors_and_Affiliations  39 non-null     object
+ 2   Affiliations              39 non-null     object
+ 3   DOI                       39 non-null     object
+ 4   Authors                   39 non-null     object
+ 5   Journal                   39 non-null     object
+ 6   Date                      39 non-null     object
+ 7   Subjects                  39 non-null     object
+ 8   Abstract                  39 non-null     object
+ 9   References                39 non-null     object
+ 10  Content                   39 non-null     object
+ 11  Keywords                  39 non-null     object
+ 12  Style                     39 non-null     int64 
+dtypes: int64(1), object(12)
+memory usage: 4.3+ KB
+None
+                                               Title  ... Style
+0  Unpacking the COVID-19 rescue and recovery spe...  ...     1
+1  Understanding the organisational dynamics and ...  ...     1
+2  Farmer perspectives on carbon markets incentiv...  ...     0
+0  Assessing the sustainability of socio-economic...  ...     0
+1  Does climate action bring peace? Assessing the...  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  jclimate_full_duplicate.csv
+Dataframe doesn't exist or is not a pickle file ...
+--------------------
+Dataframe name:  ehs_full.pickle
+Number of rows:             830
+Number of duplicates:       88
+Real number of duplicates:  1
+4    Disentangling the mechanisms of equatorial Pac...
+Name: Title, dtype: object
+General info:  
+ --------------------
+Number of rows:  742
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 4509.83
+Number of empty contents:               71  /  742  =>  9.569999999999999 %
+Number of <= 10000 length contents:  648  /  742  =>  87.33 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 742 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     742 non-null    object
+ 1   Authors_and_Affiliations  742 non-null    object
+ 2   Affiliations              742 non-null    object
+ 3   DOI                       742 non-null    object
+ 4   Authors                   742 non-null    object
+ 5   Journal                   742 non-null    object
+ 6   Date                      742 non-null    object
+ 7   Subjects                  742 non-null    object
+ 8   Abstract                  742 non-null    object
+ 9   References                742 non-null    object
+ 10  Content                   742 non-null    object
+ 11  Keywords                  742 non-null    object
+ 12  Style                     742 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 81.2+ KB
+None
+                                               Title  ... Style
+0  Terrestrial Net Ecosystem Productivity in Chin...  ...     0
+1  Influence of Vegetation Dynamics on Soil Organ...  ...     0
+2  Climate change and water- related ecosystem se...  ...     2
+3  Using Material Flow and Stock Indicators to Ev...  ...     0
+4  Limited contribution of ancient methane to sur...  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  jgra_full.pickle
+Number of rows:             11976
+Number of duplicates:       732
+Real number of duplicates:  560
+0     Evaluating the Impact of Emissions Regulations...
+1     How Light-Absorbing Properties of Organic Aero...
+2     Evaluating Cloud Feedbacks and Rapid Responses...
+3     Multimodel Surface Temperature Responses to Re...
+4     Assimilation of IASI Ozone-Sensitive Channels ...
+                            ...                        
+10    Shortwave aerosol radiative forcing over cloud...
+11    Soil temperature in Canada during the twentiet...
+12    Spatial and temporal variability in active lay...
+13    Time- and size-resolved chemical composition o...
+14    Trends in Middle East climate extreme indices ...
+Name: Title, Length: 560, dtype: object
+General info:  
+ --------------------
+Number of rows:  11244
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 43090.58
+Number of empty contents:               2  /  11244  =>  0.02 %
+Number of <= 10000 length contents:  921  /  11244  =>  8.19 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 11244 entries, 0 to 5
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     11244 non-null  object
+ 1   Authors_and_Affiliations  11244 non-null  object
+ 2   Affiliations              11244 non-null  object
+ 3   DOI                       11244 non-null  object
+ 4   Authors                   11244 non-null  object
+ 5   Journal                   11244 non-null  object
+ 6   Date                      11244 non-null  object
+ 7   Subjects                  11244 non-null  object
+ 8   Abstract                  11244 non-null  object
+ 9   References                11244 non-null  object
+ 10  Content                   11244 non-null  object
+ 11  Keywords                  11244 non-null  object
+ 12  Style                     11244 non-null  int64 
+dtypes: int64(1), object(12)
+memory usage: 1.2+ MB
+None
+                                               Title  ... Style
+0  Spatial Modeling of Local-Scale Biogenic and A...  ...     4
+1  Transition Zone Radiative Effects in Shortwave...  ...     7
+2  Developing PIDF Curves From Dynamically Downsc...  ...     7
+3  Electric Field Variation in Clear and Convecti...  ...     7
+4                                           no_title  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  gcb_full_duplicate.csv
+Dataframe doesn't exist or is not a pickle file ...
+--------------------
+Dataframe name:  DEDUPLICATED
+Dataframe doesn't exist or is not a pickle file ...
+--------------------
+Dataframe name:  climd_full.pickle
+Number of rows:             3695
+Number of duplicates:       15
+Real number of duplicates:  1
+11    Sensitivity of the Earth’s radiation budget to...
+Name: Title, dtype: object
+General info:  
+ --------------------
+Number of rows:  3680
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 43525.56
+Number of empty contents:               11  /  3680  =>  0.3 %
+Number of <= 10000 length contents:  80  /  3680  =>  2.17 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 3680 entries, 0 to 12
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     3680 non-null   object
+ 1   Authors_and_Affiliations  3680 non-null   object
+ 2   Affiliations              3680 non-null   object
+ 3   DOI                       3680 non-null   object
+ 4   Authors                   3680 non-null   object
+ 5   Journal                   3680 non-null   object
+ 6   Date                      3680 non-null   object
+ 7   Subjects                  3680 non-null   object
+ 8   Abstract                  3680 non-null   object
+ 9   References                3680 non-null   object
+ 10  Content                   3680 non-null   object
+ 11  Keywords                  3680 non-null   object
+ 12  Style                     3680 non-null   int64 
+dtypes: int64(1), object(12)
+memory usage: 402.5+ KB
+None
+                                               Title  ... Style
+0  The impact of inter-annual variability of annu...  ...     7
+1  Interdecadal change in the North Atlantic stor...  ...     1
+2  Decadal changes in the central tropical Pacifi...  ...     7
+3               Predictability in a changing climate  ...     7
+4  Reconciling roles of sulphate aerosol forcing ...  ...     1
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  pnas_full.pickle
+Number of rows:             83099
+Number of duplicates:       849
+Real number of duplicates:  849
+0     C a v i t a t i o n   i n   l i p i d   b i l ...
+1     G e n e t i c   a n a l y s i s   o f   c a l ...
+2     H y p o t h e r m i a   r e s c u e s   h i p ...
+3     S y s t e m a t i c   g e n o m e   i n s t a ...
+4     A   s e n s i t i v e ,   v e r s a t i l e   ...
+                            ...                        
+10    P h o s p h a t e s   f o r m   s p e c t r o ...
+11    I n   v i v o   r e p r o g r a m m i n g   o ...
+12    D i s t i n c t   n u c l e a r   a n d   c y ...
+13    M e m b e r s   o f   t h e   P I A S   f a m ...
+14    P u t a t i v e   t r a n s m e m b r a n e   ...
+Name: Title, Length: 849, dtype: object
+General info:  
+ --------------------
+Number of rows:  82250
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 28258.6
+Number of empty contents:               0  /  82250  =>  0.0 %
+Number of <= 10000 length contents:  6247  /  82250  =>  7.6 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 82250 entries, 0 to 14
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     82250 non-null  object
+ 1   Authors_and_Affiliations  82250 non-null  object
+ 2   Affiliations              82250 non-null  object
+ 3   DOI                       82250 non-null  object
+ 4   Authors                   82250 non-null  object
+ 5   Journal                   82250 non-null  object
+ 6   Date                      82250 non-null  object
+ 7   Subjects                  82250 non-null  object
+ 8   Abstract                  82250 non-null  object
+ 9   References                82250 non-null  object
+ 10  Content                   82250 non-null  object
+ 11  Keywords                  82250 non-null  object
+ 12  Style                     82250 non-null  object
+dtypes: object(13)
+memory usage: 8.8+ MB
+None
+                                               Title  ... Style
+0  R o o t   g r a v i t r o p i s m   i s   r e ...  ...  html
+1  S t o r a g e   o f   c e l l u l a r   5 ′   ...  ...  html
+2  G e n e r a l   d e s i g n   p r i n c i p l ...  ...  html
+3  S t i m u l i - r e s p o n s i v e   c l u s ...  ...  html
+4  C u l l i n   n e d d y l a t i o n   i n h i ...  ...  html
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  nature_full.pickle
+Number of rows:             246
+Number of duplicates:       0
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  246
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 23238.22
+Number of empty contents:               0  /  246  =>  0.0 %
+Number of <= 10000 length contents:  7  /  246  =>  2.85 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 246 entries, 0 to 7
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     246 non-null    object
+ 1   Authors_and_Affiliations  246 non-null    object
+ 2   Affiliations              246 non-null    object
+ 3   DOI                       246 non-null    object
+ 4   Authors                   246 non-null    object
+ 5   Journal                   246 non-null    object
+ 6   Date                      246 non-null    object
+ 7   Subjects                  246 non-null    object
+ 8   Abstract                  246 non-null    object
+ 9   References                246 non-null    object
+ 10  Content                   246 non-null    object
+ 11  Keywords                  246 non-null    object
+ 12  Style                     246 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 26.9+ KB
+None
+                                               Title  ... Style
+0  Ocean acidification may slow the pace of tropi...  ...     0
+1  Long-term evolution of ocean eddy activity in ...  ...     1
+0  Climate and land-use changes reduce the benefi...  ...     0
+1  Reply to: Sandy beaches can survive sea-level ...  ...     0
+2  Climate change drives widespread shifts in lak...  ...     0
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+
+--------------------
+Dataframe name:  enerpol_full.pickle
+Number of rows:             866
+Number of duplicates:       11
+Real number of duplicates:  0
+Series([], Name: Title, dtype: object)
+General info:  
+ --------------------
+Number of rows:  855
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 52068.44
+Number of empty contents:               1  /  855  =>  0.12 %
+Number of <= 10000 length contents:  20  /  855  =>  2.34 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 855 entries, 0 to 10
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count  Dtype 
+---  ------                    --------------  ----- 
+ 0   Title                     855 non-null    object
+ 1   Authors_and_Affiliations  855 non-null    object
+ 2   Affiliations              855 non-null    object
+ 3   DOI                       855 non-null    object
+ 4   Authors                   855 non-null    object
+ 5   Journal                   855 non-null    object
+ 6   Date                      855 non-null    object
+ 7   Subjects                  855 non-null    object
+ 8   Abstract                  855 non-null    object
+ 9   References                855 non-null    object
+ 10  Content                   855 non-null    object
+ 11  Keywords                  855 non-null    object
+ 12  Style                     855 non-null    int64 
+dtypes: int64(1), object(12)
+memory usage: 93.5+ KB
+None
+                                               Title  ... Style
+0  Comparing electricity transitions: A historica...  ...     0
+1  Inequalities across cooling and heating in hou...  ...     1
+2  The search for the perfect match: Aligning pow...  ...     1
+3  Opportunities for installed combined heat and ...  ...     1
+4  Reduced grid operating costs and renewable ene...  ...     1
+
+[5 rows x 13 columns]
+--------------------
+--------------------
+

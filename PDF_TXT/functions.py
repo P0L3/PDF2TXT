@@ -219,3 +219,39 @@ def fi_cleaner(text):
             
     return " ".join(tokens)
     
+def pandas_dataframe_info(df):
+    """
+    Print information about a pandas DataFrame including:
+    - The number of rows.
+    - The column names.
+    - The average length of the content in the 'Content' column.
+    - The number of empty ('') contents in the 'Content' column.
+    - The number of contents with length <= 10000 in the 'Content' column.
+    - The DataFrame's info summary.
+    - The first 5 rows of the DataFrame.
+
+    Parameters:
+    - df (pandas.DataFrame): The DataFrame to analyze.
+
+    Returns:
+    - None: This function prints information to the console and does not return any value.
+
+    Example usage:
+    >>> import pandas as pd
+    >>> data = {'Content': ['Hello, world!', '', 'This is a test string.']}
+    >>> df = pd.DataFrame(data)
+    >>> pandas_dataframe_info(df)
+    """
+    length = 10000
+    print("Number of rows: ", len(df))
+    print("Columns: ", ", ".join(df.keys().tolist()))
+    zcn = (df['Content'].str.len() <= 0).sum() # Zero content number
+    lcn = (df['Content'].str.len() <= length).sum() # Length content number
+    print("Average content length:                ", round(df["Content"].str.len().mean(), 2))
+    print("Number of empty contents:              ", zcn, " / ", len(df), " => ", round(zcn/len(df), 4)*100, "%")
+    print(f"Number of <= {length} length contents: ", lcn, " / ", len(df), " => ", round(lcn/len(df), 4)*100, "%")
+
+    print(df.info())
+    print(df.head())
+
+    
