@@ -1,6 +1,44 @@
 # Data statistics
 - Using General dataset info from [try_pandaspickledataset.py](/try_pandaspickledataset.py)
 
+## Full data - 26.3.2024.
+``` shell
+Number of rows:  171880
+Columns:  Title, Authors_and_Affiliations, Affiliations, DOI, Authors, Journal, Date, Subjects, Abstract, References, Content, Keywords, Style
+Average content length:                 33197.49
+Number of empty contents:               386  /  171880  =>  0.22 %
+Number of <= 10000 length contents:  10920  /  171880  =>  6.35 %
+<class 'pandas.core.frame.DataFrame'>
+Index: 171880 entries, 0 to 10
+Data columns (total 13 columns):
+ #   Column                    Non-Null Count   Dtype 
+---  ------                    --------------   ----- 
+ 0   Title                     171880 non-null  object
+ 1   Authors_and_Affiliations  171880 non-null  object
+ 2   Affiliations              171880 non-null  object
+ 3   DOI                       171880 non-null  object
+ 4   Authors                   171880 non-null  object
+ 5   Journal                   171880 non-null  object
+ 6   Date                      171880 non-null  object
+ 7   Subjects                  171880 non-null  object
+ 8   Abstract                  171880 non-null  object
+ 9   References                171880 non-null  object
+ 10  Content                   171880 non-null  object
+ 11  Keywords                  171880 non-null  object
+ 12  Style                     171880 non-null  object
+dtypes: object(13)
+memory usage: 18.4+ MB
+None
+                                               Title  ... Style
+0  A   s y n o p t i c   c l i m a t o l o g y   ...  ...  html
+1  S u m m e r   n i g h t - t i m e   t e m p e ...  ...  html
+2  N e w   h o u r l y   e x t r e m e   p r e c ...  ...  html
+3  T r e n d s   i n   d a i l y   p r e c i p i ...  ...  html
+4  I m p a c t   o f   t h e   a i r   t e m p e ...  ...  html
+
+```
+
+
 ## JCLIMATE
 
 ``` shell
