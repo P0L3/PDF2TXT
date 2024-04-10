@@ -10,6 +10,24 @@
 - Solve Missing text problems in [IJOC](/PDF_TXT/ijoc_htmlpars.py) -> Check [Notes](/PDF_TXT/REPORTS/IJOC_test.md)
 - Add new PNAS sample to all devices 
 
+## Setup 
+
+### With Docker 
+1. Create Docker image from the folder containing [Dockerfile](./Dockerfile)
+``` shell
+docker build -t pdf_text:1.1.2 . 
+```
+
+2. Run docker compose in the folder where [docker-compose.yml](./docker-compose.yml) is and open it in VS code:
+``` shell
+docker compose up
+```
+> Note: Adjust volumes in [docker-compose.yml](./docker-compose.yml) according to your need!
+
+### Without Docker
+1. Just pip install [requirements.txt](./requirements.txt) duuh
+
+
 ## Data structure
 
 | Columns | Descriptions |
@@ -137,6 +155,8 @@ paper_data = {
 ## [POS and NER reports](/PDF_TXT/REPORTS/10ksample_report.md)
 
 ## [BERT_PRETRAINING](https://github.com/P0L3/bert_pretraining.git)
+- Continuation of this work
 
 ## [Vocabulary reports](/PDF_TXT/REPORTS/IMAGES/VENN/)
 - Made with [vocab_compare.py](/PDF_TXT/vocab_compare.py)
+
