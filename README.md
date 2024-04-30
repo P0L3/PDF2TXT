@@ -160,3 +160,17 @@ paper_data = {
 ## [Vocabulary reports](/PDF_TXT/REPORTS/IMAGES/VENN/)
 - Made with [vocab_compare.py](/PDF_TXT/vocab_compare.py)
 
+## Cite
+``` latex
+
+@inproceedings{poleksic2024towards,
+  title        = {Towards Dataset for Extracting Relations in the Climate-Change Domain},
+  author       = {Andrija Poleksi{\'c} and Sanda Martin{\v{c}}i{\'c}-Ip{\v{s}}i{\'c}},
+  booktitle    = {Proceedings of the Third International Workshop on Knowledge Graph Generation from Text, co-located with Extended Semantic Web Conference (ESWC)},
+  year         = 2024,
+  address      = {Hersonissos, Greece},
+  pages        = {xx--yy},
+  date         = {May 26--30},
+}
+
+```
