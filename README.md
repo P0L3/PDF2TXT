@@ -160,6 +160,16 @@ paper_data = {
 ## [Vocabulary reports](/PDF_TXT/REPORTS/IMAGES/VENN/)
 - Made with [vocab_compare.py](/PDF_TXT/vocab_compare.py)
 
+## Entity and term data
+### Dictinary sources
+1. [A Dictionary of Weather (3 ed.)](https://www.oxfordreference.com/display/10.1093/acref/9780191988356.001.0001/acref-9780191988356) - HTML
+2. [Full Weather Gloassary](https://www.weather.gov/otx/Full_Weather_Glossary) - HTML
+3. [Glossary of Meteorology](https://glossary.ametsoc.org/wiki/Category:Terms) - HTML
+4. [El Niño Southern Oscillation in a Changing Climate](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119548164) - PDF
+5. [Soil and Environmental Science Dictionary](https://www.routledge.com/Soil-and-Environmental-Science-Dictionary/Gregorich-Turchenek-Carter-Angers/p/book/9780367397241) - PDF
+6. [Earth's Climate](https://www.macmillanlearning.com/college/us/product/Earths-Climate/p/1429255250) - PDF
+7. [Essentials of Meteorology](https://ggweather.com/met10/Glossary.pdf) - PDF
+
 ## Cite
 ``` latex
 
@@ -174,3 +184,5 @@ paper_data = {
 }
 
 ```
+
+
