@@ -4,11 +4,12 @@
 - Containes 2300+ entries
 - Definitions are cut off behind paywall
 - Should be scraped
-- DONE - [dictionary.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_1.py)
+- DONE - [dictionary_1.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_1.py)
 
 ##### [Full Weather Gloassary](https://www.weather.gov/otx/Full_Weather_Glossary) - HTML
 - Containes ~380 entries
 - Can be copy pasted and processed
+- DONE - [dictionary_2.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_2.py)
 
 ##### [Glossary of Meteorology](https://glossary.ametsoc.org/wiki/Category:Terms) - HTML
 - Containes ~10000 entries
