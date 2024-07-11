@@ -4,6 +4,7 @@
 - Containes 2300+ entries
 - Definitions are cut off behind paywall
 - Should be scraped
+- DONE - [dictionary.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_1.py)
 
 ##### [Full Weather Gloassary](https://www.weather.gov/otx/Full_Weather_Glossary) - HTML
 - Containes ~380 entries
