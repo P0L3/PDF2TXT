@@ -14,7 +14,8 @@
 ##### [Glossary of Meteorology](https://glossary.ametsoc.org/wiki/Category:Terms) - HTML
 - Containes ~10000 entries
 - Has elaborate definitions
-- Should be scraped with Selenium
+- Should be scraped with Selenium -> Protected with Cloudflare
+- DONE - [dictionary_3.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_3.py)
 
 ##### [El Niño Southern Oscillation in a Changing Climate](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119548164) - PDF
 - Containes ~150 entries in 5-page-long glossary + much more in index!
