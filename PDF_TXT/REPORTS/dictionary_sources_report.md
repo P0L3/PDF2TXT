@@ -17,15 +17,17 @@
 - Should be scraped with Selenium -> Protected with Cloudflare
 - DONE - [dictionary_3.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_3.py)
 
-##### [El Niño Southern Oscillation in a Changing Climate](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119548164) - PDF
-- Containes ~150 entries in 5-page-long glossary + much more in index!
-- Should be extracted using pdfminer
-
 ##### [Soil and Environmental Science Dictionary](https://www.routledge.com/Soil-and-Environmental-Science-Dictionary/Gregorich-Turchenek-Carter-Angers/p/book/9780367397241) - PDF
 - Containes ~7000 entries in 380-page-long 
 - Has elaborate definitions
 - Should be extracted with pdfminer
 - FAILED - Performed parameter search for layout algorithm using [param_search.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/param_search.py) -> No success
+
+##### [El Niño Southern Oscillation in a Changing Climate](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119548164) - PDF
+- Containes ~150 entries in 5-page-long glossary + much more in index!
+- Should be extracted using pdfminer
+- DONE - [dictionary_5.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_5.py)
+- NOTE - Index should be explored further
 
 ##### [Earth's Climate](https://www.macmillanlearning.com/college/us/product/Earths-Climate/p/1429255250) - PDF
 - Containes ~300 entries
