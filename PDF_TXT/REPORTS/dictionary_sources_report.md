@@ -25,6 +25,7 @@
 - Containes ~7000 entries in 380-page-long 
 - Has elaborate definitions
 - Should be extracted with pdfminer
+- FAILED - Performed parameter search for layout algorithm using [param_search.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/param_search.py) -> No success
 
 ##### [Earth's Climate](https://www.macmillanlearning.com/college/us/product/Earths-Climate/p/1429255250) - PDF
 - Containes ~300 entries
