@@ -40,3 +40,4 @@
 - Containes ~430 entries
 - Has ok definitiond 
 - Should be considered later (pdfminer)
+- DONE - [dictionary_7.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_7.py)
