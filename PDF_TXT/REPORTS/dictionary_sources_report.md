@@ -33,6 +33,8 @@
 - Containes ~300 entries
 - Has good definitions
 - Should be considered later (pdfminer)
+- DONE - [dictionary_6.py](https://github.com/P0L3/PDFscience/blob/master/PDFscience/dictionary_6.py)
+- NOTE - Index should be explored further
 
 ##### [Essentials of Meteorology](https://ggweather.com/met10/Glossary.pdf) - PDF
 - Containes ~430 entries
