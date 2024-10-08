@@ -19,7 +19,7 @@ tokenizer.train(files=paths, vocab_size=52_000, min_frequency=2, special_tokens=
     "<mask>",
 ])
 
-TOKENIZER_NAME = "cliretoberta_cased"
+TOKENIZER_NAME = "clireroberta_clirevocab_cased"
 SAVE_PATH = "RESULTS/VOCABS/"
 
 makedirs(SAVE_PATH+TOKENIZER_NAME, exist_ok=True)

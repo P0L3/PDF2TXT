@@ -63,8 +63,8 @@ def sub_lists(my_list):
 DIR = "./RESULTS/VOCABS/"
 
 files = listdir(DIR)
-vocabs = [f for f in files if f.endswith(".txt")]
-
+# vocabs = [f for f in files if f.endswith(".txt")]
+vocabs = ["CliReBERT.txt", "SciBERT.txt", "BioBERT.txt", "BERT.txt"]
 list_of_vocabs = []
 for v in vocabs:
     list_of_vocabs.append(load_vocab_txt(DIR+v))

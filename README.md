@@ -150,6 +150,9 @@ paper_data = {
 4. Concatenation into a single file with [check_for_duplicates.py](/PDF_TXT/check_for_duplicates.py) -> OUTPUT: Dataframe containing all journals
 5. Saving in multiple formats for different tasks ([p2csv_tc.py](/PDF_TXT/p2csv_tc.py)) -> OUTPUT: CSV dataset, CSV with Title-Content pairs, and pickle with Title-Content pairs
 
+## Vocabulary creation
+
+
 ## [Dataset statistics](/PDF_TXT/REPORTS/data_stats.md)
 
 ## [POS and NER reports](/PDF_TXT/REPORTS/10ksample_report.md)
