@@ -2,9 +2,14 @@
 
 import pandas as pd
 from matplotlib import pyplot as plt
+from random import shuffle
 
-file = "full_poss.pickle"
+file = "10ksample_pos.pickle"
 df_pos = pd.read_pickle(file)
+
+colors = ["#09bdfc", "#90ee90", "#ffd700", "#daa520"]
+shuffle(colors)
+N = 20
 
 # Explode the 'Verbs' column to have one row per verb
 exploded_df = df_pos.explode('Verbs')
@@ -27,9 +32,9 @@ print(overall_verb_counts_df)
 
 #### PLOT HERE
 # Plot the top N verbs by count
-top_n = 20  # Change this value to plot a different number of top verbs
+top_n = N  # Change this value to plot a different number of top verbs
 plt.figure(figsize=(10, 6))
-plt.bar(overall_verb_counts_df['Verb'][:top_n], overall_verb_counts_df['Count'][:top_n])
+plt.bar(overall_verb_counts_df['Verb'][:top_n], overall_verb_counts_df['Count'][:top_n], color=colors[0])
 plt.xticks(rotation=45, ha='right')
 plt.xlabel('Verb')
 plt.ylabel('Count')
@@ -53,7 +58,7 @@ print(grouped_verb_counts)
 #### PLOT HERE
 # Plot the verb counts by the number of words
 plt.figure(figsize=(10, 6))
-plt.bar(grouped_verb_counts['NumWords'], grouped_verb_counts['Count'])
+plt.bar(grouped_verb_counts['NumWords'], grouped_verb_counts['Count'], color=colors[2])
 plt.xlabel('Number of Words in Verb')
 plt.ylabel('Total Count')
 plt.title('Verb Counts Grouped by Number of Words')
@@ -70,24 +75,25 @@ print(overall_verb_counts_df)
 
 #### PLOT HERE
 
-top_n_per_wordcount = 30
+top_n_per_wordcount = N
 unique_word_counts = overall_verb_counts_df['NumWords'].unique()
 
 for word_count in unique_word_counts:
+    shuffle(colors)
     if word_count > 12:
         continue
     top_n_verbs = overall_verb_counts_df[overall_verb_counts_df['NumWords'] == word_count][:top_n_per_wordcount]
     
-    print(f"Top {top_n_per_wordcount} noun phrases with ({word_count} words):")
-    for index, row in top_n_verbs.iterrows():
-        print(f"{row['Verb']} \t {row['Count']} ")
-    print()
+    # print(f"Top {top_n_per_wordcount} noun phrases with ({word_count} words):")
+    # for index, row in top_n_verbs.iterrows():
+    #     print(f"{row['Verb']} \t {row['Count']} ")
+    # print()
 
-    # plt.figure(figsize=(10, 6))
-    # plt.bar(top_n_verbs['Verb'], top_n_verbs['Count'])
-    # plt.title(f'Top {top_n_per_wordcount} Verbs ({word_count} words)')
-    # plt.xlabel('Verb')
-    # plt.ylabel('Count')
-    # plt.xticks(rotation=45, ha='right')
-    # plt.tight_layout()
-    # plt.show()
+    plt.figure(figsize=(10, 6))
+    plt.bar(top_n_verbs['Verb'], top_n_verbs['Count'], color=colors[1])
+    plt.title(f'Top {top_n_per_wordcount} Verbs ({word_count} words)')
+    plt.xlabel('Verb')
+    plt.ylabel('Count')
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.show()

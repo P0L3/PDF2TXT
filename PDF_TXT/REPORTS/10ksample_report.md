@@ -4,9 +4,6 @@
 - Tagged based on [pos_statistics.py](./pos_statistics.py)
 - Statistics done with: [pos_noun_stats.py](./pos_noun_stats.py), [pos_verb_stats.py](./pos_verb_stats.py)
 
-
-
-
 ## NER reports
 - Tagged based on [ner_statistics.py](./ner_statistics.py)
 - Statistics done with: [ner_top_entity.py](./ner_top_entity.py)
@@ -34,4 +31,12 @@ Total number of unique entities:              313315
 Total number of triples:                      5529110
 Total number of unique triples:               5333279
 ```
+
+## Visualizations
+
+## NER counts
+
+### [ner_top_entity](PDF_TXT/REPORTS/ner_top_entity.py)
+
+![](IMAGES/10ksample_T20ET.png)
 
