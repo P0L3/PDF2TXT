@@ -3,7 +3,7 @@ import re
 
 from supervenn import supervenn
 import matplotlib.pyplot as plt
-
+plt.rcParams["font.family"] = "Nimbus Roman"
 from os import listdir
 
 from itertools import combinations
@@ -23,18 +23,19 @@ def load_vocab_txt(dir):
 
     # Check which special token it is on half the data
     check = " ".join(vocab[:len(vocab)//2])
-
+    special_token = " "
     for s in special:
         if regex_cnt(check, s) > 1000:
             special_token = s
             break
-    print(special_token)
+    # print(special_token)
 
     # Replace with "##" special token
     if special_token != "##":
         for i in range(0, len(vocab)):
             vocab[i] = vocab[i].replace(special_token, "##")
-            vocab[i] = vocab[i].replace("\n", "")  
+            vocab[i] = vocab[i].replace("\n", "")
+            # print(vocab[i])
     else:
         for i in range(0, len(vocab)):
             vocab[i] = vocab[i].replace("\n", "")  
@@ -64,7 +65,7 @@ DIR = "./RESULTS/VOCABS/"
 
 files = listdir(DIR)
 # vocabs = [f for f in files if f.endswith(".txt")]
-vocabs = ["CliReBERT.txt", "SciBERT.txt", "BioBERT.txt", "BERT.txt"]
+vocabs = ["ClimateBERT_added.txt", "CliReRoBERTa.txt", "ClimateBERT.txt" ]
 list_of_vocabs = []
 for v in vocabs:
     list_of_vocabs.append(load_vocab_txt(DIR+v))
@@ -84,7 +85,7 @@ for comb in index_combinations:
         vocab_list_temp = itemgetter(*comb)(list_of_vocabs)
 
         if len(comb) > 2 and len(comb) <= 4:
-            supervenn(vocab_list_temp, labels_temp, widths_minmax_ratio=0.1)
+            supervenn(vocab_list_temp, labels_temp, widths_minmax_ratio=0.1, fontsize=20)
         elif len(comb) > 4: 
             supervenn(vocab_list_temp, labels_temp, widths_minmax_ratio=0.1, rotate_col_annotations=True, col_annotations_area_height=1.2)
         else:
@@ -95,7 +96,7 @@ for comb in index_combinations:
         plt.tight_layout()
         figure = plt.gcf() # get current figure
         figure.set_size_inches(16, 9)
-        plt.savefig(f"./REPORTS/IMAGES/VENN/{filename}", dpi=500)
+        plt.savefig(f"./REPORTS/IMAGES/VENN/NEW/{filename}", dpi=500)
         plt.clf()
 
 # print(vocab1.intersection(vocab2))
